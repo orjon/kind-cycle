@@ -1,0 +1,43 @@
+@use 'Variables' as *;
+@use 'Colors' as *;
+
+.Navbar {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  background-color: $colorYellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: $devBorder solid blue;
+  height: $navHeight;
+  box-shadow: 0px 0px $navShadowBlur $colorNavShadow;
+
+  color: black;
+
+  .NavBurger {
+    display: none;
+  }
+  .Logo {
+    font-size: 35px;
+    padding: 0 15px;
+    .LogoText {
+      font-weight: 700;
+    }
+  }
+  .NavItems {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    .NavItem {
+      padding: 0 15px;
+      &:hover {
+        color: $colorGreen;
+      }
+    }
+  }
+}

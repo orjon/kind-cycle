@@ -1,0 +1,42 @@
+@use 'Variables' as *;
+@use 'Colors' as *;
+@use 'Scrollbars' as *;
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: 'Josefin Sans', sans-serif;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10+ and Edge */
+  user-select: none; /* Standard syntax */
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.App {
+  height: 100vh;
+  width: 100vw;
+  background-color: $colorBackground;
+  background-color: rgb(114, 114, 114);
+  background-color: white;
+}
+
+.main-wrapper {
+  position: fixed;
+  width: 100%;
+  top: $navHeight;
+  height: calc(100vh - $navHeight);
+  background-color: yellow;
+}
+
+.holdingText {
+  text-transform: uppercase;
+  letter-spacing: 1.5pt;
+}

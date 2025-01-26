@@ -1,0 +1,36 @@
+@use '../Variables' as *;
+@use '../Colors' as *;
+
+.BannerA {
+  background-color: $colorBackground;
+  padding-top: 25px;
+  .content {
+    color: $colorRed;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+
+    @media (min-width: $breakpoint2) {
+      flex-direction: row;
+    }
+
+    .text {
+      text-align: center;
+    }
+    .icon {
+      width: 150px;
+    }
+  }
+  @media (min-width: $breakpoint2) {
+    padding-bottom: 25px;
+    .text {
+      margin-bottom: unset;
+      margin-right: 50px;
+      text-align: left;
+    }
+    .icon {
+      width: 200px;
+    }
+  }
+}

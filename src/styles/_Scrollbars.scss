@@ -1,0 +1,21 @@
+/* Target the entire scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* The scrollbar "track" */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: transparent;
+}
+
+/* The draggable "thumb" */
+::-webkit-scrollbar-thumb {
+  background: rgba(175, 175, 175, 0.75);
+  border-radius: 10px;
+}
+
+/* Add hover effect if desired */
+// ::-webkit-scrollbar-thumb:hover {
+//   background: rgba(200, 200, 200, 0.75);
+// }

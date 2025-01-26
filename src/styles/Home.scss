@@ -1,0 +1,8 @@
+@use 'Variables' as *;
+@use 'Colors' as *;
+@use 'Page' as *;
+
+.Home {
+  background-color: white;
+  overflow: auto;
+}

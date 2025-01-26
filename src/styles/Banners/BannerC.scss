@@ -1,0 +1,35 @@
+@use '../Variables' as *;
+@use '../Colors' as *;
+
+.BannerC {
+  background-color: $colorYellow;
+  .content {
+    width: 100%;
+    color: $colorRed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .left,
+    .right {
+      border: 1px solid red;
+      height: 450px;
+      width: 100%;
+    }
+    .left {
+      margin-bottom: 50px;
+    }
+    @media (min-width: $breakpoint1) {
+      flex-direction: row;
+      .left {
+        width: 65%;
+        margin-bottom: unset;
+        margin-right: 50px;
+      }
+      .right {
+        width: 35%;
+      }
+    }
+  }
+}
