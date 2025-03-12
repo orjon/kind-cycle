@@ -1,0 +1,17 @@
+@forward './Colors';
+@forward './Scrollbars';
+
+$devBorder: 0px;
+
+$breakpoint0: 640px;
+$break768: 768px;
+$break1024: 1024px;
+$break1050: 1050px;
+$break1440: 1440px;
+
+$navHeight: 68px;
+$navWidth: 250px;
+$navShadowBlur: 10px;
+
+$fontNavSmall: 22px;
+$fontNavLarge: 26px;

@@ -1,0 +1,136 @@
+@use '../Global' as *;
+
+.Nav {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  background-color: $colorYellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  border: $devBorder solid blue;
+  height: $navHeight;
+  box-shadow: 0px 0px $navShadowBlur $colorNavShadow;
+  color: black;
+
+  .Logo {
+    margin-top: 4px;
+    font-size: 35px;
+    .LogoText {
+      font-weight: 700;
+    }
+  }
+  .BurgerMenu {
+    opacity: 0;
+    position: fixed;
+    border-top: 1px solid black;
+    top: $navHeight;
+    width: 100%;
+    background-color: $colorYellow;
+    box-shadow: 0px 5px $navShadowBlur $colorNavDropdownShadow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    transition: opacity 0.5s ease-in-out;
+    will-change: opacity;
+
+    .NavItem {
+      height: 0px;
+      width: 100%;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding-left: 20px;
+      will-change: height, background-color, color;
+      transition: height 0.5s ease-in-out, background-color 0.3s ease-in,
+        color 0.3s ease-in;
+      .text {
+        margin-top: 6px;
+        font-size: $fontNavLarge;
+        will-change: transform;
+        transition: transform 0.5s ease-in-out;
+        transform: scale(1, 0);
+      }
+      &:hover {
+        background-color: $colorRed;
+        color: white;
+      }
+    }
+
+    &.open {
+      opacity: 1;
+
+      .NavItem {
+        height: $navHeight;
+        .text {
+          transform: scale(1, 1);
+        }
+      }
+    }
+  }
+  .NavMenu {
+    display: none;
+  }
+  @media (min-width: $break768) {
+    justify-content: space-between;
+    .NavBurger,
+    .BurgerMenu {
+      display: none;
+    }
+    .NavMenu {
+      margin-top: 6px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      .NavItem {
+        padding: 0 12px;
+        font-size: $fontNavSmall;
+        font-weight: 500;
+        &:hover {
+          color: $colorTeal;
+        }
+      }
+    }
+  }
+  @media (min-width: $break1024) {
+    .NavMenu {
+      .NavItem {
+        padding: 0 15px;
+        font-size: $fontNavLarge;
+      }
+    }
+  }
+  @media (min-width: $break1440) {
+    flex-direction: column;
+    justify-content: flex-start;
+    left: 0;
+    width: $navWidth;
+    height: 100%;
+    padding-top: 50px;
+    .Logo {
+      width: 100%;
+      font-size: 44px;
+    }
+
+    .NavMenu {
+      width: 100%;
+      flex-direction: column;
+      align-items: flex-start;
+      padding-top: 20px;
+      .NavItem {
+        padding: unset;
+        &:hover {
+          color: $colorTeal;
+        }
+      }
+    }
+  }
+}
