@@ -1,5 +1,3 @@
-import React from 'react'
-
 import '../styles/components/Hero.scss'
 
 function Hero() {

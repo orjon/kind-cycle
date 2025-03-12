@@ -21,7 +21,7 @@ function Location() {
     <div className='Location page'>
       <h1>{location.name}</h1>
       <p>{location.description}</p>
-      <LocationCategories location={location} />
+      <LocationCategories locationCategories={location.categories} />
     </div>
   )
 }

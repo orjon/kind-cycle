@@ -1,6 +1,12 @@
 import { organisations } from '../content'
 
-const LocationOrganisation = ({ organisationId }) => {
+type LocationOrganisationProps = {
+  organisationId: string
+}
+
+const LocationOrganisation = ({
+  organisationId
+}: LocationOrganisationProps) => {
   const organisation = organisations[organisationId]
 
   return <div className='LocationOrganisation'>{organisation.name}</div>

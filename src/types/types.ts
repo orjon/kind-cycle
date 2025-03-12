@@ -1,3 +1,9 @@
+export type NavLocation = {
+  id: string
+  label: string
+  path: string
+}
+
 export type Organisation = {
   id: string
   name: string

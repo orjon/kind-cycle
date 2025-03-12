@@ -3,31 +3,25 @@ import { NavLink } from 'react-router-dom'
 
 import NavItem from './NavItem'
 
+import navLocations from '../content/navLocations'
+
 import '../styles/nav/Nav.scss'
 import '../styles/nav/NavBurger.scss'
-
-const navLocations = {
-  wastenot: { label: 'Waste Not', path: 'wastenot' },
-  ferrylane: { label: 'Ferry Lane', path: 'wastenot/ferrylane' },
-  about: { label: 'About', path: 'about' },
-  contact: { label: 'Contact', path: 'contact' }
-}
 
 const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
-  const navItems = Object.entries(navLocations).map(
-    ([location, { label, path }]) => {
-      return (
-        <NavItem
-          key={location}
-          label={label}
-          to={path}
-          setIsMenuOpen={setIsMenuOpen}
-        />
-      )
-    }
-  )
+  const navItems = navLocations.map((location) => {
+    const { id, label, path } = location
+    return (
+      <NavItem
+        key={id}
+        label={label}
+        path={path}
+        setIsMenuOpen={setIsMenuOpen}
+      />
+    )
+  })
 
   return (
     <div className='Nav'>

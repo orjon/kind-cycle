@@ -1,8 +1,13 @@
 import LocationOrganisation from './LocationOrganisation'
 
 import { categories } from '../content'
+import { LocationCategory as LocationCategoryType } from '../types/types'
 
-const LocationCategory = ({ locationCategory }) => {
+type LocationCategoryProps = {
+  locationCategory: LocationCategoryType
+}
+
+const LocationCategory = ({ locationCategory }: LocationCategoryProps) => {
   const category = categories[locationCategory.id]
   const organisations = locationCategory.organisations.map((organisationId) => {
     return (

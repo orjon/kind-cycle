@@ -1,4 +1,6 @@
-export const categories = {
+import { CategoriesDirectory } from '../types/types'
+
+export const categories: CategoriesDirectory = {
   babyItems: {
     id: 'babyItems',
     name: 'Baby & Children Items',

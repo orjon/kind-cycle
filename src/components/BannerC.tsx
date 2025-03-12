@@ -1,5 +1,3 @@
-import React from 'react'
-
 import '../styles/components/Banner.scss'
 import '../styles/components/BannerC.scss'
 
