@@ -1,5 +1,3 @@
-import React from 'react'
-
 import Hero from '../components/Hero.jsx'
 import BannerA from '../components/BannerA.jsx'
 import BannerB from '../components/BannerB.jsx'

@@ -1,5 +1,3 @@
-import React from 'react'
-
 import '../styles/pages/About.scss'
 
 function About() {
