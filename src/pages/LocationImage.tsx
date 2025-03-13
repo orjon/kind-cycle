@@ -1,8 +1,6 @@
 import { useParams, Navigate } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 
-import LocationCategories from '../components/LocationCategories'
-
 import { locations } from '../content'
 
 import '../styles/pages/LocationImages.scss'
@@ -20,8 +18,6 @@ function Location() {
     )
   }, [location.name])
 
-  // console.dir(location, { depth: null })
-
   return (
     <div className='Location page'>
       <div className='location-header'>
@@ -30,7 +26,6 @@ function Location() {
           {location.name} {location.postcode}
         </div>
       </div>
-      <LocationCategories locationCategories={location.categories} />
     </div>
   )
 }
