@@ -15,7 +15,7 @@ type LocationCategoriesProps = {
 const LocationCategories = ({ location }: LocationCategoriesProps) => {
   const categoryTiles = location.categories.map((category) => {
     return (
-      <div className='LocationCategory'>
+      <div key={category.id} className='LocationCategory'>
         <NavLink
           className='category-link'
           to={`/wastenot/${location.id}/${category.id}`}
