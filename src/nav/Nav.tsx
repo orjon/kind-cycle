@@ -3,6 +3,8 @@ import { NavLink } from 'react-router-dom'
 
 import NavItem from './NavItem'
 
+import { getSettings } from '../settings'
+
 import navLocations from '../content/navLocations'
 
 import '../styles/nav/Nav.scss'
@@ -24,7 +26,7 @@ const Nav = () => {
   })
 
   return (
-    <div className='Nav'>
+    <div className={`Nav ${getSettings()}`}>
       <div
         className={`NavBurger ${isMenuOpen ? 'open' : ''}`}
         onClick={() => setIsMenuOpen(!isMenuOpen)}

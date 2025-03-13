@@ -23,7 +23,9 @@ export type LocationCategory = {
 }
 
 export type Location = {
+  id: string
   name: string
+  postcode: string
   description?: string
   image?: string
   website?: string | null

@@ -3,7 +3,9 @@ import { LocationsDirectory } from '../types/types'
 
 export const locations: LocationsDirectory = {
   ferrylane: {
+    id: 'ferrylane',
     name: 'Ferry Lane Estate',
+    postcode: 'N17',
     categories: [
       {
         id: cat.babyItems.id,

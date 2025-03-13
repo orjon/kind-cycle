@@ -1,0 +1,65 @@
+@use '../Global' as *;
+@use '../Page' as *;
+
+.Location {
+  .location-header {
+    background-color: $colorBackground;
+    width: 100%;
+    color: $colorRed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .photo,
+    .name {
+      border: 1px solid $colorRed;
+      // height: 250px;
+    }
+    .photo {
+      width: 100%;
+      max-height: 40vh;
+      aspect-ratio: 1;
+      object-fit: cover;
+      object-position: center;
+    }
+    .name {
+      width: 100%;
+      background-color: $colorRed;
+      color: $colorSoftWhite;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      // font-size: 32px;
+      font-size: 26px;
+      font-weight: 700;
+      text-align: center;
+      @media (min-width: $break425) {
+        font-size: 32px;
+      }
+    }
+    @media (min-width: $break768) {
+      flex-direction: row;
+      height: 275px;
+      .photo,
+      .name {
+        height: 100%;
+      }
+      .photo {
+        width: unset;
+      }
+      .name {
+      }
+    }
+    // @media (min-width: $break1050) {
+    //   flex-direction: row;
+    //   .photo {
+    //     margin-bottom: unset;
+    //     margin-right: 50px;
+    //   }
+    //   .details {
+    //   }
+    // }
+  }
+}

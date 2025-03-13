@@ -2,4 +2,22 @@
 @use '../Page' as *;
 
 .Location {
+  .location-header {
+    width: 100%;
+    background-color: $colorRed;
+    color: $colorSoftWhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 50px 20px;
+    // font-size: 32px;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    @media (min-width: $break425) {
+      font-size: 32px;
+    }
+  }
 }

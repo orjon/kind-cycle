@@ -1,0 +1,21 @@
+@use '../Global' as *;
+
+.LocationHeader {
+  width: 100%;
+  background-color: $colorRed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  .location {
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+
+    color: $colorSoftWhite;
+    @media (min-width: $break425) {
+      font-size: 32px;
+    }
+  }
+}

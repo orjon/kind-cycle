@@ -1,27 +1,21 @@
 import { useParams, Navigate } from 'react-router-dom'
 
+import LocationHeader from '../components/LocationHeader'
 import LocationCategories from '../components/LocationCategories'
 
 import { locations } from '../content'
 
 import '../styles/pages/Location.scss'
 
-type LocationParams = {
-  locationId: string
-}
-
-function Location() {
-  const { locationId } = useParams<LocationParams>()
+const Location = () => {
+  const { locationId } = useParams()
   const location = locationId && locations[locationId]
   if (!location) return <Navigate to='/' />
 
-  // console.dir(location, { depth: null })
-
   return (
     <div className='Location page'>
-      <h1>{location.name}</h1>
-      <p>{location.description}</p>
-      <LocationCategories locationCategories={location.categories} />
+      <LocationHeader locationId={locationId} />
+      <LocationCategories location={location} />
     </div>
   )
 }

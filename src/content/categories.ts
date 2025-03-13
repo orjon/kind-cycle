@@ -4,17 +4,20 @@ export const categories: CategoriesDirectory = {
   babyItems: {
     id: 'babyItems',
     name: 'Baby & Children Items',
-    description: 'Baby & Children toys etc'
+    description:
+      'Babies grow fast, and all those outgrown items just take up space. Why not donate gently used baby gear and free up room while helping families in need?'
   },
   clothes: {
     id: 'clothes',
     name: 'Clothes',
-    description: 'Clothes and linens in good repair'
+    description:
+      'Clear out your closet and donate unwanted clothes that no longer fit or suit you. Give them a second chance to be worn and loved by someone else!'
   },
   furniture: {
     id: 'furniture',
     name: 'Furniture',
-    description: 'Furniture in good repair'
+    description:
+      'Free up space and donate unwanted furniture that no longer suits your home, giving it a new purpose while helping a new household!'
   },
   repair: {
     id: 'repair',

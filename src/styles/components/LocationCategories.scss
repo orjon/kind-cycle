@@ -1,0 +1,55 @@
+@use '../Global' as *;
+
+.LocationCategories {
+  max-width: $maxContentWidth;
+  margin: 0 auto;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  .LocationCategory {
+    width: 100%;
+    aspect-ratio: 1/1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .category-link {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .category-tile {
+      border: 5px solid $colorTeal;
+      width: 100%;
+      aspect-ratio: 1/1;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .name {
+        font-size: 26px;
+        font-weight: 700;
+        text-align: center;
+      }
+    }
+    @media (min-width: $break425) {
+      width: calc(100% / 2);
+      .category-tile {
+        max-width: 275px;
+      }
+    }
+    @media (min-width: $break768) {
+      padding: 20px;
+      width: calc(100% / 3);
+      .category-tile {
+        max-width: 300px;
+      }
+    }
+  }
+}
