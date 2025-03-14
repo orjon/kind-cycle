@@ -1,6 +1,7 @@
 @use '../Global' as *;
 
 .LocationCategories {
+  width: 100%;
   max-width: $maxContentWidth;
   margin: 0 auto;
   padding: 20px 10px;

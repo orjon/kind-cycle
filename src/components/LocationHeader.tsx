@@ -14,11 +14,9 @@ const LocationHeader = ({ locationId }: LocationHeaderProps) => {
   if (!location) return <Navigate to='/' />
 
   return (
-    <NavLink to={`/wastenot/${location.id}`}>
-      <div className='LocationHeader'>
-        <div className='location'>
-          {location.name} {location.postcode}
-        </div>
+    <NavLink to={`/wastenot/${location.id}`} className='LocationHeader'>
+      <div className='location'>
+        {location.name} {location.postcode}
       </div>
     </NavLink>
   )

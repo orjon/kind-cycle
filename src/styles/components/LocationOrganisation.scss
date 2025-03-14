@@ -1,8 +1,7 @@
 @use '../Global' as *;
 
-.CategoryHeader {
+.LocationOrganisation {
   width: 100%;
-  background-color: $colorTeal;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,19 +11,11 @@
     width: 100%;
     max-width: $maxContentWidth;
     .name,
-    .description {
+    .website {
       font-weight: 700;
-      text-align: center;
-      color: $colorSoftWhite;
-      @media (min-width: $break425) {
-        font-size: 32px;
-      }
     }
     .name {
-      font-size: 26px;
-    }
-    .description {
-      font-size: 16px;
+      font-size: 20px;
     }
   }
 }

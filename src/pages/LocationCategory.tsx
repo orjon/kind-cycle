@@ -1,5 +1,7 @@
 import { useParams, Navigate } from 'react-router-dom'
 
+import LocationOrganisation from '../components/LocationOrganisation'
+
 import LocationHeader from '../components/LocationHeader'
 import CategoryHeader from '../components/CategoryHeader'
 
@@ -12,15 +14,15 @@ const LocationCategory = () => {
 
   if (!locationId || !categoryId) return <Navigate to='/' />
 
-  const organisationList =
-    getLocationCategoryOrganisations(locationId, categoryId)?.map(
-      (organisation) => (
-        <div key={organisation.id}>
-          <h3>{organisation.name}</h3>
-          <p>{organisation.about}</p>
-        </div>
-      )
-    ) || []
+  const organisationList = getLocationCategoryOrganisations(
+    locationId,
+    categoryId
+  )?.map((organisationId: string) => (
+    <LocationOrganisation
+      key={organisationId}
+      organisationId={organisationId}
+    />
+  ))
 
   return (
     <div className='LocationCategory page'>

@@ -9,6 +9,8 @@
   align-items: center;
   padding: 50px 20px;
   .location {
+    width: 100%;
+    max-width: $maxContentWidth;
     font-size: 26px;
     font-weight: 700;
     text-align: center;

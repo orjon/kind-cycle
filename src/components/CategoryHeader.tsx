@@ -15,8 +15,10 @@ const CategoryHeader = ({ categoryId }: CategoryHeaderProps) => {
 
   return (
     <div className='CategoryHeader'>
-      <div className='name'>{category.name}</div>
-      <div className='description'>{category.description}</div>
+      <div className='details'>
+        <div className='name'>{category.name}</div>
+        <div className='description'>{category.description}</div>
+      </div>
     </div>
   )
 }
