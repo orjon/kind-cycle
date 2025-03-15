@@ -3,9 +3,9 @@ import { CategoriesDirectory } from '../types/types'
 export const categories: CategoriesDirectory = {
   babyItems: {
     id: 'babyItems',
-    name: 'Baby & Children Items',
+    name: 'Baby Items',
     description:
-      'Babies grow fast, and all those outgrown items just take up space. Why not donate gently used baby gear and free up room while helping families in need?'
+      'Babies grow fast, and all those outgrown items just take up space. <b>Why not donate gently used baby gear and free up room while helping families in need?</b>'
   },
   clothes: {
     id: 'clothes',
@@ -31,7 +31,7 @@ export const categories: CategoriesDirectory = {
   },
   household: {
     id: 'household',
-    name: 'Household items',
+    name: 'Household',
     description: 'Household items; Kitchen appliances, ornamental items, etc.'
   }
 }

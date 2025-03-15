@@ -2,29 +2,43 @@
 
 .CategoryHeader {
   width: 100%;
-  background-color: $colorTeal;
+  // background-color: $colorTeal;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 50px 20px;
+  padding: 30px 20px;
+  @media (min-width: $break425) {
+    padding: 30px 40px;
+  }
   .details {
     width: 100%;
     max-width: $maxContentWidth;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     .name,
     .description {
+      line-height: 1;
       font-weight: 700;
+    }
+    .name {
       text-align: center;
-      color: $colorSoftWhite;
+      font-size: 26px;
+      margin-bottom: 10px;
       @media (min-width: $break425) {
         font-size: 32px;
       }
     }
-    .name {
-      font-size: 26px;
-    }
     .description {
-      font-size: 16px;
+      font-size: 26px;
+      font-weight: 400;
+      width: 100%;
+      max-width: $maxContentWidthSmall;
+      @media (min-width: $break425) {
+        font-size: 34px;
+      }
     }
   }
 }

@@ -17,7 +17,7 @@ export const organisations: OrganisationsDirectory = {
       'PramDepot is an arts-led recycling project that supports vulnerable new mums by providing baby boxes filled with recycled baby clothes and equipment.',
     howItWorks:
       "You can donate gently used baby gear at their Wood Green location. To arrange a drop-off, schedule a time using their online donation form. A list of accepted items is available on their website for your reference. For more details, visit PramDepot's donation page.",
-    website: 'https://pramdepot.com/'
+    website: 'https://pramdepot.com'
   },
   olio: {
     id: 'olio',
@@ -35,7 +35,7 @@ export const organisations: OrganisationsDirectory = {
       'Freecycle is a platform where people give away items they no longer need for free, promoting reuse and reducing waste.',
     howItWorks:
       'After signing up and creating an account, users join groups in their neighborhood and nearby areas. They can post listings of items they want to give away, such as furniture, electronics, or clothes, and others can browse, request, and arrange collection via direct messages. Freecycle fosters community-driven exchanges without any financial transactions, helping keep usable items out of landfills. Users can also post wanted ads for specific items, supporting sustainability and making it easier to find things locally.',
-    website: 'https://www.freecycle.org/'
+    website: 'https://www.freecycle.org'
   },
   facebookMarketplace: {
     id: 'facebookMarketplace',
@@ -72,7 +72,7 @@ export const organisations: OrganisationsDirectory = {
       'TRAID is a UK charity focused on reducing textile waste by turning unwanted clothes into resources for global development projects.',
     howItWorks:
       'They collect and resell donated clothing to fund their initiatives. You can donate clean, wearable clothes by dropping them off at TRAID donation banks or their charity shops. For larger donations, TRAID offers a free home collection service, which can be arranged through their website.',
-    website: 'https://traid.org.uk/clothes-donations/find-a-bank/'
+    website: 'https://traid.org.uk/clothes-donations/find-a-bank'
   },
   weCollectWeDonate: {
     id: 'weCollectWeDonate',
@@ -81,6 +81,6 @@ export const organisations: OrganisationsDirectory = {
       'WeCollectWeDonate is a social enterprise that collects unwanted items such as clothes, books, and home goods directly from your doorstep, free of charge.',
     howItWorks:
       'They resell or donate these items to charities, helping raise funds for causes like homelessness, mental health, and education. You can arrange a collection easily through their website, where they accept items in good, reusable condition.',
-    website: 'https://wecollectwedonate.co.uk/faq/'
+    website: 'https://wecollectwedonate.co.uk/faq'
   }
 }

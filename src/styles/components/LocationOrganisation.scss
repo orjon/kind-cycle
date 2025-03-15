@@ -6,16 +6,67 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 50px 20px;
-  .details {
+  margin-bottom: 40px;
+  .location-container {
     width: 100%;
     max-width: $maxContentWidth;
-    .name,
-    .website {
-      font-weight: 700;
+    border: 5px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    &.red {
+      border-color: $colorRed;
     }
-    .name {
-      font-size: 20px;
+    &.teal {
+      border-color: $colorTeal;
+    }
+    &.green {
+      border-color: $colorGreen;
+    }
+    &.yellow {
+      border-color: $colorYellow;
+    }
+    .name,
+    .howItWorks,
+    .contact {
+      width: 100%;
+      .label,
+      .description {
+        width: 100%;
+        font-weight: 600;
+      }
+      .label {
+        text-transform: uppercase;
+        word-break: break-word;
+        hyphens: auto;
+        // -webkit-hyphens: auto;
+        // -moz-hyphens: auto;
+        // -ms-hyphens: auto;
+        color: $colorTeal;
+        font-size: 30px;
+        line-height: 1;
+        margin-bottom: 6px;
+      }
+      .description {
+        font-size: 15px;
+        a {
+          font-weight: 600;
+        }
+      }
+      @media (min-width: $break425) {
+        .label {
+          font-size: 40px;
+        }
+        .description {
+          font-size: 20px;
+        }
+      }
+    }
+    .howItWorks,
+    .contact {
+      margin-top: 20px;
     }
   }
 }

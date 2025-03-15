@@ -17,7 +17,10 @@ const CategoryHeader = ({ categoryId }: CategoryHeaderProps) => {
     <div className='CategoryHeader'>
       <div className='details'>
         <div className='name'>{category.name}</div>
-        <div className='description'>{category.description}</div>
+        <div
+          className='description'
+          dangerouslySetInnerHTML={{ __html: category.description }}
+        />
       </div>
     </div>
   )
