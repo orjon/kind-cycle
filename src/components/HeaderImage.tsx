@@ -12,14 +12,20 @@ const HeaderImage = ({ filename, path, altText = '' }: HeaderImageProps) => {
   const [image, setImage] = useState<string>('')
 
   useEffect(() => {
-    import(`${path}${filename}.webp`)
-      .then((image) => {
-        setImage(image.default)
-      })
-      .catch((err) =>
-        console.error(`Failed to load image for ${filename}:`, err)
-      )
-  }, [filename])
+    const imagePath = `../assets/${path}${filename}.webp`
+
+    try {
+      import(/* @vite-ignore */ imagePath)
+        .then((module) => {
+          setImage(module.default)
+        })
+        .catch((err) => {
+          console.error(`Failed to load image: ${imagePath}`, err)
+        })
+    } catch (err) {
+      console.error(`Import error for: ${imagePath}`, err)
+    }
+  }, [filename, path])
 
   return (
     <div className='HeaderImage'>
