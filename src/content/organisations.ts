@@ -5,18 +5,18 @@ export const organisations: OrganisationsDirectory = {
     id: 'lloydPark',
     name: "Lloyd Park Children's Charity",
     about:
-      'Lloyd Park Children’s Charity provides vital services and support for children and families in the Waltham Forest community. ',
+      'Lloyd Park Children’s Charity provides vital services and support for children and families in the Waltham Forest community.',
     howItWorks:
-      'Their Baby Bank project offers essentials like baby clothes, equipment, and toiletries to families in need. They collect essential items for children aged 0-5, such as nappies, baby wipes, buggies, books, and Moses baskets with new mattresses. For up-to-date drop-off locations and times, email them for details.',
+      'Their Baby Bank project offers essentials like baby clothes, equipment, and toiletries to families in need. They collect items for children aged 0-5. For up to date list of items accepted, drop-off locations and times, check out the website and send an email.',
     website: 'https://www.tlpcc.org.uk/baby-bank'
   },
   pramDepot: {
     id: 'pramDepot',
     name: 'Pram Depot',
     about:
-      'PramDepot is an arts-led recycling project that supports vulnerable new mums by providing baby boxes filled with recycled baby clothes and equipment.',
+      'PramDepot is an arts-led recycling project that supports vulnerable new mums by providing recycled baby clothes and equipment.',
     howItWorks:
-      "You can donate gently used baby gear at their Wood Green location. To arrange a drop-off, schedule a time using their online donation form. A list of accepted items is available on their website for your reference. For more details, visit PramDepot's donation page.",
+      'Gently used baby gear can be donated at the Wood Green location. A list of accepted items is available on the website. To arrange a drop-off, simply schedule a time using the online donation form.',
     website: 'https://pramdepot.com'
   },
   olio: {
@@ -25,7 +25,7 @@ export const organisations: OrganisationsDirectory = {
     about:
       'Olio is a mobile app that connects communities to share items for free, helping reduce household and food waste.',
     howItWorks:
-      'To use it, you first download the app and create an account. Once registered, you can post items you want to give away, such as food, household goods, or other items you no longer need. You can also browse listings from others in your local area to request or borrow items. Users communicate directly through the app to arrange pick-up or collection. Olio encourages sharing and sustainability by preventing waste and fostering generosity within local communites.',
+      'Download the app and create an account. Once registered, you can post items you want to give away, such as food, household goods. You can also browse listings from others in your local area to request or borrow items. Users communicate directly through the app to arrange pick-up or collection.',
     website: ''
   },
   freecycle: {
@@ -34,7 +34,7 @@ export const organisations: OrganisationsDirectory = {
     about:
       'Freecycle is a platform where people give away items they no longer need for free, promoting reuse and reducing waste.',
     howItWorks:
-      'After signing up and creating an account, users join groups in their neighborhood and nearby areas. They can post listings of items they want to give away, such as furniture, electronics, or clothes, and others can browse, request, and arrange collection via direct messages. Freecycle fosters community-driven exchanges without any financial transactions, helping keep usable items out of landfills. Users can also post wanted ads for specific items, supporting sustainability and making it easier to find things locally.',
+      'Sign up, create an account, and join your borough group and nearby ones. You can post listings of items you want to give away, such as furniture, electronics, or clothes, and arrange collection through direct messages. Freecycle promotes community-driven exchanges with no financial transactions. Users can also post wanted ads for specific items.',
     website: 'https://www.freecycle.org'
   },
   facebookMarketplace: {
@@ -43,7 +43,7 @@ export const organisations: OrganisationsDirectory = {
     about:
       'Facebook Marketplace is an online platform where users can buy, sell, and give away items within their local community.',
     howItWorks:
-      'To donate unwanted but usable items on Facebook Marketplace, simply log into Facebook and navigate to the Marketplace section. Click "Create New Listing," select "Item for Sale," and add photos, descriptions, and a price of (pound symbol) 0 to indicate that it\'s a donation. Include details about the item\'s condition and availability. Interested users in your local area can message you directly to arrange collection.',
+      'To donate items on Facebook Marketplace, log into Facebook and go to the Marketplace section. Click "Create New Listing", select "Item for Sale", and set the price to £0. Add photos, descriptions, location and item details. Local users can message you directly to arrange collection.',
     website: 'https://www.facebook.com/marketplace'
   },
   britishHeartFoundation: {
@@ -52,7 +52,7 @@ export const organisations: OrganisationsDirectory = {
     about:
       'The British Heart Foundation is a charity dedicated to funding research into heart disease and supporting those affected by cardiovascular conditions.',
     howItWorks:
-      'The British Heart Foundation accepts donations of clothing, books, electrical goods, and furniture to support heart disease research. They offer a free collection service for larger items, which can be arranged through an online form. You’ll need to provide details like the items you want to donate, your preferred collection date, the address, and your contact info. For more information or to book a collection, visit their website.',
+      'The British Heart Foundation accepts donations of clothing, books, electrical goods, and furniture. They offer free collection for larger items, which you can arrange through an online form. Just provide the item details, preferred collection date, address, and contact info.',
     website:
       'https://www.bhf.org.uk/shop/donating-goods/book-furniture-collection-near-me'
   },
@@ -71,7 +71,7 @@ export const organisations: OrganisationsDirectory = {
     about:
       'TRAID is a UK charity focused on reducing textile waste by turning unwanted clothes into resources for global development projects.',
     howItWorks:
-      'They collect and resell donated clothing to fund their initiatives. You can donate clean, wearable clothes by dropping them off at TRAID donation banks or their charity shops. For larger donations, TRAID offers a free home collection service, which can be arranged through their website.',
+      'Donated clothing are collect and resold to fund their initiatives. You can donate clean, wearable clothes by dropping them off at TRAID donation banks or their charity shops. For larger donations, TRAID offers a free home collection service, which can be arranged through their website.',
     website: 'https://traid.org.uk/clothes-donations/find-a-bank'
   },
   weCollectWeDonate: {
@@ -81,6 +81,24 @@ export const organisations: OrganisationsDirectory = {
       'WeCollectWeDonate is a social enterprise that collects unwanted items such as clothes, books, and home goods directly from your doorstep, free of charge.',
     howItWorks:
       'They resell or donate these items to charities, helping raise funds for causes like homelessness, mental health, and education. You can arrange a collection easily through their website, where they accept items in good, reusable condition.',
+    website: 'https://wecollectwedonate.co.uk/faq'
+  },
+  haringeyFixers: {
+    id: 'haringeyFixers',
+    name: 'Haringey Fixers',
+    about:
+      'Haringey Fixers is a community-led charity promoting repair and reuse.They offer monthly Repair Cafés, where local residents can bring items to repair, helping reduce waste and teach repair skills.',
+    howItWorks:
+      'A Repair Café is a community event where locals fix household items and reduce waste. Volunteers help repair things like appliances, furniture, and clothing. Held several weekends a month in Haringey, these free sessions aim to promote sustainability. Check the calendar for upcoming events and book a free weekend slot.',
+    website: 'https://wecollectwedonate.co.uk/faq'
+  },
+  northLondonWasteAuthority: {
+    id: 'northLondonWasteAuthority',
+    name: 'North London Waste Authority',
+    about:
+      'The North London Waste Authority (NLWA) manages waste disposal and recycling services for seven north London boroughs, and delivers multiple projects aiming to reduce waste and improve sustainability.',
+    howItWorks:
+      'NLWA promotes repair initiatives to reduce waste, offering a repair directory on their website. This directory includes resources like repair services, DIY repair tips, and guides to extend the life of household items.',
     website: 'https://wecollectwedonate.co.uk/faq'
   }
 }

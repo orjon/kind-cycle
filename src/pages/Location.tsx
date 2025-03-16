@@ -16,14 +16,20 @@ const Location = () => {
 
   return (
     <div className='Location page'>
-      <HeaderImage
-        filename='location'
-        path={path.headers}
-        altText='Icon of a pigeon holding an envelope'
-      />
-      <div className='location'>{location.name}</div>
-      {/* <LocationHeader locationId={locationId} /> */}
-      <Categories categoryIds={categoryIds} link={`${locationId}/`} />
+      <div className='content-wrapper'>
+        <HeaderImage
+          filename='location'
+          path={path.headers}
+          altText='Icon of a pigeon holding an envelope'
+        />
+        <div className='title'>{location.name}</div>
+        <div
+          className='description'
+          dangerouslySetInnerHTML={{ __html: location.description }}
+        />
+        {/* <LocationHeader locationId={locationId} /> */}
+        <Categories categoryIds={categoryIds} link={`${locationId}/`} />
+      </div>
     </div>
   )
 }

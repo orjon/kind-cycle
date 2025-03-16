@@ -7,6 +7,8 @@ import CategoryHeader from '../components/CategoryHeader'
 
 import { getLocationCategoryOrganisations } from '../utils'
 
+import { categories } from '../content'
+
 import '../styles/pages/LocationCategory.scss'
 
 const LocationCategory = () => {
@@ -21,14 +23,20 @@ const LocationCategory = () => {
     <LocationOrganisation
       key={organisationId}
       organisationId={organisationId}
+      colors={categories[categoryId].color}
     />
   ))
 
   return (
     <div className='LocationCategory page'>
-      <LocationHeader locationId={locationId} />
-      <CategoryHeader categoryId={categoryId} />
-      <div className='organisations'>{organisationList}</div>
+      <div className='content-wrapper'>
+        <LocationHeader locationId={locationId} />
+        <CategoryHeader
+          categoryId={categoryId}
+          color={categories[categoryId].color.text}
+        />
+        <div className='organisations'>{organisationList}</div>
+      </div>
     </div>
   )
 }

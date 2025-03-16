@@ -15,9 +15,7 @@ const LocationHeader = ({ locationId }: LocationHeaderProps) => {
 
   return (
     <NavLink to={`/wastenot/${location.id}`} className='LocationHeader'>
-      <div className='location'>
-        {location.name} {location.postcode}
-      </div>
+      <div className='location'>{location.name}</div>
     </NavLink>
   )
 }

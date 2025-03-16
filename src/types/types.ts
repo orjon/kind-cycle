@@ -26,7 +26,7 @@ export type Location = {
   id: string
   name: string
   postcode: string
-  description?: string
+  description: string
   image?: string
   website?: string | null
   categories: LocationCategory[]
@@ -39,8 +39,10 @@ export type LocationsDirectory = {
 export type Category = {
   id: string
   name: string
+  color: { text: string; border: string }
   imageDescription: string
   description: string
+  genericOrganisations: string[]
 }
 
 export type CategoriesDirectory = {

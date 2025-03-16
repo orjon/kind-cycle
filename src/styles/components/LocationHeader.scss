@@ -11,15 +11,15 @@
   .location {
     width: 100%;
     max-width: $maxContentWidth;
-    font-size: 26px;
+    font-size: 20px;
     // font-weight: 700;
     text-align: center;
     // color: $colorSoftWhite;
   }
-  @media (min-width: $break425) {
+  @media (min-width: $break460) {
     padding: 30px 20px;
     .location {
-      font-size: 32px;
+      font-size: 26px;
     }
   }
 }

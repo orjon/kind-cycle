@@ -5,6 +5,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Location from './pages/Location'
 import LocationCategory from './pages/LocationCategory'
+import Category from './pages/Category'
 import { getSettings } from './settings'
 
 import './styles/App.scss'
@@ -22,6 +23,7 @@ function App() {
             path='/wastenot/:locationId/:categoryId'
             element={<LocationCategory />}
           />
+          <Route path='/wastenot/category/:categoryId' element={<Category />} />
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>

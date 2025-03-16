@@ -35,10 +35,9 @@
       .label,
       .description {
         width: 100%;
-        font-weight: 600;
       }
       .label {
-        text-transform: uppercase;
+        // text-transform: uppercase;
         word-break: break-word;
         hyphens: auto;
         // -webkit-hyphens: auto;
@@ -46,27 +45,59 @@
         // -ms-hyphens: auto;
         color: $colorTeal;
         font-size: 30px;
+        font-weight: 600;
         line-height: 1;
         margin-bottom: 6px;
+
+        &.teal {
+          color: $colorTeal;
+        }
+        &.green {
+          color: $colorGreen;
+        }
       }
       .description {
-        font-size: 15px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.2;
         a {
           font-weight: 600;
         }
       }
-      @media (min-width: $break425) {
+
+      @media (min-width: $break460) {
         .label {
           font-size: 40px;
         }
+        .description {
+          font-size: 18px;
+        }
+      }
+      @media (min-width: $break768) {
         .description {
           font-size: 20px;
         }
       }
     }
-    .howItWorks,
-    .contact {
+    .howItWorks {
       margin-top: 20px;
+    }
+    .contact {
+      font-size: 16px;
+      margin-top: 10px;
+      line-height: 1.2;
+      &.teal {
+        color: $colorTeal;
+      }
+      &.green {
+        color: $colorGreen;
+      }
+      @media (min-width: $break460) {
+        font-size: 18px;
+      }
+      @media (min-width: $break768) {
+        font-size: 20px;
+      }
     }
   }
 }

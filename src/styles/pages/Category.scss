@@ -1,6 +1,6 @@
 @use '../Global' as *;
 
-.LocationCategory {
+.Category {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -9,6 +9,7 @@
   .content-wrapper {
     width: 100%;
     max-width: $maxContentWidth;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
