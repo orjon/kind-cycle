@@ -9,33 +9,19 @@ type HeaderImageProps = {
 }
 
 const HeaderImage = ({ filename, path, altText = '' }: HeaderImageProps) => {
-  const [image, setImage] = useState<string>('')
+  const [imageSrc, setImageSrc] = useState('')
 
   useEffect(() => {
-    const imagePath = `../assets/${path}${filename}.webp`
-
+    // Using URL constructor with import.meta.url (Vite specific)
     try {
-      import(/* @vite-ignore */ imagePath)
-        .then((module) => {
-          setImage(module.default)
-        })
-        .catch((err) => {
-          console.error(`Failed to load image: ${imagePath}`, err)
-        })
+      const imageUrl = new URL(`${path}${filename}.webp`, import.meta.url).href
+      setImageSrc(imageUrl)
     } catch (err) {
-      console.error(`Import error for: ${imagePath}`, err)
+      console.error('Failed to load image:', err)
     }
   }, [filename, path])
 
-  return (
-    <div className='HeaderImage'>
-      {image && (
-        <div className='image-container'>
-          <img src={image} alt={altText} />
-        </div>
-      )}
-    </div>
-  )
+  return imageSrc ? <img src={imageSrc} alt={altText} /> : <div>Loading...</div>
 }
 
 export default HeaderImage
