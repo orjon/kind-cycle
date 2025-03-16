@@ -1,5 +1,3 @@
-// import { useEffect, useState } from 'react'
-
 import '../styles/components/HeaderImage.scss'
 
 type HeaderImageProps = {
@@ -9,19 +7,13 @@ type HeaderImageProps = {
 }
 
 const HeaderImage = ({ filename, path, altText = '' }: HeaderImageProps) => {
-  // const [imageSrc, setImageSrc] = useState('')
-
-  // useEffect(() => {
-  //   // Using URL constructor with import.meta.url (Vite specific)
-  //   try {
-  //     const imageUrl = new URL(`${path}${filename}.webp`, import.meta.url).href
-  //     setImageSrc(imageUrl)
-  //   } catch (err) {
-  //     console.error('Failed to load image:', err)
-  //   }
-  // }, [filename, path])
-
-  return <img src={`${path}${filename}.webp`} alt={altText} />
+  return (
+    <div className='HeaderImage'>
+      <div className='image-container'>
+        <img src={`${path}${filename}.webp`} alt={altText} />
+      </div>
+    </div>
+  )
 }
 
 export default HeaderImage
