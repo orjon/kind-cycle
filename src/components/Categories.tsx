@@ -1,7 +1,7 @@
-import { useState, useEffect } from 'react'
+// import { useState, useEffect } from 'react'
 import { NavLink } from 'react-router-dom'
 
-import { categories, path } from '../content'
+import { categories } from '../content'
 
 import '../styles/components/Categories.scss'
 
