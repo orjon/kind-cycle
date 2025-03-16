@@ -1,5 +1,5 @@
 export const path = {
-  headers: '../assets/headers/',
-  categories: '../assets/icons/categories/',
-  logo: '../assets/logo/'
+  headers: './public/images/headers/',
+  categories: './public/images/icons/categories/',
+  logo: './public/images/logo/'
 }

@@ -21,7 +21,7 @@ const Categories = ({ categoryIds, link }: CategoriesProps) => {
     categoryIds.forEach((categoryId) => {
       const category = categories[categoryId]
       const imageKey = `${category.id}`
-      import(`${path.categories}${imageKey}.webp`)
+      import(`../assets/${path.categories}${imageKey}.webp`)
         .then((image) => {
           setCategoryImages((prev) => ({
             ...prev,

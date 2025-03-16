@@ -14,6 +14,7 @@ function Home() {
         altText='Icon of a pigeon holding an envelope'
       />
       <div className='title'>Waste Not!</div>
+      <img src='./public/images/headers/wasteNot.webp' alt='' />
       {/* <LocationHeader locationId={locationId} /> */}
       <Categories categoryIds={Object.keys(categories)} link='' />
     </div>
