@@ -2,21 +2,23 @@
 
 .LocationHeader {
   width: 100%;
-  background-color: $colorRed;
+  // background-color: $colorRed;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 50px 20px;
+  padding: 20px;
   .location {
     width: 100%;
     max-width: $maxContentWidth;
     font-size: 26px;
-    font-weight: 700;
+    // font-weight: 700;
     text-align: center;
-
-    color: $colorSoftWhite;
-    @media (min-width: $break425) {
+    // color: $colorSoftWhite;
+  }
+  @media (min-width: $break425) {
+    padding: 30px 20px;
+    .location {
       font-size: 32px;
     }
   }

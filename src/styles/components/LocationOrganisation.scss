@@ -10,7 +10,7 @@
   .location-container {
     width: 100%;
     max-width: $maxContentWidth;
-    border: 5px solid;
+    border: $outline;
     display: flex;
     flex-direction: column;
     justify-content: center;

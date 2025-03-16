@@ -2,22 +2,28 @@
 @use '../Page' as *;
 
 .Location {
-  .location-header {
-    width: 100%;
-    background-color: $colorRed;
-    color: $colorSoftWhite;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding: 50px 20px;
-    // font-size: 32px;
-    font-size: 26px;
-    font-weight: 700;
+  width: 100%;
+  // max-width: $maxContentWidth;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .HeaderImage {
+    padding: 0px 20px;
+  }
+
+  .location {
     text-align: center;
-    @media (min-width: $break425) {
-      font-size: 32px;
+    line-height: 0.9;
+    word-break: break-word;
+    hyphens: auto;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: $colorGreen;
+    @media (min-width: $break768) {
+      font-size: 100px;
     }
   }
 }

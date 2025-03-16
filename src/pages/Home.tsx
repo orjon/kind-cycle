@@ -1,17 +1,21 @@
-import Hero from '../components/Hero.jsx'
-import BannerA from '../components/BannerA.jsx'
-import BannerB from '../components/BannerB.jsx'
-import BannerC from '../components/BannerC.jsx'
+import HeaderImage from '../components/HeaderImage'
+import Categories from '../components/Categories'
+
+import { categories, path } from '../content'
 
 import '../styles/pages/Home.scss'
 
 function Home() {
   return (
     <div className='Home page'>
-      <Hero />
-      <BannerA />
-      <BannerB />
-      <BannerC />
+      <HeaderImage
+        filename='wasteNot'
+        path={path.headers}
+        altText='Icon of a pigeon holding an envelope'
+      />
+      <div className='title'>Waste Not!</div>
+      {/* <LocationHeader locationId={locationId} /> */}
+      <Categories categoryIds={Object.keys(categories)} link='' />
     </div>
   )
 }

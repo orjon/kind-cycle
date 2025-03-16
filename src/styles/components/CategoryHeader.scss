@@ -2,14 +2,15 @@
 
 .CategoryHeader {
   width: 100%;
-  // background-color: $colorTeal;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 30px 20px;
+  padding-top: 0px;
   @media (min-width: $break425) {
     padding: 30px 40px;
+    padding-top: 0px;
   }
   .details {
     width: 100%;
@@ -18,25 +19,30 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     .name,
     .description {
-      line-height: 1;
       font-weight: 700;
     }
     .name {
       text-align: center;
-      font-size: 26px;
-      margin-bottom: 10px;
-      @media (min-width: $break425) {
-        font-size: 32px;
+      line-height: 0.9;
+      word-break: break-word;
+      hyphens: auto;
+      font-size: 50px;
+      margin-bottom: 50px;
+      color: $colorTeal;
+      @media (min-width: $break768) {
+        font-size: 100px;
       }
     }
     .description {
       font-size: 26px;
       font-weight: 400;
+      line-height: 1.4;
       width: 100%;
-      max-width: $maxContentWidthSmall;
-      @media (min-width: $break425) {
+      // max-width: $maxContentWidthMedium;
+      @media (min-width: $break768) {
         font-size: 34px;
       }
     }

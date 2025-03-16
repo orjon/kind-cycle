@@ -1,6 +1,8 @@
 import { Navigate } from 'react-router-dom'
 
-import { categories } from '../content'
+import HeaderImage from './HeaderImage'
+
+import { categories, path } from '../content'
 
 import '../styles/components/CategoryHeader.scss'
 
@@ -16,6 +18,11 @@ const CategoryHeader = ({ categoryId }: CategoryHeaderProps) => {
   return (
     <div className='CategoryHeader'>
       <div className='details'>
+        <HeaderImage
+          filename={category.id}
+          path={path.headers}
+          altText={category.imageDescription}
+        />
         <div className='name'>{category.name}</div>
         <div
           className='description'

@@ -1,6 +1,28 @@
 @use '../Global' as *;
 
 .Home {
-  background-color: white;
-  overflow: auto;
+  width: 100%;
+  // max-width: $maxContentWidth;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .HeaderImage {
+    padding: 0px 20px;
+  }
+
+  .title {
+    text-align: center;
+    line-height: 0.9;
+    word-break: break-word;
+    hyphens: auto;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: $colorGreen;
+    @media (min-width: $break768) {
+      font-size: 128px;
+    }
+  }
 }

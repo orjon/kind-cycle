@@ -39,7 +39,7 @@ const Nav = () => {
       <div className={`BurgerMenu ${isMenuOpen ? 'open' : ''}`}>{navItems}</div>
       <NavLink to='/'>
         <div className='Logo'>
-          <div className='LogoText'>kind cycle</div>
+          <div className='LogoText'>Kind Cycle</div>
         </div>
       </NavLink>
       <div className='NavMenu'>{navItems}</div>

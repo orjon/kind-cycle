@@ -2,4 +2,20 @@
 @use '../Page' as *;
 
 .About {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .HeaderImage {
+    margin-top: 50px;
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media (min-width: $break768) {
+      max-width: 300px;
+    }
+  }
 }

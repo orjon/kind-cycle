@@ -39,6 +39,7 @@ export type LocationsDirectory = {
 export type Category = {
   id: string
   name: string
+  imageDescription: string
   description: string
 }
 

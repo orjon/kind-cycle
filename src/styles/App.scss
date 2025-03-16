@@ -26,14 +26,14 @@ a {
   width: 100vw;
   display: flex;
   flex-direction: column;
-  // justify-content: center;
   align-items: center;
   background-color: $colorBackground;
   .main-wrapper {
     width: 100%;
-    // min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding-top: $navHeight;
-    background-color: yellow;
     @media (min-width: $break1440) {
       &.sideMenu {
         padding-top: unset;

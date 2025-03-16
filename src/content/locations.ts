@@ -7,15 +7,15 @@ export const locations: LocationsDirectory = {
     name: 'Ferry Lane Estate',
     postcode: 'N17',
     categories: [
+      { id: cat.neighbours.id, organisations: [] },
+      { id: cat.household.id, organisations: [] },
       {
-        id: cat.babyItems.id,
+        id: cat.furniture.id,
         organisations: [
-          org.lloydPark.id,
-          org.pramDepot.id,
+          org.britishHeartFoundation.id,
           org.olio.id,
           org.freecycle.id,
-          org.facebookMarketplace.id,
-          org.encouragingReuse.id
+          org.facebookMarketplace.id
         ]
       },
       {
@@ -30,17 +30,19 @@ export const locations: LocationsDirectory = {
         ]
       },
       {
-        id: cat.furniture.id,
+        id: cat.babyItems.id,
         organisations: [
-          org.britishHeartFoundation.id,
+          org.lloydPark.id,
+          org.pramDepot.id,
           org.olio.id,
           org.freecycle.id,
-          org.facebookMarketplace.id
+          org.facebookMarketplace.id,
+          org.encouragingReuse.id
         ]
       },
-      { id: cat.repair.id, organisations: [] },
-      { id: cat.food.id, organisations: [] },
-      { id: cat.household.id, organisations: [] }
+
+      { id: cat.repair.id, organisations: [] }
+      // { id: cat.food.id, organisations: [] },
     ]
   }
 }

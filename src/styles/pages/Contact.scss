@@ -2,4 +2,26 @@
 @use '../Page' as *;
 
 .Contact {
+  width: 100%;
+  max-width: $maxContentWidth;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .HeaderImage {
+    margin-top: 50px;
+  }
+  .title {
+    text-align: center;
+    line-height: 0.9;
+    word-break: break-word;
+    hyphens: auto;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: $colorTeal;
+    @media (min-width: $break768) {
+      font-size: 100px;
+    }
+  }
 }
