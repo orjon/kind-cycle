@@ -1,7 +1,6 @@
 import HeaderImage from '../components/HeaderImage'
-import Categories from '../components/Categories'
 
-import { categories, path, sections } from '../content'
+import { path, sections } from '../content'
 
 import '../styles/pages/Home.scss'
 
@@ -19,7 +18,6 @@ function Home() {
           className='description'
           dangerouslySetInnerHTML={{ __html: sections.wasteNot }}
         />
-        <Categories categoryIds={Object.keys(categories)} link='category/' />
       </div>
     </div>
   )

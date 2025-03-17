@@ -6,6 +6,7 @@ import Contact from './pages/Contact'
 import Location from './pages/Location'
 import LocationCategory from './pages/LocationCategory'
 import Category from './pages/Category'
+import ScrollToTop from './components/ScrollToTop'
 import { getSettings } from './settings'
 
 import './styles/App.scss'
@@ -13,6 +14,7 @@ import './styles/App.scss'
 function App() {
   return (
     <div className='App'>
+      <ScrollToTop />
       <Nav />
       <div className={`main-wrapper ${getSettings()}`}>
         <Routes>
