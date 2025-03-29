@@ -10,7 +10,7 @@ export type Organisation = {
   about: string
   howItWorks: string
   address?: string | null
-  website?: string | null
+  website?: { url: string; label?: string }
 }
 
 export type OrganisationsDirectory = {
@@ -28,7 +28,7 @@ export type Location = {
   postcode: string
   description: string
   image?: string
-  website?: string | null
+  website?: string
   categories: LocationCategory[]
 }
 
@@ -42,7 +42,9 @@ export type Category = {
   color: { text: string; border: string }
   imageDescription: string
   description: string
-  genericOrganisations: string[]
+  genericOrganisations?: string[]
+  localGroup?: boolean
+  whatsApp?: { qrcode: string; link: string; label: string }
 }
 
 export type CategoriesDirectory = {

@@ -2,12 +2,7 @@
 @use '../Page' as *;
 
 .About {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   .HeaderImage {
-    margin-top: 50px;
     width: 100%;
     max-width: 200px;
     display: flex;
@@ -17,5 +12,8 @@
     @media (min-width: $break768) {
       max-width: 300px;
     }
+  }
+  .title {
+    color: $colorGreen;
   }
 }

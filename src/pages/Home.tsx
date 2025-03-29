@@ -1,5 +1,5 @@
 import HeaderImage from '../components/HeaderImage'
-
+import { SafeHtml } from '../components/SafeHtml'
 import { path, sections } from '../content'
 
 import '../styles/pages/Home.scss'
@@ -14,10 +14,9 @@ function Home() {
           altText='Icon of a pigeon holding an envelope'
         />
         <div className='title'>Waste Not!</div>
-        <div
-          className='description'
-          dangerouslySetInnerHTML={{ __html: sections.wasteNot }}
-        />
+        <div className='description'>
+          <SafeHtml html={sections.wasteNot} />
+        </div>
       </div>
     </div>
   )

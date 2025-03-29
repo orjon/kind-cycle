@@ -1,6 +1,7 @@
 import { useParams, Navigate } from 'react-router-dom'
 
 import HeaderImage from '../components/HeaderImage'
+import { SafeHtml } from '../components/SafeHtml'
 import Categories from '../components/Categories'
 
 import { locations, path } from '../content'
@@ -23,11 +24,9 @@ const Location = () => {
           altText='Icon of a pigeon holding an envelope'
         />
         <div className='title'>{location.name}</div>
-        <div
-          className='description'
-          dangerouslySetInnerHTML={{ __html: location.description }}
-        />
-        {/* <LocationHeader locationId={locationId} /> */}
+        <div className='description'>
+          <SafeHtml html={location.description} />
+        </div>
         <Categories categoryIds={categoryIds} link={`${locationId}/`} />
       </div>
     </div>

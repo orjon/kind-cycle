@@ -14,7 +14,8 @@ const LocationOrganisation = ({
   const organisation = organisations[organisationId]
   const { name, website, about, howItWorks } = organisation
 
-  const websiteLabel = website?.replace(/^https?:\/\//, '')
+  const websiteLabel =
+    website?.label || website?.url.replace(/^https?:\/\//, '')
 
   return (
     <div className='LocationOrganisation'>
@@ -29,7 +30,7 @@ const LocationOrganisation = ({
         </div>
         <div className={`contact ${colors.text}`}>
           {website && (
-            <a href={website} target='_blank' rel='noopener noreferrer'>
+            <a href={website.url} target='_blank' rel='noopener noreferrer'>
               {websiteLabel}
             </a>
           )}

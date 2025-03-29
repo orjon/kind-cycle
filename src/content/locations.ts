@@ -13,9 +13,9 @@ export const locations: LocationsDirectory = {
       {
         id: cat.household.id,
         organisations: [
-          org.olio.id,
           org.freecycle.id,
           org.facebookMarketplace.id,
+          org.olio.id,
           org.encouragingReuse.id
         ]
       },
@@ -23,20 +23,19 @@ export const locations: LocationsDirectory = {
         id: cat.furniture.id,
         organisations: [
           org.britishHeartFoundation.id,
-          org.olio.id,
           org.freecycle.id,
-          org.facebookMarketplace.id
+          org.facebookMarketplace.id,
+          org.olio.id
         ]
       },
       {
         id: cat.clothes.id,
         organisations: [
           org.traid.id,
+          org.clothesBanks.id,
           // org.weCollectWeDonate.id,
-          org.olio.id,
-          org.freecycle.id,
-          org.facebookMarketplace.id,
-          org.encouragingReuse.id
+          org.encouragingReuse.id,
+          org.olio.id
         ]
       },
       {
@@ -44,13 +43,12 @@ export const locations: LocationsDirectory = {
         organisations: [
           org.lloydPark.id,
           org.pramDepot.id,
-          org.olio.id,
           org.freecycle.id,
           org.facebookMarketplace.id,
-          org.encouragingReuse.id
+          org.encouragingReuse.id,
+          org.olio.id
         ]
       },
-
       {
         id: cat.repair.id,
         organisations: [org.haringeyFixers.id, org.northLondonWasteAuthority.id]

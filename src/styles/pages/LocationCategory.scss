@@ -1,31 +1,10 @@
 @use '../Global' as *;
+@use '../Page' as *;
 
-.LocationCategory {
+.organisations {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  .content-wrapper {
-    width: 100%;
-    max-width: $maxContentWidth;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    .organisations {
-      width: 100%;
-      padding: 20px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      @media (min-width: $break460) {
-        padding: 20px 30px;
-      }
-      @media (min-width: $break768) {
-        padding: 20px 50px;
-      }
-    }
-  }
 }
