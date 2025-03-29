@@ -3,12 +3,17 @@
 
 .page {
   width: 100%;
+  padding-top: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: $colorBackground;
   color: $colorText;
+  @media (min-width: $break460) {
+    padding-top: 40px;
+  }
+
   .content-wrapper {
     width: 100%;
     max-width: $maxContentWidth;

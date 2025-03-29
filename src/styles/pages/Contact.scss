@@ -1,2 +1,8 @@
 @use '../Global' as *;
 @use '../Page' as *;
+
+.Contact {
+  .title {
+    color: $colorGreen;
+  }
+}
