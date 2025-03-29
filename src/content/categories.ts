@@ -88,6 +88,7 @@ export const categories: CategoriesDirectory = {
     imageDescription: 'Icons of various household items',
     description:
       'Sharing what you no longer need with your Ferry Lane neighbors: they’re local and can pick up items with ease. From small items no one would travel for to large items that would require costly transport, it’s all easier when your neighbors are nearby. You can even donate food your cat doesn’t like, fridge surplus before going on holiday, or extra pantry items.<br /><br /><span class="bold">Click or scan the QR code below to join the FLAG WhatsApp community and post your items there.</span> ',
+    genericOrganisations: [],
     localGroup: true,
     whatsApp: {
       qrcode: 'ferrylane',

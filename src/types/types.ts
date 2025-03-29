@@ -42,7 +42,7 @@ export type Category = {
   color: { text: string; border: string }
   imageDescription: string
   description: string
-  genericOrganisations?: string[]
+  genericOrganisations: string[]
   localGroup?: boolean
   whatsApp?: { qrcode: string; link: string; label: string }
 }
