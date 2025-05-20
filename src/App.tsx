@@ -1,4 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
+import { useEffect } from 'react'
+import { useLocation } from 'react-router-dom'
 import Nav from './nav/Nav'
 import Home from './pages/Home'
 import About from './pages/About'
@@ -8,10 +10,22 @@ import LocationCategory from './pages/LocationCategory'
 import Category from './pages/Category'
 import ScrollToTop from './components/ScrollToTop'
 import { getSettings } from './settings'
+import { initGA, trackPageView } from './utils/analytics'
 
 import './styles/App.scss'
 
+// Initialize GA4 with your measurement ID
+// Replace 'G-XXXXXXXXXX' with your actual GA4 measurement ID
+initGA('G-XXXXXXXXXX')
+
 function App() {
+  const location = useLocation()
+
+  useEffect(() => {
+    // Track page views
+    trackPageView(location.pathname + location.search)
+  }, [location])
+
   return (
     <div className='App'>
       <ScrollToTop />
