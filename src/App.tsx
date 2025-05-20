@@ -14,9 +14,8 @@ import { initGA, trackPageView } from './utils/analytics'
 
 import './styles/App.scss'
 
-// Initialize GA4 with your measurement ID
-// Replace 'G-XXXXXXXXXX' with your actual GA4 measurement ID
-initGA('G-XXXXXXXXXX')
+// Initialize GA4 with measurement ID from environment variable
+initGA(import.meta.env.VITE_GTM_ID)
 
 function App() {
   const location = useLocation()
