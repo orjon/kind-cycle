@@ -1,4 +1,6 @@
 import { NavLink } from 'react-router-dom'
+import { trackEvent } from '../utils/analytics'
+import { ClickEvent } from '../types/types'
 
 type NavItemProps = {
   label: string
@@ -7,8 +9,16 @@ type NavItemProps = {
 }
 
 const NavItem = ({ label, path, setIsMenuOpen }: NavItemProps) => {
+  const handleNavClick = () => {
+    trackEvent(ClickEvent.navigation, {
+      nav_item: label,
+      on_page: window.location.href
+    })
+    setIsMenuOpen(false)
+  }
+
   return (
-    <NavLink className='NavItem' to={path} onClick={() => setIsMenuOpen(false)}>
+    <NavLink className='NavItem' to={path} onClick={handleNavClick}>
       <div className='text'>{label}</div>
     </NavLink>
   )

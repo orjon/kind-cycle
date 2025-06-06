@@ -1,4 +1,6 @@
 import { organisations } from '../content'
+import { trackEvent } from '../utils/analytics'
+import { ClickEvent } from '../types/types'
 
 import '../styles/components/LocationOrganisation.scss'
 
@@ -17,6 +19,13 @@ const LocationOrganisation = ({
   const websiteLabel =
     website?.label || website?.url.replace(/^https?:\/\//, '')
 
+  const trackClick = () => {
+    trackEvent(ClickEvent.organisation, {
+      organisation: name,
+      on_page: window.location.href
+    })
+  }
+
   return (
     <div className='LocationOrganisation'>
       <div className={`location-container ${colors.border}`}>
@@ -30,7 +39,12 @@ const LocationOrganisation = ({
         </div>
         <div className={`contact ${colors.text}`}>
           {website && (
-            <a href={website.url} target='_blank' rel='noopener noreferrer'>
+            <a
+              href={website.url}
+              target='_blank'
+              rel='noopener noreferrer'
+              onClick={trackClick}
+            >
               {websiteLabel}
             </a>
           )}

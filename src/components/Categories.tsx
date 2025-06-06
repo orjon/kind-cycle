@@ -1,6 +1,8 @@
 import { NavLink } from 'react-router-dom'
 
 import { categories } from '../content'
+import { trackEvent } from '../utils/analytics'
+import { ClickEvent } from '../types/types'
 
 import '../styles/components/Categories.scss'
 
@@ -14,11 +16,20 @@ type CategoriesProps = {
 const Categories = ({ categoryIds, link }: CategoriesProps) => {
   const categoryTiles = categoryIds.map((categoryId, index) => {
     const color = iconColors[index % iconColors.length]
+
+    const trackClick = () => {
+      trackEvent(ClickEvent.category, {
+        category: categories[categoryId].name,
+        on_page: window.location.href
+      })
+    }
+
     return (
       <div key={categoryId} className='location-category'>
         <NavLink
           className={`category-tile ${color}`}
           to={`/wastenot/${link}${categoryId}`}
+          onClick={trackClick}
         >
           <div className='icon-container'>
             <img

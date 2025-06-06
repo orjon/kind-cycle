@@ -44,9 +44,16 @@ export type Category = {
   description: string
   genericOrganisations: string[]
   localGroup?: boolean
-  whatsApp?: { qrcode: string; link: string; label: string }
+  whatsApp?: { name: string; qrcode: string; link: string; label: string }
 }
 
 export type CategoriesDirectory = {
   [key: string]: Category
+}
+
+export enum ClickEvent {
+  navigation = 'click-navigation',
+  category = 'click-category',
+  organisation = 'click-organisation-link',
+  qrCode = 'click-qr'
 }

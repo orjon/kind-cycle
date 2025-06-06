@@ -5,20 +5,19 @@ export const initGA = (measurementId: string) => {
   ReactGA.initialize(measurementId)
 }
 
-// Track page views
+// Track page views - GA4 syntax
 export const trackPageView = (path: string) => {
-  ReactGA.send({ hitType: 'pageview', page: path })
+  ReactGA.send({
+    hitType: 'pageview',
+    page_location: window.location.origin + path,
+    page_path: path
+  })
 }
 
 // Track custom events
 export const trackEvent = (
-  category: string,
-  action: string,
-  label?: string
+  eventName: string,
+  params?: { [key: string]: any }
 ) => {
-  ReactGA.event({
-    category,
-    action,
-    label
-  })
+  ReactGA.event(eventName, params)
 }

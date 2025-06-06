@@ -91,6 +91,7 @@ export const categories: CategoriesDirectory = {
     genericOrganisations: [],
     localGroup: true,
     whatsApp: {
+      name: 'Ferrylane WhatsApp group',
       qrcode: 'ferrylane',
       link: 'https://chat.whatsapp.com/EHXIZBYNDn7BPRkrUUM3bY',
       label: 'Join the FLAG WhatsApp community link'

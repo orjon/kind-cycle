@@ -14,7 +14,7 @@ import { initGA, trackPageView } from './utils/analytics'
 
 import './styles/App.scss'
 
-// Initialize GA4 with measurement ID from environment variable
+// Initialize GA4
 initGA(import.meta.env.VITE_GTM_ID)
 
 function App() {
