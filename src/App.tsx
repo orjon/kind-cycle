@@ -16,6 +16,7 @@ import './styles/App.scss'
 
 // Initialize GA4
 const gtmId = import.meta.env.VITE_GTM_ID
+console.log('env var')
 console.log(gtmId)
 initGA(gtmId)
 
