@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Location from './pages/Location'
+import RedirectToLocation from './pages/RedirectToLcocation'
 import LocationCategory from './pages/LocationCategory'
 import Category from './pages/Category'
 import ScrollToTop from './components/ScrollToTop'
@@ -34,6 +35,18 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/wastenot' element={<Home />} />
           <Route path='/wastenot/:locationId' element={<Location />} />
+          <Route
+            path='/wastenot/:locationId/leaflet'
+            element={<RedirectToLocation />}
+          />
+          <Route
+            path='/wastenot/:locationId/poster'
+            element={<RedirectToLocation />}
+          />
+          <Route
+            path='/wastenot/:locationId/panel'
+            element={<RedirectToLocation />}
+          />
           <Route
             path='/wastenot/:locationId/:categoryId'
             element={<LocationCategory />}
