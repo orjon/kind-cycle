@@ -1,11 +1,13 @@
+import { useTranslation } from 'react-i18next'
 import HeaderImage from '../components/HeaderImage'
 import { SafeHtml } from '../components/SafeHtml'
-
-import { path, sections } from '../content'
+import { path } from '../content'
 
 import '../styles/pages/Contact.scss'
 
 function Contact() {
+  const { t } = useTranslation()
+
   return (
     <div className='Contact page'>
       <div className='content-wrapper'>
@@ -14,9 +16,9 @@ function Contact() {
           path={path.headers}
           altText='Icon of a pigeon holding an envelope'
         />
-        <div className='title'>Contact</div>
+        <div className='title'>{t('contact.title')}</div>
         <div className='description'>
-          <SafeHtml html={sections.contact} />
+          <SafeHtml html={t('sections.contact')} />
         </div>
       </div>
     </div>

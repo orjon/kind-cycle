@@ -1,5 +1,6 @@
 import { useParams, useNavigate } from 'react-router-dom'
 import { useEffect } from 'react'
+import { addLanguagePrefix, getHomePathWithLanguage } from '../utils'
 
 const RedirectToLocation = () => {
   const { locationId } = useParams()
@@ -7,9 +8,9 @@ const RedirectToLocation = () => {
 
   useEffect(() => {
     if (locationId) {
-      navigate(`/wastenot/${locationId}`, { replace: true })
+      navigate(addLanguagePrefix(`/wastenot/${locationId}`), { replace: true })
     } else {
-      navigate('/', { replace: true })
+      navigate(getHomePathWithLanguage(), { replace: true })
     }
   }, [locationId, navigate])
 

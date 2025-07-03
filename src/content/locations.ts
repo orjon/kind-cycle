@@ -4,10 +4,7 @@ import { LocationsDirectory } from '../types/types'
 export const locations: LocationsDirectory = {
   ferrylane: {
     id: 'ferrylane',
-    name: 'Ferry Lane Estate',
     postcode: 'N17',
-    description:
-      'Ferry Lane Estate is the first delivery location for the Waste Not campaign. Bold, eye-catching information panels promoting household item donations have been strategically installed in common dumping areas across the estate. <span class="bold">Explore our comprehensive guide on where and how to donate.</span>',
     categories: [
       { id: cat.neighbours.id, organisations: [] },
       {

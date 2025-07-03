@@ -1,10 +1,10 @@
 import { NavLocation } from '../types/types'
 
 const navLocations: NavLocation[] = [
-  { id: 'wastenot', label: 'Waste Not', path: '/wastenot' },
-  { id: 'ferrylane', label: 'Ferry Lane', path: '/wastenot/ferrylane' },
-  { id: 'about', label: 'About', path: '/about' },
-  { id: 'contact', label: 'Contact', path: '/contact' }
+  { id: 'wastenot', path: '/wastenot' },
+  { id: 'ferrylane', path: '/wastenot/ferrylane' },
+  { id: 'about', path: '/about' },
+  { id: 'contact', path: '/contact' }
 ]
 
 export default navLocations

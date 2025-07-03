@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Waste Not!",
+    "subtitle": "Sustainable Living"
+  },
+  "about": {
+    "title": "About",
+    "description": "The UK discards 640,000 tonnes of reusable items each year. Kind Cycle, a group of residents focused on sustainability, is tackling this issue with projects that reduce waste and connect communities by promoting reuse over recycling. With expertise in architecture, design, and events, they create initiatives that educate and build stronger communities.",
+    "contactLink": "Contact us"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Get in touch with us."
+  },
+  "categories": {
+    "babyItems": {
+      "name": "Baby Items",
+      "imageDescription": "Icons of various baby items",
+      "description": "Babies grow quickly, and outgrown items take up space. <span class=\"bold\">Donate gently used baby gear to families in need and free up room.</span>"
+    },
+    "clothes": {
+      "name": "Clothes",
+      "imageDescription": "Icons of various clothes",
+      "description": "Clear out your closet and donate what you no longer wear. <span class=\"bold\">Give your shoes and clothes a second life and let someone else enjoy them.</span>"
+    },
+    "furniture": {
+      "name": "Furniture",
+      "imageDescription": "Icons of various furniture items",
+      "description": "If furniture you no longer need or love is taking up space, donate it and make someone's day – <span class=\"bold\">they'll even pick it up from your doorstep!</span>"
+    },
+    "repair": {
+      "name": "Repair It!",
+      "imageDescription": "Icons of various repair tools",
+      "description": "<span class=\"bold\">Fixing broken items</span> is an easy way to reduce waste while <span class=\"bold\">saving the planet and your wallet.</span>"
+    },
+    "household": {
+      "name": "Household Goods",
+      "imageDescription": "Icons of various household items",
+      "description": "What you don't need, someone else will love. The household items you no longer want might be exactly what someone else is looking for!"
+    },
+    "neighbours": {
+      "name": "Share with Neighbours",
+      "imageDescription": "Icons of various household items",
+      "description": "Sharing what you no longer need with your Ferry Lane neighbors: they're local and can pick up items with ease. From small items no one would travel for to large items that would require costly transport, it's all easier when your neighbors are nearby. You can even donate food your cat doesn't like, fridge surplus before going on holiday, or extra pantry items.<br /><br /><span class=\"bold\">Click or scan the QR code below to join the FLAG WhatsApp community and post your items there.</span>",
+      "whatsApp": {
+        "name": "Ferrylane WhatsApp group",
+        "label": "Join the FLAG WhatsApp community link"
+      }
+    }
+  },
+  "organisations": {
+    "howItWorksLabel": "How It Works",
+    "lloydPark": {
+      "name": "Lloyd Park Children's Charity",
+      "about": "Lloyd Park Children's Charity provides vital services and support for children and families in the Waltham Forest community.",
+      "howItWorks": "Their Baby Bank project offers essentials like baby clothes, equipment, and toiletries to families in need. They collect items for children aged 0-5. For up to date list of items accepted, drop-off locations and times, check out the website and send an email."
+    },
+    "pramDepot": {
+      "name": "Pram Depot",
+      "about": "PramDepot is an arts-led recycling project that supports vulnerable new mums by providing recycled baby clothes and equipment.",
+      "howItWorks": "Gently used baby gear can be donated at the Wood Green location. A list of accepted items is available on the website. To arrange a drop-off, simply schedule a time using the online donation form."
+    },
+    "olio": {
+      "name": "Olio",
+      "about": "Olio is a mobile app that connects communities to share items for free, helping reduce household and food waste.",
+      "howItWorks": "Download the app and create an account. Once registered, you can post items you want to give away, such as food, household goods. You can also browse listings from others in your local area to request or borrow items. Users communicate directly through the app to arrange pick-up or collection."
+    },
+    "freecycle": {
+      "name": "Freecycle",
+      "about": "Freecycle is a platform where people give away items they no longer need for free, promoting reuse and reducing waste.",
+      "howItWorks": "Sign up, create an account, and join your borough group and nearby ones. You can post listings of items you want to give away, such as furniture, electronics, or clothes, and arrange collection through direct messages. Freecycle promotes community-driven exchanges with no financial transactions. Users can also post wanted ads for specific items."
+    },
+    "facebookMarketplace": {
+      "name": "Facebook Marketplace",
+      "about": "Facebook Marketplace is an online platform where users can buy, sell, and give away items within their local community.",
+      "howItWorks": "To donate items on Facebook Marketplace, log into Facebook and go to the Marketplace section. Click \"Create New Listing\", select \"Item for Sale\", and set the price to £0. Add photos, descriptions, location and item details. Local users can message you directly to arrange collection."
+    },
+    "britishHeartFoundation": {
+      "name": "British Heart Foundation",
+      "about": "The British Heart Foundation is a charity dedicated to funding research into heart disease and supporting those affected by cardiovascular conditions.",
+      "howItWorks": "The British Heart Foundation accepts donations of clothing, books, electrical goods, and furniture. They offer free collection for larger items, which you can arrange through an online form. Just provide the item details, preferred collection date, address, and contact info.",
+      "websiteLabel": "www.bhf.org.uk"
+    },
+    "encouragingReuse": {
+      "name": "Encouraging Reuse",
+      "about": "",
+      "howItWorks": "The \"Encouraging Reuse\" shop is a community-focused space dedicated to promoting sustainability through the donation and reuse of items.",
+      "websiteLabel": "Google maps location"
+    },
+    "traid": {
+      "name": "TRAID",
+      "about": "TRAID is a UK charity focused on reducing textile waste by turning unwanted clothes into resources for global development projects.",
+      "howItWorks": "Donated clothing are collect and resold to fund their initiatives. You can donate clean, wearable clothes by dropping them off at TRAID donation banks or their charity shops. For larger donations, TRAID offers a free home collection service, which can be arranged through their website.",
+      "websiteLabel": "www.traid.org.uk"
+    },
+    "weCollectWeDonate": {
+      "name": "WeCollectWeDonate",
+      "about": "WeCollectWeDonate is a social enterprise that collects unwanted items such as clothes, books, and home goods directly from your doorstep, free of charge.",
+      "howItWorks": "They resell or donate these items to charities, helping raise funds for causes like homelessness, mental health, and education. You can arrange a collection easily through their website, where they accept items in good, reusable condition."
+    },
+    "haringeyFixers": {
+      "name": "Haringey Fixers",
+      "about": "Haringey Fixers is a community-led charity promoting repair and reuse.They offer monthly Repair Cafés, where local residents can bring items to repair, helping reduce waste and teach repair skills.",
+      "howItWorks": "A Repair Café is a community event where locals fix household items and reduce waste. Volunteers help repair things like appliances, furniture, and clothing. Held several weekends a month in Haringey, these free sessions aim to promote sustainability. Check the calendar for upcoming events and book a free weekend slot."
+    },
+    "northLondonWasteAuthority": {
+      "name": "North London Waste Authority",
+      "about": "The North London Waste Authority (NLWA) manages waste disposal and recycling services for seven north London boroughs, and delivers multiple projects aiming to reduce waste and improve sustainability.",
+      "howItWorks": "NLWA promotes repair initiatives to reduce waste, offering a repair directory on their website. This directory includes resources like repair services, DIY repair tips, and guides to extend the life of household items.",
+      "websiteLabel": "www.nlwa.gov.uk"
+    },
+    "clothesBanks": {
+      "name": "Clothes Banks",
+      "about": "Several charities, including TRAID and The Salvation Army, have clothes banks located throughout the city, where you can drop off unwanted clothes, textiles, and shoes at any time.",
+      "howItWorks": "Simply bag your items and place them in the designated recycling bins. These banks are conveniently located in multiple spots. Here's a map to help you find the nearest one.",
+      "websiteLabel": "Google maps location"
+    }
+  },
+  "locations": {
+    "ferrylane": {
+      "name": "Ferry Lane Estate",
+      "description": "Ferry Lane Estate is the first delivery location for the Waste Not campaign. Bold, eye-catching information panels promoting household item donations have been strategically installed in common dumping areas across the estate. <span class=\"bold\">Explore our comprehensive guide on where and how to donate.</span>"
+    }
+  },
+  "sections": {
+    "wasteNot": "Waste Not is an environmental initiative designed to educate local residents on the importance of reusing household items rather than discarding them in their neighborhoods.<br /><br /><span class=\"bold\">The campaign encourages residents to share reusable items through local networks or donate them to charities.</span><br /><br />Delivered by Kind Cycle, funded by the Veolia Sustainability Fund and supported by Haringey Council and the Ferry Lane Action Group, <a class=\"bold\" href=\"/wastenot/ferrylane\">Ferry Lane Estate is the first location for the Waste Not campaign.</a>",
+    "contact": "Want to learn more about the Kind Cycle and Waste Not project? Want to suggest a charity or an organisation to include? Pop us a message!<br /><br /><span class=\"bold\">kindcycle.uk@gmail.com</span>",
+    "about": "The UK discards 640,000 tonnes of reusable items each year. Kind Cycle, a group of residents focused on sustainability, is tackling this issue with projects that reduce waste and connect communities by promoting reuse over recycling. With expertise in architecture, design, and events, they create initiatives that educate and build stronger communities.<br /><br /><a class=\"bold\" href=\"/contact\">Contact us</a>"
+  },
+  "navLocations": {
+    "wastenot": "Waste Not",
+    "ferrylane": "Ferry Lane",
+    "about": "About",
+    "contact": "Contact"
+  }
+}

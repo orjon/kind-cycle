@@ -1,7 +1,10 @@
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 
 import NavItem from './NavItem'
+import LanguageSelector from '../components/LanguageSelector'
+import { addLanguagePrefix } from '../utils'
 
 import { getSettings } from '../settings'
 
@@ -9,16 +12,18 @@ import navLocations from '../content/navLocations'
 
 import '../styles/nav/Nav.scss'
 import '../styles/nav/NavBurger.scss'
+import '../styles/components/LanguageSelector.scss'
 
 const Nav = () => {
+  const { t } = useTranslation()
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const navItems = navLocations.map((location) => {
-    const { id, label, path } = location
+    const { id, path } = location
     return (
       <NavItem
         key={id}
-        label={label}
+        label={t(`navLocations.${id}`)}
         path={path}
         setIsMenuOpen={setIsMenuOpen}
       />
@@ -37,12 +42,13 @@ const Nav = () => {
         <span></span>
       </div>
       <div className={`BurgerMenu ${isMenuOpen ? 'open' : ''}`}>{navItems}</div>
-      <NavLink to='/'>
+      <NavLink to={addLanguagePrefix('/')}>
         <div className='Logo'>
           <div className='LogoText'>Kind Cycle</div>
         </div>
       </NavLink>
       <div className='NavMenu'>{navItems}</div>
+      <LanguageSelector />
     </div>
   )
 }

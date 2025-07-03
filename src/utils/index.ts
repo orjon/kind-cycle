@@ -1,12 +1,45 @@
-import { LocationCategory } from '../types/types'
-
 import { locations } from '../content'
+import { supportedLangs } from '../constants'
 
 export const getLocationCategoryOrganisations = (
   locationId: string,
   categoryId: string
-) => {
-  return locations[locationId].categories.find(
-    (category: LocationCategory) => category.id === categoryId
-  )?.organisations
+): string[] | undefined => {
+  const location = locations[locationId]
+  if (!location) return undefined
+
+  const category = location.categories.find((cat) => cat.id === categoryId)
+  return category?.organisations
+}
+
+// Utility to get current language prefix from URL
+export const getCurrentLanguagePrefix = (): string => {
+  const pathname = window.location.pathname
+  const segments = pathname.split('/').filter(Boolean)
+
+  // Check if first segment is a supported language
+  const firstSegment = segments[0]
+
+  if (firstSegment && supportedLangs.includes(firstSegment)) {
+    return `/${firstSegment}`
+  }
+
+  return '' // No language prefix (default)
+}
+
+// Utility to add language prefix to a path
+export const addLanguagePrefix = (path: string): string => {
+  const langPrefix = getCurrentLanguagePrefix()
+
+  // If path already starts with the language prefix, return as is
+  if (langPrefix && path.startsWith(langPrefix)) {
+    return path
+  }
+
+  return `${langPrefix}${path}`
+}
+
+// Utility to get home path with current language prefix
+export const getHomePathWithLanguage = (): string => {
+  return addLanguagePrefix('/')
 }

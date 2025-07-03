@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom'
 import { trackEvent } from '../utils/analytics'
+import { addLanguagePrefix } from '../utils'
 import { ClickEvent } from '../types/types'
 
 type NavItemProps = {
@@ -18,7 +19,11 @@ const NavItem = ({ label, path, setIsMenuOpen }: NavItemProps) => {
   }
 
   return (
-    <NavLink className='NavItem' to={path} onClick={handleNavClick}>
+    <NavLink
+      className='NavItem'
+      to={addLanguagePrefix(path)}
+      onClick={handleNavClick}
+    >
       <div className='text'>{label}</div>
     </NavLink>
   )

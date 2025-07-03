@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom'
-
-import { categories } from '../content'
+import { useTranslation } from 'react-i18next'
 import { trackEvent } from '../utils/analytics'
+import { addLanguagePrefix } from '../utils'
 import { ClickEvent } from '../types/types'
 
 import '../styles/components/Categories.scss'
@@ -14,12 +14,14 @@ type CategoriesProps = {
 }
 
 const Categories = ({ categoryIds, link }: CategoriesProps) => {
+  const { t } = useTranslation()
+
   const categoryTiles = categoryIds.map((categoryId, index) => {
     const color = iconColors[index % iconColors.length]
 
     const trackClick = () => {
       trackEvent(ClickEvent.category, {
-        category: categories[categoryId].name,
+        category: t(`categories.${categoryId}.name`),
         on_page: window.location.href
       })
     }
@@ -28,18 +30,18 @@ const Categories = ({ categoryIds, link }: CategoriesProps) => {
       <div key={categoryId} className='location-category'>
         <NavLink
           className={`category-tile ${color}`}
-          to={`/wastenot/${link}${categoryId}`}
+          to={addLanguagePrefix(`/wastenot/${link}${categoryId}`)}
           onClick={trackClick}
         >
           <div className='icon-container'>
             <img
               className={`icon ${color}`}
               src={`/images/icons/categories/${categoryId}.webp`}
-              alt={`${categories[categoryId].name} icon`}
+              alt={`${t(`categories.${categoryId}.name`)} icon`}
             />
           </div>
 
-          {/* <div className='name'>{categories[category.id].name}</div> */}
+          {/* <div className='name'>{t(`categories.${categoryId}.name`)}</div> */}
         </NavLink>
       </div>
     )

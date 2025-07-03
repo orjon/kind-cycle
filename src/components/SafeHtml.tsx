@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { addLanguagePrefix } from '../utils'
 import '../styles/components/SafeHtml.scss'
 
 interface SafeHtmlProps {
@@ -25,11 +26,29 @@ export const SafeHtml: React.FC<SafeHtmlProps> = ({ html, className }) => {
       // Handle specific elements
       if (element.tagName === 'A') {
         const href = element.getAttribute('href') || ''
-        return (
-          <Link to={href} className={element.className}>
-            {children}
-          </Link>
-        )
+
+        // Check if it's an internal link (starts with /) vs external link (http/https)
+        const isInternalLink = href.startsWith('/') && !href.startsWith('//')
+
+        if (isInternalLink) {
+          return (
+            <Link to={addLanguagePrefix(href)} className={element.className}>
+              {children}
+            </Link>
+          )
+        } else {
+          // External link - use regular anchor tag
+          return (
+            <a
+              href={href}
+              className={element.className}
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              {children}
+            </a>
+          )
+        }
       }
 
       if (element.tagName === 'SPAN') {

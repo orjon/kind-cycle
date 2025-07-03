@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "home": "Strona główna",
+    "about": "O nas",
+    "contact": "Kontakt"
+  },
+  "home": {
+    "title": "Nie na śmietnik!",
+    "subtitle": "Zrównoważone życie"
+  },
+  "about": {
+    "title": "O nas",
+    "description": "W Wielkiej Brytanii każdego roku wyrzuca się 640 000 ton rzeczy, które można ponownie wykorzystać. Kind Cycle to grupa mieszkańców skupiona na zrównoważonym rozwoju, która przez promowanie ponownego użycia zamiast recyklingu zmniejsza ilość odpadów i łączy społeczności. Dzięki doświadczeniu w architekturze, projektowaniu i organizacji wydarzeń tworzą inicjatywy edukacyjne i wzmacniające lokalne społeczności.",
+    "contactLink": "Skontaktuj się z nami"
+  },
+  "contact": {
+    "title": "Skontaktuj się z nami",
+    "description": "Skontaktuj się z nami."
+  },
+  "categories": {
+    "babyItems": {
+      "name": "Artykuły dla niemowląt",
+      "imageDescription": "Ikony różnych artykułów dla niemowląt",
+      "description": "Dzieci szybko rosną, a używane rzeczy zajmują miejsce. <span class=\"bold\">Przekaż delikatnie używane artykuły dla niemowląt rodzinom, które ich potrzebują, i zrób miejsce.</span>"
+    },
+    "clothes": {
+      "name": "Ubrania",
+      "imageDescription": "Ikony różnych ubrań",
+      "description": "Posprzątaj swoją szafę i przekaż ubrania, których już nie nosisz. <span class=\"bold\">Daj drugie życie swoim butom i ubraniom, pozwól innym się nimi cieszyć.</span>"
+    },
+    "furniture": {
+      "name": "Meble",
+      "imageDescription": "Ikony różnych mebli",
+      "description": "Jeśli masz meble, których już nie potrzebujesz lub nie lubisz, a zajmują miejsce, przekaż je i popraw komuś dzień – <span class=\"bold\">nawet mogą je odebrać spod twoich drzwi!</span>"
+    },
+    "repair": {
+      "name": "Napraw!",
+      "imageDescription": "Ikony różnych narzędzi do naprawy",
+      "description": "<span class=\"bold\">Naprawianie uszkodzonych rzeczy</span> <span class=\"bold\">to łatwy sposób na zmniejszenie odpadów, chroniąc jednocześnie planetę i swój portfel.</span>"
+    },
+    "household": {
+      "name": "Artykuły gospodarstwa domowego",
+      "imageDescription": "Ikony różnych artykułów gospodarstwa domowego",
+      "description": "Coś, czego ty nie potrzebujesz, może się spodobać komuś innemu. Twoje niechciane artykuły gospodarstwa domowego mogą być dokładnie tym, czego szuka ktoś inny!"
+    },
+    "neighbours": {
+      "name": "Dziel się z sąsiadami",
+      "imageDescription": "Ikony różnych artykułów gospodarstwa domowego",
+      "description": "Dziel się rzeczami, których już nie potrzebujesz, z sąsiadami z Ferry Lane: są lokalni i mogą łatwo je odebrać. Od małych rzeczy, które nikt nie będzie musiał daleko transportować, po duże, które wymagają przewozu — wszystko jest łatwiejsze, gdy sąsiedzi są blisko. Możesz nawet przekazać karmę, której twój kot nie lubi, nadmiar jedzenia w lodówce przed wyjazdem na wakacje czy dodatkowe zapasy z spiżarni.<br /><br /><span class=\"bold\">Dołącz do społeczności FLAG na WhatsApp, klikając lub skanując poniższy kod QR, aby dzielić się tam swoimi rzeczami.</span>",
+      "whatsApp": {
+        "name": "Grupa WhatsApp Ferrylane",
+        "label": "Dołącz do społeczności FLAG na WhatsApp"
+      }
+    }
+  },
+  "organisations": {
+    "howItWorksLabel": "Jak to działa",
+    "lloydPark": {
+      "name": "Lloyd Park Fundacja Pomocy Dzieciom",
+      "about": "Lloyd Park Fundacja Pomocy Dzieciom zapewnia niezbędne usługi i wsparcie dla dzieci i rodzin w społeczności Waltham Forest.",
+      "howItWorks": "Projekty Baby Bank dostarczają rodzinom w potrzebie podstawowe artykuły, takie jak ubrania dziecięce, wyposażenie i produkty higieniczne. Zbierają rzeczy dla dzieci w wieku 0-5 lat. Sprawdź aktualną listę przyjmowanych rzeczy, miejsca i godziny dostawy na stronie internetowej i wyślij e-mail."
+    },
+    "pramDepot": {
+      "name": "Pram Depot",
+      "about": "PramDepot to projekt recyklingowy zorientowany na sztukę, wspierający zagrożone młode matki przez dostarczanie im używanych ubrań i wyposażenia dla niemowląt.",
+      "howItWorks": "Delikatnie używane artykuły dla niemowląt można przekazywać w lokalizacji Wood Green. Lista przyjmowanych rzeczy jest dostępna na stronie internetowej. Aby umówić oddanie, po prostu zaplanuj termin korzystając z formularza darowizny online."
+    },
+    "olio": {
+      "name": "Olio",
+      "about": "Olio to aplikacja mobilna łącząca społeczności do bezpłatnego dzielenia się rzeczami, pomagająca zmniejszać marnotrawstwo jedzenia i artykułów gospodarstwa domowego.",
+      "howItWorks": "Pobierz aplikację i załóż konto. Po rejestracji możesz udostępniać rzeczy, takie jak jedzenie i artykuły domowe. Możesz też przeglądać listy innych osób w twojej okolicy, zamawiać lub pożyczać rzeczy. Użytkownicy kontaktują się bezpośrednio przez aplikację, aby umówić odbiór lub dostawę."
+    },
+    "freecycle": {
+      "name": "Freecycle",
+      "about": "Freecycle to platforma, gdzie ludzie dają rzeczy, których już nie potrzebują, za darmo, promując ponowne użycie i redukcję odpadów.",
+      "howItWorks": "Zarejestruj się, załóż konto i dołącz do swojej lokalnej grupy oraz pobliskich grup. Możesz udostępniać listy rzeczy, takich jak meble, elektronika czy ubrania, i organizować odbiory za pomocą bezpośrednich wiadomości. Freecycle promuje wymianę towarów bez transakcji finansowych, a użytkownicy mogą też zamieszczać ogłoszenia poszukiwanych przedmiotów."
+    },
+    "facebookMarketplace": {
+      "name": "Facebook Marketplace",
+      "about": "Facebook Marketplace to platforma online, gdzie użytkownicy mogą kupować, sprzedawać i przekazywać rzeczy w swojej lokalnej społeczności.",
+      "howItWorks": "Aby przekazać przedmiot na Facebook Marketplace, zaloguj się na Facebooka i przejdź do sekcji Marketplace. Kliknij 'Utwórz nowe ogłoszenie', wybierz 'Przedmiot na sprzedaż' i ustaw cenę na 0 GBP. Dodaj zdjęcia, opisy, lokalizację i szczegóły przedmiotu. Lokalni użytkownicy mogą bezpośrednio do ciebie napisać, by umówić odbiór."
+    },
+    "britishHeartFoundation": {
+      "name": "British Heart Foundation",
+      "about": "British Heart Foundation finansuje badania nad chorobami serca i wspiera osoby dotknięte schorzeniami układu sercowo-naczyniowego.",
+      "howItWorks": "British Heart Foundation przyjmuje darowizny odzieży, książek, urządzeń elektrycznych i mebli. Oferują darmową usługę odbioru dużych przedmiotów, którą można zamówić przez formularz online. Wystarczy podać szczegóły przedmiotu, preferowaną datę odbioru, adres i dane kontaktowe.",
+      "websiteLabel": "www.bhf.org.uk"
+    },
+    "encouragingReuse": {
+      "name": "Encouraging Reuse",
+      "about": "",
+      "howItWorks": "Sklep 'Encouraging Reuse' to miejsce zorientowane na społeczność, promujące zrównoważony rozwój przez darowizny i ponowne użycie rzeczy.",
+      "websiteLabel": "Lokalizacja w Google Maps"
+    },
+    "traid": {
+      "name": "TRAID",
+      "about": "TRAID to brytyjska organizacja charytatywna, która redukuje odpady tekstylne, przekształcając niechciane ubrania w fundusze na projekty rozwojowe na całym świecie.",
+      "howItWorks": "Zebrane ubrania są sprzedawane, by finansować ich działania. Możesz przekazać czyste, noszalne ubrania do banków darów TRAID lub sklepów charytatywnych. Na duże dary oferują bezpłatną usługę odbioru z domu, którą można zorganizować przez ich stronę internetową.",
+      "websiteLabel": "www.traid.org.uk"
+    },
+    "weCollectWeDonate": {
+      "name": "WeCollectWeDonate",
+      "about": "WeCollectWeDonate to inicjatywa społeczna, która bezpłatnie odbiera ubrania, książki i artykuły domowe bezpośrednio spod twoich drzwi.",
+      "howItWorks": "Sprzedają te rzeczy lub przekazują je organizacjom charytatywnym, pomagając zbierać fundusze na cele takie jak bezdomność, zdrowie psychiczne i edukacja. Możesz łatwo umówić odbiór rzeczy w dobrym stanie przez ich stronę internetową."
+    },
+    "haringeyFixers": {
+      "name": "Haringey Fixers",
+      "about": "Haringey Fixers to społecznościowa organizacja charytatywna promująca naprawę i ponowne użycie. Organizują comiesięczne kawiarenki naprawcze, gdzie mieszkańcy mogą przynosić swoje rzeczy do naprawy.",
+      "howItWorks": "Kawiarenka naprawcza to wydarzenie, podczas którego lokalni mieszkańcy naprawiają swoje rzeczy i zmniejszają ilość odpadów. Wolontariusze pomagają naprawiać urządzenia, meble i odzież. Sesje są bezpłatne i odbywają się kilka weekendów w miesiącu w Haringey. Sprawdź kalendarz nadchodzących wydarzeń i zarezerwuj darmowy termin weekendowy."
+    },
+    "northLondonWasteAuthority": {
+      "name": "North London Waste Authority",
+      "about": "North London Waste Authority (NLWA) zarządza usługami usuwania odpadów i recyklingu dla siedmiu północnolondyńskich dzielnic oraz realizuje projekty mające na celu zmniejszenie odpadów i poprawę zrównoważonego rozwoju.",
+      "howItWorks": "NLWA promuje inicjatywy naprawcze i oferuje poradniki napraw na swojej stronie internetowej. Poradnik zawiera informacje o usługach naprawczych, wskazówki 'zrób to sam' oraz porady dotyczące wydłużenia żywotności sprzętów domowych.",
+      "websiteLabel": "www.nlwa.gov.uk"
+    },
+    "clothesBanks": {
+      "name": "Banki odzieżowe",
+      "about": "Wiele organizacji charytatywnych, w tym TRAID i The Salvation Army, posiada punkty zbiórki ubrań, tekstyliów i obuwia w całym mieście, gdzie możesz zostawić niechciane rzeczy o każdej porze.",
+      "howItWorks": "Po prostu spakuj swoje rzeczy w torbę i włóż do wyznaczonych pojemników na recykling. Punkty te są dogodnie rozmieszczone w wielu miejscach. Znajdziesz mapę, która pomoże ci znaleźć najbliższy punkt.",
+      "websiteLabel": "Lokalizacja w Google Maps"
+    }
+  },
+  "locations": {
+    "ferrylane": {
+      "name": "Osiedle Ferry Lane",
+      "description": "Osiedle Ferry Lane to pierwsza lokalizacja realizacji kampanii Waste Not. Odważne, przyciągające wzrok panele informacyjne promujące darowizny artykułów domowych zostały strategicznie rozmieszczone w częściach wspólnych osiedla.<span class=\"bold\"> Poznaj nasz kompleksowy przewodnik, gdzie i jak przekazywać przedmioty.</span>"
+    }
+  },
+  "sections": {
+    "wasteNot": "Waste Not to inicjatywa ekologiczna mająca na celu edukację lokalnych mieszkańców na temat znaczenia ponownego wykorzystania artykułów domowych zamiast ich wyrzucania w okolicy.<br /><br /><span class=\"bold\">Kampania zachęca mieszkańców do dzielenia się rzeczami poprzez lokalne sieci lub do przekazywania ich organizacjom charytatywnym.</span><br /><br />Prowadzona przez Kind Cycle, finansowana przez Veolia Sustainability Fund i wspierana przez Radę Haringey oraz Ferry Lane Action Group, <a class=\"bold\" href=\"/wastenot/ferrylane\">osiedle Ferry Lane jest pierwszą lokalizacją kampanii Waste Not.</a>",
+    "contact": "Chcesz dowiedzieć się więcej o Kind Cycle i projekcie Waste Not? Chcesz zaproponować organizację charytatywną lub inną instytucję do uwzględnienia? Napisz do nas!<br /><br /><span class=\"bold\">kindcycle.uk@gmail.com</span>",
+    "about": "W Wielkiej Brytanii każdego roku wyrzuca się 640 000 ton przedmiotów nadających się do ponownego użycia. Kind Cycle, grupa mieszkańców skupiona na zrównoważonym rozwoju, walczy z tym problemem za pomocą projektów redukujących odpady i łączących społeczności poprzez promowanie ponownego użycia zamiast recyklingu. Dzięki wiedzy z zakresu architektury, projektowania i organizacji wydarzeń tworzą inicjatywy edukacyjne i wspierające silniejsze społeczności.<br /><br /><a class=\"bold\" href=\"/contact\">Skontaktuj się z nami</a>"
+  },
+  "navLocations": {
+    "wastenot": "Waste Not",
+    "ferrylane": "Ferry Lane",
+    "about": "O nas",
+    "contact": "Kontakt"
+  }
+}

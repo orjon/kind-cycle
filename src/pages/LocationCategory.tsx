@@ -1,20 +1,26 @@
 import { useParams, Navigate } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 
 import LocationOrganisation from '../components/LocationOrganisation'
 import LocationHeader from '../components/LocationHeader'
 import CategoryHeader from '../components/CategoryHeader'
 import QRCode from '../components/QRCode'
 
-import { getLocationCategoryOrganisations } from '../utils'
+import {
+  getLocationCategoryOrganisations,
+  getHomePathWithLanguage
+} from '../utils'
 
 import { categories, path } from '../content'
 
 import '../styles/pages/LocationCategory.scss'
 
 const LocationCategory = () => {
+  const { t } = useTranslation()
   const { locationId, categoryId } = useParams()
 
-  if (!locationId || !categoryId) return <Navigate to='/' />
+  if (!locationId || !categoryId)
+    return <Navigate to={getHomePathWithLanguage()} />
 
   const category = categories[categoryId]
 
@@ -42,7 +48,7 @@ const LocationCategory = () => {
             filename={category.whatsApp.qrcode}
             path={path.qrcode}
             link={category.whatsApp.link}
-            altText={category.whatsApp.label}
+            altText={t(`categories.${categoryId}.whatsApp.label`)}
           />
         )}
       </div>

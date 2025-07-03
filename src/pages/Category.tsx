@@ -5,13 +5,14 @@ import LocationOrganisation from '../components/LocationOrganisation'
 import CategoryHeader from '../components/CategoryHeader'
 
 import { categories } from '../content'
+import { getHomePathWithLanguage } from '../utils'
 
 import '../styles/pages/Category.scss'
 
 const Category = () => {
   const { categoryId } = useParams()
 
-  if (!categoryId) return <Navigate to='/' />
+  if (!categoryId) return <Navigate to={getHomePathWithLanguage()} />
 
   const organisationList = categories[categoryId].genericOrganisations.map(
     (organisationId: string) => (

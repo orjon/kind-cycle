@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "home": "Fie",
+    "about": "Fa Ho Asɛm",
+    "contact": "Fa Nkyerɛ"
+  },
+  "home": {
+    "title": "Ɛnyɛ Sɛe!",
+    "subtitle": "Ɔbra a ɛwɔ Tenenee"
+  },
+  "about": {
+    "title": "Fa Ho Asɛm",
+    "description": "UK hye gu 640,000 ton reusable nneɛma afe biara. Kind Cycle, kurowfoɔ a wogyina sustainability so, rehwɛ nsɛnhyɛso a ɛboaboa nkurɔfoɔ ano ne tua gu so, na ɛma yɛde nneɛma di bio mmom sɛ yɛnkɔrecycle. Wɔwɔ nimdeɛ wɔ architecture, design ne events mu, na wɔbɔ nsɛnhyɛso a ɛkyerɛkyerɛ nkurɔfoɔ na ɛma kurom bɔ mu yie.",
+    "contactLink": "Fa Yɛn Nkyerɛ"
+  },
+  "contact": {
+    "title": "Fa Yɛn Nkyerɛ",
+    "description": "Fa w'adwene bɛka yɛn ho."
+  },
+  "categories": {
+    "babyItems": {
+      "name": "Abɔfra Nneɛma",
+      "imageDescription": "Abɔfra nneɛma ahorow mfonini",
+      "description": "Abɔfra bɔ mmerɛ, na nneɛma a wɔanya akyɛ no gye beae. <span class=\"bold\">To abɔfra nneɛma a wɔde yɛɛ dɛ dada ma abusua a ehia wɔn na gye beae wɔ wo fi mu.</span>"
+    },
+    "clothes": {
+      "name": "Ntama",
+      "imageDescription": "Ntama ahorow mfonini",
+      "description": "Pae wo ntoma adaka mu na to nea worensɔ bio. <span class=\"bold\">Ma w’ataade ne mpaboa nya nkwa foforɔ na obi nso mfa nsɔ.</span>"
+    },
+    "furniture": {
+      "name": "Agyaadeɛ",
+      "imageDescription": "Agyaadeɛ ahorow mfonini",
+      "description": "Sɛ agyaadeɛ bi wɔ hɔ a worentɔso bio na ɛyɛ wo beae a, to no ma obi na ɔbɛnya anigye – <span class=\"bold\">wɔbɛba na wɔafa fi wo kurow abɔnten!</span>"
+    },
+    "repair": {
+      "name": "Siesie No!",
+      "imageDescription": "Siesie mmoa ahorow mfonini",
+      "description": "<span class=\"bold\">Siesie nneɛma a abu</span> yɛ ɔkwan pa a ɛbɛboa ma yɛatwa gu so a <span class=\"bold\">na ɛboa asase ne wo sika so.</span>"
+    },
+    "household": {
+      "name": "Efie Nneɛma",
+      "imageDescription": "Efie nneɛma ahorow mfonini",
+      "description": "Nea w’anhia no, obi beku dɛ. Efie nneɛma a woanhia bio no, ebia ɛno ara na obi rehwehwɛ!"
+    },
+    "neighbours": {
+      "name": "Kyɛ W'adanfo Mpɔtam",
+      "imageDescription": "Efie nneɛma ahorow mfonini",
+      "description": "Kyɛ nneɛma a woanhia bio ma Ferry Lane mpɔtamfo: wɔwɔ ha, enti ɛyɛ mmerɛ ma wɔbɛba afa. Efi nneɛma ketewa a obi renkɔ akɔfa kɔsi akɛse a ɛsɛ sɛ wotua sika sɛ wɔde ba – biribiara yɛ mmerɛ wɔ ha. Wubetumi de aduan a wo cat mpɛ no, fridge aduan a ɛka a wopɛ sɛ wokɔ akwantuo, anaa pantry nneɛma a ɛso kyɛ kyɛ.<br /><br /><span class=\"bold\">Klik anaa scan QR code a ɛwɔ fam no na bɛkɔ FLAG WhatsApp kurowfoɔ mu na to wo nneɛma hɔ.</span>",
+      "whatsApp": {
+        "name": "Ferry Lane WhatsApp kurom",
+        "label": "Bɛhyɛ FLAG WhatsApp kurowfoɔ mu"
+      }
+    }
+  },
+  "organisations": {
+    "howItWorksLabel": "Ɛyɛ Dɛn Na Ɛyɛ Adwuma",
+    "lloydPark": {
+      "name": "Lloyd Park Mma Mmoa Ahyehyɛdeɛ",
+      "about": "Lloyd Park Mma Mmoa Ahyehyɛdeɛ ma abusuakuw ne mma wɔ Waltham Forest nkuro mu mmoa ne som.",
+      "howItWorks": "Wɔ Baby Bank bɔ so de mma ntoma, nneɛma ne toiletries ma abusuakuw a ehia wɔn. Wɔgye abɔfra nneɛma firi mfe 0-5. Kɔ wɔn website so na to email de hwehwɛ nneɛma a wɔgye, drop-off beae ne bere."
+    },
+    "pramDepot": {
+      "name": "Pram Depot",
+      "about": "PramDepot yɛ nsɛnhyɛso a wɔde art di dwuma na ɛboa ababaawa foforɔ a wɔyɛ mmerɛw de recycled abɔfra nneɛma ma wɔn.",
+      "howItWorks": "To abɔfra nneɛma a wɔde yɛɛ dɛ dada wɔ Wood Green. Website no wɔ liste a ɛkyerɛ nea wɔgye. Kɔ form so na bɔ bere a wobɛde aba."
+    },
+    "olio": {
+      "name": "Olio",
+      "about": "Olio yɛ app a ɛma nkurɔfo bɔ wɔn ho ban na wɔkyɛ nneɛma kwa, na ɛboa ma yɛto gu ase.",
+      "howItWorks": "Download app no na yɛ account. Tɔ so na post nneɛma a wopɛ sɛ woma, te sɛ aduan ne efie nneɛma. Wubetumi ahwehwɛ so mpo na kɔgye nneɛma a nkurɔfo aka hɔ. Nkurɔfo kasa wɔn ho wɔ app no mu na yɛ pick-up anaa gyegye."
+    },
+    "freecycle": {
+      "name": "Freecycle",
+      "about": "Freecycle yɛ platform a nkurɔfo de nneɛma a wɔnhia bio ma kwa, na ɛma yɛde nneɛma di bio.",
+      "howItWorks": "Bɔ wo din, bɔ account, na bɛhyɛ wo kurow group ne nkurɔfo foforɔ. Wopost nneɛma a wopɛ sɛ woma, te sɛ agyaadeɛ, electronics anaa ntama. Wɔkyerɛ kwan so a wubetumi de nsɛm kɔ ma obi. Nso wubetumi post nea wopɛ nso."
+    },
+    "facebookMarketplace": {
+      "name": "Facebook Marketplace",
+      "about": "Facebook Marketplace yɛ platform a nkurɔfo tɔn, tɔ, anaa ma nneɛma wɔ wɔn mpɔtam.",
+      "howItWorks": "Sɛ wopɛ sɛ woma nneɛma, kɔ Marketplace so, klik \"Create New Listing\", paw \"Item for Sale\", na yɛ price £0. Fa mfonini, nkyerɛmu, beae ne nneɛma nkɔfa. Nkurɔfo beka wo ho wɔ message so."
+    },
+    "britishHeartFoundation": {
+      "name": "British Heart Foundation",
+      "about": "British Heart Foundation yɛ charity a wɔhwɛ akoma yare ho adwuma ne mmoa ma wɔn a yare no afa wɔn.",
+      "howItWorks": "Wɔgye ntama, nwoma, electronic, ne agyaadeɛ donations. Wɔde kɔfa agyaadeɛ akɛse kwa. Fill online form no na hyɛ bere, beae ne kontak.",
+      "websiteLabel": "www.bhf.org.uk"
+    },
+    "encouragingReuse": {
+      "name": "Encouraging Reuse",
+      "about": "",
+      "howItWorks": "\"Encouraging Reuse\" daakye bɔ so wɔ kurow so, na ɛde yɛn kɔ sustainability mu wɔ nneɛma a yedɔ na yɛde di bio.",
+      "websiteLabel": "Google maps beae"
+    },
+    "traid": {
+      "name": "TRAID",
+      "about": "TRAID yɛ UK charity a ɛyɛ adwuma de nsakra ntama a wɔmpɛ bio na wɔde boa projects wɔ wiase nyinaa.",
+      "howItWorks": "Ntama a wɔde yɛɛ dɛ no wɔgye, na wɔtɔn de boa wɔn nsɛnhyɛso. Tumi de ntama brɛ donation bank anaa charity shop. Wɔgye agyaadeɛ a ɛyɛ dɛ so. Sɛ ɛyɛ bebree, wubetumi de form so bɔ collection.",
+      "websiteLabel": "www.traid.org.uk"
+    },
+    "weCollectWeDonate": {
+      "name": "WeCollectWeDonate",
+      "about": "WeCollectWeDonate yɛ social enterprise a wɔgye ntama, nwoma, ne efie nneɛma wɔ wo kurow abɔnten kwa.",
+      "howItWorks": "Wɔtɔn anaa ma charities, na ɛboa ma wɔnya sika ma nsɛnhyɛso te sɛ homeless, adwene yare ne sukuu. Fa wɔn website so bɔ collection a ɛyɛ mmerɛ na wogye nneɛma pa so."
+    },
+    "haringeyFixers": {
+      "name": "Haringey Fixers",
+      "about": "Haringey Fixers yɛ charity a nkurɔfo yɛ, na ɛma wɔsiesie nneɛma na wɔkyerɛ repair skills wɔ Repair Cafés.",
+      "howItWorks": "Repair Café yɛ beae a nkurɔfo de nneɛma bɛsiesie. Wɔboa nkurɔfo siesie appliances, agyaadeɛ, ne ntama. Ɛkɔ so mpɛn pii wɔ Haringey, na ɛyɛ kwa. Kɔ website na hyɛ bere wɔ calendar.",
+      "websiteLabel": "www.nlwa.gov.uk"
+    },
+    "northLondonWasteAuthority": {
+      "name": "North London Waste Authority",
+      "about": "North London Waste Authority hwɛ waste disposal ne recycling wɔ London nkurofie ason mu, na ɛma projects a ɛma yɛato gu so.",
+      "howItWorks": "Wɔde repair directory wɔ website a ɛboa wɔ sɛnea wubetumi siesie wo nneɛma. Directory no yɛ nea wubetumi ahwehwɛ repair services, tips ne nkɔfa.",
+      "websiteLabel": "www.nlwa.gov.uk"
+    },
+    "clothesBanks": {
+      "name": "Ntama Bank",
+      "about": "Charities te sɛ TRAID ne Salvation Army wɔ ntama bank wɔ kurow no mu a wubetumi de ntama, textiles ne mpaboa gyaw hɔ bere biara.",
+      "howItWorks": "Fa wo nneɛma gu bag mu na gu wɔ recycling bin. Wɔwɔ beae ahorow. Kɔ map na hu nea ɛbɛn wo.",
+      "websiteLabel": "Google maps beae"
+    }
+  },
+  "locations": {
+    "ferrylane": {
+      "name": "Ferry Lane Estate",
+      "description": "Ferry Lane Estate yɛ beae a Waste Not campaign di kan. Wɔde nsɛnkɔm a ɛbɔ nkɔmɔ wɔ dumping beae de kyekyɛ adwene wɔ household donation ho. <span class=\"bold\">Hu yɛn nsɛnhyɛso a ɛkyerɛ beae ne ɛkwan a wode betumi atɔ.</span>"
+    }
+  },
+  "sections": {
+    "wasteNot": "Waste Not yɛ nsɛnhyɛso a ɛkyerɛ kurowfo sɛ ɛsɛ sɛ wode nneɛma di bio na mmom, na wogyaa gu. <br /><br /><span class=\"bold\">Campaign no frɛ kurowfo sɛ wɔkyɛ nneɛma a ɛde betumi adi bio wɔ local anaa ma charities.</span><br /><br />Ɛyɛ Kind Cycle na wɔyɛ, na Veolia Sustainability Fund ne Haringey Council ne Ferry Lane Action Group boaboa ho. <a class=\"bold\" href=\"/wastenot/ferrylane\">Ferry Lane Estate yɛ beae a wɔyɛ Waste Not campaign no.</a>",
+    "contact": "Pɛ sɛ wuhu Kind Cycle ne Waste Not ho pii? Anaa wo pɛ sɛ wode charity anaa nsɛnhyɛso ka ho? Fa yɛn nkyerɛ!<br /><br /><span class=\"bold\">kindcycle.uk@gmail.com</span>",
+    "about": "UK hye gu 640,000 ton reusable nneɛma afe biara. Kind Cycle, kurowfoɔ a wogyina sustainability so, rehwɛ nsɛnhyɛso a ɛboaboa nkurɔfoɔ ano ne tua gu so, na ɛma yɛde nneɛma di bio mmom sɛ yɛnkɔrecycle. Wɔwɔ nimdeɛ wɔ architecture, design ne events mu, na wɔbɔ nsɛnhyɛso a ɛkyerɛkyerɛ nkurɔfoɔ na ɛma kurom bɔ mu yie.<br /><br /><a class=\"bold\" href=\"/contact\">Fa Yɛn Nkyerɛ</a>"
+  },
+  "navLocations": {
+    "wastenot": "Waste Not",
+    "ferrylane": "Ferry Lane",
+    "about": "Fa Ho Asɛm",
+    "contact": "Fa Nkyerɛ"
+  }
+}

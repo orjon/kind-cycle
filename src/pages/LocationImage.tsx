@@ -1,14 +1,17 @@
 import { useParams, Navigate } from 'react-router-dom'
 import { useState, useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
 
 import { locations } from '../content'
+import { getHomePathWithLanguage } from '../utils'
 
 import '../styles/pages/LocationImages.scss'
 
 function Location() {
+  const { t } = useTranslation()
   const { locationId } = useParams()
   const location = locationId && locations[locationId]
-  if (!location) return <Navigate to='/' />
+  if (!location) return <Navigate to={getHomePathWithLanguage()} />
 
   const [image, setImage] = useState(null)
 
@@ -16,14 +19,20 @@ function Location() {
     import(`../assets/images/locations/${location.id}.webp`).then((image) =>
       setImage(image.default)
     )
-  }, [location.name])
+  }, [location.id])
 
   return (
     <div className='Location page'>
       <div className='location-header'>
-        {image && <img className='photo' src={image} alt={location.name} />}
+        {image && (
+          <img
+            className='photo'
+            src={image}
+            alt={t(`locations.${locationId}.name`)}
+          />
+        )}
         <div className='name'>
-          {location.name} {location.postcode}
+          {t(`locations.${locationId}.name`)} {location.postcode}
         </div>
       </div>
     </div>

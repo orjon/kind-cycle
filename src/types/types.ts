@@ -1,14 +1,10 @@
 export type NavLocation = {
   id: string
-  label: string
   path: string
 }
 
 export type Organisation = {
   id: string
-  name: string
-  about: string
-  howItWorks: string
   address?: string | null
   website?: { url: string; label?: string }
 }
@@ -24,9 +20,7 @@ export type LocationCategory = {
 
 export type Location = {
   id: string
-  name: string
   postcode: string
-  description: string
   image?: string
   website?: string
   categories: LocationCategory[]
@@ -38,13 +32,10 @@ export type LocationsDirectory = {
 
 export type Category = {
   id: string
-  name: string
   color: { text: string; border: string }
-  imageDescription: string
-  description: string
   genericOrganisations: string[]
   localGroup?: boolean
-  whatsApp?: { name: string; qrcode: string; link: string; label: string }
+  whatsApp?: { qrcode: string; link: string }
 }
 
 export type CategoriesDirectory = {

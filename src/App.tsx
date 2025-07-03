@@ -1,6 +1,13 @@
-import { Routes, Route } from 'react-router-dom'
+import {
+  Routes,
+  Route,
+  useParams,
+  Outlet,
+  useNavigate,
+  useLocation
+} from 'react-router-dom'
 import { useEffect } from 'react'
-import { useLocation } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import Nav from './nav/Nav'
 import Home from './pages/Home'
 import About from './pages/About'
@@ -12,11 +19,34 @@ import Category from './pages/Category'
 import ScrollToTop from './components/ScrollToTop'
 import { getSettings } from './settings'
 import { initGA, trackPageView } from './utils/analytics'
+import { supportedLangs } from './constants'
 
 import './styles/App.scss'
 
 // Initialize GA4
 initGA(import.meta.env.VITE_GTM_ID)
+
+const AppWrapper = () => {
+  const { lang } = useParams()
+  const { i18n } = useTranslation()
+  const navigate = useNavigate()
+  const location = useLocation()
+
+  useEffect(() => {
+    const langToUse = lang ?? 'en'
+
+    if (!supportedLangs.includes(langToUse)) {
+      // redirect to default language without changing URL structure
+      const strippedPath = location.pathname.replace(/^\/[^/]+/, '')
+      navigate(`/en${strippedPath}`, { replace: true })
+      return
+    }
+
+    i18n.changeLanguage(langToUse) // synchronous with preloaded translations
+  }, [lang, i18n, navigate, location])
+
+  return <Outlet />
+}
 
 function App() {
   const location = useLocation()
@@ -32,28 +62,33 @@ function App() {
       <Nav />
       <div className={`main-wrapper ${getSettings()}`}>
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/wastenot' element={<Home />} />
-          <Route path='/wastenot/:locationId' element={<Location />} />
-          <Route
-            path='/wastenot/:locationId/leaflet'
-            element={<RedirectToLocation />}
-          />
-          <Route
-            path='/wastenot/:locationId/poster'
-            element={<RedirectToLocation />}
-          />
-          <Route
-            path='/wastenot/:locationId/panel'
-            element={<RedirectToLocation />}
-          />
-          <Route
-            path='/wastenot/:locationId/:categoryId'
-            element={<LocationCategory />}
-          />
-          <Route path='/wastenot/category/:categoryId' element={<Category />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/contact' element={<Contact />} />
+          <Route path='/:lang?' element={<AppWrapper />}>
+            <Route index element={<Home />} />
+            <Route path='wastenot' element={<Home />} />
+            <Route path='wastenot/:locationId' element={<Location />} />
+            <Route
+              path='wastenot/:locationId/leaflet'
+              element={<RedirectToLocation />}
+            />
+            <Route
+              path='wastenot/:locationId/poster'
+              element={<RedirectToLocation />}
+            />
+            <Route
+              path='wastenot/:locationId/panel'
+              element={<RedirectToLocation />}
+            />
+            <Route
+              path='wastenot/:locationId/:categoryId'
+              element={<LocationCategory />}
+            />
+            <Route
+              path='wastenot/category/:categoryId'
+              element={<Category />}
+            />
+            <Route path='about' element={<About />} />
+            <Route path='contact' element={<Contact />} />
+          </Route>
         </Routes>
       </div>
     </div>

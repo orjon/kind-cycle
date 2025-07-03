@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "contact": "Contacto"
+  },
+  "home": {
+    "title": "Waste Not!",
+    "subtitle": "Vida Sostenible"
+  },
+  "about": {
+    "title": "Acerca de",
+    "description": "El Reino Unido descarta 640.000 toneladas de artículos reutilizables cada año. Kind Cycle, un grupo de residentes enfocado en la sostenibilidad, está abordando este problema con proyectos que reducen el desperdicio y conectan comunidades promoviendo la reutilización sobre el reciclaje. Con experiencia en arquitectura, diseño y eventos, crean iniciativas que educan y construyen comunidades más fuertes.",
+    "contactLink": "Contáctanos"
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "description": "Ponte en contacto con nosotros."
+  },
+  "categories": {
+    "babyItems": {
+      "name": "Artículos para Bebé",
+      "imageDescription": "Iconos de varios artículos para bebé",
+      "description": "Los bebés crecen rápidamente y los artículos que les quedan pequeños ocupan espacio. <span class=\"bold\">Dona equipos de bebé usados suavemente a familias necesitadas y libera espacio.</span>"
+    },
+    "clothes": {
+      "name": "Ropa",
+      "imageDescription": "Iconos de varias prendas",
+      "description": "Limpia tu armario y dona lo que ya no uses. <span class=\"bold\">Dale una segunda vida a tus zapatos y ropa y deja que alguien más los disfrute.</span>"
+    },
+    "furniture": {
+      "name": "Muebles",
+      "imageDescription": "Iconos de varios muebles",
+      "description": "Si los muebles que ya no necesitas o amas están ocupando espacio, dónalos y alegra el día de alguien – <span class=\"bold\">¡incluso los recogerán en tu puerta!</span>"
+    },
+    "repair": {
+      "name": "¡Repáralo!",
+      "imageDescription": "Iconos de varias herramientas de reparación",
+      "description": "<span class=\"bold\">Arreglar artículos rotos</span> es una manera fácil de reducir el desperdicio mientras <span class=\"bold\">salvas el planeta y tu billetera.</span>"
+    },
+    "household": {
+      "name": "Artículos del Hogar",
+      "imageDescription": "Iconos de varios artículos del hogar",
+      "description": "Lo que tú no necesitas, alguien más lo amará. ¡Los artículos del hogar que ya no quieres podrían ser exactamente lo que alguien más está buscando!"
+    },
+    "neighbours": {
+      "name": "Comparte con Vecinos",
+      "imageDescription": "Iconos de varios artículos del hogar",
+      "description": "Compartir lo que ya no necesitas con tus vecinos de Ferry Lane: son locales y pueden recoger artículos con facilidad. Desde artículos pequeños por los que nadie viajaría hasta artículos grandes que requerirían transporte costoso, todo es más fácil cuando tus vecinos están cerca. Incluso puedes donar comida que a tu gato no le gusta, excedentes del refrigerador antes de ir de vacaciones, o artículos extra de la despensa.<br /><br /><span class=\"bold\">Haz clic o escanea el código QR de abajo para unirte a la comunidad WhatsApp FLAG y publica tus artículos allí.</span>",
+      "whatsApp": {
+        "name": "Grupo WhatsApp Ferrylane",
+        "label": "Únete al enlace de la comunidad WhatsApp FLAG"
+      }
+    }
+  },
+  "organisations": {
+    "howItWorksLabel": "Cómo Funciona",
+    "lloydPark": {
+      "name": "Caridad Infantil Lloyd Park",
+      "about": "La Caridad Infantil Lloyd Park proporciona servicios vitales y apoyo para niños y familias en la comunidad de Waltham Forest.",
+      "howItWorks": "Su proyecto Baby Bank ofrece artículos esenciales como ropa de bebé, equipos y productos de higiene a familias necesitadas. Recolectan artículos para niños de 0-5 años. Para la lista actualizada de artículos aceptados, ubicaciones de entrega y horarios, consulta el sitio web y envía un correo electrónico."
+    },
+    "pramDepot": {
+      "name": "Pram Depot",
+      "about": "PramDepot es un proyecto de reciclaje dirigido por el arte que apoya a madres vulnerables proporcionando ropa de bebé reciclada y equipos.",
+      "howItWorks": "Los equipos de bebé usados suavemente pueden donarse en la ubicación de Wood Green. Una lista de artículos aceptados está disponible en el sitio web. Para programar una entrega, simplemente programa un horario usando el formulario de donación en línea."
+    },
+    "olio": {
+      "name": "Olio",
+      "about": "Olio es una aplicación móvil que conecta comunidades para compartir artículos gratis, ayudando a reducir el desperdicio doméstico y alimentario.",
+      "howItWorks": "Descarga la aplicación y crea una cuenta. Una vez registrado, puedes publicar artículos que quieras regalar, como comida, artículos del hogar. También puedes navegar por listados de otros en tu área local para solicitar o pedir prestados artículos. Los usuarios se comunican directamente a través de la aplicación para organizar recogida o recolección."
+    },
+    "freecycle": {
+      "name": "Freecycle",
+      "about": "Freecycle es una plataforma donde las personas regalan artículos que ya no necesitan gratis, promoviendo la reutilización y reduciendo el desperdicio.",
+      "howItWorks": "Regístrate, crea una cuenta y únete a tu grupo del distrito y a los cercanos. Puedes publicar listados de artículos que quieras regalar, como muebles, electrónicos o ropa, y organizar la recolección a través de mensajes directos. Freecycle promueve intercambios impulsados por la comunidad sin transacciones financieras. Los usuarios también pueden publicar anuncios de búsqueda para artículos específicos."
+    },
+    "facebookMarketplace": {
+      "name": "Facebook Marketplace",
+      "about": "Facebook Marketplace es una plataforma en línea donde los usuarios pueden comprar, vender y regalar artículos dentro de su comunidad local.",
+      "howItWorks": "Para donar artículos en Facebook Marketplace, inicia sesión en Facebook y ve a la sección Marketplace. Haz clic en 'Crear Nueva Lista', selecciona 'Artículo en Venta' y establece el precio en £0. Agrega fotos, descripciones, ubicación y detalles del artículo. Los usuarios locales pueden enviarte mensajes directamente para organizar la recolección."
+    },
+    "britishHeartFoundation": {
+      "name": "British Heart Foundation",
+      "about": "La British Heart Foundation es una caridad dedicada a financiar investigación sobre enfermedades del corazón y apoyar a quienes se ven afectados por condiciones cardiovasculares.",
+      "howItWorks": "La British Heart Foundation acepta donaciones de ropa, libros, artículos eléctricos y muebles. Ofrecen recolección gratuita para artículos más grandes, que puedes organizar a través de un formulario en línea. Solo proporciona los detalles del artículo, fecha de recolección preferida, dirección e información de contacto.",
+      "websiteLabel": "www.bhf.org.uk"
+    },
+    "encouragingReuse": {
+      "name": "Encouraging Reuse",
+      "about": "",
+      "howItWorks": "La tienda 'Encouraging Reuse' es un espacio centrado en la comunidad dedicado a promover la sostenibilidad a través de la donación y reutilización de artículos.",
+      "websiteLabel": "Ubicación en Google Maps"
+    },
+    "traid": {
+      "name": "TRAID",
+      "about": "TRAID es una caridad del Reino Unido enfocada en reducir el desperdicio textil convirtiendo ropa no deseada en recursos para proyectos de desarrollo global.",
+      "howItWorks": "La ropa donada se recolecta y revende para financiar sus iniciativas. Puedes donar ropa limpia y usable dejándola en bancos de donación de TRAID o sus tiendas de caridad. Para donaciones más grandes, TRAID ofrece un servicio de recolección domiciliaria gratuito, que se puede organizar a través de su sitio web.",
+      "websiteLabel": "www.traid.org.uk"
+    },
+    "weCollectWeDonate": {
+      "name": "WeCollectWeDonate",
+      "about": "WeCollectWeDonate es una empresa social que recolecta artículos no deseados como ropa, libros y artículos del hogar directamente desde tu puerta, sin costo.",
+      "howItWorks": "Revenden o donan estos artículos a caridades, ayudando a recaudar fondos para causas como la falta de vivienda, salud mental y educación. Puedes organizar una recolección fácilmente a través de su sitio web, donde aceptan artículos en buenas condiciones reutilizables."
+    },
+    "haringeyFixers": {
+      "name": "Haringey Fixers",
+      "about": "Haringey Fixers es una caridad dirigida por la comunidad que promueve la reparación y reutilización. Ofrecen Repair Cafés mensuales, donde los residentes locales pueden traer artículos para reparar, ayudando a reducir el desperdicio y enseñar habilidades de reparación.",
+      "howItWorks": "Un Repair Café es un evento comunitario donde los locales reparan artículos del hogar y reducen el desperdicio. Los voluntarios ayudan a reparar cosas como electrodomésticos, muebles y ropa. Realizados varios fines de semana al mes en Haringey, estas sesiones gratuitas buscan promover la sostenibilidad. Consulta el calendario para próximos eventos y reserva un espacio gratuito de fin de semana."
+    },
+    "northLondonWasteAuthority": {
+      "name": "North London Waste Authority",
+      "about": "La North London Waste Authority (NLWA) gestiona servicios de eliminación de residuos y reciclaje para siete distritos del norte de Londres, y entrega múltiples proyectos que buscan reducir el desperdicio y mejorar la sostenibilidad.",
+      "howItWorks": "NLWA promueve iniciativas de reparación para reducir el desperdicio, ofreciendo un directorio de reparación en su sitio web. Este directorio incluye recursos como servicios de reparación, consejos de reparación DIY y guías para extender la vida de artículos del hogar.",
+      "websiteLabel": "www.nlwa.gov.uk"
+    },
+    "clothesBanks": {
+      "name": "Bancos de Ropa",
+      "about": "Varias caridades, incluyendo TRAID y The Salvation Army, tienen bancos de ropa ubicados por toda la ciudad, donde puedes dejar ropa no deseada, textiles y zapatos en cualquier momento.",
+      "howItWorks": "Simplemente empaca tus artículos y colócalos en los contenedores de reciclaje designados. Estos bancos están convenientemente ubicados en múltiples puntos. Aquí hay un mapa para ayudarte a encontrar el más cercano.",
+      "websiteLabel": "Ubicación en Google Maps"
+    }
+  },
+  "locations": {
+    "ferrylane": {
+      "name": "Ferry Lane Estate",
+      "description": "Ferry Lane Estate es la primera ubicación de entrega para la campaña Waste Not. Paneles informativos audaces y llamativos que promueven donaciones de artículos domésticos han sido instalados estratégicamente en áreas comunes de desecho en el complejo. <span class=\"bold\">Explora nuestra guía integral sobre dónde y cómo donar.</span>"
+    }
+  },
+  "sections": {
+    "wasteNot": "Waste Not es una iniciativa ambiental diseñada para educar a los residentes locales sobre la importancia de reutilizar artículos domésticos en lugar de desecharlos en sus vecindarios.<br /><br /><span class=\"bold\">La campaña anima a los residentes a compartir artículos reutilizables a través de redes locales o donarlos a organizaciones benéficas.</span><br /><br />Entregado por Kind Cycle, financiado por el Fondo de Sostenibilidad Veolia y apoyado por el Consejo Haringey y el Ferry Lane Action Group, <a class=\"bold\" href=\"/wastenot/ferrylane\">Ferry Lane Estate es la primera ubicación para la campaña Waste Not.</a>",
+    "contact": "¿Quieres aprender más sobre el proyecto Kind Cycle y Waste Not? ¿Quieres sugerir una organización benéfica u organización para incluir? ¡Envíanos un mensaje!<br /><br /><span class=\"bold\">kindcycle.uk@gmail.com</span>",
+    "about": "El Reino Unido descarta 640.000 toneladas de artículos reutilizables cada año. Kind Cycle, un grupo de residentes enfocado en la sostenibilidad, está abordando este problema con proyectos que reducen el desperdicio y conectan comunidades promoviendo la reutilización sobre el reciclaje. Con experiencia en arquitectura, diseño y eventos, crean iniciativas que educan y construyen comunidades más fuertes.<br /><br /><a class=\"bold\" href=\"/contact\">Contáctanos</a>"
+  },
+  "navLocations": {
+    "wastenot": "Waste Not",
+    "ferrylane": "Ferry Lane",
+    "about": "Acerca de",
+    "contact": "Contacto"
+  }
+}
