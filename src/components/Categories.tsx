@@ -14,7 +14,7 @@ type CategoriesProps = {
 }
 
 const Categories = ({ categoryIds, link }: CategoriesProps) => {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
 
   const categoryTiles = categoryIds.map((categoryId, index) => {
     const color = iconColors[index % iconColors.length]
@@ -36,7 +36,7 @@ const Categories = ({ categoryIds, link }: CategoriesProps) => {
           <div className='icon-container'>
             <img
               className={`icon ${color}`}
-              src={`/images/icons/categories/${categoryId}.webp`}
+              src={`/images/icons/categories/${categoryId}-${i18n.language}.webp`}
               alt={`${t(`categories.${categoryId}.name`)} icon`}
             />
           </div>
