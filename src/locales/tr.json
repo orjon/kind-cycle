@@ -119,6 +119,12 @@
       "about": "TRAID ve The Salvation Army dahil birçok yardım kuruluşu, şehir genelinde, istenmeyen kıyafet, tekstil ve ayakkabıları istediğiniz zaman bırakabileceğiniz giysi bankalarına sahiptir.",
       "howItWorks": "Sadece eşyalarınızı torbalayın ve belirlenmiş geri dönüşüm kutularına yerleştirin. Bu bankalar birden fazla noktada uygun şekilde konumlandırılmıştır. En yakınını bulmanıza yardımcı olacak bir harita.",
       "websiteLabel": "Google maps konum"
+    },
+    "footprintForGood": {
+      "name": "Footprint for Good",
+      "about": "Footprint for Good, risk altındaki gençlere destek olur: Repair Restore Respect programı aracılığıyla katılımcılar bağışlanan mobilyaları onararak yenileme ve tamir öğrenir — özgüven kazanır, pratik beceriler edinir ve sürdürülebilirliği teşvik eder.",
+      "howItWorks": "Çevrimiçi formumuzu kullanarak ücretsiz mobilya toplama talebinde bulunabilirsiniz. Takım, tarihi onaylamak için 5 iş günü içinde sizinle iletişime geçecektir. Bu hizmet şu anda yalnızca mobilyalar için geçerlidir. Kanepe, gardırop, yatak çerçevesi, masa, sandalye, raf ve depolama çözümleri kabul edilir.",
+      "websiteLabel": "www.footprintforgood.org"
     }
   },
   "locations": {

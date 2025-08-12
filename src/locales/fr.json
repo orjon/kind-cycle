@@ -119,12 +119,18 @@
       "about": "De nombreuses œuvres caritatives, y compris TRAID et The Salvation Army, disposent de points de collecte pour vêtements, textiles et chaussures dans toute la ville, où vous pouvez déposer vos articles non désirés à tout moment.",
       "howItWorks": "Il suffit de mettre vos articles dans un sac et de les déposer dans les conteneurs de recyclage désignés. Ces points sont situés à plusieurs endroits pratiques. Une carte est disponible pour vous aider à trouver le plus proche.",
       "websiteLabel": "Emplacement Google Maps"
+    },
+    "footprintForGood": {
+      "name": "Footprint for Good",
+      "about": "Footprint for Good soutient les jeunes en situation à risque : grâce au programme Repair Restore Respect, les participants apprennent l’upcycling et la restauration en réparant des meubles donnés — renforçant leur confiance, développant des compétences pratiques et favorisant la durabilité.",
+      "howItWorks": "Vous pouvez demander une collecte gratuite de meubles en utilisant notre formulaire en ligne. L’équipe vous contactera dans les 5 jours ouvrables pour confirmer la date. Ce service s’applique actuellement uniquement aux meubles. Ils acceptent les canapés, armoires, cadres de lit, tables, chaises, étagères et solutions de rangement.",
+      "websiteLabel": "www.footprintforgood.org"
     }
   },
   "locations": {
     "ferrylane": {
-      "name": "Domaine de Ferry Lane",
-      "description": "Le domaine de Ferry Lane est le premier lieu de mise en œuvre de la campagne Waste Not. Des panneaux d'information audacieux et accrocheurs promouvant les dons d'objets ménagers ont été stratégiquement installés dans les zones de dépôt communes du domaine. <span class=\"bold\">Découvrez notre guide complet sur où et comment faire un don.</span>"
+      "name": "Ferry Lane Estate",
+      "description": "Ferry Lane Estate est le premier lieu de mise en œuvre de la campagne Waste Not. Des panneaux d'information audacieux et accrocheurs promouvant les dons d'objets ménagers ont été stratégiquement installés dans les zones de dépôt communes du domaine. <span class=\"bold\">Découvrez notre guide complet sur où et comment faire un don.</span>"
     }
   },
   "sections": {

@@ -119,12 +119,18 @@
       "about": "Wiele organizacji charytatywnych, w tym TRAID i The Salvation Army, posiada punkty zbiórki ubrań, tekstyliów i obuwia w całym mieście, gdzie możesz zostawić niechciane rzeczy o każdej porze.",
       "howItWorks": "Po prostu spakuj swoje rzeczy w torbę i włóż do wyznaczonych pojemników na recykling. Punkty te są dogodnie rozmieszczone w wielu miejscach. Znajdziesz mapę, która pomoże ci znaleźć najbliższy punkt.",
       "websiteLabel": "Lokalizacja w Google Maps"
+    },
+    "footprintForGood": {
+      "name": "Footprint for Good",
+      "about": "Footprint for Good wspiera młodzież zagrożoną: w ramach programu Repair Restore Respect uczestnicy uczą się upcyklingu i renowacji, naprawiając podarowane meble — zyskując pewność siebie, praktyczne umiejętności i promując zrównoważony rozwój.",
+      "howItWorks": "Możesz poprosić o bezpłatny odbiór mebli, korzystając z naszego formularza online. Zespół skontaktuje się z Tobą w ciągu 5 dni roboczych, aby potwierdzić datę. Ta usługa obecnie dotyczy wyłącznie mebli. Przyjmują sofy, szafy, stelaże łóżek, stoły, krzesła, półki i rozwiązania do przechowywania.",
+      "websiteLabel": "www.footprintforgood.org"
     }
   },
   "locations": {
     "ferrylane": {
-      "name": "Osiedle Ferry Lane",
-      "description": "Osiedle Ferry Lane to pierwsza lokalizacja realizacji kampanii Waste Not. Odważne, przyciągające wzrok panele informacyjne promujące darowizny artykułów domowych zostały strategicznie rozmieszczone w częściach wspólnych osiedla.<span class=\"bold\"> Poznaj nasz kompleksowy przewodnik, gdzie i jak przekazywać przedmioty.</span>"
+      "name": "Ferry Lane Estate",
+      "description": "Ferry Lane Estate to pierwsza lokalizacja realizacji kampanii Waste Not. Odważne, przyciągające wzrok panele informacyjne promujące darowizny artykułów domowych zostały strategicznie rozmieszczone w częściach wspólnych osiedla.<span class=\"bold\"> Poznaj nasz kompleksowy przewodnik, gdzie i jak przekazywać przedmioty.</span>"
     }
   },
   "sections": {

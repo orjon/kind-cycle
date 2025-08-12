@@ -51,5 +51,9 @@ export const organisations: OrganisationsDirectory = {
   clothesBanks: {
     id: 'clothesBanks',
     website: { url: 'https://maps.app.goo.gl/z6gtYme6YuGxYCuA7' }
+  },
+  footprintForGood: {
+    id: 'footprintForGood',
+    website: { url: 'https://www.footprintforgood.org/donate' }
   }
 }

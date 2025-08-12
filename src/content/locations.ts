@@ -20,6 +20,7 @@ export const locations: LocationsDirectory = {
         id: cat.furniture.id,
         organisations: [
           org.britishHeartFoundation.id,
+          org.footprintForGood.id,
           org.freecycle.id,
           org.facebookMarketplace.id,
           org.olio.id
@@ -48,7 +49,11 @@ export const locations: LocationsDirectory = {
       },
       {
         id: cat.repair.id,
-        organisations: [org.haringeyFixers.id, org.northLondonWasteAuthority.id]
+        organisations: [
+          org.haringeyFixers.id,
+          org.footprintForGood.id,
+          org.northLondonWasteAuthority.id
+        ]
       }
       // { id: cat.food.id, organisations: [] },
     ]

@@ -119,6 +119,12 @@
       "about": "Varias caridades, incluyendo TRAID y The Salvation Army, tienen bancos de ropa ubicados por toda la ciudad, donde puedes dejar ropa no deseada, textiles y zapatos en cualquier momento.",
       "howItWorks": "Simplemente empaca tus artículos y colócalos en los contenedores de reciclaje designados. Estos bancos están convenientemente ubicados en múltiples puntos. Aquí hay un mapa para ayudarte a encontrar el más cercano.",
       "websiteLabel": "Ubicación en Google Maps"
+    },
+    "footprintForGood": {
+      "name": "Footprint for Good",
+      "about": "Footprint for Good apoya a jóvenes en situación de riesgo: a través del programa Repair Restore Respect, los participantes aprenden reciclaje creativo y restauración reparando muebles donados — fortaleciendo la confianza, adquiriendo habilidades prácticas y promoviendo la sostenibilidad.",
+      "howItWorks": "Puede solicitar una recogida gratuita de muebles usando nuestro formulario en línea. El equipo se pondrá en contacto con usted dentro de los 5 días laborables para confirmar la fecha. Este servicio es actualmente solo para artículos de mobiliario. Aceptan sofás, armarios, estructuras de cama, mesas, sillas, estanterías y soluciones de almacenamiento.",
+      "websiteLabel": "www.footprintforgood.org"
     }
   },
   "locations": {

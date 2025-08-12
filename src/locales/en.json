@@ -119,6 +119,12 @@
       "about": "Several charities, including TRAID and The Salvation Army, have clothes banks located throughout the city, where you can drop off unwanted clothes, textiles, and shoes at any time.",
       "howItWorks": "Simply bag your items and place them in the designated recycling bins. These banks are conveniently located in multiple spots. Here's a map to help you find the nearest one.",
       "websiteLabel": "Google maps location"
+    },
+    "footprintForGood": {
+      "name": "Footprint for Good",
+      "about": "Footprint for Good supports at-risk young people: through the Repair Restore Respect program, participants learn upcycling and restoration by repairing donated furniture — building confidence, practical skills, and promoting sustainability.",
+      "howItWorks": "You can request a free furniture collection using our online form. The team will contact you within 5 working days to confirm the date. This service is currently for furniture items only. They accept sofas, wardrobes, bed frames, tables, chairs, shelving and storage solutions.",
+      "websiteLabel": "www.footprintforgood.org"
     }
   },
   "locations": {
