@@ -1,54 +1,113 @@
-# React + TypeScript + Vite
+# Kind Cycle
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based web application for community sharing and sustainability.
 
-Currently, two official plugins are available:
+## 🌐 Production
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Live website location: [https://kindcycle.uk/](https://kindcycle.uk/)
 
-## Expanding the ESLint configuration
+## 🌐 Development
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Live dev location: [https://kind-cycle.vercel.app/](https://kind-cycle.vercel.app/)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (version 18 or higher)
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd kind-cycle
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
 ```
+
+## 🏃‍♂️ How to Run
+
+### Development Mode
+
+To start the development server with hot reload:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+The application will be available at `http://localhost:5173` (or the port shown in your terminal).
+
+### Production Preview
+
+To preview the production build locally:
+
+```bash
+npm run preview
+# or
+yarn preview
+```
+
+## 🏗️ How to Build
+
+### Production Build
+
+To create a production build:
+
+```bash
+npm run build
+# or
+yarn build
+```
+
+The built files will be generated in the `dist/` directory.
+
+### Build for Deployment
+
+The project is configured for deployment on Vercel. The build process automatically:
+
+1. Compiles TypeScript to JavaScript
+2. Bundles and optimizes assets
+3. Generates static files ready for deployment
+4. Push to main branch for Dev deployment
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React 18 + TypeScript
+- **Build Tool**: Vite
+- **Styling**: SCSS
+- **Internationalization**: i18next
+- **Deployment**: Vercel
+
+## 📁 Project Structure
+
+```
+src/
+├── components/     # Reusable UI components
+├── pages/         # Page components
+├── content/       # Content and data
+├── locales/       # Internationalization files
+├── styles/        # SCSS stylesheets
+└── types/         # TypeScript type definitions
+```
+
+## 🌍 Internationalization
+
+The application supports multiple languages including English, Spanish, French, Polish, Portuguese, Turkish, Bengali, and Akan.
+
+## 📱 Features
+
+- Multi-language support
+- Responsive design
+- Category-based navigation
+- Location-specific content
+- QR code integration
+- Community organization listings
