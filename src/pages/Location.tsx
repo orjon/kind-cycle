@@ -21,11 +21,7 @@ const Location = () => {
   return (
     <div className='Location page'>
       <div className='content-wrapper'>
-        <HeaderImage
-          filename='location'
-          path={path.headers}
-          altText='Icon of a pigeon holding an envelope'
-        />
+        <HeaderImage filename='location' path={path.headers} altText='' />
         <div className='title'>{t(`locations.${locationId}.name`)}</div>
         <div className='description'>
           <SafeHtml html={t(`locations.${locationId}.description`)} />

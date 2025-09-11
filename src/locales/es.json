@@ -53,6 +53,20 @@
       }
     }
   },
+  "neighbourhoods": {
+    "ferrylane": {
+      "description": "Comparte lo que ya no necesitas con tus vecinos de Ferry Lane: están cerca y pueden recoger los artículos fácilmente. Desde objetos pequeños por los que nadie viajaría hasta artículos grandes que requerirían transporte costoso, todo es más fácil cuando tus vecinos están cerca. Incluso puedes donar comida que a tu gato no le guste, los excedentes del frigorífico antes de irte de vacaciones o artículos extra de la despensa.<br /><br /><span class=\"bold\">Haz clic o escanea el código QR a continuación para unirte a la comunidad de WhatsApp de FLAG y publicar tus artículos allí.</span>",
+      "whatsApp": {
+        "name": "Ferrylane WhatsApp group",
+        "label": "Enlace para unirse a la comunidad FLAG en WhatsApp",
+        "qrcode": "ferrylane",
+        "link": "https://chat.whatsapp.com/EHXIZBYNDn7BPRkrUUM3bY"
+      }
+    },
+    "haringey": {
+      "description": "Compartir con los vecinos es una excelente manera de que las cosas buenas sigan usándose y de crear conexiones. Como viven cerca, los vecinos pueden recoger las cosas fácilmente — ya sea un objeto pequeño que no merece la pena un viaje o uno más grande cuyo transporte costaría dinero. Incluso puedes compartir comida para mascotas que tu gato no quiera, sobras del frigorífico antes de unas vacaciones o artículos extra de la despensa. Simplemente publícalo en tu grupo local de WhatsApp o Facebook, o coméntaselo a alguien cercano — ¡podrías alegrarle el día a un vecino!"
+    }
+  },
   "organisations": {
     "howItWorksLabel": "Cómo Funciona",
     "lloydPark": {
@@ -125,12 +139,82 @@
       "about": "Footprint for Good apoya a jóvenes en situación de riesgo: a través del programa Repair Restore Respect, los participantes aprenden reciclaje creativo y restauración reparando muebles donados — fortaleciendo la confianza, adquiriendo habilidades prácticas y promoviendo la sostenibilidad.",
       "howItWorks": "Puede solicitar una recogida gratuita de muebles usando nuestro formulario en línea. El equipo se pondrá en contacto con usted dentro de los 5 días laborables para confirmar la fecha. Este servicio es actualmente solo para artículos de mobiliario. Aceptan sofás, armarios, estructuras de cama, mesas, sillas, estanterías y soluciones de almacenamiento.",
       "websiteLabel": "www.footprintforgood.org"
+    },
+    "prayHaringey": {
+      "name": "Children's Storehouse de Pray Haringey",
+      "about": "Pray Haringey es una red comunitaria basada en la fe en Haringey. Una de sus iniciativas, Children’s Storehouse, recoge donaciones de buena calidad para niños de 0 a 7 años y las distribuye a familias locales necesitadas.",
+      "howItWorks": "Las donaciones se pueden entregar en persona o se puede organizar la recogida. Aceptan cunas y ropa de cama para cunas, tronas, cochecitos, barreras de seguridad, ropa, juguetes y libros adecuados para niños de 0 a 7 años.",
+      "websiteLabel": "www.prayharingey.org.uk"
+    },
+    "communityClothingCollection": {
+      "name": "Community Clothing Collection",
+      "about": "Community Clothing Collection es una empresa con sede en Londres que ofrece un servicio gratuito de recogida a domicilio de donaciones de ropa en Londres y Essex.",
+      "howItWorks": "Elija una organización benéfica a la que quiera apoyar y reserve una recogida gratuita en línea. Recogerán su ropa y accesorios no deseados directamente de su puerta y los entregarán a la causa elegida. Solo hay que revisar la lista de artículos aceptados antes de donar.",
+      "websiteLabel": "communityclothescollection.co.uk"
+    },
+    "collectMyClothes": {
+      "name": "Collect My Clothes",
+      "about": "Collect My Clothes es un servicio gratuito de recogida a domicilio en todo el Reino Unido que recicla ropa, calzado, bolsos y accesorios para recaudar fondos para organizaciones benéficas asociadas.",
+      "howItWorks": "Meta en una bolsa los artículos limpios y reutilizables que no desee, solicite una recogida gratuita en línea y elija una organización benéfica a la que apoyar. Los artículos se reciclan de forma ética y la organización elegida recibe entre £200–£250 por tonelada recogida.",
+      "websiteLabel": "collectmyclothes.co.uk"
+    },
+    "redonate": {
+      "name": "reDONATE.uk",
+      "about": "reDONATE.uk es una organización benéfica que da una segunda vida a la ropa no deseada, reduciendo los residuos y apoyando a las comunidades.",
+      "howItWorks": "Reserve una recogida gratuita en línea y el equipo recogerá su ropa no deseada directamente en su puerta. reDONATE acepta ropa de buena calidad, zapatos, accesorios, joyas, perfumes y más. También aceptan pequeños objetos y libros si se incluyen con una donación de ropa.",
+      "websiteLabel": "redonate.uk"
+    },
+    "collectNDonate": {
+      "name": "Collect ’N Donate",
+      "about": "Collect ’N Donate es un servicio de recogida de donaciones con sede en el Reino Unido. Ofrecen recogida gratuita a domicilio de artículos de buena calidad y colaboran con diversas organizaciones locales para redistribuirlos en beneficio de la comunidad.",
+      "howItWorks": "Reserve una recogida gratuita de ropa en línea o por teléfono. Coloque sus artículos en una bolsa o caja etiquetada y déjelos fuera a la hora acordada. Su equipo los recogerá en su puerta. Puede donar ropa de adultos y niños, pares de zapatos, accesorios, bolsos, cinturones, joyas, libros, CDs/DVDs y otros objetos.",
+      "websiteLabel": "collectndonate.co.uk"
+    },
+    "help2Collect": {
+      "name": "Help 2 Collect",
+      "about": "Help 2 Collect es un servicio de donaciones con sede en el Reino Unido que ofrece recogida gratuita de artículos de calidad para apoyar a organizaciones benéficas. Ha recaudado más de £53,000 y ha desviado miles de toneladas de ropa de los vertederos.",
+      "howItWorks": "Reserve una recogida gratuita en casa en línea o por teléfono, y el equipo recogerá sus donaciones —como ropa, zapatos, bolsos, cinturones, artículos para bebés y peluches— directamente en su puerta.",
+      "websiteLabel": "help2collect.co.uk"
+    },
+    "iCollectClothes": {
+      "name": "iCollectClothes",
+      "about": "iCollectClothes es un servicio con sede en el Reino Unido que facilita recogidas gratuitas a domicilio de ropa no deseada, apoyando a diversas organizaciones benéficas mediante la reventa de los artículos donados.",
+      "howItWorks": "Para donar, simplemente visite el sitio web de iCollectClothes, elija su organización benéfica preferida y programe una recogida gratuita a domicilio en un horario conveniente. Puede incluir ropa, zapatos y accesorios.",
+      "websiteLabel": "www.icollectclothes.co.uk"
+    },
+    "sueRyder": {
+      "name": "Sue Ryder",
+      "about": "Sue Ryder es una organización benéfica en el Reino Unido que ofrece cuidados paliativos especializados y apoyo en el duelo, ayudando a personas en el final de la vida y a quienes afrontan una pérdida. Los fondos recaudados a través de sus tiendas benéficas apoyan cuidados de hospicio y neurológicos en todo el país.",
+      "howItWorks": "Ofrecen un servicio gratuito de recogida de muebles, que se puede reservar en línea o llamando a su National Furniture Line (0333 003 1883). Recogen sofás, mesas, armarios, camas y pequeños electrodomésticos de buena calidad con etiquetas de seguridad contra incendios cuando es necesario.",
+      "websiteLabel": "www.sueryder.org"
+    },
+    "jacksSofaDrops": {
+      "name": "Jacks Sofa Drops",
+      "about": "Jacks Sofa Drops es de confianza en Londres y Surrey por sus retiradas de sofás y recogida de muebles fiables y ecológicas. Los artículos reutilizables se donan a organizaciones benéficas locales o se redistribuyen, y todo lo que no pueda repararse se recicla de forma responsable para evitar vertederos.",
+      "howItWorks": "Reserve una recogida utilizando su formulario en línea, y el equipo responderá en 24 horas para confirmar una hora conveniente. Ofrecen recogida gratuita de sofás usados en buen estado, sofás seccionales y mesas de comedor con desgaste leve —incluidas pequeñas manchas o pelos de mascotas.",
+      "websiteLabel": "jackssofadrops.co.uk"
+    },
+    "freegle": {
+      "name": "Freegle",
+      "about": "Freegle es una plataforma comunitaria con sede en el Reino Unido que permite a las personas regalar y recibir artículos de forma gratuita, promoviendo la reutilización y reduciendo los residuos.",
+      "howItWorks": "Para donar, únase a su grupo local de Freegle en línea, publique una descripción del artículo que desea regalar y acuerde la recogida con un miembro interesado.",
+      "websiteLabel": "www.ilovefreegle.org"
+    },
+    "loveJunk": {
+      "name": "LoveJunk",
+      "about": "LoveJunk es un mercado que conecta a los usuarios con recolectores de residuos autorizados y reutilizadores de objetos para una retirada de basura y artículos voluminosos segura, económica y ecológica.",
+      "howItWorks": "Los usuarios pueden publicar un trabajo en LoveJunk de forma gratuita subiendo fotos y una breve descripción de sus artículos. Los recolectores de residuos autorizados y las organizaciones de reutilización cercanas pueden ver el anuncio, enviar presupuestos u ofrecer recoger artículos reutilizables sin coste.",
+      "websiteLabel": "www.lovejunk.com"
     }
   },
   "locations": {
     "ferrylane": {
       "name": "Ferry Lane Estate",
       "description": "Ferry Lane Estate es la primera ubicación de entrega para la campaña Waste Not. Paneles informativos audaces y llamativos que promueven donaciones de artículos domésticos han sido instalados estratégicamente en áreas comunes de desecho en el complejo. <span class=\"bold\">Explora nuestra guía integral sobre dónde y cómo donar.</span>"
+    },
+    "haringey": {
+      "name": "Haringey",
+      "description": "Donar es más fácil que desechar. Los residentes de Haringey pueden explorar una lista completa de organizaciones benéficas y entidades que ofrecen recogidas y puntos de entrega gratuitos para ropa, muebles, electrodomésticos y más. Simplemente haz clic en una sección, elige una organización, mira cómo funciona y dona."
     }
   },
   "sections": {

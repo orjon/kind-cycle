@@ -62,10 +62,16 @@ export const categories: CategoriesDirectory = {
     id: 'neighbours',
     color: { text: 'green', border: 'yellow' },
     genericOrganisations: [],
-    localGroup: true,
-    whatsApp: {
-      qrcode: 'ferrylane',
-      link: 'https://chat.whatsapp.com/EHXIZBYNDn7BPRkrUUM3bY'
-    }
+    localGroup: true
+    // whatsApp: {
+    //   qrcode: 'ferrylane',
+    //   link: 'https://chat.whatsapp.com/EHXIZBYNDn7BPRkrUUM3bY'
+    // }
+  },
+  neighboursHaringey: {
+    id: 'neighbours',
+    color: { text: 'green', border: 'yellow' },
+    genericOrganisations: [],
+    localGroup: true
   }
 }

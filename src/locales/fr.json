@@ -53,6 +53,20 @@
       }
     }
   },
+  "neighbourhoods": {
+    "ferrylane": {
+      "description": "Partagez ce dont vous n'avez plus besoin avec vos voisins de Ferry Lane : ils sont locaux et peuvent récupérer les objets facilement. Des petits objets pour lesquels personne ne ferait le déplacement aux éléments volumineux nécessitant un transport coûteux, tout est plus simple quand vos voisins sont proches. Vous pouvez même donner la nourriture que votre chat n'aime pas, les surplus du frigo avant de partir en vacances, ou des articles supplémentaires de la garde-manger.<br /><br /><span class=\"bold\">Cliquez ou scannez le code QR ci-dessous pour rejoindre la communauté FLAG sur WhatsApp et y publier vos objets.</span>",
+      "whatsApp": {
+        "name": "Ferrylane WhatsApp group",
+        "label": "Lien pour rejoindre la communauté FLAG sur WhatsApp",
+        "qrcode": "ferrylane",
+        "link": "https://chat.whatsapp.com/EHXIZBYNDn7BPRkrUUM3bY"
+      }
+    },
+    "haringey": {
+      "description": "Partager avec ses voisins est une excellente manière de faire durer les bonnes choses et de créer du lien. Parce qu'ils sont à proximité, les voisins peuvent récupérer les objets facilement — qu'il s'agisse d'un petit article qui ne vaut pas le déplacement ou d'un objet plus volumineux dont le transport coûterait de l'argent. Vous pouvez même partager la nourriture que votre chat ne mange pas, les restes du frigo avant de partir en vacances, ou des articles supplémentaires de la garde-manger. Publiez simplement dans votre groupe local WhatsApp ou Facebook, ou mentionnez-le à quelqu'un à proximité — vous pourriez faire la journée d'un voisin !"
+    }
+  },
   "organisations": {
     "howItWorksLabel": "Comment ça marche",
     "lloydPark": {
@@ -125,12 +139,82 @@
       "about": "Footprint for Good soutient les jeunes en situation à risque : grâce au programme Repair Restore Respect, les participants apprennent l’upcycling et la restauration en réparant des meubles donnés — renforçant leur confiance, développant des compétences pratiques et favorisant la durabilité.",
       "howItWorks": "Vous pouvez demander une collecte gratuite de meubles en utilisant notre formulaire en ligne. L’équipe vous contactera dans les 5 jours ouvrables pour confirmer la date. Ce service s’applique actuellement uniquement aux meubles. Ils acceptent les canapés, armoires, cadres de lit, tables, chaises, étagères et solutions de rangement.",
       "websiteLabel": "www.footprintforgood.org"
+    },
+    "prayHaringey": {
+      "name": "Children's Storehouse de Pray Haringey",
+      "about": "Pray Haringey est un réseau communautaire basé sur la foi à Haringey. L’une de ses initiatives, Children’s Storehouse, collecte des dons de bonne qualité pour les enfants de 0 à 7 ans et les distribue aux familles locales dans le besoin.",
+      "howItWorks": "Les dons peuvent être déposés ou une collecte peut être organisée. Ils acceptent des lits pour bébés et leur literie, des chaises hautes, des landaus ou poussettes, des barrières de sécurité, des vêtements, des jouets et des livres adaptés aux enfants de 0 à 7 ans.",
+      "websiteLabel": "www.prayharingey.org.uk"
+    },
+    "communityClothingCollection": {
+      "name": "Community Clothing Collection",
+      "about": "Community Clothing Collection est une entreprise basée à Londres qui propose un service gratuit de collecte à domicile pour les dons de vêtements à Londres et dans l'Essex.",
+      "howItWorks": "Choisissez une association caritative que vous souhaitez soutenir et réservez une collecte gratuite en ligne. Ils viendront chercher vos vêtements et accessoires dont vous ne voulez plus directement à votre porte et les livreront à la cause choisie. Vérifiez simplement la liste des articles acceptés avant de donner.",
+      "websiteLabel": "communityclothescollection.co.uk"
+    },
+    "collectMyClothes": {
+      "name": "Collect My Clothes",
+      "about": "Collect My Clothes est un service gratuit de collecte à domicile à l’échelle du Royaume-Uni qui recycle vos vêtements, chaussures, sacs et accessoires afin de récolter des fonds pour des associations partenaires.",
+      "howItWorks": "Mettez vos articles propres et réutilisables dans un sac, demandez une collecte gratuite en ligne et choisissez une association caritative à soutenir. Les articles sont recyclés de manière éthique et l’association choisie reçoit £200–£250 par tonne collectée.",
+      "websiteLabel": "collectmyclothes.co.uk"
+    },
+    "redonate": {
+      "name": "reDONATE.uk",
+      "about": "reDONATE.uk est une association qui donne une seconde vie aux vêtements non désirés en réduisant les déchets et en soutenant les communautés.",
+      "howItWorks": "Réservez une collecte gratuite en ligne et l’équipe viendra chercher vos vêtements non désirés directement à votre porte. reDONATE accepte les vêtements de bonne qualité, chaussures, accessoires, bijoux, parfums et plus encore. Ils acceptent également de petits objets et des livres si vous les incluez avec un don de vêtements.",
+      "websiteLabel": "redonate.uk"
+    },
+    "collectNDonate": {
+      "name": "Collect ’N Donate",
+      "about": "Collect ’N Donate est un service de collecte caritative basé au Royaume-Uni. Ils offrent une collecte gratuite à domicile d’articles de bonne qualité et collaborent avec diverses associations locales pour les redistribuer au profit de la communauté.",
+      "howItWorks": "Réservez une collecte gratuite de vêtements en ligne ou par téléphone. Placez vos articles dans un sac ou une boîte étiquetée et laissez-les dehors à l’heure convenue. Leur équipe viendra les récupérer à votre porte. Vous pouvez donner des vêtements pour adultes et enfants, des paires de chaussures, des accessoires, des sacs, des ceintures, des bijoux, des livres, des CD/DVD et autres objets.",
+      "websiteLabel": "collectndonate.co.uk"
+    },
+    "help2Collect": {
+      "name": "Help 2 Collect",
+      "about": "Help 2 Collect est un service de dons basé au Royaume-Uni qui propose la collecte gratuite d’articles de qualité pour soutenir des associations caritatives. Il a permis de récolter plus de £53,000 et de détourner des milliers de tonnes de vêtements des décharges.",
+      "howItWorks": "Réservez une collecte gratuite à domicile en ligne ou par téléphone, et l’équipe viendra chercher vos dons — tels que vêtements, chaussures, sacs, ceintures, articles pour bébés et peluches — directement à votre porte.",
+      "websiteLabel": "help2collect.co.uk"
+    },
+    "iCollectClothes": {
+      "name": "iCollectClothes",
+      "about": "iCollectClothes est un service basé au Royaume-Uni qui facilite la collecte gratuite à domicile de vêtements non désirés, soutenant diverses associations grâce à la revente des articles donnés.",
+      "howItWorks": "Pour donner, visitez simplement le site web iCollectClothes, choisissez l’association caritative de votre choix, puis planifiez une collecte gratuite à domicile à un moment qui vous convient. Vous pouvez inclure des vêtements, chaussures et accessoires.",
+      "websiteLabel": "www.icollectclothes.co.uk"
+    },
+    "sueRyder": {
+      "name": "Sue Ryder",
+      "about": "Sue Ryder est une association caritative au Royaume-Uni qui fournit des soins palliatifs spécialisés et un soutien au deuil, aidant les personnes en fin de vie et celles qui font face à une perte. Les fonds récoltés par leurs magasins caritatifs soutiennent les soins palliatifs et neurologiques dans tout le pays.",
+      "howItWorks": "Ils proposent un service gratuit de collecte de meubles, réservable en ligne ou en appelant leur National Furniture Line (0333 003 1883). Ils collectent des canapés, tables, armoires, lits et petits appareils électriques de bonne qualité avec étiquettes de sécurité incendie lorsque nécessaire.",
+      "websiteLabel": "www.sueryder.org"
+    },
+    "jacksSofaDrops": {
+      "name": "Jacks Sofa Drops",
+      "about": "Jacks Sofa Drops est reconnu à Londres et dans le Surrey pour ses enlèvements de canapés et collectes de meubles fiables et respectueux de l’environnement. Les articles réutilisables sont donnés à des associations locales ou réaffectés, et tout ce qui ne peut pas être réparé est recyclé de manière responsable afin d’éviter les décharges.",
+      "howItWorks": "Réservez une collecte via leur formulaire en ligne, et l’équipe répondra dans les 24 heures pour confirmer un horaire convenable. Ils proposent une collecte gratuite de canapés légèrement usés, de canapés d’angle et de tables de salle à manger avec une usure mineure — y compris de petites taches ou des poils d’animaux.",
+      "websiteLabel": "jackssofadrops.co.uk"
+    },
+    "freegle": {
+      "name": "Freegle",
+      "about": "Freegle est une plateforme communautaire basée au Royaume-Uni qui permet aux gens de donner et de recevoir des articles gratuitement, favorisant la réutilisation et réduisant les déchets.",
+      "howItWorks": "Pour donner, rejoignez votre groupe local Freegle en ligne, publiez une description de l’article que vous souhaitez donner et organisez la collecte avec un membre intéressé.",
+      "websiteLabel": "www.ilovefreegle.org"
+    },
+    "loveJunk": {
+      "name": "LoveJunk",
+      "about": "LoveJunk est une place de marché qui met en relation les utilisateurs avec des collecteurs de déchets agréés et des réutilisateurs d’objets pour un enlèvement des encombrants sûr, économique et respectueux de l’environnement.",
+      "howItWorks": "Les utilisateurs peuvent publier gratuitement une annonce sur LoveJunk en téléchargeant des photos et une brève description de leurs articles. Les collecteurs de déchets agréés et les organisations de réutilisation à proximité peuvent alors consulter l’annonce, soumettre des devis ou proposer de collecter gratuitement les articles réutilisables.",
+      "websiteLabel": "www.lovejunk.com"
     }
   },
   "locations": {
     "ferrylane": {
       "name": "Ferry Lane Estate",
       "description": "Ferry Lane Estate est le premier lieu de mise en œuvre de la campagne Waste Not. Des panneaux d'information audacieux et accrocheurs promouvant les dons d'objets ménagers ont été stratégiquement installés dans les zones de dépôt communes du domaine. <span class=\"bold\">Découvrez notre guide complet sur où et comment faire un don.</span>"
+    },
+    "haringey": {
+      "name": "Haringey",
+      "description": "Donner est plus facile que jeter. Les habitants de Haringey peuvent consulter une liste complète d’associations et d’organisations offrant des collectes et dépôts gratuits de vêtements, meubles, appareils électroménagers et plus encore. Il suffit de cliquer sur une section, de choisir une organisation, de voir comment cela fonctionne et de donner."
     }
   },
   "sections": {

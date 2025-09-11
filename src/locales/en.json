@@ -45,12 +45,21 @@
     },
     "neighbours": {
       "name": "Share with Neighbours",
-      "imageDescription": "Icons of various household items",
-      "description": "Sharing what you no longer need with your Ferry Lane neighbors: they're local and can pick up items with ease. From small items no one would travel for to large items that would require costly transport, it's all easier when your neighbors are nearby. You can even donate food your cat doesn't like, fridge surplus before going on holiday, or extra pantry items.<br /><br /><span class=\"bold\">Click or scan the QR code below to join the FLAG WhatsApp community and post your items there.</span>",
+      "imageDescription": "Icons of various household items"
+    }
+  },
+  "neighbourhoods": {
+    "ferrylane": {
+      "description": "Sharing what you no longer need with your Ferry Lane neighbours: they're local and can pick up items with ease. From small items no one would travel for to large items that would require costly transport, it's all easier when your neighbours are nearby. You can even donate food your cat doesn't like, fridge surplus before going on holiday, or extra pantry items.<br /><br /><span class=\"bold\">Click or scan the QR code below to join the FLAG WhatsApp community and post your items there.</span>",
       "whatsApp": {
         "name": "Ferrylane WhatsApp group",
-        "label": "Join the FLAG WhatsApp community link"
+        "label": "Join the FLAG WhatsApp community link",
+        "qrcode": "ferrylane",
+        "link": "https://chat.whatsapp.com/EHXIZBYNDn7BPRkrUUM3bY"
       }
+    },
+    "haringey": {
+      "description": "Sharing with neighbours is a great way to keep good things in use and build connections. Because they’re close by, neighbours can pick things up easily — whether it’s a small item that isn’t worth a trip or a larger one that would cost money to transport. You can even share pet food your cat won’t eat, fridge leftovers before a holiday, or extra pantry items. Just post in your local WhatsApp or Facebook group, or mention it to someone nearby — you might make a neighbour’s day!"
     }
   },
   "organisations": {
@@ -125,22 +134,93 @@
       "about": "Footprint for Good supports at-risk young people: through the Repair Restore Respect program, participants learn upcycling and restoration by repairing donated furniture — building confidence, practical skills, and promoting sustainability.",
       "howItWorks": "You can request a free furniture collection using our online form. The team will contact you within 5 working days to confirm the date. This service is currently for furniture items only. They accept sofas, wardrobes, bed frames, tables, chairs, shelving and storage solutions.",
       "websiteLabel": "www.footprintforgood.org"
+    },
+    "prayHaringey": {
+      "name": "Children's Storehouse from Pray Haringey",
+      "about": "Pray Haringey is a faith-based, community-focused network in Haringey. One of their initiatives, Children’s Storehouse, collects good-quality donations for children aged 0–7 and distributes them to local families in need.",
+      "howItWorks": "Donations can be dropped off, or collections can be arranged. They accept cots and cot bedding, high chairs, prams or buggies, safety gates, clothes, toys, and books suitable for children aged 0–7.",
+      "websiteLabel": "www.prayharingey.org.uk"
+    },
+    "communityClothingCollection": {
+      "name": "Community Clothing Collection",
+      "about": "Community Clothing Collection is a company based in London that operates a free home collection service for clothing donations in London and Essex",
+      "howItWorks": "Pick a charity you want to support and book a free collection online. They’ll collect your unwanted clothes and accessories from your doorstep and deliver them to your chosen cause. Just check the list of accepted items before you donate.",
+      "websiteLabel": "communityclothescollection.co.uk"
+    },
+    "collectMyClothes": {
+      "name": "Collect My Clothes",
+      "about": "Collect My Clothes is a UK-wide, free home collection service that recycles your clothing, footwear, bags, and accessories to raise money for partner charities.",
+      "howItWorks": "Bag up your clean, reusable unwanted item, request a free collection online and choose a charity to support. The items are ethically recycled and your chosen charity receives £200–£250 per ton collected.",
+      "websiteLabel": "collectmyclothes.co.uk"
+    },
+    "redonate": {
+      "name": "reDONATE.uk",
+      "about": "reDONATE.uk is a charity that gives unwanted clothing a second life by reducing waste and supporting communities.",
+      "howItWorks": "Book a free collection online, and the team will pick up your unwanted clothes from your doorstep. reDONATE accepts good-quality clothing, shoes, accessories, jewellery, perfumes, and more. They also take small bric-a-brac and books if you include them with a clothing donation.",
+      "websiteLabel": "redonate.uk"
+    },
+    "collectNDonate": {
+      "name": "Collect ’N Donate",
+      "about": "Collect ’N Donate is a UK-based charity collection service.They offer free doorstep pickup of good-quality items and collaborate with a variety of local charities to redistribute them for community benefit",
+      "howItWorks": "Book a free clothes collection online or by phone. Place your items in a labeled bag or box and leave them outside at the arranged time. Their team will collect them from your doorstep. You can donate adult and children’s clothing, paired shoes, accessories, bags, belts, jewellery, books, CDs/DVDs, and other bric-a-brac.",
+      "websiteLabel": "collectndonate.co.uk"
+    },
+    "help2Collect": {
+      "name": "Help 2 Collect",
+      "about": "Help 2 Collect is a UK-based donation service that offers free collection of quality items to support charities. It has raised over £53,000 and diverted thousands of tonnes of clothing from landfill.",
+      "howItWorks": "Book a free home collection online or by phone, and the team will pick up your donations—such as clothes, shoes, bags, belts, baby itmes and soft toys—directly from your doorstep.",
+      "websiteLabel": "help2collect.co.uk"
+    },
+    "iCollectClothes": {
+      "name": "iCollectClothes",
+      "about": "iCollectClothes is a UK-based service that facilitates free doorstep collections of unwanted clothing, supporting various charities through the resale of donated items.",
+      "howItWorks": "To donate, simply visit the iCollectClothes website, choose your preferred charity, then schedule a convenient free doorstep collection. You can include items such as clothes, shoes, and accessories.",
+      "websiteLabel": "www.icollectclothes.co.uk"
+    },
+    "sueRyder": {
+      "name": "Sue Ryder",
+      "about": "Sue Ryder is a UK charity that provides expert palliative care and bereavement support, helping people at the end of life and those coping with loss. Funds raised through their charity shops support hospice and neurological care across the country",
+      "howItWorks": "They offer a free furniture collection service, which can be booked online or by calling their National Furniture Line (0333 003 1883). They collect good-quality sofas, tables, wardrobes, beds, and small electrical items with fire safety labels where required.",
+      "websiteLabel": "www.sueryder.org"
+    },
+    "jacksSofaDrops": {
+      "name": "Jacks Sofa Drops",
+      "about": "Jacks Sofa Drops is trusted across London and Surrey for reliable, eco-friendly sofa removals and furniture collection. Reusable items are donated to local charities or rehomed, and anything beyond repair is responsibly recycled to keep it out of landfill.",
+      "howItWorks": "Book a collection using their online form, and the team will respond within 24 hours to confirm a convenient pickup time. They offer free collection for gently used sofas, sectionals, and dining tables with minor wear — including light stains or pet hair.",
+      "websiteLabel": "jackssofadrops.co.uk"
+    },
+    "freegle": {
+      "name": "Freegle",
+      "about": "Freegle is a UK-based community platform that enables people to give away and receive items for free, promoting reuse and reducing waste.",
+      "howItWorks": "To donate, join your local Freegle group online, post a description of the item you want to give away, and arrange collection with an interested member.",
+      "websiteLabel": "www.ilovefreegle.org"
+    },
+    "loveJunk": {
+      "name": "LoveJunk",
+      "about": "LoveJunk is a marketplace that connects users with licensed waste collectors and junk reusers for secure, cost-effective, and eco-friendly rubbish and bulky item removal.",
+      "howItWorks": "Users can post a job on LoveJunk for free by uploading photos and a brief description of their items. Nearby licensed waste collectors and reuse organisations can then view the listing, submit quotes, or offer to collect reusable items at no charge.",
+      "websiteLabel": "www.lovejunk.com"
     }
   },
   "locations": {
     "ferrylane": {
       "name": "Ferry Lane Estate",
       "description": "Ferry Lane Estate is the first delivery location for the Waste Not campaign. Bold, eye-catching information panels promoting household item donations have been strategically installed in common dumping areas across the estate. <span class=\"bold\">Explore our comprehensive guide on where and how to donate.</span>"
+    },
+    "haringey": {
+      "name": "Haringey",
+      "description": "Donating is easier than discarding. Haringey residents can explore a comprehensive list of charities and organisations offering free collections and drop-offs for clothes, furniture, appliances, and more. Simply click on a section, choose an organisation, see how it works, and donate."
     }
   },
   "sections": {
-    "wasteNot": "Waste Not is an environmental initiative designed to educate local residents on the importance of reusing household items rather than discarding them in their neighborhoods.<br /><br /><span class=\"bold\">The campaign encourages residents to share reusable items through local networks or donate them to charities.</span><br /><br />Delivered by Kind Cycle, funded by the Veolia Sustainability Fund and supported by Haringey Council and the Ferry Lane Action Group, <a class=\"bold\" href=\"/wastenot/ferrylane\">Ferry Lane Estate is the first location for the Waste Not campaign.</a>",
+    "wasteNot": "Waste Not is an environmental initiative designed to educate local residents on the importance of reusing household items rather than discarding them in their neighbourhoods.<br /><br /><span class=\"bold\">The campaign encourages residents to share reusable items through local networks or donate them to charities.</span><br /><br />Delivered by Kind Cycle, funded by the Veolia Sustainability Fund and supported by Haringey Council and the Ferry Lane Action Group, <a class=\"bold\" href=\"/wastenot/ferrylane\">Ferry Lane Estate is the first location for the Waste Not campaign.</a>",
     "contact": "Want to learn more about the Kind Cycle and Waste Not project? Want to suggest a charity or an organisation to include? Pop us a message!<br /><br /><span class=\"bold\">kindcycle.uk@gmail.com</span>",
     "about": "The UK discards 640,000 tonnes of reusable items each year. Kind Cycle, a group of residents focused on sustainability, is tackling this issue with projects that reduce waste and connect communities by promoting reuse over recycling. With expertise in architecture, design, and events, they create initiatives that educate and build stronger communities.<br /><br /><a class=\"bold\" href=\"/contact\">Contact us</a>"
   },
   "navLocations": {
     "wastenot": "Waste Not",
     "ferrylane": "Ferry Lane",
+    "haringey": "Haringey",
     "about": "About",
     "contact": "Contact"
   }

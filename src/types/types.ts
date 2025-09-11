@@ -15,7 +15,7 @@ export type OrganisationsDirectory = {
 
 export type LocationCategory = {
   id: string
-  organisations: string[]
+  organisations?: string[]
 }
 
 export type Location = {
@@ -24,6 +24,12 @@ export type Location = {
   image?: string
   website?: string
   categories: LocationCategory[]
+  whatsApp?: {
+    name?: string
+    label?: string
+    qrcode?: string
+    link?: string
+  }
 }
 
 export type LocationsDirectory = {

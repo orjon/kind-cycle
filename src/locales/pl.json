@@ -53,6 +53,20 @@
       }
     }
   },
+  "neighbourhoods": {
+    "ferrylane": {
+      "description": "Dziel się tym, czego już nie potrzebujesz, z sąsiadami z Ferry Lane: mieszkają blisko i mogą łatwo odebrać rzeczy. Od drobnych przedmiotów, po które nikt by nie pojechał, po duże, których transport byłby kosztowny — wszystko jest łatwiejsze, gdy sąsiedzi są w pobliżu. Możesz nawet podarować jedzenie, którego twój kot nie lubi, nadwyżki z lodówki przed wyjazdem na wakacje lub dodatkowe produkty z spiżarni.<br /><br /><span class=\"bold\">Kliknij lub zeskanuj poniższy kod QR, aby dołączyć do społeczności FLAG na WhatsApp i tam zamieszczać swoje przedmioty.</span>",
+      "whatsApp": {
+        "name": "Ferrylane WhatsApp group",
+        "label": "Link do społeczności FLAG na WhatsApp",
+        "qrcode": "ferrylane",
+        "link": "https://chat.whatsapp.com/EHXIZBYNDn7BPRkrUUM3bY"
+      }
+    },
+    "haringey": {
+      "description": "Dzielenie się z sąsiadami to świetny sposób, by dobre rzeczy nadal były używane i by zbudować relacje. Ponieważ mieszkają blisko, sąsiedzi mogą łatwo odebrać przedmioty — czy to drobna rzecz, na którą nie opłaca się jechać, czy większy przedmiot, którego transport kosztowałby pieniądze. Możesz nawet podzielić się karmą dla zwierząt, której twój kot nie chce, resztkami z lodówki przed wyjazdem na wakacje lub dodatkowymi produktami ze spiżarni. Po prostu opublikuj to w swoim lokalnym grupie na WhatsApp lub Facebooku albo wspomnij o tym komuś w pobliżu — możesz komuś poprawić dzień!"
+    }
+  },
   "organisations": {
     "howItWorksLabel": "Jak to działa",
     "lloydPark": {
@@ -125,12 +139,82 @@
       "about": "Footprint for Good wspiera młodzież zagrożoną: w ramach programu Repair Restore Respect uczestnicy uczą się upcyklingu i renowacji, naprawiając podarowane meble — zyskując pewność siebie, praktyczne umiejętności i promując zrównoważony rozwój.",
       "howItWorks": "Możesz poprosić o bezpłatny odbiór mebli, korzystając z naszego formularza online. Zespół skontaktuje się z Tobą w ciągu 5 dni roboczych, aby potwierdzić datę. Ta usługa obecnie dotyczy wyłącznie mebli. Przyjmują sofy, szafy, stelaże łóżek, stoły, krzesła, półki i rozwiązania do przechowywania.",
       "websiteLabel": "www.footprintforgood.org"
+    },
+    "prayHaringey": {
+      "name": "Children's Storehouse od Pray Haringey",
+      "about": "Pray Haringey to sieć oparta na wierze, skoncentrowana na społeczności w Haringey. Jedną z ich inicjatyw jest Children’s Storehouse, które zbiera dobrej jakości darowizny dla dzieci w wieku 0–7 lat i przekazuje je lokalnym rodzinom potrzebującym.",
+      "howItWorks": "Darowizny można dostarczyć osobiście lub zorganizować ich odbiór. Akceptują łóżeczka i pościel do łóżeczek, krzesełka do karmienia, wózki, bramki zabezpieczające, ubrania, zabawki i książki odpowiednie dla dzieci w wieku 0–7 lat.",
+      "websiteLabel": "www.prayharingey.org.uk"
+    },
+    "communityClothingCollection": {
+      "name": "Community Clothing Collection",
+      "about": "Community Clothing Collection to firma z siedzibą w Londynie, która prowadzi bezpłatną usługę odbioru darowizn odzieży w Londynie i Essex.",
+      "howItWorks": "Wybierz organizację charytatywną, którą chcesz wesprzeć, i zarezerwuj bezpłatny odbiór online. Odbiorą Twoje niechciane ubrania i akcesoria bezpośrednio spod drzwi i przekażą je wybranej sprawie. Przed darowizną sprawdź listę akceptowanych przedmiotów.",
+      "websiteLabel": "communityclothescollection.co.uk"
+    },
+    "collectMyClothes": {
+      "name": "Collect My Clothes",
+      "about": "Collect My Clothes to ogólnokrajowa w Wielkiej Brytanii, bezpłatna usługa odbioru darowizn odzieży, obuwia, toreb i akcesoriów, aby wspierać organizacje charytatywne.",
+      "howItWorks": "Spakuj swoje czyste, nadające się do ponownego użycia rzeczy, zamów bezpłatny odbiór online i wybierz organizację charytatywną do wsparcia. Przedmioty są etycznie poddawane recyklingowi, a wybrana organizacja charytatywna otrzymuje £200–£250 za każdą tonę zebranych rzeczy.",
+      "websiteLabel": "collectmyclothes.co.uk"
+    },
+    "redonate": {
+      "name": "reDONATE.uk",
+      "about": "reDONATE.uk to organizacja charytatywna, która daje niechcianym ubraniom drugie życie poprzez ograniczanie odpadów i wspieranie społeczności.",
+      "howItWorks": "Zarezerwuj bezpłatny odbiór online, a zespół odbierze Twoje niechciane ubrania spod drzwi. reDONATE przyjmuje dobrej jakości odzież, buty, akcesoria, biżuterię, perfumy i inne. Akceptują również drobne bibeloty i książki, jeśli zostaną dołączone do darowizny odzieżowej.",
+      "websiteLabel": "redonate.uk"
+    },
+    "collectNDonate": {
+      "name": "Collect ’N Donate",
+      "about": "Collect ’N Donate to brytyjska usługa zbierania darowizn. Oferują bezpłatny odbiór dobrej jakości rzeczy spod drzwi i współpracują z różnymi lokalnymi organizacjami charytatywnymi, aby przekazać je społeczności.",
+      "howItWorks": "Zarezerwuj bezpłatny odbiór ubrań online lub telefonicznie. Umieść swoje rzeczy w oznakowanej torbie lub pudełku i zostaw je na zewnątrz o ustalonej porze. Zespół odbierze je spod Twoich drzwi. Możesz przekazać ubrania dla dorosłych i dzieci, sparowane buty, akcesoria, torby, paski, biżuterię, książki, płyty CD/DVD i inne bibeloty.",
+      "websiteLabel": "collectndonate.co.uk"
+    },
+    "help2Collect": {
+      "name": "Help 2 Collect",
+      "about": "Help 2 Collect to brytyjska usługa darowizn, która oferuje bezpłatny odbiór dobrej jakości rzeczy, aby wspierać organizacje charytatywne. Zebrała ponad £53,000 i odwróciła tysiące ton ubrań od wysypisk.",
+      "howItWorks": "Zarezerwuj bezpłatny odbiór w domu online lub telefonicznie, a zespół odbierze Twoje darowizny — takie jak ubrania, buty, torby, paski, rzeczy dla niemowląt i pluszowe zabawki — bezpośrednio spod drzwi.",
+      "websiteLabel": "help2collect.co.uk"
+    },
+    "iCollectClothes": {
+      "name": "iCollectClothes",
+      "about": "iCollectClothes to brytyjska usługa, która umożliwia bezpłatne odbiory odzieży spod drzwi, wspierając różne organizacje charytatywne poprzez sprzedaż przekazanych przedmiotów.",
+      "howItWorks": "Aby przekazać darowiznę, odwiedź stronę iCollectClothes, wybierz preferowaną organizację charytatywną, a następnie zaplanuj dogodny, bezpłatny odbiór spod drzwi. Możesz dołączyć ubrania, buty i akcesoria.",
+      "websiteLabel": "www.icollectclothes.co.uk"
+    },
+    "sueRyder": {
+      "name": "Sue Ryder",
+      "about": "Sue Ryder to brytyjska organizacja charytatywna, która zapewnia specjalistyczną opiekę paliatywną i wsparcie w żałobie, pomagając osobom u kresu życia oraz tym, którzy radzą sobie ze stratą. Środki zebrane w ich sklepach charytatywnych wspierają hospicja i opiekę neurologiczną w całym kraju.",
+      "howItWorks": "Oferują bezpłatny odbiór mebli, który można zarezerwować online lub dzwoniąc na ich krajową infolinię meblową (0333 003 1883). Odbierają dobrej jakości sofy, stoły, szafy, łóżka i drobny sprzęt elektryczny z wymaganymi etykietami bezpieczeństwa przeciwpożarowego.",
+      "websiteLabel": "www.sueryder.org"
+    },
+    "jacksSofaDrops": {
+      "name": "Jacks Sofa Drops",
+      "about": "Jacks Sofa Drops cieszy się zaufaniem w Londynie i Surrey dzięki niezawodnemu, ekologicznemu usuwaniu sof i zbiórce mebli. Nadające się do ponownego użycia przedmioty są przekazywane lokalnym organizacjom charytatywnym lub ponownie używane, a wszystko, co nie nadaje się do użytku, jest odpowiedzialnie poddawane recyklingowi.",
+      "howItWorks": "Zarezerwuj odbiór za pomocą formularza online, a zespół odpowie w ciągu 24 godzin, aby potwierdzić dogodny termin odbioru. Oferują bezpłatny odbiór delikatnie używanych sof, narożników i stołów jadalnych z drobnymi śladami użytkowania — w tym lekkimi plamami lub sierścią zwierząt.",
+      "websiteLabel": "jackssofadrops.co.uk"
+    },
+    "freegle": {
+      "name": "Freegle",
+      "about": "Freegle to brytyjska platforma społecznościowa, która umożliwia ludziom oddawanie i otrzymywanie przedmiotów za darmo, promując ponowne użycie i zmniejszanie ilości odpadów.",
+      "howItWorks": "Aby przekazać darowiznę, dołącz do lokalnej grupy Freegle online, opublikuj opis przedmiotu, który chcesz oddać, i umów się na odbiór z zainteresowanym członkiem.",
+      "websiteLabel": "www.ilovefreegle.org"
+    },
+    "loveJunk": {
+      "name": "LoveJunk",
+      "about": "LoveJunk to platforma, która łączy użytkowników z licencjonowanymi zbieraczami odpadów i osobami zajmującymi się ponownym użyciem, oferując bezpieczne, ekonomiczne i ekologiczne usuwanie śmieci oraz dużych przedmiotów.",
+      "howItWorks": "Użytkownicy mogą bezpłatnie zamieścić ogłoszenie na LoveJunk, przesyłając zdjęcia i krótki opis swoich rzeczy. Licencjonowani zbieracze odpadów i organizacje zajmujące się ponownym użyciem w pobliżu mogą następnie wyświetlić ogłoszenie, złożyć oferty lub zaoferować bezpłatny odbiór nadających się do ponownego użycia rzeczy.",
+      "websiteLabel": "www.lovejunk.com"
     }
   },
   "locations": {
     "ferrylane": {
       "name": "Ferry Lane Estate",
       "description": "Ferry Lane Estate to pierwsza lokalizacja realizacji kampanii Waste Not. Odważne, przyciągające wzrok panele informacyjne promujące darowizny artykułów domowych zostały strategicznie rozmieszczone w częściach wspólnych osiedla.<span class=\"bold\"> Poznaj nasz kompleksowy przewodnik, gdzie i jak przekazywać przedmioty.</span>"
+    },
+    "haringey": {
+      "name": "Haringey",
+      "description": "Oddawanie jest łatwiejsze niż wyrzucanie. Mieszkańcy Haringey mogą zapoznać się z pełną listą organizacji charytatywnych i instytucji oferujących bezpłatne odbiory i punkty przyjęć odzieży, mebli, sprzętów domowych i innych rzeczy. Wystarczy kliknąć sekcję, wybrać organizację, sprawdzić, jak to działa, i przekazać darowiznę."
     }
   },
   "sections": {

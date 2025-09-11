@@ -16,6 +16,7 @@ import Location from './pages/Location'
 import RedirectToLocation from './pages/RedirectToLcocation'
 import LocationCategory from './pages/LocationCategory'
 import Category from './pages/Category'
+import Neighbours from './pages/Neighbours'
 import ScrollToTop from './components/ScrollToTop'
 import { getSettings } from './settings'
 import { initGA, trackPageView } from './utils/analytics'
@@ -79,9 +80,14 @@ function App() {
               element={<RedirectToLocation />}
             />
             <Route
+              path='wastenot/:locationId/neighbours'
+              element={<Neighbours />}
+            />
+            <Route
               path='wastenot/:locationId/:categoryId'
               element={<LocationCategory />}
             />
+
             <Route
               path='wastenot/category/:categoryId'
               element={<Category />}

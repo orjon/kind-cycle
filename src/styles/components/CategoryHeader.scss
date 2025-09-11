@@ -1,6 +1,7 @@
 @use '../Global' as *;
 
-.CategoryHeader {
+.CategoryHeader,
+.NeighboursHeader {
   width: 100%;
   max-width: $maxContentWidth;
   display: flex;

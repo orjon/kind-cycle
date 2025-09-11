@@ -40,8 +40,6 @@ const Categories = ({ categoryIds, link }: CategoriesProps) => {
               alt={`${t(`categories.${categoryId}.name`)} icon`}
             />
           </div>
-
-          {/* <div className='name'>{t(`categories.${categoryId}.name`)}</div> */}
         </NavLink>
       </div>
     )

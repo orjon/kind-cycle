@@ -1,4 +1,4 @@
-import { Navigate } from 'react-router-dom'
+import { Navigate, useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
 import HeaderImage from './HeaderImage'
@@ -13,14 +13,15 @@ type CategoryHeaderProps = {
   color: string
 }
 
-const CategoryHeader = ({ categoryId, color }: CategoryHeaderProps) => {
+const NeighboursHeader = ({ categoryId, color }: CategoryHeaderProps) => {
   const { t } = useTranslation()
+  const { locationId } = useParams()
   const category = categoryId && categories[categoryId]
 
   if (!category) return <Navigate to={getHomePathWithLanguage()} />
 
   return (
-    <div className='CategoryHeader'>
+    <div className='NeighboursHeader'>
       <HeaderImage
         filename={category.id}
         path={path.headers}
@@ -32,11 +33,11 @@ const CategoryHeader = ({ categoryId, color }: CategoryHeaderProps) => {
       <div
         className='description'
         dangerouslySetInnerHTML={{
-          __html: t(`categories.${categoryId}.description`)
+          __html: t(`neighbourhoods.${locationId}.description`)
         }}
       />
     </div>
   )
 }
 
-export default CategoryHeader
+export default NeighboursHeader
