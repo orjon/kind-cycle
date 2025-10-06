@@ -35,7 +35,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.25s ease-in-out;
     will-change: opacity;
     &.navShadow {
       box-shadow: 0px 5px $navShadowBlur $colorNavDropdownShadow;
@@ -51,13 +51,13 @@
       align-items: flex-start;
       padding-left: 20px;
       will-change: height, background-color, color;
-      transition: height 0.5s ease-in-out, background-color 0.3s ease-in,
+      transition: height 0.25s ease-in-out, background-color 0.25s ease-in,
         color 0.3s ease-in;
       .text {
         font-size: $fontNavLarge;
         font-weight: 300;
         will-change: transform;
-        transition: transform 0.5s ease-in-out;
+        transition: transform 0.25s ease-in-out;
         transform: scale(1, 0);
       }
       &:hover {
@@ -81,7 +81,7 @@
     display: none;
     margin-right: 40px;
   }
-  @media (min-width: $break768) {
+  @media (min-width: $break900) {
     justify-content: space-between;
     .NavBurger,
     .BurgerMenu {
@@ -103,6 +103,7 @@
         font-size: $fontNavSmall;
         font-weight: 300;
         padding: 0 12px;
+        transition: color 0.25s ease-in-out;
 
         &:hover {
           color: $colorTeal;
@@ -143,9 +144,6 @@
         padding-top: 20px;
         .NavItem {
           padding: unset;
-          &:hover {
-            color: $colorTeal;
-          }
         }
 
         .NavMenuLanguageSelector {

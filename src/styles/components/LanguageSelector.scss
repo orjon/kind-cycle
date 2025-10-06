@@ -37,8 +37,10 @@
     cursor: pointer;
     color: var(--color-text);
     transition: all 0.2s ease;
+    will-change: scale;
 
     &:hover {
+      scale: 1.1;
       color: $colorTeal;
     }
 
@@ -72,7 +74,7 @@
     justify-content: center;
     align-items: flex-start;
     will-change: opacity;
-    transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.25s ease-in-out;
     box-shadow: 0px 5px $navShadowBlur $colorNavDropdownShadow;
     overflow-y: auto;
 
@@ -105,12 +107,12 @@
     font-weight: 300;
     color: var(--color-text);
     will-change: height, background-color, color;
-    transition: height 0.5s ease-in-out, background-color 0.3s ease-in,
+    transition: height 0.25s ease-in-out, background-color 0.25s ease-in,
       color 0.3s ease-in;
 
     .LanguageSelector__name {
       will-change: transform;
-      transition: transform 0.5s ease-in-out;
+      transition: transform 0.25s ease-in-out;
       transform: scale(1, 0);
     }
 

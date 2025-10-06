@@ -7,7 +7,6 @@ export const locations: LocationsDirectory = {
     postcode: 'N17',
     whatsApp: {
       name: 'Ferrylane WhatsApp group',
-      label: 'Join the FLAG WhatsApp community link',
       qrcode: 'ferrylane',
       link: 'https://chat.whatsapp.com/EHXIZBYNDn7BPRkrUUM3bY'
     },

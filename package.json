@@ -7,7 +7,10 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "export:locale:en": "node scripts/export-locale-csv.mjs src/locales/en.json src/locales/en.csv",
+    "export:locales": "node -e \"const { execSync } = require('child_process'); execSync('npm run export:locale:en', { stdio: 'inherit' });\"",
+    "export:all-locales": "node scripts/export-all-locales-csv.mjs src/locales src/locales/translations.csv"
   },
   "dependencies": {
     "react": "^19.0.0",

@@ -16,9 +16,13 @@ function Contact() {
           path={path.headers}
           altText='Icon of a pigeon holding an envelope'
         />
-        <div className='title'>{t('contact.title')}</div>
+        <div className='title'>{t('sections.contact.title')}</div>
         <div className='description'>
-          <SafeHtml html={t('sections.contact')} />
+          <SafeHtml html={t('sections.contact.description')} />
+          <br />
+          <a href='mailto:kindcycle.uk@gmail.com' className='bold link'>
+            kindcycle.uk@gmail.com
+          </a>
         </div>
       </div>
     </div>

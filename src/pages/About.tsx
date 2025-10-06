@@ -16,12 +16,13 @@ function About() {
           path={path.logo}
           altText='KindCycle logo'
         />
-        <div className='title'>{t('about.title')}</div>
+        <div className='title'>{t('sections.about.title')}</div>
         <div className='description'>
-          <p>{t('about.description')}</p>
+          <p>{t('sections.about.description')}</p>
+          <br />
           <p>
-            <Link to={addLanguagePrefix('/contact')} className='bold'>
-              {t('about.contactLink')}
+            <Link to={addLanguagePrefix('/contact')} className='bold link'>
+              {t('sections.contact.title')}
             </Link>
           </p>
         </div>

@@ -1,21 +1,22 @@
 {
-  "nav": {
-    "home": "Ana Sayfa",
+  "navLocations": {
     "about": "Hakkımızda",
     "contact": "İletişim"
   },
-  "home": {
-    "title": "Waste Not!",
-    "subtitle": "Sürdürülebilir Yaşam"
-  },
-  "about": {
-    "title": "Hakkımızda",
-    "description": "İngiltere her yıl 640.000 ton yeniden kullanılabilir eşyayı atıyor. Sürdürülebilirliğe odaklanmış bir grup sakin olan Kind Cycle, geri dönüşüm yerine yeniden kullanımı teşvik ederek atıkları azaltan ve toplulukları birbirine bağlayan projelerle bu sorunu ele alıyor. Mimarlık, tasarım ve etkinlik alanlarında uzmanlıklarıyla, eğiten ve daha güçlü topluluklar oluşturan girişimler yaratıyorlar.",
-    "contactLink": "Bize ulaşın"
-  },
-  "contact": {
-    "title": "Bize Ulaşın",
-    "description": "Bizimle iletişime geçin."
+  "sections": {
+    "wasteNot": {
+      "title": "Waste Not!",
+      "description": "Waste Not, yerel sakinleri ev eşyalarını mahallelerinde atmak yerine yeniden kullanmanın önemi konusunda eğitmeyi amaçlayan çevre girişimidir.<br /><br /><span class=\"bold\">Kampanya, sakinleri yeniden kullanılabilir eşyaları yerel ağlar aracılığıyla paylaşmaya veya yardım kuruluşlarına bağışlamaya teşvik eder.</span><br /><br />Kind Cycle tarafından sunulan, Veolia Sürdürülebilirlik Fonu tarafından fonlanan ve Haringey Konseyi ile Ferry Lane Action Group tarafından desteklenen, <a class=\"bold\" href=\"/wastenot/ferrylane\">Ferry Lane Estate, Waste Not kampanyasının ilk lokasyonudur.</a>"
+    },
+    "about": {
+      "title": "Hakkımızda",
+      "description": "İngiltere her yıl 640.000 ton yeniden kullanılabilir eşyayı atıyor. Sürdürülebilirliğe odaklanmış bir grup sakin olan Kind Cycle, geri dönüşüm yerine yeniden kullanımı teşvik ederek atıkları azaltan ve toplulukları birbirine bağlayan projelerle bu sorunu ele alıyor. Mimarlık, tasarım ve etkinlik alanlarında uzmanlıklarıyla, eğiten ve daha güçlü topluluklar oluşturan girişimler yaratıyorlar.",
+      "contactLink": "Bize ulaşın"
+    },
+    "contact": {
+      "title": "Bize Ulaşın",
+      "description": "Kind Cycle ve Waste Not projesi hakkında daha fazla bilgi edinmek istiyor musunuz? Dahil edilecek bir yardım kuruluşu veya organizasyon önermek istiyor musunuz? Bize mesaj atın!"
+    }
   },
   "categories": {
     "babyItems": {
@@ -45,22 +46,14 @@
     },
     "neighbours": {
       "name": "Komşularla Paylaş",
-      "imageDescription": "Çeşitli ev eşyalarının ikonları",
-      "description": "Artık ihtiyacınız olmayan şeyleri Ferry Lane komşularınızla paylaşmak: onlar yerel ve eşyaları kolayca alabilirler. Kimsenin seyahat etmeyeceği küçük eşyalardan maliyetli taşıma gerektiren büyük eşyalara kadar, komşularınız yakında olduğunda her şey daha kolay. Hatta kedinizin sevmediği mamaları, tatile çıkmadan önce buzdolabı fazlalıklarını veya ekstra kiler eşyalarını bile bağışlayabilirsiniz.<br /><br /><span class=\"bold\">FLAG WhatsApp topluluğuna katılmak ve eşyalarınızı orada paylaşmak için aşağıdaki QR kodunu tıklayın veya tarayın.</span>",
-      "whatsApp": {
-        "name": "Ferrylane WhatsApp grubu",
-        "label": "FLAG WhatsApp topluluğu bağlantısına katıl"
-      }
+      "imageDescription": "Çeşitli ev eşyalarının ikonları"
     }
   },
   "neighbourhoods": {
     "ferrylane": {
       "description": "Ferry Lane komşularınızla artık ihtiyacınız olmayan eşyaları paylaşın: onlar yakındır ve eşyaları kolayca alabilirler. Kimsenin uğramaya değer görmeyeceği küçük eşyalarından maliyetli taşımaya ihtiyaç duyacak büyük eşyalarınıza kadar, komşularınız yanınızdayken her şey daha kolaydır. Kedinizin sevmediği yiyeceği, tatile çıkmadan önce buzdolabı fazlalarını veya fazladan kuru gıda ürünlerini bile bağışlayabilirsiniz.<br /><br /><span class=\"bold\">FLAG WhatsApp topluluğuna katılmak ve eşyalarınızı orada paylaşmak için aşağıdaki QR koduna tıklayın veya taratın.</span>",
       "whatsApp": {
-        "name": "Ferrylane WhatsApp group",
-        "label": "FLAG WhatsApp topluluğu bağlantısına katıl",
-        "qrcode": "ferrylane",
-        "link": "https://chat.whatsapp.com/EHXIZBYNDn7BPRkrUUM3bY"
+        "label": "FLAG WhatsApp topluluğu bağlantısına katıl"
       }
     },
     "haringey": {
@@ -70,17 +63,14 @@
   "organisations": {
     "howItWorksLabel": "Nasıl Çalışır",
     "lloydPark": {
-      "name": "Lloyd Park Çocuk Yardım Kuruluşu",
-      "about": "Lloyd Park Çocuk Yardım Kuruluşu, Waltham Forest topluluğundaki çocuklar ve aileler için hayati hizmetler ve destek sağlar.",
+      "about": "Lloyd Park Children's Charity, Waltham Forest topluluğundaki çocuklar ve aileler için hayati hizmetler ve destek sağlar.",
       "howItWorks": "Baby Bank projeleri, ihtiyacı olan ailelere bebek kıyafetleri, ekipmanları ve hijyen ürünleri gibi temel ihtiyaçları sunar. 0-5 yaş arasındaki çocuklar için eşyalar toplarlar. Kabul edilen eşyaların güncel listesi, bırakma yerleri ve saatleri için web sitesini kontrol edin ve e-posta gönderin."
     },
     "pramDepot": {
-      "name": "Pram Depot",
       "about": "PramDepot, savunmasız yeni anneleri geri dönüştürülmüş bebek kıyafetleri ve ekipmanları sağlayarak destekleyen sanat odaklı bir geri dönüşüm projesidir.",
       "howItWorks": "Nazikçe kullanılmış bebek eşyaları Wood Green lokasyonunda bağışlanabilir. Kabul edilen eşyaların listesi web sitesinde mevcuttur. Bırakma ayarlamak için online bağış formunu kullanarak basitçe bir zaman planlayın."
     },
     "olio": {
-      "name": "Olio",
       "about": "Olio, toplulukları ücretsiz eşya paylaşımı için birbirine bağlayan, ev ve gıda atıklarını azaltmaya yardımcı olan bir mobil uygulamadır.",
       "howItWorks": "Uygulamayı indirin ve hesap oluşturun. Kayıt olduktan sonra, gıda ve ev eşyaları gibi vermek istediğiniz eşyaları paylaşabilirsiniz. Ayrıca yerel bölgenizdeki diğerlerinin listelerini inceleyerek eşya talep edebilir veya ödünç alabilirsiniz. Kullanıcılar alma veya toplama düzenlemek için doğrudan uygulama üzerinden iletişim kurar."
     },
@@ -90,142 +80,94 @@
       "howItWorks": "Kaydolun, hesap oluşturun ve bölge grubunuza ve yakınlardaki gruplara katılın. Mobilya, elektronik veya kıyafet gibi vermek istediğiniz eşyaların listelerini paylaşabilir ve doğrudan mesajlarla toplama düzenleyebilirsiniz. Freecycle finansal işlem olmaksızın topluluk odaklı değiş tokuşları teşvik eder. Kullanıcılar ayrıca belirli eşyalar için aranıyor ilanları da paylaşabilir."
     },
     "facebookMarketplace": {
-      "name": "Facebook Marketplace",
       "about": "Facebook Marketplace, kullanıcıların yerel topluluklarında eşya alıp, satabilecekleri ve verebilecekleri çevrimiçi bir platformdur.",
       "howItWorks": "Facebook Marketplace'te eşya bağışlamak için Facebook'a giriş yapın ve Marketplace bölümüne gidin. 'Yeni Liste Oluştur'a tıklayın, 'Satılık Eşya'yı seçin ve fiyatı £0 olarak ayarlayın. Fotoğraflar, açıklamalar, konum ve eşya detayları ekleyin. Yerel kullanıcılar toplama düzenlemek için size doğrudan mesaj atabilir."
     },
     "britishHeartFoundation": {
-      "name": "British Heart Foundation",
       "about": "British Heart Foundation, kalp hastalıkları araştırmalarını fonlayan ve kardiyovasküler durumlardan etkilenenları destekleyen bir yardım kuruluşudur.",
-      "howItWorks": "British Heart Foundation kıyafet, kitap, elektrikli eşya ve mobilya bağışlarını kabul eder. Büyük eşyalar için ücretsiz toplama hizmeti sunarlar, bunu çevrimiçi form aracılığıyla düzenleyebilirsiniz. Sadece eşya detaylarını, tercih edilen toplama tarihini, adresi ve iletişim bilgilerini sağlayın.",
-      "websiteLabel": "www.bhf.org.uk"
+      "howItWorks": "British Heart Foundation kıyafet, kitap, elektrikli eşya ve mobilya bağışlarını kabul eder. Büyük eşyalar için ücretsiz toplama hizmeti sunarlar, bunu çevrimiçi form aracılığıyla düzenleyebilirsiniz. Sadece eşya detaylarını, tercih edilen toplama tarihini, adresi ve iletişim bilgilerini sağlayın."
     },
     "encouragingReuse": {
-      "name": "Encouraging Reuse",
       "about": "",
       "howItWorks": "'Encouraging Reuse' dükkanı, eşyaların bağışı ve yeniden kullanımı yoluyla sürdürülebilirliği teşvik etmeye odaklanan topluluk odaklı bir alandır.",
       "websiteLabel": "Google maps konum"
     },
     "traid": {
-      "name": "TRAID",
       "about": "TRAID, istenmeyen kıyafetleri küresel kalkınma projeleri için kaynaklara dönüştürerek tekstil atığını azaltmaya odaklanan bir İngiltere yardım kuruluşudur.",
-      "howItWorks": "Bağışlanan kıyafetler toplanır ve girişimlerini fonlamak için yeniden satılır. Temiz, giyilebilir kıyafetleri TRAID bağış bankalarına veya yardım dükkanlarına bırakarak bağışlayabilirsiniz. Büyük bağışlar için TRAID web siteleri üzerinden düzenlenebilen ücretsiz ev toplama hizmeti sunar.",
-      "websiteLabel": "www.traid.org.uk"
+      "howItWorks": "Bağışlanan kıyafetler toplanır ve girişimlerini fonlamak için yeniden satılır. Temiz, giyilebilir kıyafetleri TRAID bağış bankalarına veya yardım dükkanlarına bırakarak bağışlayabilirsiniz. Büyük bağışlar için TRAID web siteleri üzerinden düzenlenebilen ücretsiz ev toplama hizmeti sunar."
     },
     "weCollectWeDonate": {
-      "name": "WeCollectWeDonate",
       "about": "WeCollectWeDonate, kıyafet, kitap ve ev eşyaları gibi istenmeyen eşyaları doğrudan kapınızdan ücretsiz olarak toplayan sosyal bir girişimdir.",
       "howItWorks": "Bu eşyaları yeniden satarlar veya yardım kuruluşlarına bağışlarlar, evsizlik, ruh sağlığı ve eğitim gibi amaçlar için fon toplamaya yardımcı olurlar. İyi, yeniden kullanılabilir durumda eşyaları kabul ettikleri web siteleri üzerinden kolayca toplama düzenleyebilirsiniz."
     },
     "haringeyFixers": {
-      "name": "Haringey Fixers",
       "about": "Haringey Fixers, tamir ve yeniden kullanımı teşvik eden topluluk öncülüğünde bir yardım kuruluşudur. Yerel sakinlerin eşyalarını tamir etmek için getirebildikleri, atığı azaltmaya ve tamir becerilerini öğretmeye yardımcı olan aylık Tamir Kafeler sunarlar.",
       "howItWorks": "Tamir Kafe, yerel halkın ev eşyalarını tamir ettiği ve atığı azalttığı topluluk etkinliğidir. Gönüllüler cihazlar, mobilya ve giyim gibi şeyleri tamir etmeye yardımcı olur. Haringey'de ayda birkaç hafta sonu düzenlenen bu ücretsiz seanslar sürdürülebilirliği teşvik etmeyi amaçlar. Yaklaşan etkinlikler için takvimi kontrol edin ve ücretsiz hafta sonu slotu rezerve edin."
     },
     "northLondonWasteAuthority": {
-      "name": "North London Waste Authority",
       "about": "North London Waste Authority (NLWA), yedi kuzey Londra ilçesi için atık bertarafi ve geri dönüşüm hizmetlerini yönetir ve atığı azaltmaya ve sürdürülebilirliği geliştirmeye yönelik birden fazla proje yürütür.",
-      "howItWorks": "NLWA atığı azaltmak için tamir girişimlerini teşvik eder, web sitelerinde tamir rehberi sunar. Bu rehber tamir hizmetleri, kendin yap tamir ipuçları ve ev eşyalarının ömrünü uzatma kılavuzları gibi kaynakları içerir.",
-      "websiteLabel": "www.nlwa.gov.uk"
+      "howItWorks": "NLWA atığı azaltmak için tamir girişimlerini teşvik eder, web sitelerinde tamir rehberi sunar. Bu rehber tamir hizmetleri, kendin yap tamir ipuçları ve ev eşyalarının ömrünü uzatma kılavuzları gibi kaynakları içerir."
     },
     "clothesBanks": {
       "name": "Giysi Bankaları",
       "about": "TRAID ve The Salvation Army dahil birçok yardım kuruluşu, şehir genelinde, istenmeyen kıyafet, tekstil ve ayakkabıları istediğiniz zaman bırakabileceğiniz giysi bankalarına sahiptir.",
-      "howItWorks": "Sadece eşyalarınızı torbalayın ve belirlenmiş geri dönüşüm kutularına yerleştirin. Bu bankalar birden fazla noktada uygun şekilde konumlandırılmıştır. En yakınını bulmanıza yardımcı olacak bir harita.",
-      "websiteLabel": "Google maps konum"
+      "howItWorks": "Sadece eşyalarınızı torbalayın ve belirlenmiş geri dönüşüm kutularına yerleştirin. Bu bankalar birden fazla noktada uygun şekilde konumlandırılmıştır. En yakınını bulmanıza yardımcı olacak bir harita."
     },
     "footprintForGood": {
-      "name": "Footprint for Good",
       "about": "Footprint for Good, risk altındaki gençlere destek olur: Repair Restore Respect programı aracılığıyla katılımcılar bağışlanan mobilyaları onararak yenileme ve tamir öğrenir — özgüven kazanır, pratik beceriler edinir ve sürdürülebilirliği teşvik eder.",
-      "howItWorks": "Çevrimiçi formumuzu kullanarak ücretsiz mobilya toplama talebinde bulunabilirsiniz. Takım, tarihi onaylamak için 5 iş günü içinde sizinle iletişime geçecektir. Bu hizmet şu anda yalnızca mobilyalar için geçerlidir. Kanepe, gardırop, yatak çerçevesi, masa, sandalye, raf ve depolama çözümleri kabul edilir.",
-      "websiteLabel": "www.footprintforgood.org"
+      "howItWorks": "Çevrimiçi formumuzu kullanarak ücretsiz mobilya toplama talebinde bulunabilirsiniz. Takım, tarihi onaylamak için 5 iş günü içinde sizinle iletişime geçecektir. Bu hizmet şu anda yalnızca mobilyalar için geçerlidir. Kanepe, gardırop, yatak çerçevesi, masa, sandalye, raf ve depolama çözümleri kabul edilir."
     },
     "prayHaringey": {
-      "name": "Children's Storehouse from Pray Haringey",
       "about": "Pray Haringey, Haringey’de inanca dayalı, topluluk odaklı bir ağdır. Girişimlerinden biri olan Children’s Storehouse, 0–7 yaş arası çocuklar için kaliteli bağışlar toplar ve bunları ihtiyaç sahibi yerel ailelere dağıtır.",
-      "howItWorks": "Bağışlar teslim edilebilir veya alım için düzenleme yapılabilir. Beşik ve beşik nevresimi, mama sandalyeleri, bebek arabaları, güvenlik kapıları, giysiler, oyuncaklar ve 0–7 yaş çocuklar için uygun kitaplar kabul edilir.",
-      "websiteLabel": "www.prayharingey.org.uk"
+      "howItWorks": "Bağışlar teslim edilebilir veya alım için düzenleme yapılabilir. Beşik ve beşik nevresimi, mama sandalyeleri, bebek arabaları, güvenlik kapıları, giysiler, oyuncaklar ve 0–7 yaş çocuklar için uygun kitaplar kabul edilir."
     },
     "communityClothingCollection": {
-      "name": "Community Clothing Collection",
       "about": "Community Clothing Collection, Londra merkezli bir şirkettir ve Londra ile Essex’te kıyafet bağışları için ücretsiz evden alma hizmeti sunar.",
-      "howItWorks": "Desteklemek istediğiniz bir hayır kurumunu seçin ve çevrimiçi olarak ücretsiz alım rezervasyonu yapın. İstenmeyen giysilerinizi ve aksesuarlarınızı kapınızdan alıp seçtiğiniz kuruma teslim edecekler. Bağış yapmadan önce kabul edilen öğelerin listesini kontrol edin.",
-      "websiteLabel": "communityclothescollection.co.uk"
+      "howItWorks": "Desteklemek istediğiniz bir hayır kurumunu seçin ve çevrimiçi olarak ücretsiz alım rezervasyonu yapın. İstenmeyen giysilerinizi ve aksesuarlarınızı kapınızdan alıp seçtiğiniz kuruma teslim edecekler. Bağış yapmadan önce kabul edilen öğelerin listesini kontrol edin."
     },
     "collectMyClothes": {
-      "name": "Collect My Clothes",
       "about": "Collect My Clothes, Birleşik Krallık genelinde ücretsiz evden alma hizmeti sunarak giysilerinizi, ayakkabılarınızı, çantalarınızı ve aksesuarlarınızı geri dönüştürür ve ortak hayır kurumlarına bağış için gelir sağlar.",
-      "howItWorks": "Temiz, tekrar kullanılabilir eşyalarınızı torbalayın, çevrimiçi ücretsiz alım talep edin ve desteklemek için bir hayır kurumu seçin. Eşyalar etik bir şekilde geri dönüştürülür ve seçtiğiniz hayır kurumu toplanan her ton için £200–£250 alır.",
-      "websiteLabel": "collectmyclothes.co.uk"
+      "howItWorks": "Temiz, tekrar kullanılabilir eşyalarınızı torbalayın, çevrimiçi ücretsiz alım talep edin ve desteklemek için bir hayır kurumu seçin. Eşyalar etik bir şekilde geri dönüştürülür ve seçtiğiniz hayır kurumu toplanan her ton için £200–£250 alır."
     },
     "redonate": {
-      "name": "reDONATE.uk",
       "about": "reDONATE.uk, istenmeyen giysilere ikinci bir hayat vererek atıkları azaltan ve toplulukları destekleyen bir hayır kurumudur.",
-      "howItWorks": "Çevrimiçi ücretsiz alım rezervasyonu yapın, ekip eşyalarınızı kapınızdan alır. reDONATE, kaliteli giysiler, ayakkabılar, aksesuarlar, mücevherler, parfümler ve daha fazlasını kabul eder. Ayrıca küçük biblo ve kitapları da, eğer giysi bağışına dahil edilirse, alırlar.",
-      "websiteLabel": "redonate.uk"
+      "howItWorks": "Çevrimiçi ücretsiz alım rezervasyonu yapın, ekip eşyalarınızı kapınızdan alır. reDONATE, kaliteli giysiler, ayakkabılar, aksesuarlar, mücevherler, parfümler ve daha fazlasını kabul eder. Ayrıca küçük biblo ve kitapları da, eğer giysi bağışına dahil edilirse, alırlar."
     },
     "collectNDonate": {
-      "name": "Collect ’N Donate",
       "about": "Collect ’N Donate, Birleşik Krallık merkezli bir bağış toplama hizmetidir. Kaliteli eşyaların ücretsiz olarak kapıdan alınmasını sağlar ve bunları topluluk yararına dağıtmak için çeşitli yerel hayır kurumlarıyla işbirliği yapar.",
-      "howItWorks": "Çevrimiçi veya telefonla ücretsiz giysi alımı rezervasyonu yapın. Eşyalarınızı etiketli bir çanta veya kutuya koyun ve belirlenen zamanda dışarı bırakın. Ekip, bunları kapınızdan alacaktır. Yetişkin ve çocuk giysileri, eşleştirilmiş ayakkabılar, aksesuarlar, çantalar, kemerler, mücevherler, kitaplar, CD/DVD’ler ve diğer küçük eşyalar bağışlayabilirsiniz.",
-      "websiteLabel": "collectndonate.co.uk"
+      "howItWorks": "Çevrimiçi veya telefonla ücretsiz giysi alımı rezervasyonu yapın. Eşyalarınızı etiketli bir çanta veya kutuya koyun ve belirlenen zamanda dışarı bırakın. Ekip, bunları kapınızdan alacaktır. Yetişkin ve çocuk giysileri, eşleştirilmiş ayakkabılar, aksesuarlar, çantalar, kemerler, mücevherler, kitaplar, CD/DVD’ler ve diğer küçük eşyalar bağışlayabilirsiniz."
     },
     "help2Collect": {
-      "name": "Help 2 Collect",
       "about": "Help 2 Collect, kaliteli eşyaların ücretsiz toplanmasını sağlayan Birleşik Krallık merkezli bir bağış hizmetidir. £53,000’den fazla para toplamış ve binlerce ton giysiyi çöplükten uzaklaştırmıştır.",
-      "howItWorks": "Çevrimiçi veya telefonla ücretsiz evden alım rezervasyonu yapın; ekip, bağışlarınızı — giysiler, ayakkabılar, çantalar, kemerler, bebek eşyaları ve pelüş oyuncaklar gibi — doğrudan kapınızdan alır.",
-      "websiteLabel": "help2collect.co.uk"
+      "howItWorks": "Çevrimiçi veya telefonla ücretsiz evden alım rezervasyonu yapın; ekip, bağışlarınızı — giysiler, ayakkabılar, çantalar, kemerler, bebek eşyaları ve pelüş oyuncaklar gibi — doğrudan kapınızdan alır."
     },
     "iCollectClothes": {
-      "name": "iCollectClothes",
       "about": "iCollectClothes, bağışlanan eşyaların yeniden satışı yoluyla çeşitli hayır kurumlarını destekleyen, Birleşik Krallık merkezli ücretsiz kapıdan alma hizmetidir.",
-      "howItWorks": "Bağış yapmak için iCollectClothes web sitesini ziyaret edin, tercih ettiğiniz hayır kurumunu seçin ve ücretsiz kapıdan alım için uygun bir zaman planlayın. Giysiler, ayakkabılar ve aksesuarlar dahil edebilirsiniz.",
-      "websiteLabel": "www.icollectclothes.co.uk"
+      "howItWorks": "Bağış yapmak için iCollectClothes web sitesini ziyaret edin, tercih ettiğiniz hayır kurumunu seçin ve ücretsiz kapıdan alım için uygun bir zaman planlayın. Giysiler, ayakkabılar ve aksesuarlar dahil edebilirsiniz."
     },
     "sueRyder": {
-      "name": "Sue Ryder",
       "about": "Sue Ryder, yaşamın sonundaki kişilere ve kayıpla başa çıkanlara uzman palyatif bakım ve yas desteği sağlayan bir Birleşik Krallık hayır kurumudur. Hayır mağazaları aracılığıyla toplanan gelirler, ülke genelinde hospis ve nörolojik bakımı destekler.",
-      "howItWorks": "Ücretsiz mobilya alım hizmeti sunarlar; bu hizmet çevrimiçi olarak veya Ulusal Mobilya Hattı (0333 003 1883) aranarak rezerve edilebilir. Yangın güvenlik etiketi olan kaliteli kanepeleri, masaları, gardıropları, yatakları ve küçük elektrikli eşyaları toplarlar.",
-      "websiteLabel": "www.sueryder.org"
+      "howItWorks": "Ücretsiz mobilya alım hizmeti sunarlar; bu hizmet çevrimiçi olarak veya Ulusal Mobilya Hattı (0333 003 1883) aranarak rezerve edilebilir. Yangın güvenlik etiketi olan kaliteli kanepeleri, masaları, gardıropları, yatakları ve küçük elektrikli eşyaları toplarlar."
     },
     "jacksSofaDrops": {
-      "name": "Jacks Sofa Drops",
       "about": "Jacks Sofa Drops, Londra ve Surrey genelinde güvenilir, çevre dostu kanepe taşıma ve mobilya toplama hizmetiyle tanınmaktadır. Yeniden kullanılabilir eşyalar yerel hayır kurumlarına bağışlanır veya yeniden evlendirilir; kullanılamayan her şey sorumlu bir şekilde geri dönüştürülür.",
-      "howItWorks": "Çevrimiçi formlarını kullanarak alım rezervasyonu yapın; ekip 24 saat içinde yanıt vererek uygun bir alım zamanını onaylar. Hafif lekeler veya evcil hayvan tüyleri dahil küçük kullanım izlerine sahip nazikçe kullanılmış kanepeler, köşe takımları ve yemek masaları için ücretsiz alım sunarlar.",
-      "websiteLabel": "jackssofadrops.co.uk"
+      "howItWorks": "Çevrimiçi formlarını kullanarak alım rezervasyonu yapın; ekip 24 saat içinde yanıt vererek uygun bir alım zamanını onaylar. Hafif lekeler veya evcil hayvan tüyleri dahil küçük kullanım izlerine sahip nazikçe kullanılmış kanepeler, köşe takımları ve yemek masaları için ücretsiz alım sunarlar."
     },
     "freegle": {
-      "name": "Freegle",
       "about": "Freegle, insanların ücretsiz olarak eşya vermesini ve almasını sağlayan, yeniden kullanımı teşvik eden ve atıkları azaltan Birleşik Krallık merkezli bir topluluk platformudur.",
-      "howItWorks": "Bağış yapmak için yerel Freegle grubunuza çevrimiçi katılın, vermek istediğiniz eşyayı tanımlayan bir gönderi paylaşın ve ilgilenen bir üyeyle alımı düzenleyin.",
-      "websiteLabel": "www.ilovefreegle.org"
+      "howItWorks": "Bağış yapmak için yerel Freegle grubunuza çevrimiçi katılın, vermek istediğiniz eşyayı tanımlayan bir gönderi paylaşın ve ilgilenen bir üyeyle alımı düzenleyin."
     },
     "loveJunk": {
-      "name": "LoveJunk",
       "about": "LoveJunk, kullanıcıları lisanslı atık toplayıcıları ve yeniden kullanım yapanlarla buluşturan, güvenli, ekonomik ve çevre dostu çöp ve büyük eşya kaldırma hizmeti sunan bir pazaryeridir.",
-      "howItWorks": "Kullanıcılar, fotoğraf ve kısa bir açıklama yükleyerek LoveJunk’ta ücretsiz ilan verebilir. Yakındaki lisanslı atık toplayıcılar ve yeniden kullanım kuruluşları, ilanı görüntüleyebilir, teklif sunabilir veya yeniden kullanılabilir eşyaları ücretsiz almak için başvurabilir.",
-      "websiteLabel": "www.lovejunk.com"
+      "howItWorks": "Kullanıcılar, fotoğraf ve kısa bir açıklama yükleyerek LoveJunk’ta ücretsiz ilan verebilir. Yakındaki lisanslı atık toplayıcılar ve yeniden kullanım kuruluşları, ilanı görüntüleyebilir, teklif sunabilir veya yeniden kullanılabilir eşyaları ücretsiz almak için başvurabilir."
     }
   },
   "locations": {
     "ferrylane": {
-      "name": "Ferry Lane Estate",
       "description": "Ferry Lane Estate, Waste Not kampanyasının ilk teslimat lokasyonudur. Ev eşyası bağışlarını teşvik eden cesur, göz alıcı bilgi panelleri emlağın ortak çöp atma alanlarına stratejik olarak yerleştirilmiştir. <span class=\"bold\">Nerede ve nasıl bağış yapacağınıza dair kapsamlı rehberimizi keşfedin.</span>"
     },
     "haringey": {
-      "name": "Haringey",
       "description": "Bağış yapmak, atmaya göre daha kolaydır. Haringey sakinleri; giysi, mobilya, ev aletleri ve daha fazlası için ücretsiz toplama ve teslim noktaları sunan hayır kurumları ve kuruluşlarının kapsamlı bir listesini keşfedebilir. Sadece bir bölüme tıklayın, bir kuruluş seçin, nasıl çalıştığını görün ve bağış yapın."
     }
-  },
-  "sections": {
-    "wasteNot": "Waste Not, yerel sakinleri ev eşyalarını mahallelerinde atmak yerine yeniden kullanmanın önemi konusunda eğitmeyi amaçlayan çevre girişimidir.<br /><br /><span class=\"bold\">Kampanya, sakinleri yeniden kullanılabilir eşyaları yerel ağlar aracılığıyla paylaşmaya veya yardım kuruluşlarına bağışlamaya teşvik eder.</span><br /><br />Kind Cycle tarafından sunulan, Veolia Sürdürülebilirlik Fonu tarafından fonlanan ve Haringey Konseyi ile Ferry Lane Action Group tarafından desteklenen, <a class=\"bold\" href=\"/wastenot/ferrylane\">Ferry Lane Estate, Waste Not kampanyasının ilk lokasyonudur.</a>",
-    "contact": "Kind Cycle ve Waste Not projesi hakkında daha fazla bilgi edinmek istiyor musunuz? Dahil edilecek bir yardım kuruluşu veya organizasyon önermek istiyor musunuz? Bize mesaj atın!<br /><br /><span class=\"bold\">kindcycle.uk@gmail.com</span>",
-    "about": "İngiltere her yıl 640.000 ton yeniden kullanılabilir eşyayı atıyor. Sürdürülebilirliğe odaklanmış bir grup sakin olan Kind Cycle, geri dönüşüm yerine yeniden kullanımı teşvik ederek atıkları azaltan ve toplulukları birbirine bağlayan projelerle bu sorunu ele alıyor. Mimarlık, tasarım ve etkinlik alanlarında uzmanlıklarıyla, eğiten ve daha güçlü topluluklar oluşturan girişimler yaratıyorlar.<br /><br /><a class=\"bold\" href=\"/contact\">Bize ulaşın</a>"
-  },
-  "navLocations": {
-    "wastenot": "Waste Not",
-    "ferrylane": "Ferry Lane",
-    "about": "Hakkımızda",
-    "contact": "İletişim"
   }
 }
