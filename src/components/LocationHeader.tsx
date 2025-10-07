@@ -21,7 +21,7 @@ const LocationHeader = ({ locationId }: LocationHeaderProps) => {
       to={addLanguagePrefix(`/wastenot/${location.id}`)}
       className='LocationHeader'
     >
-      <div className='location'>{t(`locations.${locationId}.name`)}</div>
+      <div className='location link'>{t(`locations.${locationId}.name`)}</div>
     </NavLink>
   )
 }

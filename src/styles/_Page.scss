@@ -57,11 +57,14 @@
       .bold {
         font-weight: 600;
       }
-      .link:hover {
-        text-decoration: underline;
-      }
       @media (min-width: $break768) {
         font-size: 30px;
+      }
+    }
+    .link {
+      transition: scale 0.25s ease-in-out;
+      &:hover {
+        scale: 1.1;
       }
     }
   }

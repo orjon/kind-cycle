@@ -63,6 +63,7 @@ const LocationOrganisation = ({
           {website && (
             <a
               href={website.url}
+              className='link'
               target='_blank'
               rel='noopener noreferrer'
               onClick={trackClick}
