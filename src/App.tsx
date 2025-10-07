@@ -4,7 +4,8 @@ import {
   useParams,
   Outlet,
   useNavigate,
-  useLocation
+  useLocation,
+  Navigate
 } from 'react-router-dom'
 import { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
@@ -21,7 +22,6 @@ import ScrollToTop from './components/ScrollToTop'
 import { getSettings } from './settings'
 import { initGA, trackPageView } from './utils/analytics'
 import { supportedLangs } from './constants'
-import Redirects from './Redirects'
 
 import './styles/App.scss'
 
@@ -64,7 +64,14 @@ function App() {
       <Nav />
       <div className={`main-wrapper ${getSettings()}`}>
         <Routes>
-          <Redirects />
+          <Route
+            path='/ferrylane'
+            element={<Navigate to='/wastenot/ferrylane' replace />}
+          />
+          <Route
+            path='/haringey'
+            element={<Navigate to='/wastenot/haringey' replace />}
+          />
           <Route path='/:lang?' element={<AppWrapper />}>
             <Route index element={<Home />} />
             <Route path='wastenot' element={<Home />} />
