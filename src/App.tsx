@@ -21,6 +21,7 @@ import ScrollToTop from './components/ScrollToTop'
 import { getSettings } from './settings'
 import { initGA, trackPageView } from './utils/analytics'
 import { supportedLangs } from './constants'
+import Redirects from './Redirects'
 
 import './styles/App.scss'
 
@@ -63,6 +64,7 @@ function App() {
       <Nav />
       <div className={`main-wrapper ${getSettings()}`}>
         <Routes>
+          <Redirects />
           <Route path='/:lang?' element={<AppWrapper />}>
             <Route index element={<Home />} />
             <Route path='wastenot' element={<Home />} />
