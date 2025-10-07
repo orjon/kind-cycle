@@ -5,13 +5,11 @@
   },
   "sections": {
     "wasteNot": {
-      "title": "Ɛnyɛ Sɛe!",
       "description": "Waste Not yɛ nsɛnhyɛso a ɛkyerɛ kurowfo sɛ ɛsɛ sɛ wode nneɛma di bio na mmom, na wogyaa gu. <br /><br /><span class=\"bold\">Campaign no frɛ kurowfo sɛ wɔkyɛ nneɛma a ɛde betumi adi bio wɔ local anaa ma charities.</span><br /><br />Ɛyɛ Kind Cycle na wɔyɛ, na Veolia Sustainability Fund ne Haringey Council ne Ferry Lane Action Group boaboa ho. <a class=\"bold\" href=\"/wastenot/ferrylane\">Ferry Lane Estate yɛ beae a wɔyɛ Waste Not campaign no.</a>"
     },
     "about": {
       "title": "Fa Ho Asɛm",
-      "description": "UK hye gu 640,000 ton reusable nneɛma afe biara. Kind Cycle, kurowfoɔ a wogyina sustainability so, rehwɛ nsɛnhyɛso a ɛboaboa nkurɔfoɔ ano ne tua gu so, na ɛma yɛde nneɛma di bio mmom sɛ yɛnkɔrecycle. Wɔwɔ nimdeɛ wɔ architecture, design ne events mu, na wɔbɔ nsɛnhyɛso a ɛkyerɛkyerɛ nkurɔfoɔ na ɛma kurom bɔ mu yie.",
-      "contactLink": "Fa Yɛn Nkyerɛ"
+      "description": "UK hye gu 640,000 ton reusable nneɛma afe biara. Kind Cycle, kurowfoɔ a wogyina sustainability so, rehwɛ nsɛnhyɛso a ɛboaboa nkurɔfoɔ ano ne tua gu so, na ɛma yɛde nneɛma di bio mmom sɛ yɛnkɔrecycle. Wɔwɔ nimdeɛ wɔ architecture, design ne events mu, na wɔbɔ nsɛnhyɛso a ɛkyerɛkyerɛ nkurɔfoɔ na ɛma kurom bɔ mu yie."
     },
     "contact": {
       "title": "Fa Yɛn Nkyerɛ",
@@ -87,7 +85,6 @@
       "howItWorks": "Wɔgye ntama, nwoma, electronic, ne agyaadeɛ donations. Wɔde kɔfa agyaadeɛ akɛse kwa. Fill online form no na hyɛ bere, beae ne kontak."
     },
     "encouragingReuse": {
-      "about": "",
       "howItWorks": "\"Encouraging Reuse\" daakye bɔ so wɔ kurow so, na ɛde yɛn kɔ sustainability mu wɔ nneɛma a yedɔ na yɛde di bio.",
       "websiteLabel": "Google maps beae"
     },

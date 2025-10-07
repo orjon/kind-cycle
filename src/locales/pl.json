@@ -5,13 +5,11 @@
   },
   "sections": {
     "wasteNot": {
-      "title": "Nie na śmietnik!",
       "description": "Waste Not to inicjatywa ekologiczna mająca na celu edukację lokalnych mieszkańców na temat znaczenia ponownego wykorzystania artykułów domowych zamiast ich wyrzucania w okolicy.<br /><br /><span class=\"bold\">Kampania zachęca mieszkańców do dzielenia się rzeczami poprzez lokalne sieci lub do przekazywania ich organizacjom charytatywnym.</span><br /><br />Prowadzona przez Kind Cycle, finansowana przez Veolia Sustainability Fund i wspierana przez Radę Haringey oraz Ferry Lane Action Group, <a class=\"bold\" href=\"/wastenot/ferrylane\">osiedle Ferry Lane jest pierwszą lokalizacją kampanii Waste Not.</a>"
     },
     "about": {
       "title": "O nas",
-      "description": "W Wielkiej Brytanii każdego roku wyrzuca się 640 000 ton rzeczy, które można ponownie wykorzystać. Kind Cycle to grupa mieszkańców skupiona na zrównoważonym rozwoju, która przez promowanie ponownego użycia zamiast recyklingu zmniejsza ilość odpadów i łączy społeczności. Dzięki doświadczeniu w architekturze, projektowaniu i organizacji wydarzeń tworzą inicjatywy edukacyjne i wzmacniające lokalne społeczności.",
-      "contactLink": "Skontaktuj się z nami"
+      "description": "W Wielkiej Brytanii każdego roku wyrzuca się 640 000 ton rzeczy, które można ponownie wykorzystać. Kind Cycle to grupa mieszkańców skupiona na zrównoważonym rozwoju, która przez promowanie ponownego użycia zamiast recyklingu zmniejsza ilość odpadów i łączy społeczności. Dzięki doświadczeniu w architekturze, projektowaniu i organizacji wydarzeń tworzą inicjatywy edukacyjne i wzmacniające lokalne społeczności."
     },
     "contact": {
       "title": "Skontaktuj się z nami",
@@ -87,7 +85,6 @@
       "howItWorks": "British Heart Foundation przyjmuje darowizny odzieży, książek, urządzeń elektrycznych i mebli. Oferują darmową usługę odbioru dużych przedmiotów, którą można zamówić przez formularz online. Wystarczy podać szczegóły przedmiotu, preferowaną datę odbioru, adres i dane kontaktowe."
     },
     "encouragingReuse": {
-      "about": "",
       "howItWorks": "Sklep 'Encouraging Reuse' to miejsce zorientowane na społeczność, promujące zrównoważony rozwój przez darowizny i ponowne użycie rzeczy.",
       "websiteLabel": "Lokalizacja w Google Maps"
     },

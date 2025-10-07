@@ -10,6 +10,8 @@ import akTranslations from './locales/ak.json'
 import bnTranslations from './locales/bn.json'
 import frTranslations from './locales/fr.json'
 import plTranslations from './locales/pl.json'
+import bgTranslations from './locales/bg.json'
+import soTranslations from './locales/so.json'
 
 const resources = {
   en: {
@@ -35,6 +37,12 @@ const resources = {
   },
   pl: {
     translation: plTranslations
+  },
+  bg: {
+    translation: bgTranslations
+  },
+  so: {
+    translation: soTranslations
   }
 }
 

@@ -5,13 +5,11 @@
   },
   "sections": {
     "wasteNot": {
-      "title": "Waste Not!",
       "description": "Waste Not es una iniciativa ambiental diseñada para educar a los residentes locales sobre la importancia de reutilizar artículos domésticos en lugar de desecharlos en sus vecindarios.<br /><br /><span class=\"bold\">La campaña anima a los residentes a compartir artículos reutilizables a través de redes locales o donarlos a organizaciones benéficas.</span><br /><br />Entregado por Kind Cycle, financiado por el Fondo de Sostenibilidad Veolia y apoyado por el Consejo Haringey y el Ferry Lane Action Group, <a class=\"bold\" href=\"/wastenot/ferrylane\">Ferry Lane Estate es la primera ubicación para la campaña Waste Not.</a>"
     },
     "about": {
       "title": "Acerca de",
-      "description": "El Reino Unido descarta 640.000 toneladas de artículos reutilizables cada año. Kind Cycle, un grupo de residentes enfocado en la sostenibilidad, está abordando este problema con proyectos que reducen el desperdicio y conectan comunidades promoviendo la reutilización sobre el reciclaje. Con experiencia en arquitectura, diseño y eventos, crean iniciativas que educan y construyen comunidades más fuertes.",
-      "contactLink": "Contáctanos"
+      "description": "El Reino Unido descarta 640.000 toneladas de artículos reutilizables cada año. Kind Cycle, un grupo de residentes enfocado en la sostenibilidad, está abordando este problema con proyectos que reducen el desperdicio y conectan comunidades promoviendo la reutilización sobre el reciclaje. Con experiencia en arquitectura, diseño y eventos, crean iniciativas que educan y construyen comunidades más fuertes."
     },
     "contact": {
       "title": "Contáctanos",
@@ -87,7 +85,6 @@
       "howItWorks": "La British Heart Foundation acepta donaciones de ropa, libros, artículos eléctricos y muebles. Ofrecen recolección gratuita para artículos más grandes, que puedes organizar a través de un formulario en línea. Solo proporciona los detalles del artículo, fecha de recolección preferida, dirección e información de contacto."
     },
     "encouragingReuse": {
-      "about": "",
       "howItWorks": "La tienda 'Encouraging Reuse' es un espacio centrado en la comunidad dedicado a promover la sostenibilidad a través de la donación y reutilización de artículos.",
       "websiteLabel": "Ubicación en Google Maps"
     },

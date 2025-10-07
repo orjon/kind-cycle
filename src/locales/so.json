@@ -1,0 +1,170 @@
+{
+  "navLocations": {
+    "about": "Ku saabsan",
+    "contact": "Nala soo xiriir"
+  },
+  "sections": {
+    "wasteNot": {
+      "description": "Waste Not waa hindise deegaan oo loogu talagalay in lagu baro dadka deegaanka muhiimadda ay leedahay dib-u-isticmaalka alaabta guryaha halkii laga tuuri lahaa xaafadahooda.<br /><br /><span class='bold'>Ololuhu wuxuu ku dhiirigelinayaa dadka deegaanka inay la wadaagaan alaabta dib loo isticmaali karo shabakadaha maxalliga ah ama ay ku deeqaan hay’adaha samafalka.</span><br /><br />Waxaa fulinaya Kind Cycle, waxaa maalgelinaya Veolia Sustainability Fund waxaana taageeraya Haringey Council iyo Ferry Lane Action Group, <a class='bold' href='/wastenot/ferrylane'>Ferry Lane Estate waa goobtii ugu horreysay ee ololaha Waste Not.</a>"
+    },
+    "about": {
+      "title": "Ku saabsan",
+      "description": "Boqortooyada Midowday (UK) waxay sannad kasta tuurtaa 640,000 tan oo ah alaabo dib loo isticmaali karo. Kind Cycle, oo ah koox ka kooban dad deegaanka ah oo diiradda saaraya waaraanta (sustainability), ayaa la tacaalaysa arrintan iyagoo hirgelinaya mashaariic yaraynaysa qashinka isla markaana isku xira bulshooyinka iyagoo dhiirrigelinaya dib-u-isticmaalka halkii laga doorbidi lahaa dib-u-warshadaynta. Iyada oo leh khibrad dhanka naqshadeynta dhismayaasha, naqshadda guud, iyo abaabulka dhacdooyinka, waxay abuuraan hindisayaal wax bara bulshada isla markaana xoojiya xiriirka bulshada."
+    },
+    "contact": {
+      "title": "Nala soo xiriir",
+      "description": "Ma rabtaa inaad waxbadan ka ogaato Kind Cycle iyo mashruuca Waste Not? Ma rabtaa inaad soo jeediso hay’ad samafal ama urur lagu daro? Naga soo dir fariin!"
+    }
+  },
+  "categories": {
+    "babyItems": {
+      "name": "Alaabta Ilmaha",
+      "imageDescription": "Astaamo muujinaya alaabooyinka ilmaha",
+      "description": "Ilmaha waxay si dhakhso ah u koraan, alaabta ka baxda cabbirka ayaa boos ku jirta. <span class='bold'>Ku deeq alaabta ilmaha ee si fudud loo isticmaalay qoysaska baahan si boos loo helo.</span>"
+    },
+    "clothes": {
+      "name": "Dharka",
+      "imageDescription": "Astaamo muujinaya dharka kala duwan",
+      "description": "Ka nadiifi armaajooyinkaaga oo ku deeq waxa aadan xirmin. <span class='bold'>Sii kabo iyo dharkaaga nolol labaad oo qof kale ka farxiyo.</span>"
+    },
+    "furniture": {
+      "name": "Alaabta Guriga",
+      "imageDescription": "Astaamo muujinaya alaabooyinka guriga kala duwan",
+      "description": "Haddii alaabta guriga ee aadan u baahnayn ama jecleyn ay boos ku hayso, ku deeq oo qof farxad sii – <span class='bold'>xitaa waxay ka soo qaadi doonaan albaabkaaga!</span>"
+    },
+    "repair": {
+      "name": "Dayactir!",
+      "imageDescription": "Astaamo muujinaya qalabka dayactirka",
+      "description": "<span class='bold'>Dayactirka alaabta jaban</span> waa hab fudud oo lagu yaraynayo qashinka isla markaana <span class='bold'>adduunka iyo boorsadaada badbaadinaya.</span>"
+    },
+    "household": {
+      "name": "Alaabta Guriga",
+      "imageDescription": "Astaamo alaabo guriga ah",
+      "description": "Waxa aadan u baahnayn, qof kale wuu jeclaan doonaa. Alaabta guriga ee aadan doonayn waxaa laga yaabaa inay noqoto waxa qof kale raadinayay!"
+    },
+    "neighbours": {
+      "name": "La Wadaag Deriska",
+      "imageDescription": "Astaamo alaabo guriga ah"
+    }
+  },
+  "neighbourhoods": {
+    "ferrylane": {
+      "description": "La wadaag waxa aadan u baahnayn deriskaaga Ferry Lane: waa dadka deegaanka waxayna si fudud uga soo qaadi karaan alaabta. Laga bilaabo alaabooyinka yaryar ee qofna uusan u safri doonin ilaa kuwa waaweyn ee qaali ku fadhin lahaa gaadiidkooda, wax walba way fududahay marka derisku dhow yihiin. Xitaa waxaad ku deeqi kartaa cunto bisaddaadu jeclayn, hadhaaga qaboojiyaha ka hor fasaxa, ama alaabta dheeraadka ah ee kaydka.<br /><br /><span class='bold'>Guji ama iskaanka QR code-ka hoose si aad ugu biirto bulshada FLAG WhatsApp oo halkaas u soo dhaji alaabtaada.</span>",
+      "whatsApp": {
+        "label": "Ku biir link-ga bulshada FLAG WhatsApp"
+      }
+    },
+    "haringey": {
+      "description": "La wadaagista deriska waa hab fiican oo alaabta wanaagsan loo sii isticmaalo isla markaana xiriirka bulsho loo dhiso. Maadaama ay dhow yihiin, derisku si fudud ayay alaabta u qaadi karaan — ha ahaato alaab yar oo aan safar u qalmin ama mid weyn oo qaali ku fadhin lahayd gaadiid. Xitaa waxaad la wadaagi kartaa cunto xayawaan aan bisaddaadu cunin, hadhaaga qaboojiyaha ka hor fasax, ama alaabta kaydka ee dheeraadka ah. Kaliya ku soo dhaji kooxdaada WhatsApp ama Facebook ee deegaanka, ama u sheeg qof agtaada ah — waxaa laga yaabaa inaad farxad u keento deriska!"
+    }
+  },
+  "organisations": {
+    "howItWorksLabel": "Sida Ay U Shaqeyso",
+    "lloydPark": {
+      "about": "Lloyd Park Children’s Charity waxay bixisaa adeegyo muhiim ah iyo taageero carruurta iyo qoysaska ku nool bulshada Waltham Forest.",
+      "howItWorks": "Mashruucooda Baby Bank wuxuu u fidyaa qoysaska baahan alaabooyinka aasaasiga ah sida dharka ilmaha, qalabka, iyo agabka nadaafadda. Waxay ururiyaan alaabta carruurta da’doodu tahay 0-5 sano. Si aad u hesho liiska alaabta la aqbalo, goobaha iyo waqtiyada lagu dhiibo, booqo website-ka oo u dir email."
+    },
+    "pramDepot": {
+      "about": "PramDepot waa mashruuc farshaxanimo ku dhisan oo dib-u-warshadeyn ah, kaas oo taageera hooyooyinka cusub ee nugul iyada oo la siinayo dhar iyo qalab ilmaha oo dib loo isticmaalay.",
+      "howItWorks": "Alaabta ilmaha ee si wanaagsan u jirta waxaa lagu deeqi karaa goobta Wood Green. Liiska alaabta la aqbalo waxaa laga helayaa website-ka. Si aad u dhigto deeqda, jadwal u samee waqti adigoo isticmaalaya foomka deeqda ee onlaynka ah."
+    },
+    "olio": {
+      "about": "Olio waa app moobil ah oo isku xira bulshooyinka si ay ugu wadaagaan alaabooyin bilaash ah, taas oo yareyneysa qashinka cuntada iyo guriga.",
+      "howItWorks": "Soo dejiso app-ka oo samee akoon. Markaad iska diiwaangeliso, waxaad dhigi kartaa alaabta aad rabto inaad bixiso sida cunto ama alaabta guriga. Waxa kale oo aad ka raadin kartaa liisaska dadka deegaankaaga si aad u codsato ama u amaahato. Isticmaalayaashu waxay si toos ah uga wada xiriiraan app-ka si ay u qorsheeyaan qaadashada."
+    },
+    "freecycle": {
+      "about": "Freecycle waa madal ay dadka ku bixiyaan alaabta aanay u baahnayn bilaash, si loo dhiirrigeliyo dib-u-isticmaalka lana yareeyo qashinka.",
+      "howItWorks": "Isdiiwaangeli, samee akoon, oo ku biir kooxda degmadaada. Waxaad dhigi kartaa alaabta aad rabto inaad bixiso — sida alaabta guriga, qalabka korontada ama dharka — kadibna qorshee uruurinta fariin toos ah. Freecycle waxay dhiirrigelisaa isweydaarsi bulsho oo aan dhaqaale ku xirnayn."
+    },
+    "facebookMarketplace": {
+      "about": "Facebook Marketplace waa meel onlayn ah oo dadka deegaanka ay ku iibiyaan, ku bixinayaan, ama ku deeqaan alaab.",
+      "howItWorks": "Si aad ugu deeqdo, gal Facebook oo tag Marketplace. Guji “Create New Listing”, dooro “Item for Sale”, kadibna dhig qiimaha £0. Ku dar sawirro, faahfaahin, goob iyo macluumaadka alaabta. Dadka deegaanka ayaa si toos ah kuugu soo diri kara fariin si ay u qaataan."
+    },
+    "britishHeartFoundation": {
+      "about": "British Heart Foundation waa hay’ad samafal oo maalgelisa cilmi-baarista cudurrada wadnaha isla markaana taageerta dadka uu saameeyey.",
+      "howItWorks": "Hay’addu waxay aqbashaa dhar, buugaag, qalab koronto, iyo alaabta guriga. Waxay bixiyaan uruurin bilaash ah oo loogu talagalay alaabta waaweyn, taas oo lagu qorsheyn karo foom onlayn ah. Kaliya geli faahfaahinta alaabta, taariikhda uruurinta, iyo xogta xiriirka."
+    },
+    "encouragingReuse": {
+      "howItWorks": "Dukaanka “Encouraging Reuse” waa meel bulsho u adeegta oo u heellan dhiirrigelinta waaraanta iyada oo lagu xoojinayo deeqda iyo dib-u-isticmaalka alaabta.",
+      "websiteLabel": "Goobta Google Maps"
+    },
+    "traid": {
+      "about": "TRAID waa hay’ad samafal oo UK ah oo diiradda saarta dhimista qashinka dharka iyadoo dharka aan la rabin u beddesha ilo dhaqaale oo lagu taageero mashaariic horumarineed oo caalami ah.",
+      "howItWorks": "Dharka la deeqo waa la ururiyaa lana iibinayaa si loogu maalgeliyo hawlahooda. Waxaad ku deeqi kartaa dhar nadiif ah oo la gashan karo adigoo geeya sanduuqyada deeqda ee TRAID ama dukaamada samafalka. Deeqaha waaweyn, TRAID waxay bixisaa adeeg uruurin guri oo bilaash ah oo lagu dalban karo website-kooda."
+    },
+    "weCollectWeDonate": {
+      "about": "WeCollectWeDonate waa ganacsi bulsho oo ururiya alaabta aan la rabin sida dharka, buugaagta, iyo alaabta guriga, si toos ah albaabka gurigaaga, bilaash.",
+      "howItWorks": "Waxay alaabtaas dib u iibiyaan ama u deeqaan hay’ado samafal si loo taageero arrimo sida hoy la’aanta, caafimaadka maskaxda, iyo waxbarashada. Waxaad si fudud uga dalban kartaa uruurin website-kooda, halkaas oo ay aqbalaan alaab tayo leh oo dib loo isticmaali karo."
+    },
+    "haringeyFixers": {
+      "about": "Haringey Fixers waa hay’ad bulsho oo diiradda saarta dayactirka iyo dib-u-isticmaalka. Waxay qabtaan Repair Cafés bille ah halkaas oo dadka deegaanka ay keeni karaan alaabta la dayactirayo, si loo yareeyo qashinka loona barto xirfadaha dayactirka.",
+      "howItWorks": "Repair Café waa dhacdo bulsho oo lagu dayactiro alaabta guriga lana yareeyo qashinka. Mutadawiciintu waxay caawiyaan dayactirka qalabka, alaabta guriga, iyo dharka. Waxaa lagu qabtaa dhowr sabti iyo Axad bil kasta Haringey, waxaana lagu diiwaan gelin karaa bilaash. Ka hubi jadwalka dhacdooyinka soo socda."
+    },
+    "northLondonWasteAuthority": {
+      "about": "North London Waste Authority waxay maamushaa qashinka iyo adeegyada dib-u-warshadaynta ee toddoba degmo oo waqooyiga London ah, waxayna fulisaa mashaariic lagu yareynayo qashinka loona dhiirrigelinayo waaraanta.",
+      "howItWorks": "NLWA waxay taageertaa barnaamijyada dayactirka iyadoo bixinaysa hagaha dayactirka ee website-kooda. Hagu wuxuu ka kooban yahay adeegyo dayactir, talooyin DIY ah, iyo tilmaamo lagu dheeraynayo cimriga alaabta guriga."
+    },
+    "clothesBanks": {
+      "name": "Sanduuqyada Dharka",
+      "about": "Hay’ado dhowr ah sida TRAID iyo Salvation Army ayaa leh sanduuqyo dhar oo ku kala yaalla magaalada oo dhan, halkaas oo aad ku ridi karto dhar, kabaha, iyo dharka aanad rabin wakhti kasta.",
+      "howItWorks": "Kaliya ku rid alaabta boorso ama sanduuq, kuna dhig weelasha loogu talagalay dib-u-warshadaynta. Goobahaas si habboon ayaa loogu kala yaallaa meelo badan. Halkan ka eeg khariidad si aad u hesho kan kuugu dhow.",
+      "websiteLabel": "Goobta Google Maps"
+    },
+    "footprintForGood": {
+      "about": "Footprint for Good waxay taageertaa dhalinyarada nugul iyadoo barnaamijkooda Repair Restore Respect lagu baro sida loo cusboonaysiiyo alaabta la deeqay, taas oo dhisaysa kalsooni, xirfado waxtar leh, isla markaana kor u qaadaysa waaraanta.",
+      "howItWorks": "Waxaad ku codsan kartaa uruurin alaabta guriga bilaash ah foomka onlaynka ah. Kooxdu waxay kula soo xiriiri doontaa 5 maalmood gudahood si loo xaqiijiyo taariikhda. Adeeggan wuxuu khuseeyaa oo keliya alaabta guriga sida kuraasta, miisaska, sariiraha, armaajooyinka, iyo meelaha kaydinta."
+    },
+    "prayHaringey": {
+      "about": "Pray Haringey waa shabakad diin ku dhisan oo bulsho u adeegta oo ku taalla Haringey. Mid ka mid ah mashaariicdooda, Children’s Storehouse, waxay ururiyaan deeqo tayo leh oo loogu talagalay carruurta da’doodu tahay 0–7 sano si loogu qaybiyo qoysaska deegaanka ee baahan.",
+      "howItWorks": "Deeqaha waa la keeni karaa ama waa la qorsheyn karaa in la soo qaado. Waxay aqbalaan sariiro ilmaha, kuraas cunto, pram/buggy, albaabada badbaadada, dhar, toys, iyo buugaag carruurta ku habboon."
+    },
+    "communityClothingCollection": {
+      "about": "Community Clothing Collection waa shirkad fadhigeedu yahay London oo bixisa adeeg uruurin dhar oo guri bilaash ah oo ka shaqeeya London iyo Essex.",
+      "howItWorks": "Dooro hay’ad aad rabto inaad taageerto oo ballan ka samee uruurinta onlayn. Waxay ka qaadi doonaan dharkaaga iyo agabka albaabka gurigaaga waxayna u gudbin doonaan hay’adda aad dooratay. Kaliya hubi liiska alaabta la aqbalo ka hor intaadan deeqin."
+    },
+    "collectMyClothes": {
+      "about": "Collect My Clothes waa adeeg UK oo dhan laga helo oo bilaash ah, kaas oo dib u warshadeeya dharka, kabaha, boorsooyinka, iyo agabka si lacag loogu ururiyo hay’adaha samafalka ee la shaqeeya.",
+      "howItWorks": "Ku rid alaabtaada nadiifka ah ee la isticmaali karo boorso, codso uruurin bilaash ah onlayn, kadibna dooro hay’ad aad taageerto. Alaabta si anshax leh ayaa loo dib-u-warshadeynayaa, hay’addaaduna waxay helaysaa £200–£250 halkii tan la ururiyo."
+    },
+    "redonate": {
+      "about": "reDONATE.uk waa hay’ad samafal oo siisa dharka aan la rabin nolol labaad, iyadoo yareyneysa qashinka lana taageeraysa bulshooyinka.",
+      "howItWorks": "Dalbo uruurin bilaash ah onlayn, kooxda ayaa ka qaadi doonta dharka gurigaaga. reDONATE waxay aqbashaa dhar tayo leh, kabo, agab, dahab, cadar, iyo in ka badan. Waxay sidoo kale aqbalaan alaabo yaryar iyo buugaag haddii lagu daro deeq dhar."
+    },
+    "collectNDonate": {
+      "about": "Collect ’N Donate waa adeeg samafal oo UK ku saleysan oo bixiya uruurin albaab bilaash ah oo alaab tayo leh, iyadoo lala shaqeynayo hay’ado maxalli ah si dib loogu qaybiyo bulshada.",
+      "howItWorks": "Dalbo uruurin bilaash ah onlayn ama telefoon. Ku rid alaabta boorso calaamadaysan ama sanduuq, kuna daa albaabka waqtiga la isku raacay. Kooxdoodu way soo qaadi doontaa. Waxaad ku deeqi kartaa dhar dadka waaweyn iyo carruurta, kabo, agab, boorsooyin, suumanno, dahab, buugaag, CD/DVD, iyo alaabo kale oo yaryar."
+    },
+    "help2Collect": {
+      "about": "Help 2 Collect waa adeeg deeq-bixin oo UK ku saleysan oo bixiya uruurin bilaash ah oo alaabo tayo leh si loo taageero hay’adaha samafalka. Waxay ururisay in ka badan £53,000 waxayna ka leexisay kumannaan tan oo dhar ah qashinka.",
+      "howItWorks": "Dalbo uruurin guri oo bilaash ah onlayn ama telefoon, kooxda ayaana ka soo qaadi doonta deeqahaaga — sida dharka, kabaha, boorsooyinka, suumanka, alaabta ilmaha, iyo toys jilicsan — si toos ah albaabkaaga."
+    },
+    "iCollectClothes": {
+      "about": "iCollectClothes waa adeeg UK ah oo fududeeya uruurinta albaabka ee dharka aan la rabin, isagoo taageeraya hay’ado samafal oo kala duwan iyada oo la iibiyo alaabta la deeqay.",
+      "howItWorks": "Si aad u deeqdo, booqo website-ka iCollectClothes, dooro hay’adda aad rabto inaad taageerto, kadibna jadwal u samee uruurin bilaash ah oo ku habboon. Waxaad ku dari kartaa dhar, kabo, iyo agabyo kale."
+    },
+    "sueRyder": {
+      "about": "Sue Ryder waa hay’ad samafal oo UK ah oo bixisa daryeel khabiir ah oo loogu talagalay bukaannada xaaladaha nolosha ugu dambeysa iyo taageero dadka la tacaalaya murugada. Lacagta laga helo dukaamada samafalka ayaa lagu taageeraa xarumaha daryeelka iyo xarumaha neerfaha ee dalka oo dhan.",
+      "howItWorks": "Waxay bixiyaan adeeg uruurin alaab guriga oo bilaash ah, kaas oo lagu dalban karo onlayn ama adigoo wacaya National Furniture Line (0333 003 1883). Waxay aqbalaan kuraas, miisas, armaajooyin, sariiro, iyo qalab koronto oo yar oo leh calaamado badbaado dab."
+    },
+    "jacksSofaDrops": {
+      "about": "Jacks Sofa Drops waxaa lagu aaminsan yahay London iyo Surrey sababtoo ah adeegyadooda lagu kalsoonaan karo ee deegaanka u wanaagsan ee uruurinta kuraasta iyo alaabta guriga. Alaabta dib loo isticmaali karo waxaa lagu deeqaa hay’ado maxalli ah ama dib ayaa loo siiyaa, halka midda aan la hagaajin karin si masuuliyad leh loo dib-u-warshadeeyo.",
+      "howItWorks": "Dalbo uruurin adigoo isticmaalaya foomka onlaynka ah, kooxda ayaana kula soo xiriiri doonta 24 saacadood gudahood si ay u xaqiijiyaan waqtiga uruurinta. Waxay bixiyaan uruurin bilaash ah oo kuraas iyo miisas si wanaagsan u jirta, xitaa haddii ay leeyihiin wasakh yar ama timo xayawaan."
+    },
+    "freegle": {
+      "about": "Freegle waa madal bulsho oo UK ah oo dadka u saamaxda inay si bilaash ah u bixiyaan ama u helaan alaabo, si loo dhiirrigeliyo dib-u-isticmaalka lana yareeyo qashinka.",
+      "howItWorks": "Si aad u deeqdo, ku biir kooxda Freegle ee deegaankaaga onlayn, ku qor faahfaahinta alaabta aad rabto inaad bixiso, kadibna qorshee uruurinta qofka xiiseynaya."
+    },
+    "loveJunk": {
+      "about": "LoveJunk waa suuq onlayn ah oo isku xira dadka isticmaala iyo ururiyeyaasha qashinka ee shatiga leh iyo ururada dib-u-isticmaalka, si loogu fududeeyo ka saarista qashinka iyo alaabta waaweyn si badbaado leh, jaban, oo deegaanka u wanaagsan.",
+      "howItWorks": "Isticmaalayaashu waxay si bilaash ah ugu dhajin karaan shaqo LoveJunk iyagoo soo gelinaya sawirro iyo faahfaahin kooban oo alaabta ah. Ururiyeyaasha iyo ururada dib-u-isticmaalka ee deegaanka ayaa arki kara xayeysiiska, soo diri kara qiimeyn, ama bixiya qaadista alaabta dib loo isticmaali karo bilaash."
+    }
+  },
+  "locations": {
+    "ferrylane": {
+      "description": "Ferry Lane Estate waa goobtii ugu horreysay ee ololaha Waste Not lagu fuliyo. Waxaa si istiraatiiji ah loogu rakibay xaashiyo xog-ogaalnimo oo muuqaal soo jiidasho leh oo dhiirrigelinaya deeqda alaabta guryaha meelaha guud ee qashinka lagu tuuro ee ku yaal dhulka deegaanka. <span class='bold'>Soo hel hagahayaga dhammeystiran ee ku saabsan meesha iyo sida loo deeqo.</span>"
+    },
+    "haringey": {
+      "description": "Deeq bixintu way ka fudud tahay tuurista. Dadka deegaanka Haringey waxay ka eegi karaan liis dhameystiran oo hay’ado iyo ururo bixiya adeegyo uruurin iyo keenis bilaash ah oo loogu talagalay dharka, alaabta guriga, qalabka, iyo waxyaabo kale. Si fudud u guji qayb, dooro urur, eeg sida uu u shaqeeyo, kadibna deeq bixi."
+    }
+  }
+}
