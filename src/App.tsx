@@ -65,6 +65,10 @@ function App() {
       <div className={`main-wrapper ${getSettings()}`}>
         <Routes>
           <Route
+            path='/broadwaterfarm'
+            element={<Navigate to='/wastenot/broadwaterfarm' replace />}
+          />
+          <Route
             path='/ferrylane'
             element={<Navigate to='/wastenot/ferrylane' replace />}
           />
