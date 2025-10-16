@@ -1,5 +1,17 @@
+export type LanguageOption = {
+  code: string
+  name: string
+  flag: string
+}
+
+export enum NavType {
+  location = 'location',
+  page = 'page'
+}
+
 export type NavLocation = {
   id: string
+  type: NavType
   path: string
 }
 

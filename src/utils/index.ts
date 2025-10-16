@@ -35,8 +35,15 @@ export const addLanguagePrefix = (path: string): string => {
   if (langPrefix && path.startsWith(langPrefix)) {
     return path
   }
-
   return `${langPrefix}${path}`
+}
+
+export const buildLangPath = (currentPath: string, langCode: string) => {
+  const currentPrefix = getCurrentLanguagePrefix()
+  const pathWithoutLang = currentPrefix
+    ? currentPath.replace(currentPrefix, '')
+    : currentPath
+  return langCode === 'en' ? pathWithoutLang : `/${langCode}${pathWithoutLang}`
 }
 
 // Utility to get home path with current language prefix

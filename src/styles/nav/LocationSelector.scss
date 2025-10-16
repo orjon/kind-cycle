@@ -1,0 +1,104 @@
+@use '../Global' as *;
+
+.LocationSelector {
+  position: relative;
+  &__dropdown {
+    right: 0;
+    left: auto;
+    min-width: 200px;
+  }
+
+  .LocationOption {
+    .LocationSelector__flag {
+      width: 33px;
+      height: 25px;
+    }
+  }
+
+  &__button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: var(--color-text);
+    transition: all 0.2s ease;
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 0 2px rgba(var(--color-primary-rgb), 0.2);
+    }
+  }
+
+  &__name {
+    white-space: nowrap;
+    margin: 0 8px;
+  }
+
+  .LocationList {
+    position: absolute;
+    top: $navHeight;
+    left: -9px;
+    background-color: $colorYellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    will-change: opacity;
+    transition: opacity 0.25s ease-in-out;
+    box-shadow: 0px 5px $navShadowBlur $colorNavDropdownShadow;
+    overflow-y: auto;
+
+    &.open {
+      opacity: 1;
+
+      .LocationOption {
+        height: $navHeight;
+        .LocationSelector__name {
+          transform: scale(1, 1);
+        }
+      }
+    }
+  }
+
+  .LocationOption {
+    height: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0 1rem;
+    padding-right: 20px;
+    background: transparent;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    font-size: $fontNavSmall;
+    font-weight: 300;
+    color: $colorText;
+    will-change: height, background-color, color;
+    transition: height 0.25s ease-in-out, background-color 0.25s ease-in,
+      color 0.3s ease-in;
+
+    .LocationSelector__name {
+      will-change: transform;
+      transition: transform 0.25s ease-in-out;
+      transform: scale(1, 0);
+    }
+
+    &:hover,
+    &:focus {
+      background-color: $colorRed;
+      color: $colorSoftWhite;
+    }
+
+    &.active {
+      background-color: $colorRed;
+      color: $colorSoftWhite;
+    }
+  }
+
+  @media (min-width: $break1024) {
+    .LocationSelector__name {
+      font-size: $fontNavLarge;
+    }
+  }
+}

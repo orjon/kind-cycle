@@ -1,5 +1,6 @@
 {
   "navLocations": {
+    "locations": "Lokalizacje",
     "about": "O nas",
     "contact": "Kontakt"
   },
@@ -166,6 +167,9 @@
     },
     "haringey": {
       "description": "Oddawanie jest łatwiejsze niż wyrzucanie. Mieszkańcy Haringey mogą zapoznać się z pełną listą organizacji charytatywnych i instytucji oferujących bezpłatne odbiory i punkty przyjęć odzieży, mebli, sprzętów domowych i innych rzeczy. Wystarczy kliknąć sekcję, wybrać organizację, sprawdzić, jak to działa, i przekazać darowiznę."
+    },
+    "broadwaterfarm": {
+      "description": "Mieszkańcy Broadwater Farm mogą łatwo znaleźć lokalne organizacje charytatywne i instytucje oferujące bezpłatny odbiór i dostawę odzieży, mebli, sprzętu AGD i innych przedmiotów. Wystarczy przejrzeć sekcje poniżej, wybrać organizację, zobaczyć, jak to działa, i przekazać darowiznę. Realizacja projektu Waste Not na osiedlu Broadwater Farm została sfinansowana przez Haringey Community Carbon Fund."
     }
   }
 }

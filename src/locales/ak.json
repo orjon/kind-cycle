@@ -1,5 +1,6 @@
 {
   "navLocations": {
+    "locations": "Nkyɛmu",
     "about": "Fa Ho Asɛm",
     "contact": "Fa Nkyerɛ"
   },
@@ -166,6 +167,9 @@
     },
     "haringey": {
       "description": "Sɛ wode ma a, ɛyɛ mmerɛw sen sɛ wogyae. Haringey manfoɔ betumi ahu charities ne adwumakuo dodow a wɔma ntama, akonnwa, appliances ne adeɛ foforɔ agyeɛ ne gyaeɛ kwa. Dɔm so, paw adwumakuo, hu sɛnea ɛyɛ adwuma, na fa woadeɛ ma."
+    },
+    "broadwaterfarm": {
+      "description": "Broadwater Farm nkurɔfo betumi ahu aban ne akyirikyiri akuw a wɔboa wɔ ntɛm so, a wɔma nsakrae ne afiri ho nneɛma sɛ ntade, mpɔtam, ne mfonini ahorow. Kɔ mu hwɛ akuw a ɛwɔ ase ha, paw deɛ wopɛ, hu sɛnea ɛyɛ, na yɛ wo afiri. Waste Not adwumayɛ no wɔ Broadwater Farm no ho sika fi Haringey Community Carbon Fund mu."
     }
   }
 }

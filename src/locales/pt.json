@@ -1,5 +1,6 @@
 {
   "navLocations": {
+    "locations": "Locais",
     "about": "Sobre",
     "contact": "Contato"
   },
@@ -165,6 +166,9 @@
     },
     "haringey": {
       "description": "Doar é mais fácil do que descartar. Os residentes de Haringey podem explorar uma lista abrangente de instituições de caridade e organizações que oferecem recolhas e pontos de entrega gratuitos para roupas, móveis, eletrodomésticos e muito mais. Basta clicar numa secção, escolher uma organização, ver como funciona e doar."
+    },
+    "broadwaterfarm": {
+      "description": "Os residentes de Broadwater Farm podem facilmente encontrar instituições de caridade e organizações locais que oferecem serviços gratuitos de recolha e entrega de roupas, móveis, eletrodomésticos e muito mais. Basta explorar as seções abaixo, escolher uma organização, ver como funciona e fazer a sua doação. A implementação do projeto Waste Not em Broadwater Farm foi financiada pelo Haringey Community Carbon Fund."
     }
   }
 }

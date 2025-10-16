@@ -69,5 +69,11 @@ export const categories: CategoriesDirectory = {
     color: { text: 'green', border: 'yellow' },
     genericOrganisations: [],
     localGroup: true
+  },
+  neighboursBroadwaterfarm: {
+    id: 'neighbours',
+    color: { text: 'green', border: 'yellow' },
+    genericOrganisations: [],
+    localGroup: true
   }
 }

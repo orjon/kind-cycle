@@ -4,15 +4,16 @@ import { addLanguagePrefix } from '../utils'
 import { ClickEvent } from '../types/types'
 
 type NavItemProps = {
+  key: string
   label: string
   path: string
   setIsMenuOpen: (isMenuOpen: boolean) => void
 }
 
-const NavItem = ({ label, path, setIsMenuOpen }: NavItemProps) => {
+const NavItem = ({ key, label, path, setIsMenuOpen }: NavItemProps) => {
   const handleNavClick = () => {
     trackEvent(ClickEvent.navigation, {
-      nav_item: label,
+      nav_item: key,
       on_page: window.location.href
     })
     setIsMenuOpen(false)
@@ -20,7 +21,7 @@ const NavItem = ({ label, path, setIsMenuOpen }: NavItemProps) => {
 
   return (
     <NavLink
-      className='NavItem'
+      className='NavItem NavLink'
       to={addLanguagePrefix(path)}
       onClick={handleNavClick}
     >

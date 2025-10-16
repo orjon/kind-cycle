@@ -3,6 +3,8 @@
     "wastenot": "Waste Not",
     "ferrylane": "Ferry Lane",
     "haringey": "Haringey",
+    "broadwaterfarm": "Broadwater Farm",
+    "locations": "Locations",
     "about": "About",
     "contact": "Contact"
   },
@@ -60,6 +62,9 @@
     },
     "haringey": {
       "description": "Sharing with neighbours is a great way to keep good things in use and build connections. Because they’re close by, neighbours can pick things up easily — whether it’s a small item that isn’t worth a trip or a larger one that would cost money to transport. You can even share pet food your cat won’t eat, fridge leftovers before a holiday, or extra pantry items. Just post in your local WhatsApp or Facebook group, or mention it to someone nearby — you might make a neighbour’s day!"
+    },
+    "broadwaterfarm": {
+      "description": "(Description & translations to come)"
     }
   },
   "organisations": {
@@ -210,6 +215,10 @@
     "haringey": {
       "name": "Haringey",
       "description": "Donating is easier than discarding. Haringey residents can explore a comprehensive list of charities and organisations offering free collections and drop-offs for clothes, furniture, appliances, and more. Simply click on a section, choose an organisation, see how it works, and donate."
+    },
+    "broadwaterfarm": {
+      "name": "Broadwater Farm",
+      "description": "Broadwater Farm residents can easily find local charities and organisations offering free collection and drop-off services for clothes, furniture, appliances, and more. Simply explore the sections below, choose an organisation, see how it works, and make your donation. The delivery of the Waste Not project at Broadwater Farm has been funded by the Haringey Community Carbon Fund."
     }
   }
 }

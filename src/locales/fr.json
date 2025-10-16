@@ -1,5 +1,6 @@
 {
   "navLocations": {
+    "locations": "Lieux",
     "about": "À propos",
     "contact": "Contact"
   },
@@ -165,6 +166,9 @@
     },
     "haringey": {
       "description": "Donner est plus facile que jeter. Les habitants de Haringey peuvent consulter une liste complète d’associations et d’organisations offrant des collectes et dépôts gratuits de vêtements, meubles, appareils électroménagers et plus encore. Il suffit de cliquer sur une section, de choisir une organisation, de voir comment cela fonctionne et de donner."
+    },
+    "broadwaterfarm": {
+      "description": "Les résidents de Broadwater Farm peuvent facilement trouver des associations et organisations locales proposant des services gratuits de collecte et de dépôt pour les vêtements, les meubles, les appareils électroménagers et plus encore. Explorez simplement les sections ci-dessous, choisissez une organisation, découvrez comment cela fonctionne et faites votre don. La mise en œuvre du projet Waste Not à Broadwater Farm a été financée par le Haringey Community Carbon Fund."
     }
   }
 }

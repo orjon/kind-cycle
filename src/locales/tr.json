@@ -1,5 +1,6 @@
 {
   "navLocations": {
+    "locations": "Konumlar",
     "about": "Hakkımızda",
     "contact": "İletişim"
   },
@@ -165,6 +166,9 @@
     },
     "haringey": {
       "description": "Bağış yapmak, atmaya göre daha kolaydır. Haringey sakinleri; giysi, mobilya, ev aletleri ve daha fazlası için ücretsiz toplama ve teslim noktaları sunan hayır kurumları ve kuruluşlarının kapsamlı bir listesini keşfedebilir. Sadece bir bölüme tıklayın, bir kuruluş seçin, nasıl çalıştığını görün ve bağış yapın."
+    },
+    "broadwaterfarm": {
+      "description": "Broadwater Farm sakinleri, giysi, mobilya, ev aletleri ve daha fazlası için ücretsiz teslim alma ve bırakma hizmeti sunan yerel hayır kurumlarını ve kuruluşları kolayca bulabilir. Aşağıdaki bölümleri inceleyin, bir kuruluş seçin, nasıl çalıştığını görün ve bağışınızı yapın. Waste Not projesinin Broadwater Farm’daki uygulaması Haringey Community Carbon Fund tarafından finanse edilmiştir."
     }
   }
 }

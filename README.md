@@ -101,7 +101,7 @@ src/
 
 ## 🌍 Internationalization
 
-The application supports multiple languages including English, Spanish, French, Polish, Portuguese, Turkish, Bengali, and Akan.
+The application supports multiple languages including English, Spanish, French, Polish, Somali, Bulgarian, Portuguese, Turkish, Bengali, and Akan.
 
 ## 📱 Features
 
