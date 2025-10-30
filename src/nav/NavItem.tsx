@@ -4,16 +4,16 @@ import { addLanguagePrefix } from '../utils'
 import { ClickEvent } from '../types/types'
 
 type NavItemProps = {
-  key: string
+  nav_item: string
   label: string
   path: string
   setIsMenuOpen: (isMenuOpen: boolean) => void
 }
 
-const NavItem = ({ key, label, path, setIsMenuOpen }: NavItemProps) => {
+const NavItem = ({ nav_item, label, path, setIsMenuOpen }: NavItemProps) => {
   const handleNavClick = () => {
     trackEvent(ClickEvent.navigation, {
-      nav_item: key,
+      nav_item,
       on_page: window.location.href
     })
     setIsMenuOpen(false)

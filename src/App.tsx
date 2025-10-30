@@ -65,16 +65,21 @@ function App() {
       <div className={`main-wrapper ${getSettings()}`}>
         <Routes>
           <Route
+            path='/leaflet'
+            element={<Navigate to='/en/wastenot/broadwaterfarm' replace />}
+          />
+          <Route path='/tag' element={<Navigate to='/en/wastenot' replace />} />
+          <Route
             path='/broadwaterfarm'
-            element={<Navigate to='/wastenot/broadwaterfarm' replace />}
+            element={<Navigate to='/en/wastenot/broadwaterfarm' replace />}
           />
           <Route
             path='/ferrylane'
-            element={<Navigate to='/wastenot/ferrylane' replace />}
+            element={<Navigate to='/en/wastenot/ferrylane' replace />}
           />
           <Route
             path='/haringey'
-            element={<Navigate to='/wastenot/haringey' replace />}
+            element={<Navigate to='/en/wastenot/haringey' replace />}
           />
           <Route path='/:lang?' element={<AppWrapper />}>
             <Route index element={<Home />} />

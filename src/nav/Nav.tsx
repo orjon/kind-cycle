@@ -27,6 +27,7 @@ const Nav = () => {
       return (
         <NavItem
           key={id}
+          nav_item={id}
           label={t(`navLocations.${id}`)}
           path={path}
           setIsMenuOpen={setIsMenuOpen}
@@ -41,6 +42,7 @@ const Nav = () => {
     return (
       <NavItem
         key={id}
+        nav_item={id}
         label={t(`navLocations.${id}`)}
         path={path}
         setIsMenuOpen={setIsMenuOpen}
