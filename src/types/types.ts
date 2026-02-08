@@ -32,6 +32,7 @@ export type LocationCategory = {
 
 export type Location = {
   id: string
+  label: string
   postcode: string
   image?: string
   website?: string

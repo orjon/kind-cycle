@@ -6,6 +6,7 @@ import '../styles/nav/LocationSelector.scss'
 import { addLanguagePrefix } from '../utils'
 import { trackEvent } from '../utils/analytics'
 import { ClickEvent } from '../types/types'
+import { locations } from '../content/locations'
 
 interface LocationOption {
   id: string
@@ -13,15 +14,11 @@ interface LocationOption {
   path: string
 }
 
-const locationOptions: LocationOption[] = [
-  {
-    id: 'broadwaterfarm',
-    name: 'Broadwater Farm',
-    path: '/wastenot/broadwaterfarm'
-  },
-  { id: 'ferrylane', name: 'Ferry lane', path: '/wastenot/ferrylane' },
-  { id: 'haringey', name: 'Haringey', path: '/wastenot/haringey' }
-]
+const locationOptions: LocationOption[] = locations.map((location) => ({
+  id: location.id,
+  name: location.label,
+  path: `/wastenot/${location.id}`
+}))
 
 const LocationSelector = () => {
   const { t } = useTranslation()

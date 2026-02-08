@@ -1,8 +1,7 @@
 import { Navigate, NavLink } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
-import { locations } from '../content'
-import { getHomePathWithLanguage, addLanguagePrefix } from '../utils'
+import { getHomePathWithLanguage, addLanguagePrefix, getLocationById } from '../utils'
 
 import '../styles/components/LocationHeader.scss'
 
@@ -12,7 +11,7 @@ type LocationHeaderProps = {
 
 const LocationHeader = ({ locationId }: LocationHeaderProps) => {
   const { t } = useTranslation()
-  const location = locationId && locations[locationId]
+  const location = locationId && getLocationById(locationId)
 
   if (!location) return <Navigate to={getHomePathWithLanguage()} />
 

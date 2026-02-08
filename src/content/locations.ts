@@ -1,9 +1,10 @@
 import { categories as cat, organisations as org } from './index'
-import { LocationsDirectory } from '../types/types'
+import { Location } from '../types/types'
 
-export const locations: LocationsDirectory = {
-  ferrylane: {
+export const locations: Location[] = [
+  {
     id: 'ferrylane',
+    label: 'Ferry Lane',
     postcode: 'N17',
     whatsApp: {
       name: 'Ferrylane WhatsApp group',
@@ -79,8 +80,9 @@ export const locations: LocationsDirectory = {
       // { id: cat.food.id, organisations: [] },
     ]
   },
-  haringey: {
+  {
     id: 'haringey',
+    label: 'Haringey',
     postcode: '',
     categories: [
       {
@@ -147,8 +149,354 @@ export const locations: LocationsDirectory = {
       // { id: cat.food.id, organisations: [] },
     ]
   },
-  broadwaterfarm: {
+  {
+    id: 'northumberlandgrove',
+    label: 'Northumberland Grove',
+    postcode: '',
+    categories: [
+      {
+        id: cat.neighboursHaringey.id
+      },
+      {
+        id: cat.household.id,
+        organisations: [
+          org.collectNDonate.id,
+          org.freecycle.id,
+          org.facebookMarketplace.id,
+          org.olio.id,
+          org.freegle.id,
+          org.loveJunk.id
+        ]
+      },
+      {
+        id: cat.furniture.id,
+        organisations: [
+          org.britishHeartFoundation.id,
+          org.sueRyder.id,
+          org.jacksSofaDrops.id,
+          org.collectNDonate.id,
+          org.footprintForGood.id,
+          org.freecycle.id,
+          org.facebookMarketplace.id,
+          org.olio.id
+        ]
+      },
+      {
+        id: cat.clothes.id,
+        organisations: [
+          org.communityClothingCollection.id,
+          org.collectMyClothes.id,
+          org.redonate.id,
+          org.collectNDonate.id,
+          org.help2Collect.id,
+          org.iCollectClothes.id,
+          org.traid.id,
+          org.clothesBanks.id
+        ]
+      },
+      {
+        id: cat.babyItems.id,
+        organisations: [
+          org.prayHaringey.id,
+          org.help2Collect.id,
+          org.lloydPark.id,
+          org.pramDepot.id,
+          org.freegle.id,
+          org.freecycle.id,
+          org.facebookMarketplace.id,
+          org.olio.id
+        ]
+      },
+      {
+        id: cat.repair.id,
+        organisations: [
+          org.haringeyFixers.id,
+          org.footprintForGood.id,
+          org.northLondonWasteAuthority.id
+        ]
+      }
+      // { id: cat.food.id, organisations: [] },
+    ]
+  },
+  {
+    id: 'blaydonclose',
+    label: 'Blaydon Close',
+    postcode: '',
+    categories: [
+      {
+        id: cat.neighboursHaringey.id
+      },
+      {
+        id: cat.household.id,
+        organisations: [
+          org.collectNDonate.id,
+          org.freecycle.id,
+          org.facebookMarketplace.id,
+          org.olio.id,
+          org.freegle.id,
+          org.loveJunk.id
+        ]
+      },
+      {
+        id: cat.furniture.id,
+        organisations: [
+          org.britishHeartFoundation.id,
+          org.sueRyder.id,
+          org.jacksSofaDrops.id,
+          org.collectNDonate.id,
+          org.footprintForGood.id,
+          org.freecycle.id,
+          org.facebookMarketplace.id,
+          org.olio.id
+        ]
+      },
+      {
+        id: cat.clothes.id,
+        organisations: [
+          org.communityClothingCollection.id,
+          org.collectMyClothes.id,
+          org.redonate.id,
+          org.collectNDonate.id,
+          org.help2Collect.id,
+          org.iCollectClothes.id,
+          org.traid.id,
+          org.clothesBanks.id
+        ]
+      },
+      {
+        id: cat.babyItems.id,
+        organisations: [
+          org.prayHaringey.id,
+          org.help2Collect.id,
+          org.lloydPark.id,
+          org.pramDepot.id,
+          org.freegle.id,
+          org.freecycle.id,
+          org.facebookMarketplace.id,
+          org.olio.id
+        ]
+      },
+      {
+        id: cat.repair.id,
+        organisations: [
+          org.haringeyFixers.id,
+          org.footprintForGood.id,
+          org.northLondonWasteAuthority.id
+        ]
+      }
+      // { id: cat.food.id, organisations: [] },
+    ]
+  },
+  {
+    id: 'sirfrederickmesser',
+    label: 'Sir Frederick Messer',
+    postcode: '',
+    categories: [
+      {
+        id: cat.neighboursHaringey.id
+      },
+      {
+        id: cat.household.id,
+        organisations: [
+          org.collectNDonate.id,
+          org.freecycle.id,
+          org.facebookMarketplace.id,
+          org.olio.id,
+          org.freegle.id,
+          org.loveJunk.id
+        ]
+      },
+      {
+        id: cat.furniture.id,
+        organisations: [
+          org.britishHeartFoundation.id,
+          org.sueRyder.id,
+          org.jacksSofaDrops.id,
+          org.collectNDonate.id,
+          org.footprintForGood.id,
+          org.freecycle.id,
+          org.facebookMarketplace.id,
+          org.olio.id
+        ]
+      },
+      {
+        id: cat.clothes.id,
+        organisations: [
+          org.communityClothingCollection.id,
+          org.collectMyClothes.id,
+          org.redonate.id,
+          org.collectNDonate.id,
+          org.help2Collect.id,
+          org.iCollectClothes.id,
+          org.traid.id,
+          org.clothesBanks.id
+        ]
+      },
+      {
+        id: cat.babyItems.id,
+        organisations: [
+          org.prayHaringey.id,
+          org.help2Collect.id,
+          org.lloydPark.id,
+          org.pramDepot.id,
+          org.freegle.id,
+          org.freecycle.id,
+          org.facebookMarketplace.id,
+          org.olio.id
+        ]
+      },
+      {
+        id: cat.repair.id,
+        organisations: [
+          org.haringeyFixers.id,
+          org.footprintForGood.id,
+          org.northLondonWasteAuthority.id
+        ]
+      }
+      // { id: cat.food.id, organisations: [] },
+    ]
+  },
+  {
+    id: 'tamarway',
+    label: 'Tamar Way',
+    postcode: '',
+    categories: [
+      {
+        id: cat.neighboursHaringey.id
+      },
+      {
+        id: cat.household.id,
+        organisations: [
+          org.collectNDonate.id,
+          org.freecycle.id,
+          org.facebookMarketplace.id,
+          org.olio.id,
+          org.freegle.id,
+          org.loveJunk.id
+        ]
+      },
+      {
+        id: cat.furniture.id,
+        organisations: [
+          org.britishHeartFoundation.id,
+          org.sueRyder.id,
+          org.jacksSofaDrops.id,
+          org.collectNDonate.id,
+          org.footprintForGood.id,
+          org.freecycle.id,
+          org.facebookMarketplace.id,
+          org.olio.id
+        ]
+      },
+      {
+        id: cat.clothes.id,
+        organisations: [
+          org.communityClothingCollection.id,
+          org.collectMyClothes.id,
+          org.redonate.id,
+          org.collectNDonate.id,
+          org.help2Collect.id,
+          org.iCollectClothes.id,
+          org.traid.id,
+          org.clothesBanks.id
+        ]
+      },
+      {
+        id: cat.babyItems.id,
+        organisations: [
+          org.prayHaringey.id,
+          org.help2Collect.id,
+          org.lloydPark.id,
+          org.pramDepot.id,
+          org.freegle.id,
+          org.freecycle.id,
+          org.facebookMarketplace.id,
+          org.olio.id
+        ]
+      },
+      {
+        id: cat.repair.id,
+        organisations: [
+          org.haringeyFixers.id,
+          org.footprintForGood.id,
+          org.northLondonWasteAuthority.id
+        ]
+      }
+      // { id: cat.food.id, organisations: [] },
+    ]
+  },
+  {
+    id: 'noelpark',
+    label: 'Noel Park',
+    postcode: '',
+    categories: [
+      {
+        id: cat.neighboursHaringey.id
+      },
+      {
+        id: cat.household.id,
+        organisations: [
+          org.collectNDonate.id,
+          org.freecycle.id,
+          org.facebookMarketplace.id,
+          org.olio.id,
+          org.freegle.id,
+          org.loveJunk.id
+        ]
+      },
+      {
+        id: cat.furniture.id,
+        organisations: [
+          org.britishHeartFoundation.id,
+          org.sueRyder.id,
+          org.jacksSofaDrops.id,
+          org.collectNDonate.id,
+          org.footprintForGood.id,
+          org.freecycle.id,
+          org.facebookMarketplace.id,
+          org.olio.id
+        ]
+      },
+      {
+        id: cat.clothes.id,
+        organisations: [
+          org.communityClothingCollection.id,
+          org.collectMyClothes.id,
+          org.redonate.id,
+          org.collectNDonate.id,
+          org.help2Collect.id,
+          org.iCollectClothes.id,
+          org.traid.id,
+          org.clothesBanks.id
+        ]
+      },
+      {
+        id: cat.babyItems.id,
+        organisations: [
+          org.prayHaringey.id,
+          org.help2Collect.id,
+          org.lloydPark.id,
+          org.pramDepot.id,
+          org.freegle.id,
+          org.freecycle.id,
+          org.facebookMarketplace.id,
+          org.olio.id
+        ]
+      },
+      {
+        id: cat.repair.id,
+        organisations: [
+          org.haringeyFixers.id,
+          org.footprintForGood.id,
+          org.northLondonWasteAuthority.id
+        ]
+      }
+      // { id: cat.food.id, organisations: [] },
+    ]
+  },
+  {
     id: 'broadwaterfarm',
+    label: 'Broadwater Farm',
     postcode: '',
     categories: [
       {
@@ -215,4 +563,4 @@ export const locations: LocationsDirectory = {
       // { id: cat.food.id, organisations: [] },
     ]
   }
-}
+]

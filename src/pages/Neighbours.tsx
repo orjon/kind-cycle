@@ -5,21 +5,23 @@ import LocationHeader from '../components/LocationHeader'
 import NeighboursHeader from '../components/NeighboursHeader'
 import QRCode from '../components/QRCode'
 
-import { getHomePathWithLanguage } from '../utils'
+import { getHomePathWithLanguage, getLocationById } from '../utils'
 
-import { categories, locations, path } from '../content'
+import { categories, path } from '../content'
 
 import '../styles/pages/Neighbours.scss'
 
 const Neighbours = () => {
   const { t } = useTranslation()
   const { locationId } = useParams()
-  const categoryId = categories.neighbours.id
-
   if (!locationId) return <Navigate to={getHomePathWithLanguage()} />
 
+  const location = locationId && getLocationById(locationId)
+  if (!location) return <Navigate to={getHomePathWithLanguage()} />
+
+  const categoryId = categories.neighbours.id
   const category = categories[categoryId]
-  const location = locations[locationId]
+
 
   return (
     <div className='Neighbours page'>

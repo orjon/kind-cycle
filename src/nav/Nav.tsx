@@ -23,12 +23,12 @@ const Nav = () => {
   const navBarItems: ReactElement[] = navLocations
     .filter((location) => location.type === NavType.page)
     .map((location) => {
-      const { id, path } = location
+      const { id, path, type } = location
       return (
         <NavItem
           key={id}
           nav_item={id}
-          label={t(`navLocations.${id}`)}
+          label={type === NavType.page ? t(`navLocations.${id}`) : t(`locations.${id}.name`)}
           path={path}
           setIsMenuOpen={setIsMenuOpen}
         />
@@ -38,12 +38,12 @@ const Nav = () => {
   navBarItems.splice(1, 0, <LocationSelector key='location-selector' />)
 
   const navBurgerItems: ReactElement[] = navLocations.map((location) => {
-    const { id, path } = location
+    const { id, path, type } = location
     return (
       <NavItem
         key={id}
         nav_item={id}
-        label={t(`navLocations.${id}`)}
+        label={type === NavType.page ? t(`navLocations.${id}`) : t(`locations.${id}.name`)}
         path={path}
         setIsMenuOpen={setIsMenuOpen}
       />

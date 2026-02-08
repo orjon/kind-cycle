@@ -17,6 +17,32 @@
       "description": "Ma rabtaa inaad waxbadan ka ogaato Kind Cycle iyo mashruuca Waste Not? Ma rabtaa inaad soo jeediso hay’ad samafal ama urur lagu daro? Naga soo dir fariin!"
     }
   },
+  "locations": {
+    "ferrylane": {
+      "description": "Ferry Lane Estate waa goobtii ugu horreysay ee ololaha Waste Not lagu fuliyo. Waxaa si istiraatiiji ah loogu rakibay xaashiyo xog-ogaalnimo oo muuqaal soo jiidasho leh oo dhiirrigelinaya deeqda alaabta guryaha meelaha guud ee qashinka lagu tuuro ee ku yaal dhulka deegaanka. <span class='bold'>Soo hel hagahayaga dhammeystiran ee ku saabsan meesha iyo sida loo deeqo.</span>"
+    },
+    "haringey": {
+      "description": "Deeq bixintu way ka fudud tahay tuurista. Dadka deegaanka Haringey waxay ka eegi karaan liis dhameystiran oo hay’ado iyo ururo bixiya adeegyo uruurin iyo keenis bilaash ah oo loogu talagalay dharka, alaabta guriga, qalabka, iyo waxyaabo kale. Si fudud u guji qayb, dooro urur, eeg sida uu u shaqeeyo, kadibna deeq bixi."
+    },
+    "broadwaterfarm": {
+      "description": "Deganayaasha Broadwater Farm waxay si fudud u heli karaan hay’ado iyo ururo maxalli ah oo bixiya adeegyo lacag-la’aan ah oo lagu ururiyo lana geeyo dhar, alaab guri, qalab koronto, iyo kuwo kale. Kaliya eeg qaybaha hoose, dooro ururka aad rabto, arag sida uu u shaqeeyo, oo samee deeqdaada. Mashruuca Waste Not ee laga hirgeliyey Broadwater Farm waxaa maalgeliyey Haringey Community Carbon Fund."
+    },
+    "northumberlandgrove": {
+      "description": "needs translation"
+    },
+    "blaydonclose": {
+      "description": "needs translation"
+    },
+    "sirfrederickmesser": {
+      "description": "needs translation"
+    },
+    "tamarway": {
+      "description": "needs translation"
+    },
+    "noelpark": {
+      "description": "needs translation"
+    }
+  },
   "categories": {
     "babyItems": {
       "name": "Alaabta Ilmaha",
@@ -161,17 +187,6 @@
     "loveJunk": {
       "about": "LoveJunk waa suuq onlayn ah oo isku xira dadka isticmaala iyo ururiyeyaasha qashinka ee shatiga leh iyo ururada dib-u-isticmaalka, si loogu fududeeyo ka saarista qashinka iyo alaabta waaweyn si badbaado leh, jaban, oo deegaanka u wanaagsan.",
       "howItWorks": "Isticmaalayaashu waxay si bilaash ah ugu dhajin karaan shaqo LoveJunk iyagoo soo gelinaya sawirro iyo faahfaahin kooban oo alaabta ah. Ururiyeyaasha iyo ururada dib-u-isticmaalka ee deegaanka ayaa arki kara xayeysiiska, soo diri kara qiimeyn, ama bixiya qaadista alaabta dib loo isticmaali karo bilaash."
-    }
-  },
-  "locations": {
-    "ferrylane": {
-      "description": "Ferry Lane Estate waa goobtii ugu horreysay ee ololaha Waste Not lagu fuliyo. Waxaa si istiraatiiji ah loogu rakibay xaashiyo xog-ogaalnimo oo muuqaal soo jiidasho leh oo dhiirrigelinaya deeqda alaabta guryaha meelaha guud ee qashinka lagu tuuro ee ku yaal dhulka deegaanka. <span class='bold'>Soo hel hagahayaga dhammeystiran ee ku saabsan meesha iyo sida loo deeqo.</span>"
-    },
-    "haringey": {
-      "description": "Deeq bixintu way ka fudud tahay tuurista. Dadka deegaanka Haringey waxay ka eegi karaan liis dhameystiran oo hay’ado iyo ururo bixiya adeegyo uruurin iyo keenis bilaash ah oo loogu talagalay dharka, alaabta guriga, qalabka, iyo waxyaabo kale. Si fudud u guji qayb, dooro urur, eeg sida uu u shaqeeyo, kadibna deeq bixi."
-    },
-    "broadwaterfarm": {
-      "description": "Deganayaasha Broadwater Farm waxay si fudud u heli karaan hay’ado iyo ururo maxalli ah oo bixiya adeegyo lacag-la’aan ah oo lagu ururiyo lana geeyo dhar, alaab guri, qalab koronto, iyo kuwo kale. Kaliya eeg qaybaha hoose, dooro ururka aad rabto, arag sida uu u shaqeeyo, oo samee deeqdaada. Mashruuca Waste Not ee laga hirgeliyey Broadwater Farm waxaa maalgeliyey Haringey Community Carbon Fund."
     }
   }
 }

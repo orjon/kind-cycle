@@ -1,14 +1,20 @@
 import { locations } from '../content'
 import { supportedLangs } from '../constants'
+import { Location, LocationCategory } from '../types/types'
+
+export const getLocationById = (locationId: string): Location | undefined =>
+  locations.find((location) => location.id === locationId)
 
 export const getLocationCategoryOrganisations = (
   locationId: string,
   categoryId: string
 ): string[] | undefined => {
-  const location = locations[locationId]
+  const location = locationId && getLocationById(locationId)
   if (!location) return undefined
 
-  const category = location.categories.find((cat) => cat.id === categoryId)
+  const category = location.categories.find(
+    (cat: LocationCategory) => cat.id === categoryId
+  )
   return category?.organisations
 }
 

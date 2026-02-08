@@ -17,6 +17,32 @@
       "description": "Vous souhaitez en savoir plus sur le projet Kind Cycle et Waste Not? Vous voulez suggérer une association ou une organisation à inclure? Envoyez-nous un message!"
     }
   },
+  "locations": {
+    "ferrylane": {
+      "description": "Ferry Lane Estate est le premier lieu de mise en œuvre de la campagne Waste Not. Des panneaux d'information audacieux et accrocheurs promouvant les dons d'objets ménagers ont été stratégiquement installés dans les zones de dépôt communes du domaine. <span class=\"bold\">Découvrez notre guide complet sur où et comment faire un don.</span>"
+    },
+    "haringey": {
+      "description": "Donner est plus facile que jeter. Les habitants de Haringey peuvent consulter une liste complète d’associations et d’organisations offrant des collectes et dépôts gratuits de vêtements, meubles, appareils électroménagers et plus encore. Il suffit de cliquer sur une section, de choisir une organisation, de voir comment cela fonctionne et de donner."
+    },
+    "broadwaterfarm": {
+      "description": "Les résidents de Broadwater Farm peuvent facilement trouver des associations et organisations locales proposant des services gratuits de collecte et de dépôt pour les vêtements, les meubles, les appareils électroménagers et plus encore. Explorez simplement les sections ci-dessous, choisissez une organisation, découvrez comment cela fonctionne et faites votre don. La mise en œuvre du projet Waste Not à Broadwater Farm a été financée par le Haringey Community Carbon Fund."
+    },
+    "northumberlandgrove": {
+      "description": "needs translation"
+    },
+    "blaydonclose": {
+      "description": "needs translation"
+    },
+    "sirfrederickmesser": {
+      "description": "needs translation"
+    },
+    "tamarway": {
+      "description": "needs translation"
+    },
+    "noelpark": {
+      "description": "needs translation"
+    }
+  },
   "categories": {
     "babyItems": {
       "name": "Articles pour bébés",
@@ -161,17 +187,6 @@
     "loveJunk": {
       "about": "LoveJunk est une place de marché qui met en relation les utilisateurs avec des collecteurs de déchets agréés et des réutilisateurs d’objets pour un enlèvement des encombrants sûr, économique et respectueux de l’environnement.",
       "howItWorks": "Les utilisateurs peuvent publier gratuitement une annonce sur LoveJunk en téléchargeant des photos et une brève description de leurs articles. Les collecteurs de déchets agréés et les organisations de réutilisation à proximité peuvent alors consulter l’annonce, soumettre des devis ou proposer de collecter gratuitement les articles réutilisables."
-    }
-  },
-  "locations": {
-    "ferrylane": {
-      "description": "Ferry Lane Estate est le premier lieu de mise en œuvre de la campagne Waste Not. Des panneaux d'information audacieux et accrocheurs promouvant les dons d'objets ménagers ont été stratégiquement installés dans les zones de dépôt communes du domaine. <span class=\"bold\">Découvrez notre guide complet sur où et comment faire un don.</span>"
-    },
-    "haringey": {
-      "description": "Donner est plus facile que jeter. Les habitants de Haringey peuvent consulter une liste complète d’associations et d’organisations offrant des collectes et dépôts gratuits de vêtements, meubles, appareils électroménagers et plus encore. Il suffit de cliquer sur une section, de choisir une organisation, de voir comment cela fonctionne et de donner."
-    },
-    "broadwaterfarm": {
-      "description": "Les résidents de Broadwater Farm peuvent facilement trouver des associations et organisations locales proposant des services gratuits de collecte et de dépôt pour les vêtements, les meubles, les appareils électroménagers et plus encore. Explorez simplement les sections ci-dessous, choisissez une organisation, découvrez comment cela fonctionne et faites votre don. La mise en œuvre du projet Waste Not à Broadwater Farm a été financée par le Haringey Community Carbon Fund."
     }
   }
 }

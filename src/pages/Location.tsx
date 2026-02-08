@@ -5,15 +5,15 @@ import HeaderImage from '../components/HeaderImage'
 import { SafeHtml } from '../components/SafeHtml'
 import Categories from '../components/Categories'
 
-import { locations, path } from '../content'
-import { getHomePathWithLanguage } from '../utils'
+import { path } from '../content'
+import { getHomePathWithLanguage, getLocationById } from '../utils'
 
 import '../styles/pages/Location.scss'
 
 const Location = () => {
   const { t } = useTranslation()
   const { locationId } = useParams()
-  const location = locationId && locations[locationId]
+  const location = locationId && getLocationById(locationId)
   if (!location) return <Navigate to={getHomePathWithLanguage()} />
 
   const categoryIds = location.categories.map((category) => category.id)

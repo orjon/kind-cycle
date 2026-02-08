@@ -17,6 +17,32 @@
       "description": "Pɛ sɛ wuhu Kind Cycle ne Waste Not ho pii? Anaa wo pɛ sɛ wode charity anaa nsɛnhyɛso ka ho? Fa yɛn nkyerɛ!"
     }
   },
+  "locations": {
+    "ferrylane": {
+      "description": "Ferry Lane Estate yɛ beae a Waste Not campaign di kan. Wɔde nsɛnkɔm a ɛbɔ nkɔmɔ wɔ dumping beae de kyekyɛ adwene wɔ household donation ho. <span class=\"bold\">Hu yɛn nsɛnhyɛso a ɛkyerɛ beae ne ɛkwan a wode betumi atɔ.</span>"
+    },
+    "haringey": {
+      "description": "Sɛ wode ma a, ɛyɛ mmerɛw sen sɛ wogyae. Haringey manfoɔ betumi ahu charities ne adwumakuo dodow a wɔma ntama, akonnwa, appliances ne adeɛ foforɔ agyeɛ ne gyaeɛ kwa. Dɔm so, paw adwumakuo, hu sɛnea ɛyɛ adwuma, na fa woadeɛ ma."
+    },
+    "broadwaterfarm": {
+      "description": "Broadwater Farm nkurɔfo betumi ahu aban ne akyirikyiri akuw a wɔboa wɔ ntɛm so, a wɔma nsakrae ne afiri ho nneɛma sɛ ntade, mpɔtam, ne mfonini ahorow. Kɔ mu hwɛ akuw a ɛwɔ ase ha, paw deɛ wopɛ, hu sɛnea ɛyɛ, na yɛ wo afiri. Waste Not adwumayɛ no wɔ Broadwater Farm no ho sika fi Haringey Community Carbon Fund mu."
+    },
+    "northumberlandgrove": {
+      "description": "needs translation"
+    },
+    "blaydonclose": {
+      "description": "needs translation"
+    },
+    "sirfrederickmesser": {
+      "description": "needs translation"
+    },
+    "tamarway": {
+      "description": "needs translation"
+    },
+    "noelpark": {
+      "description": "needs translation"
+    }
+  },
   "categories": {
     "babyItems": {
       "name": "Abɔfra Nneɛma",
@@ -60,6 +86,21 @@
     },
     "broadwaterfarm": {
       "description": "Nkyɛ nneɛma ma mpɔtamfoɔ yɛ ɔkwan pa a ɛma ade pa so na ɛboa ma nnipa ntam. Esiane sɛ wɔwɔ abɛn nti, mpɔtamfoɔ betumi fa nneɛma no mfeɛ — ebia ɛyɛ ade ketewa a ɛnsɛ sɛ obi kɔfa anaa ade kɛse a ne tow bɛtɔ sika. Wubetumi nso de mmoa aduan a wo pɔtee no nnɔ no, fridge mu nnommum ansa na wokɔ akyirikyiri, anaa pantry mu nneɛma kakra. Fa to wo local WhatsApp anaa Facebook group mu, anaa ka kyerɛ obi a ɔbɛn hɔ — ebia wobɛma obi anigye da."
+    },
+    "northumberlandgrove": {
+      "description": "needs translation"
+    },
+    "blaydonclose": {
+      "description": "needs translation"
+    },
+    "sirfrederickmesser": {
+      "description": "needs translation"
+    },
+    "tamarway": {
+      "description": "needs translation"
+    },
+    "noelpark": {
+      "description": "needs translation"
     }
   },
   "organisations": {
@@ -162,17 +203,6 @@
     "loveJunk": {
       "about": "LoveJunk yɛ marketplace a ɛma nnipa kɔ nsam waste collectors a wɔwɔ license ne adwumakuo a wɔsan yɛ adeɛ bio, ma ɛyɛ kwa na ɛyɛ ho mmerɛw.",
       "howItWorks": "Nnipa betumi de photo ne nsɛm tiaa hyɛ LoveJunk kwa. Waste collectors a wɔwɔ license ne adwumakuo a wɔsan yɛ adeɛ bio bɛhwɛ, wɔbɛma nsam anaa wɔbɛgye adeɛ kwa sɛ ɛyɛ deɛ wobetumi de ayɛ bio."
-    }
-  },
-  "locations": {
-    "ferrylane": {
-      "description": "Ferry Lane Estate yɛ beae a Waste Not campaign di kan. Wɔde nsɛnkɔm a ɛbɔ nkɔmɔ wɔ dumping beae de kyekyɛ adwene wɔ household donation ho. <span class=\"bold\">Hu yɛn nsɛnhyɛso a ɛkyerɛ beae ne ɛkwan a wode betumi atɔ.</span>"
-    },
-    "haringey": {
-      "description": "Sɛ wode ma a, ɛyɛ mmerɛw sen sɛ wogyae. Haringey manfoɔ betumi ahu charities ne adwumakuo dodow a wɔma ntama, akonnwa, appliances ne adeɛ foforɔ agyeɛ ne gyaeɛ kwa. Dɔm so, paw adwumakuo, hu sɛnea ɛyɛ adwuma, na fa woadeɛ ma."
-    },
-    "broadwaterfarm": {
-      "description": "Broadwater Farm nkurɔfo betumi ahu aban ne akyirikyiri akuw a wɔboa wɔ ntɛm so, a wɔma nsakrae ne afiri ho nneɛma sɛ ntade, mpɔtam, ne mfonini ahorow. Kɔ mu hwɛ akuw a ɛwɔ ase ha, paw deɛ wopɛ, hu sɛnea ɛyɛ, na yɛ wo afiri. Waste Not adwumayɛ no wɔ Broadwater Farm no ho sika fi Haringey Community Carbon Fund mu."
     }
   }
 }

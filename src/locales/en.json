@@ -1,9 +1,6 @@
 {
   "navLocations": {
     "wastenot": "Waste Not",
-    "ferrylane": "Ferry Lane",
-    "haringey": "Haringey",
-    "broadwaterfarm": "Broadwater Farm",
     "locations": "Locations",
     "about": "About",
     "contact": "Contact"
@@ -20,6 +17,40 @@
     "contact": {
       "title": "Contact Us",
       "description": "Want to learn more about the Kind Cycle and Waste Not project? Want to suggest a charity or an organisation to include? Pop us a message!"
+    }
+  },
+  "locations": {
+    "ferrylane": {
+      "name": "Ferry Lane Estate",
+      "description": "Ferry Lane Estate is the first delivery location for the Waste Not campaign. Bold, eye-catching information panels promoting household item donations have been strategically installed in common dumping areas across the estate. <span class=\"bold\">Explore our comprehensive guide on where and how to donate.</span>"
+    },
+    "haringey": {
+      "name": "Haringey",
+      "description": "Donating is easier than discarding. Haringey residents can explore a comprehensive list of charities and organisations offering free collections and drop-offs for clothes, furniture, appliances, and more. Simply click on a section, choose an organisation, see how it works, and donate."
+    },
+    "broadwaterfarm": {
+      "name": "Broadwater Farm",
+      "description": "Broadwater Farm residents can easily find local charities and organisations offering free collection and drop-off services for clothes, furniture, appliances, and more. Simply explore the sections below, choose an organisation, see how it works, and make your donation. The delivery of the Waste Not project at Broadwater Farm has been funded by the Haringey Community Carbon Fund."
+    },
+    "northumberlandgrove": {
+      "name": "Northumberland Grove",
+      "description": "Needs text"
+    },
+    "blaydonclose": {
+      "name": "Blaydon Close",
+      "description": "Needs text"
+    },
+    "sirfrederickmesser": {
+      "name": "Sir Frederick Messer",
+      "description": "Needs text"
+    },
+    "tamarway": {
+      "name": "Tamar Way",
+      "description": "Needs text"
+    },
+    "noelpark": {
+      "name": "Noel Park",
+      "description": "Needs text"
     }
   },
   "categories": {
@@ -205,20 +236,6 @@
       "about": "LoveJunk is a marketplace that connects users with licensed waste collectors and junk reusers for secure, cost-effective, and eco-friendly rubbish and bulky item removal.",
       "howItWorks": "Users can post a job on LoveJunk for free by uploading photos and a brief description of their items. Nearby licensed waste collectors and reuse organisations can then view the listing, submit quotes, or offer to collect reusable items at no charge.",
       "websiteLabel": "www.lovejunk.com"
-    }
-  },
-  "locations": {
-    "ferrylane": {
-      "name": "Ferry Lane Estate",
-      "description": "Ferry Lane Estate is the first delivery location for the Waste Not campaign. Bold, eye-catching information panels promoting household item donations have been strategically installed in common dumping areas across the estate. <span class=\"bold\">Explore our comprehensive guide on where and how to donate.</span>"
-    },
-    "haringey": {
-      "name": "Haringey",
-      "description": "Donating is easier than discarding. Haringey residents can explore a comprehensive list of charities and organisations offering free collections and drop-offs for clothes, furniture, appliances, and more. Simply click on a section, choose an organisation, see how it works, and donate."
-    },
-    "broadwaterfarm": {
-      "name": "Broadwater Farm",
-      "description": "Broadwater Farm residents can easily find local charities and organisations offering free collection and drop-off services for clothes, furniture, appliances, and more. Simply explore the sections below, choose an organisation, see how it works, and make your donation. The delivery of the Waste Not project at Broadwater Farm has been funded by the Haringey Community Carbon Fund."
     }
   }
 }
