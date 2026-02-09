@@ -11,6 +11,7 @@ export enum NavType {
 
 export type NavLocation = {
   id: string
+  active?: boolean
   type: NavType
   path: string
 }
@@ -33,6 +34,7 @@ export type LocationCategory = {
 export type Location = {
   id: string
   label: string
+  active: boolean
   postcode: string
   image?: string
   website?: string

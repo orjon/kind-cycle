@@ -14,15 +14,16 @@ interface LocationOption {
   path: string
 }
 
-const locationOptions: LocationOption[] = locations.map((location) => ({
-  id: location.id,
-  name: location.label,
-  path: `/wastenot/${location.id}`
-}))
+const locationOptions: LocationOption[] = locations
+  .filter((location) => location.active)
+  .map((location) => ({
+    id: location.id,
+    name: location.label,
+    path: `/wastenot/${location.id}`
+  }))
 
 const LocationSelector = () => {
   const { t } = useTranslation()
-  // const location = useLocation()
   const [isLocationListOpen, setisLocationListOpen] = useState(false)
   const dropdownRef = useRef<HTMLDivElement>(null)
 
@@ -51,16 +52,18 @@ const LocationSelector = () => {
     setisLocationListOpen(false)
   }
 
-  const locations = locationOptions.map((location) => (
-    <NavLink
-      key={location.id}
-      className={`LocationOption NavLink`}
-      to={addLanguagePrefix(location.path)}
-      onClick={() => handleLocationChange(location.id)}
-    >
-      <span className='LocationSelector__name'>{location.name}</span>
-    </NavLink>
-  ))
+  const locations = locationOptions
+
+    .map((location) => (
+      <NavLink
+        key={location.id}
+        className={`LocationOption NavLink`}
+        to={addLanguagePrefix(location.path)}
+        onClick={() => handleLocationChange(location.id)}
+      >
+        <span className='LocationSelector__name'>{location.name}</span>
+      </NavLink>
+    ))
 
   return (
     <div className='LocationSelector NavItem' ref={dropdownRef}>

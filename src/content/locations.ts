@@ -5,6 +5,7 @@ export const locations: Location[] = [
   {
     id: 'ferrylane',
     label: 'Ferry Lane',
+    active: true,
     postcode: 'N17',
     whatsApp: {
       name: 'Ferrylane WhatsApp group',
@@ -83,6 +84,7 @@ export const locations: Location[] = [
   {
     id: 'haringey',
     label: 'Haringey',
+    active: true,
     postcode: '',
     categories: [
       {
@@ -152,6 +154,7 @@ export const locations: Location[] = [
   {
     id: 'northumberlandgrove',
     label: 'Northumberland Grove',
+    active: true,
     postcode: '',
     categories: [
       {
@@ -221,6 +224,7 @@ export const locations: Location[] = [
   {
     id: 'blaydonclose',
     label: 'Blaydon Close',
+    active: true,
     postcode: '',
     categories: [
       {
@@ -290,6 +294,7 @@ export const locations: Location[] = [
   {
     id: 'sirfrederickmesser',
     label: 'Sir Frederick Messer',
+    active: true,
     postcode: '',
     categories: [
       {
@@ -359,6 +364,7 @@ export const locations: Location[] = [
   {
     id: 'tamarway',
     label: 'Tamar Way',
+    active: true,
     postcode: '',
     categories: [
       {
@@ -428,6 +434,7 @@ export const locations: Location[] = [
   {
     id: 'noelpark',
     label: 'Noel Park',
+    active: false,
     postcode: '',
     categories: [
       {
@@ -497,6 +504,7 @@ export const locations: Location[] = [
   {
     id: 'broadwaterfarm',
     label: 'Broadwater Farm',
+    active: true,
     postcode: '',
     categories: [
       {

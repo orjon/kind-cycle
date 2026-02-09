@@ -52,8 +52,14 @@
       align-items: flex-start;
       padding-left: 20px;
       will-change: height, background-color, color;
-      transition: height 0.25s ease-in-out, background-color 0.25s ease-in,
+      transition:
+        height 0.25s ease-in-out,
+        background-color 0.25s ease-in,
         color 0.3s ease-in;
+      &.location {
+        background-color: $colorGreen;
+        // color: $colorSoftWhite;
+      }
       .text {
         font-size: $fontNavLarge;
         font-weight: 300;
@@ -71,7 +77,7 @@
       opacity: 1;
 
       .NavItem {
-        height: $navHeight;
+        height: $navBurgerItemHeight;
         .text {
           transform: scale(1, 1);
         }

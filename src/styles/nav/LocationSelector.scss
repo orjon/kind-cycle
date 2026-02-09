@@ -38,6 +38,8 @@
     top: $navHeight;
     left: -9px;
     background-color: $colorYellow;
+    background-color: $colorGreen;
+    // color: $colorSoftWhite;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -75,7 +77,9 @@
     font-weight: 300;
     color: $colorText;
     will-change: height, background-color, color;
-    transition: height 0.25s ease-in-out, background-color 0.25s ease-in,
+    transition:
+      height 0.25s ease-in-out,
+      background-color 0.25s ease-in,
       color 0.3s ease-in;
 
     .LocationSelector__name {
