@@ -2,15 +2,15 @@ import { useParams, Navigate } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 
-import { locations } from '../content'
-import { getHomePathWithLanguage } from '../utils'
+import { getHomePathWithLanguage, getLocationById } from '../utils'
 
 import '../styles/pages/LocationImages.scss'
 
 function Location() {
   const { t } = useTranslation()
   const { locationId } = useParams()
-  const location = locationId && locations[locationId]
+
+  const location = locationId && getLocationById(locationId)
   if (!location) return <Navigate to={getHomePathWithLanguage()} />
 
   const [image, setImage] = useState(null)
