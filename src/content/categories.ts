@@ -1,4 +1,4 @@
-import { CategoriesDirectory } from '../types/types'
+import { CategoriesDirectory } from '../types'
 import { organisations as org } from './organisations'
 
 export const categories: CategoriesDirectory = {

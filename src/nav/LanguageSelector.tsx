@@ -6,7 +6,7 @@ import { languageOptions } from '../constants'
 
 import { buildLangPath } from '../utils'
 import { trackEvent } from '../utils/analytics'
-import { ClickEvent } from '../types/types'
+import { ClickEvent } from '../types'
 
 import '../styles/nav/LanguageSelector.scss'
 
@@ -41,9 +41,8 @@ const LanguageSelector = () => {
   const languageList = languageOptions.map((language) => (
     <NavLink
       key={language.code}
-      className={`LanguageOption NavLink ${
-        language.code === currentLang ? 'active' : ''
-      }`}
+      className={`LanguageOption NavLink ${language.code === currentLang ? 'active' : ''
+        }`}
       to={buildLangPath(location.pathname, language.code)}
       onClick={() => {
         trackEvent(ClickEvent.navigation, {

@@ -1,7 +1,7 @@
 import { categories as cat, organisations as org } from './index'
-import { Location } from '../types/types'
+import { Location } from '../types'
 
-export const locations: Location[] = [
+const allLocations: Location[] = [
   {
     id: 'ferrylane',
     label: 'Ferry Lane',
@@ -572,3 +572,5 @@ export const locations: Location[] = [
     ]
   }
 ]
+
+export const locations = allLocations.filter((location) => location.active)

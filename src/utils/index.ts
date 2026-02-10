@@ -1,6 +1,6 @@
 import { locations } from '../content'
 import { supportedLangs } from '../constants'
-import { Location, LocationCategory } from '../types/types'
+import { Location, LocationCategory } from '../types'
 
 export const getLocationById = (locationId: string): Location | undefined =>
   locations.find((location) => location.id === locationId)

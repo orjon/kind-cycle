@@ -2,7 +2,7 @@ import { useState, type ReactElement } from 'react'
 import { NavLink } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
-import { NavType } from '../types/types'
+import { NavType } from '../types'
 
 import NavItem from './NavItem'
 import LocationSelector from './LocationSelector'
@@ -11,7 +11,7 @@ import { addLanguagePrefix } from '../utils'
 
 import { getSettings } from '../settings'
 
-import navLocations from '../content/navLocations'
+import { menuItems, burgerMenuItems } from '../content/navLocations'
 
 import '../styles/nav/Nav.scss'
 import '../styles/nav/NavBurger.scss'
@@ -20,7 +20,7 @@ const Nav = () => {
   const { t } = useTranslation()
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
-  const navBarItems: ReactElement[] = navLocations
+  const navMenuItems: ReactElement[] = menuItems
     .filter((location) => location.type === NavType.page)
     .map((location) => {
       const { id, path, type } = location
@@ -36,10 +36,9 @@ const Nav = () => {
       )
     })
   // Insert desktop LocationSelector after the first item
-  navBarItems.splice(1, 0, <LocationSelector key='location-selector' />)
+  navMenuItems.splice(1, 0, <LocationSelector key='location-selector' />)
 
-  const navBurgerItems: ReactElement[] = navLocations
-    .filter((location) => location.type === NavType.page || (location.type === NavType.location && location.active))
+  const navBurgerMenuItems: ReactElement[] = burgerMenuItems
     .map((location) => {
       const { id, path, type } = location
       return (
@@ -54,6 +53,9 @@ const Nav = () => {
       )
     })
 
+  console.log(navBurgerMenuItems)
+  console.log(burgerMenuItems)
+
   return (
     <div className={`Nav ${getSettings()}`}>
       <div
@@ -66,14 +68,14 @@ const Nav = () => {
         <span></span>
       </div>
       <div className={`BurgerMenu ${isMenuOpen ? 'open' : ''}`}>
-        {navBurgerItems}
+        {navBurgerMenuItems}
       </div>
       <NavLink to={addLanguagePrefix('/')}>
         <div className='Logo'>
           <div className='LogoText'>Kind Cycle</div>
         </div>
       </NavLink>
-      <div className='NavMenu'>{navBarItems}</div>
+      <div className='NavMenu'>{navMenuItems}</div>
       <LanguageSelector />
     </div>
   )

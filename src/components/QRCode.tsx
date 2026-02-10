@@ -1,5 +1,5 @@
 import { trackEvent } from '../utils/analytics'
-import { ClickEvent } from '../types/types'
+import { ClickEvent } from '../types'
 import '../styles/components/QRCode.scss'
 
 type QRCodeProps = {

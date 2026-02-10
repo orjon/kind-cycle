@@ -9,7 +9,14 @@ export enum NavType {
   page = 'page'
 }
 
-export type NavLocation = {
+export enum NavLocations {
+  wastenot = 'wastenot',
+  locations = 'locations',
+  about = 'about',
+  contact = 'contact'
+}
+
+export type NavMenuItem = {
   id: string
   active?: boolean
   type: NavType

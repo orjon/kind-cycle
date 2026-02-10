@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import { organisations } from '../content'
 import { trackEvent } from '../utils/analytics'
-import { ClickEvent } from '../types/types'
+import { ClickEvent } from '../types'
 
 import '../styles/components/LocationOrganisation.scss'
 

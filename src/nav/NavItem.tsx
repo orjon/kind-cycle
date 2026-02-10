@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom'
 import { trackEvent } from '../utils/analytics'
 import { addLanguagePrefix } from '../utils'
-import { ClickEvent, NavType } from '../types/types'
+import { ClickEvent, NavType } from '../types'
 
 type NavItemProps = {
   nav_item: string

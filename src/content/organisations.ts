@@ -1,4 +1,4 @@
-import { OrganisationsDirectory } from '../types/types'
+import { OrganisationsDirectory } from '../types'
 
 export const organisations: OrganisationsDirectory = {
   lloydPark: {

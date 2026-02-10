@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { trackEvent } from '../utils/analytics'
 import { addLanguagePrefix } from '../utils'
-import { ClickEvent } from '../types/types'
+import { ClickEvent } from '../types'
 
 import '../styles/components/Categories.scss'
 

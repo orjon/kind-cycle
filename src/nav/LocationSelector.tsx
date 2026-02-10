@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next'
 import '../styles/nav/LocationSelector.scss'
 import { addLanguagePrefix } from '../utils'
 import { trackEvent } from '../utils/analytics'
-import { ClickEvent } from '../types/types'
+import { ClickEvent } from '../types'
 import { locations } from '../content/locations'
 
 interface LocationOption {
