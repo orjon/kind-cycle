@@ -28,19 +28,19 @@
       "description": "Les résidents de Broadwater Farm peuvent facilement trouver des associations et organisations locales proposant des services gratuits de collecte et de dépôt pour les vêtements, les meubles, les appareils électroménagers et plus encore. Explorez simplement les sections ci-dessous, choisissez une organisation, découvrez comment cela fonctionne et faites votre don. La mise en œuvre du projet Waste Not à Broadwater Farm a été financée par le Haringey Community Carbon Fund."
     },
     "northumberlandgrove": {
-      "description": "needs translation"
+      "description": "Donner est plus facile que jeter. Les résidents de Northumberland Grove peuvent consulter une liste complète d'associations et d'organisations proposant des collectes et des dépôts gratuits pour les vêtements, les meubles, les appareils électroménagers et plus encore. Cliquez simplement sur une section, choisissez une organisation, découvrez comment ça marche et faites un don."
     },
     "blaydonclose": {
-      "description": "needs translation"
+      "description": "Donner est plus facile que jeter. Les résidents de Blaydon Close peuvent consulter une liste complète d'associations et d'organisations proposant des collectes et des dépôts gratuits pour les vêtements, les meubles, les appareils électroménagers et plus encore. Cliquez simplement sur une section, choisissez une organisation, découvrez comment ça marche et faites un don."
     },
     "sirfrederickmesser": {
-      "description": "needs translation"
+      "description": "Donner est plus facile que jeter. Les résidents de Sir Frederick Messer peuvent consulter une liste complète d'associations et d'organisations proposant des collectes et des dépôts gratuits pour les vêtements, les meubles, les appareils électroménagers et plus encore. Cliquez simplement sur une section, choisissez une organisation, découvrez comment ça marche et faites un don."
     },
     "tamarway": {
-      "description": "needs translation"
+      "description": "Donner est plus facile que jeter. Les résidents de Tamar Way peuvent consulter une liste complète d'associations et d'organisations proposant des collectes et des dépôts gratuits pour les vêtements, les meubles, les appareils électroménagers et plus encore. Cliquez simplement sur une section, choisissez une organisation, découvrez comment ça marche et faites un don."
     },
     "noelpark": {
-      "description": "needs translation"
+      "description": "Donner est plus facile que jeter. Les résidents de Noel Park peuvent consulter une liste complète d'associations et d'organisations proposant des collectes et des dépôts gratuits pour les vêtements, les meubles, les appareils électroménagers et plus encore. Cliquez simplement sur une section, choisissez une organisation, découvrez comment ça marche et faites un don."
     }
   },
   "categories": {
@@ -75,6 +75,9 @@
     }
   },
   "neighbourhoods": {
+    "generic": {
+      "description": "Partager avec ses voisins est un excellent moyen d'entraide et de garder le contact. Vous pouvez donner de petits objets, des meubles ou même de la nourriture. Vos voisins pourront facilement venir les récupérer. Vous pouvez publier une annonce sur votre groupe WhatsApp ou Facebook local. Si vous souhaitez partager votre groupe ici, n'hésitez pas à nous contacter!"
+    },
     "ferrylane": {
       "description": "Partagez ce dont vous n'avez plus besoin avec vos voisins de Ferry Lane : ils sont locaux et peuvent récupérer les objets facilement. Des petits objets pour lesquels personne ne ferait le déplacement aux éléments volumineux nécessitant un transport coûteux, tout est plus simple quand vos voisins sont proches. Vous pouvez même donner la nourriture que votre chat n'aime pas, les surplus du frigo avant de partir en vacances, ou des articles supplémentaires de la garde-manger.<br /><br /><span class=\"bold\">Cliquez ou scannez le code QR ci-dessous pour rejoindre la communauté FLAG sur WhatsApp et y publier vos objets.</span>",
       "whatsApp": {
@@ -86,21 +89,6 @@
     },
     "broadwaterfarm": {
       "description": "Partager avec ses voisins est une excellente manière de faire durer les bonnes choses et de créer du lien. Parce qu'ils sont à proximité, les voisins peuvent récupérer les objets facilement — qu'il s'agisse d'un petit article qui ne vaut pas le déplacement ou d'un objet plus volumineux dont le transport coûterait de l'argent. Vous pouvez même partager la nourriture que votre chat ne mange pas, les restes du frigo avant de partir en vacances, ou des articles supplémentaires de la garde-manger. Publiez simplement dans votre groupe local WhatsApp ou Facebook, ou mentionnez-le à quelqu'un à proximité — vous pourriez faire la journée d'un voisin!"
-    },
-    "northumberlandgrove": {
-      "description": "needs translation"
-    },
-    "blaydonclose": {
-      "description": "needs translation"
-    },
-    "sirfrederickmesser": {
-      "description": "needs translation"
-    },
-    "tamarway": {
-      "description": "needs translation"
-    },
-    "noelpark": {
-      "description": "needs translation"
     }
   },
   "organisations": {

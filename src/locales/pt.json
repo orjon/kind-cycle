@@ -28,19 +28,19 @@
       "description": "Os residentes de Broadwater Farm podem facilmente encontrar instituições de caridade e organizações locais que oferecem serviços gratuitos de recolha e entrega de roupas, móveis, eletrodomésticos e muito mais. Basta explorar as seções abaixo, escolher uma organização, ver como funciona e fazer a sua doação. A implementação do projeto Waste Not em Broadwater Farm foi financiada pelo Haringey Community Carbon Fund."
     },
     "northumberlandgrove": {
-      "description": "needs translation"
+      "description": "Doar é mais fácil do que descartar. Os moradores de Northumberland Grove podem explorar uma lista completa de instituições de caridade e organizações que oferecem recolhas e pontos de entrega gratuitos para roupas, móveis, eletrodomésticos e muito mais. Basta clicar numa secção, escolher uma organização, ver como funciona e doar."
     },
     "blaydonclose": {
-      "description": "needs translation"
+      "description": "Doar é mais fácil do que descartar. Os moradores de Blaydon Close podem explorar uma lista completa de instituições de caridade e organizações que oferecem recolhas e pontos de entrega gratuitos para roupas, móveis, eletrodomésticos e muito mais. Basta clicar numa secção, escolher uma organização, ver como funciona e doar."
     },
     "sirfrederickmesser": {
-      "description": "needs translation"
+      "description": "Doar é mais fácil do que descartar. Os moradores de Sir Frederick Messer podem explorar uma lista completa de instituições de caridade e organizações que oferecem recolhas e pontos de entrega gratuitos para roupas, móveis, eletrodomésticos e muito mais. Basta clicar numa secção, escolher uma organização, ver como funciona e doar."
     },
     "tamarway": {
-      "description": "needs translation"
+      "description": "Doar é mais fácil do que descartar. Os moradores de Tamar Way podem explorar uma lista completa de instituições de caridade e organizações que oferecem recolhas e pontos de entrega gratuitos para roupas, móveis, eletrodomésticos e muito mais. Basta clicar numa secção, escolher uma organização, ver como funciona e doar."
     },
     "noelpark": {
-      "description": "needs translation"
+      "description": "Doar é mais fácil do que descartar. Os moradores de Noel Park podem explorar uma lista completa de instituições de caridade e organizações que oferecem recolhas e pontos de entrega gratuitos para roupas, móveis, eletrodomésticos e muito mais. Basta clicar numa secção, escolher uma organização, ver como funciona e doar."
     }
   },
   "categories": {
@@ -75,6 +75,9 @@
     }
   },
   "neighbourhoods": {
+    "generic": {
+      "description": "Partilhar com os vizinhos é uma ótima forma de ajudar e manter o contacto. Pode doar pequenos artigos, móveis ou até mesmo alimentos. Os vizinhos podem ir buscá-los facilmente. Pode publicar no seu grupo local do WhatsApp ou do Facebook. Se quiser partilhar aqui o seu grupo, entre em contacto!"
+    },
     "ferrylane": {
       "description": "Compartilhe o que você não precisa mais com seus vizinhos de Ferry Lane: eles estão por perto e podem buscar os itens com facilidade. Desde pequenos objetos que ninguém viajaria para pegar até itens grandes que exigiriam transporte caro, tudo fica mais fácil quando os vizinhos estão próximos. Você pode até doar comida que seu gato não gosta, excedentes da geladeira antes de viajar ou itens extras da despensa.<br /><br /><span class=\"bold\">Clique ou escaneie o código QR abaixo para entrar na comunidade FLAG no WhatsApp e publicar seus itens lá.</span>",
       "whatsApp": {
@@ -86,21 +89,6 @@
     },
     "broadwaterfarm": {
       "description": "Compartilhar com os vizinhos é uma ótima maneira de manter as coisas boas em uso e criar conexões. Como eles estão próximos, os vizinhos podem pegar os itens com facilidade — seja um item pequeno que não vale uma viagem ou um item maior cujo transporte custaria dinheiro. Você pode até compartilhar ração que seu gato não come, sobras da geladeira antes de viajar ou itens extras da despensa. Basta publicar no seu grupo local do WhatsApp ou Facebook, ou mencionar a alguém próximo — você pode alegrar o dia de um vizinho!"
-    },
-    "northumberlandgrove": {
-      "description": "needs translation"
-    },
-    "blaydonclose": {
-      "description": "needs translation"
-    },
-    "sirfrederickmesser": {
-      "description": "needs translation"
-    },
-    "tamarway": {
-      "description": "needs translation"
-    },
-    "noelpark": {
-      "description": "needs translation"
     }
   },
   "organisations": {

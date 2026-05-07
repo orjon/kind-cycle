@@ -6,15 +6,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   .location {
     width: 100%;
     max-width: $maxContentWidth;
     font-size: 20px;
     text-align: center;
+    color: #fff;
+    background-color: $colorRed;
+    border-radius: 9999px;
   }
   @media (min-width: $break460) {
-    padding-bottom: 30px;
+    margin-bottom: 30px;
     .location {
       font-size: 26px;
     }

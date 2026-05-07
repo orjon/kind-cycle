@@ -33,7 +33,9 @@ const NeighboursHeader = ({ categoryId, color }: CategoryHeaderProps) => {
       <div
         className='description'
         dangerouslySetInnerHTML={{
-          __html: t(`neighbourhoods.${locationId}.description`)
+          __html: t(`neighbourhoods.${locationId}.description`, {
+            defaultValue: t('neighbourhoods.generic.description')
+          })
         }}
       />
     </div>

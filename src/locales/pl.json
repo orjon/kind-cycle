@@ -28,19 +28,19 @@
       "description": "Mieszkańcy Broadwater Farm mogą łatwo znaleźć lokalne organizacje charytatywne i instytucje oferujące bezpłatny odbiór i dostawę odzieży, mebli, sprzętu AGD i innych przedmiotów. Wystarczy przejrzeć sekcje poniżej, wybrać organizację, zobaczyć, jak to działa, i przekazać darowiznę. Realizacja projektu Waste Not na osiedlu Broadwater Farm została sfinansowana przez Haringey Community Carbon Fund."
     },
     "northumberlandgrove": {
-      "description": "needs translation"
+      "description": "Oddawanie jest łatwiejsze niż wyrzucanie. Mieszkańcy Northumberland Grove mogą przejrzeć pełną listę organizacji charytatywnych oferujących bezpłatny odbiór i przyjmowanie odzieży, mebli, sprzętu AGD i innych rzeczy. Wystarczy kliknąć sekcję, wybrać organizację, sprawdzić jak to działa i przekazać datek."
     },
     "blaydonclose": {
-      "description": "needs translation"
+      "description": "Oddawanie jest łatwiejsze niż wyrzucanie. Mieszkańcy Blaydon Close mogą przejrzeć pełną listę organizacji charytatywnych oferujących bezpłatny odbiór i przyjmowanie odzieży, mebli, sprzętu AGD i innych rzeczy. Wystarczy kliknąć sekcję, wybrać organizację, sprawdzić jak to działa i przekazać datek."
     },
     "sirfrederickmesser": {
-      "description": "needs translation"
+      "description": "Oddawanie jest łatwiejsze niż wyrzucanie. Mieszkańcy Sir Frederick Messer mogą przejrzeć pełną listę organizacji charytatywnych oferujących bezpłatny odbiór i przyjmowanie odzieży, mebli, sprzętu AGD i innych rzeczy. Wystarczy kliknąć sekcję, wybrać organizację, sprawdzić jak to działa i przekazać datek."
     },
     "tamarway": {
-      "description": "needs translation"
+      "description": "Oddawanie jest łatwiejsze niż wyrzucanie. Mieszkańcy Tamar Way mogą przejrzeć pełną listę organizacji charytatywnych oferujących bezpłatny odbiór i przyjmowanie odzieży, mebli, sprzętu AGD i innych rzeczy. Wystarczy kliknąć sekcję, wybrać organizację, sprawdzić jak to działa i przekazać datek."
     },
     "noelpark": {
-      "description": "needs translation"
+      "description": "Oddawanie jest łatwiejsze niż wyrzucanie. Mieszkańcy Noel Park mogą przejrzeć pełną listę organizacji charytatywnych oferujących bezpłatny odbiór i przyjmowanie odzieży, mebli, sprzętu AGD i innych rzeczy. Wystarczy kliknąć sekcję, wybrać organizację, sprawdzić jak to działa i przekazać datek."
     }
   },
   "categories": {
@@ -75,6 +75,9 @@
     }
   },
   "neighbourhoods": {
+    "generic": {
+      "description": "Dzielenie się z sąsiadami to świetny sposób na pomoc i podtrzymywanie kontaktu. Możesz podarować drobne przedmioty, meble, a nawet jedzenie. Sąsiedzi mogą je łatwo odebrać. Możesz opublikować post w lokalnej grupie WhatsApp lub na Facebooku. Jeśli chcesz udostępnić swoją grupę tutaj, skontaktuj się z nami!"
+    },
     "ferrylane": {
       "description": "Dziel się tym, czego już nie potrzebujesz, z sąsiadami z Ferry Lane: mieszkają blisko i mogą łatwo odebrać rzeczy. Od drobnych przedmiotów, po które nikt by nie pojechał, po duże, których transport byłby kosztowny — wszystko jest łatwiejsze, gdy sąsiedzi są w pobliżu. Możesz nawet podarować jedzenie, którego twój kot nie lubi, nadwyżki z lodówki przed wyjazdem na wakacje lub dodatkowe produkty z spiżarni.<br /><br /><span class=\"bold\">Kliknij lub zeskanuj poniższy kod QR, aby dołączyć do społeczności FLAG na WhatsApp i tam zamieszczać swoje przedmioty.</span>",
       "whatsApp": {
@@ -86,21 +89,6 @@
     },
     "broadwaterfarm": {
       "description": "Dzielenie się z sąsiadami to świetny sposób, by dobre rzeczy nadal były używane i by zbudować relacje. Ponieważ mieszkają blisko, sąsiedzi mogą łatwo odebrać przedmioty — czy to drobna rzecz, na którą nie opłaca się jechać, czy większy przedmiot, którego transport kosztowałby pieniądze. Możesz nawet podzielić się karmą dla zwierząt, której twój kot nie chce, resztkami z lodówki przed wyjazdem na wakacje lub dodatkowymi produktami ze spiżarni. Po prostu opublikuj to w swoim lokalnym grupie na WhatsApp lub Facebooku albo wspomnij o tym komuś w pobliżu — możesz komuś poprawić dzień!"
-    },
-    "northumberlandgrove": {
-      "description": "needs translation"
-    },
-    "blaydonclose": {
-      "description": "needs translation"
-    },
-    "sirfrederickmesser": {
-      "description": "needs translation"
-    },
-    "tamarway": {
-      "description": "needs translation"
-    },
-    "noelpark": {
-      "description": "needs translation"
     }
   },
   "organisations": {

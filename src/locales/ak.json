@@ -28,19 +28,19 @@
       "description": "Broadwater Farm nkurɔfo betumi ahu aban ne akyirikyiri akuw a wɔboa wɔ ntɛm so, a wɔma nsakrae ne afiri ho nneɛma sɛ ntade, mpɔtam, ne mfonini ahorow. Kɔ mu hwɛ akuw a ɛwɔ ase ha, paw deɛ wopɛ, hu sɛnea ɛyɛ, na yɛ wo afiri. Waste Not adwumayɛ no wɔ Broadwater Farm no ho sika fi Haringey Community Carbon Fund mu."
     },
     "northumberlandgrove": {
-      "description": "needs translation"
+      "description": "Adeɛ kyɛ yɛ mmerɛ sen ɛho tow. Northumberland Grove atenaefoɔ betumi ahwɛ nhyehyɛeɛ ahoroɔ a ɛfa charity ne nhyehyɛeɛ a wɔbɔ ntɛntɛn gye nneɛma kɛseɛ ne nketenkete, ntaadeɛ, nneɛma a wɔde yɛ adwuma, ne nneɛma foforɔ a wobetumi de ama. Mia beaeɛ bi so, paw nhyehyɛeɛ bi, hwɛ sɛnea ɛyɛ adwuma, na kyɛ."
     },
     "blaydonclose": {
-      "description": "needs translation"
+      "description": "Adeɛ kyɛ yɛ mmerɛ sen ɛho tow. Blaydon Close atenaefoɔ betumi ahwɛ nhyehyɛeɛ ahoroɔ a ɛfa charity ne nhyehyɛeɛ a wɔbɔ ntɛntɛn gye nneɛma kɛseɛ ne nketenkete, ntaadeɛ, nneɛma a wɔde yɛ adwuma, ne nneɛma foforɔ a wobetumi de ama. Mia beaeɛ bi so, paw nhyehyɛeɛ bi, hwɛ sɛnea ɛyɛ adwuma, na kyɛ."
     },
     "sirfrederickmesser": {
-      "description": "needs translation"
+      "description": "Adeɛ kyɛ yɛ mmerɛ sen ɛho tow. Sir Frederick Messer atenaefoɔ betumi ahwɛ nhyehyɛeɛ ahoroɔ a ɛfa charity ne nhyehyɛeɛ a wɔbɔ ntɛntɛn gye nneɛma kɛseɛ ne nketenkete, ntaadeɛ, nneɛma a wɔde yɛ adwuma, ne nneɛma foforɔ a wobetumi de ama. Mia beaeɛ bi so, paw nhyehyɛeɛ bi, hwɛ sɛnea ɛyɛ adwuma, na kyɛ."
     },
     "tamarway": {
-      "description": "needs translation"
+      "description": "Adeɛ kyɛ yɛ mmerɛ sen ɛho tow. Tamar Way atenaefoɔ betumi ahwɛ nhyehyɛeɛ ahoroɔ a ɛfa charity ne nhyehyɛeɛ a wɔbɔ ntɛntɛn gye nneɛma kɛseɛ ne nketenkete, ntaadeɛ, nneɛma a wɔde yɛ adwuma, ne nneɛma foforɔ a wobetumi de ama. Mia beaeɛ bi so, paw nhyehyɛeɛ bi, hwɛ sɛnea ɛyɛ adwuma, na kyɛ."
     },
     "noelpark": {
-      "description": "needs translation"
+      "description": "Adeɛ kyɛ yɛ mmerɛ sen ɛho tow. Noel Park atenaefoɔ betumi ahwɛ nhyehyɛeɛ ahoroɔ a ɛfa charity ne nhyehyɛeɛ a wɔbɔ ntɛntɛn gye nneɛma kɛseɛ ne nketenkete, ntaadeɛ, nneɛma a wɔde yɛ adwuma, ne nneɛma foforɔ a wobetumi de ama. Mia beaeɛ bi so, paw nhyehyɛeɛ bi, hwɛ sɛnea ɛyɛ adwuma, na kyɛ."
     }
   },
   "categories": {
@@ -75,6 +75,9 @@
     }
   },
   "neighbourhoods": {
+    "generic": {
+      "description": "Sɛ wo ne afipamfo kyɛ a, ɛyɛ ɔkwan pa a wobɛfa so aboa na woakɔ so anya nkitahodi. Wubetumi de nneɛma nketenkete, dan mu nneɛma, anaa aduan mpo ama. Ɛnyɛ den sɛ afipamfo betumi akɔfa wɔn. Wubetumi de ahyɛ wo mpɔtam hɔ WhatsApp anaa Facebook kuw mu. Sɛ wopɛ sɛ wokyɛ wo kuw no wɔ ha a, yɛsrɛ wo, di nkitaho!aka"
+    },
     "ferrylane": {
       "description": "Kyɛ nea woara mpɛ bio ma wo Ferry Lane mpɔtamfoɔ: wɔwɔ abɛn nti, wɔtumi fa nneɛma no mfe. Efi nneɛma ketewa a obiara rennante kɔfa no kosi nneɛma kɛse a ne tow bɛsɛe sika, biribiara yɛ mmerɛw sɛ mpɔtamfoɔ no bɛn. Wubetumi nso de aduan a wo kɔtɔre no annya no anaa fridge mu ade a ɛda hɔ ansa na wokɔ akyirikyiri, anaa pantry mu nneɛma a ɛkɔ so ama afoforo.<br /><br /><span class=\"bold\">Klik anaa scan QR code a ɛwɔ ase no na ka wo ho to FLAG WhatsApp community no mu na to wo nneɛma no hɔ.</span>",
       "whatsApp": {
@@ -86,21 +89,6 @@
     },
     "broadwaterfarm": {
       "description": "Nkyɛ nneɛma ma mpɔtamfoɔ yɛ ɔkwan pa a ɛma ade pa so na ɛboa ma nnipa ntam. Esiane sɛ wɔwɔ abɛn nti, mpɔtamfoɔ betumi fa nneɛma no mfeɛ — ebia ɛyɛ ade ketewa a ɛnsɛ sɛ obi kɔfa anaa ade kɛse a ne tow bɛtɔ sika. Wubetumi nso de mmoa aduan a wo pɔtee no nnɔ no, fridge mu nnommum ansa na wokɔ akyirikyiri, anaa pantry mu nneɛma kakra. Fa to wo local WhatsApp anaa Facebook group mu, anaa ka kyerɛ obi a ɔbɛn hɔ — ebia wobɛma obi anigye da."
-    },
-    "northumberlandgrove": {
-      "description": "needs translation"
-    },
-    "blaydonclose": {
-      "description": "needs translation"
-    },
-    "sirfrederickmesser": {
-      "description": "needs translation"
-    },
-    "tamarway": {
-      "description": "needs translation"
-    },
-    "noelpark": {
-      "description": "needs translation"
     }
   },
   "organisations": {

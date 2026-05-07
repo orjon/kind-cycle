@@ -28,19 +28,19 @@
       "description": "Deganayaasha Broadwater Farm waxay si fudud u heli karaan hay’ado iyo ururo maxalli ah oo bixiya adeegyo lacag-la’aan ah oo lagu ururiyo lana geeyo dhar, alaab guri, qalab koronto, iyo kuwo kale. Kaliya eeg qaybaha hoose, dooro ururka aad rabto, arag sida uu u shaqeeyo, oo samee deeqdaada. Mashruuca Waste Not ee laga hirgeliyey Broadwater Farm waxaa maalgeliyey Haringey Community Carbon Fund."
     },
     "northumberlandgrove": {
-      "description": "needs translation"
+      "description": "In bixintu waa ka sahlan in la tuuro. Dadka deggan Northumberland Grove waxay baadhiyaan liis dhamaystiran oo ah hay'ado khayri ah iyo ururado bixiya ururinta bilaashka ah iyo meelaha lagu keeno dharka, qalabka guriga, qalabka koronto, iyo kuwo kale. Guji qaybta, dooro urur, arag sida ay u shaqeyso, oo wax ku deeq."
     },
     "blaydonclose": {
-      "description": "needs translation"
+      "description": "In bixintu waa ka sahlan in la tuuro. Dadka deggan Blaydon Close waxay baadhiyaan liis dhamaystiran oo ah hay'ado khayri ah iyo ururado bixiya ururinta bilaashka ah iyo meelaha lagu keeno dharka, qalabka guriga, qalabka koronto, iyo kuwo kale. Guji qaybta, dooro urur, arag sida ay u shaqeyso, oo wax ku deeq."
     },
     "sirfrederickmesser": {
-      "description": "needs translation"
+      "description": "In bixintu waa ka sahlan in la tuuro. Dadka deggan Sir Frederick Messer waxay baadhiyaan liis dhamaystiran oo ah hay'ado khayri ah iyo ururado bixiya ururinta bilaashka ah iyo meelaha lagu keeno dharka, qalabka guriga, qalabka koronto, iyo kuwo kale. Guji qaybta, dooro urur, arag sida ay u shaqeyso, oo wax ku deeq."
     },
     "tamarway": {
-      "description": "needs translation"
+      "description": "In bixintu waa ka sahlan in la tuuro. Dadka deggan Tamar Way waxay baadhiyaan liis dhamaystiran oo ah hay'ado khayri ah iyo ururado bixiya ururinta bilaashka ah iyo meelaha lagu keeno dharka, qalabka guriga, qalabka koronto, iyo kuwo kale. Guji qaybta, dooro urur, arag sida ay u shaqeyso, oo wax ku deeq."
     },
     "noelpark": {
-      "description": "needs translation"
+      "description": "In bixintu waa ka sahlan in la tuuro. Dadka deggan Noel Park waxay baadhiyaan liis dhamaystiran oo ah hay'ado khayri ah iyo ururado bixiya ururinta bilaashka ah iyo meelaha lagu keeno dharka, qalabka guriga, qalabka koronto, iyo kuwo kale. Guji qaybta, dooro urur, arag sida ay u shaqeyso, oo wax ku deeq."
     }
   },
   "categories": {
@@ -75,6 +75,9 @@
     }
   },
   "neighbourhoods": {
+    "generic": {
+      "description": "La wadaagista deriska waa hab fiican oo lagu caawiyo laguna xiriiro. Waxaad siin kartaa alaab yaryar, alaab guri, ama xitaa cunto. Derisku si fudud ayay u soo qaadan karaan. Waxaad ku dhejin kartaa WhatsApp-kaaga ama kooxdaada Facebook ee deegaanka. Haddii aad rabto inaad kooxdaada halkan kula wadaagto, fadlan nala soo xiriir!"
+    },
     "ferrylane": {
       "description": "La wadaag waxa aadan u baahnayn deriskaaga Ferry Lane: waa dadka deegaanka waxayna si fudud uga soo qaadi karaan alaabta. Laga bilaabo alaabooyinka yaryar ee qofna uusan u safri doonin ilaa kuwa waaweyn ee qaali ku fadhin lahaa gaadiidkooda, wax walba way fududahay marka derisku dhow yihiin. Xitaa waxaad ku deeqi kartaa cunto bisaddaadu jeclayn, hadhaaga qaboojiyaha ka hor fasaxa, ama alaabta dheeraadka ah ee kaydka.<br /><br /><span class='bold'>Guji ama iskaanka QR code-ka hoose si aad ugu biirto bulshada FLAG WhatsApp oo halkaas u soo dhaji alaabtaada.</span>",
       "whatsApp": {
@@ -86,21 +89,6 @@
     },
     "broadwaterfarm": {
       "description": "La wadaagista deriska waa hab fiican oo alaabta wanaagsan loo sii isticmaalo isla markaana xiriirka bulsho loo dhiso. Maadaama ay dhow yihiin, derisku si fudud ayay alaabta u qaadi karaan — ha ahaato alaab yar oo aan safar u qalmin ama mid weyn oo qaali ku fadhin lahayd gaadiid. Xitaa waxaad la wadaagi kartaa cunto xayawaan aan bisaddaadu cunin, hadhaaga qaboojiyaha ka hor fasax, ama alaabta kaydka ee dheeraadka ah. Kaliya ku soo dhaji kooxdaada WhatsApp ama Facebook ee deegaanka, ama u sheeg qof agtaada ah — waxaa laga yaabaa inaad farxad u keento deriska!"
-    },
-    "northumberlandgrove": {
-      "description": "needs translation"
-    },
-    "blaydonclose": {
-      "description": "needs translation"
-    },
-    "sirfrederickmesser": {
-      "description": "needs translation"
-    },
-    "tamarway": {
-      "description": "needs translation"
-    },
-    "noelpark": {
-      "description": "needs translation"
     }
   },
   "organisations": {

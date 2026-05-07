@@ -28,19 +28,19 @@
       "description": "Broadwater Farm sakinleri, giysi, mobilya, ev aletleri ve daha fazlası için ücretsiz teslim alma ve bırakma hizmeti sunan yerel hayır kurumlarını ve kuruluşları kolayca bulabilir. Aşağıdaki bölümleri inceleyin, bir kuruluş seçin, nasıl çalıştığını görün ve bağışınızı yapın. Waste Not projesinin Broadwater Farm’daki uygulaması Haringey Community Carbon Fund tarafından finanse edilmiştir."
     },
     "northumberlandgrove": {
-      "description": "needs translation"
+      "description": "Bağış yapmak, atmaktan daha kolaydır. Northumberland Grove sakinleri, giysi, mobilya, beyaz eşya ve daha fazlası için ücretsiz toplama ve teslim noktaları sunan hayır kurumlarının ve kuruluşların kapsamlı bir listesini inceleyebilir. Bir bölüme tıklayın, bir kuruluş seçin, nasıl çalıştığını görün ve bağış yapın."
     },
     "blaydonclose": {
-      "description": "needs translation"
+      "description": "Bağış yapmak, atmaktan daha kolaydır. Blaydon Close sakinleri, giysi, mobilya, beyaz eşya ve daha fazlası için ücretsiz toplama ve teslim noktaları sunan hayır kurumlarının ve kuruluşların kapsamlı bir listesini inceleyebilir. Bir bölüme tıklayın, bir kuruluş seçin, nasıl çalıştığını görün ve bağış yapın."
     },
     "sirfrederickmesser": {
-      "description": "needs translation"
+      "description": "Bağış yapmak, atmaktan daha kolaydır. Sir Frederick Messer sakinleri, giysi, mobilya, beyaz eşya ve daha fazlası için ücretsiz toplama ve teslim noktaları sunan hayır kurumlarının ve kuruluşların kapsamlı bir listesini inceleyebilir. Bir bölüme tıklayın, bir kuruluş seçin, nasıl çalıştığını görün ve bağış yapın."
     },
     "tamarway": {
-      "description": "needs translation"
+      "description": "Bağış yapmak, atmaktan daha kolaydır. Tamar Way sakinleri, giysi, mobilya, beyaz eşya ve daha fazlası için ücretsiz toplama ve teslim noktaları sunan hayır kurumlarının ve kuruluşların kapsamlı bir listesini inceleyebilir. Bir bölüme tıklayın, bir kuruluş seçin, nasıl çalıştığını görün ve bağış yapın."
     },
     "noelpark": {
-      "description": "needs translation"
+      "description": "Bağış yapmak, atmaktan daha kolaydır. Noel Park sakinleri, giysi, mobilya, beyaz eşya ve daha fazlası için ücretsiz toplama ve teslim noktaları sunan hayır kurumlarının ve kuruluşların kapsamlı bir listesini inceleyebilir. Bir bölüme tıklayın, bir kuruluş seçin, nasıl çalıştığını görün ve bağış yapın."
     }
   },
   "categories": {
@@ -75,6 +75,9 @@
     }
   },
   "neighbourhoods": {
+    "generic": {
+      "description": "Komşularla paylaşmak, yardımlaşmanın ve bağlantıda kalmanın harika bir yoludur. Küçük eşyalar, mobilyalar veya hatta yiyecekler verebilirsiniz. Komşular bunları kolayca alabilirler. Yerel WhatsApp veya Facebook grubunuzda paylaşım yapabilirsiniz. Grubunuzu burada paylaşmak isterseniz lütfen iletişime geçin!"
+    },
     "ferrylane": {
       "description": "Ferry Lane komşularınızla artık ihtiyacınız olmayan eşyaları paylaşın: onlar yakındır ve eşyaları kolayca alabilirler. Kimsenin uğramaya değer görmeyeceği küçük eşyalarından maliyetli taşımaya ihtiyaç duyacak büyük eşyalarınıza kadar, komşularınız yanınızdayken her şey daha kolaydır. Kedinizin sevmediği yiyeceği, tatile çıkmadan önce buzdolabı fazlalarını veya fazladan kuru gıda ürünlerini bile bağışlayabilirsiniz.<br /><br /><span class=\"bold\">FLAG WhatsApp topluluğuna katılmak ve eşyalarınızı orada paylaşmak için aşağıdaki QR koduna tıklayın veya taratın.</span>",
       "whatsApp": {
@@ -86,21 +89,6 @@
     },
     "broadwaterfarm": {
       "description": "Komşularla paylaşmak, iyi eşyaların kullanımda kalmasını sağlamak ve bağlantılar kurmak için harika bir yoldur. Yakın oldukları için komşular eşyaları kolayca alabilir — ister yol masrafına değmeyecek küçük bir eşya olsun, ister taşınması para tutacak daha büyük bir eşya. Kedinizin yemediği mama, tatile çıkmadan önce buzdolabındaki artıklar veya fazladan kuru gıda ürünlerini bile paylaşabilirsiniz. Sadece yerel WhatsApp veya Facebook grubunuza gönderin ya da yakındaki birine bahsedin — belki de bir komşunun gününü güzelleştirirsiniz!"
-    },
-    "northumberlandgrove": {
-      "description": "needs translation"
-    },
-    "blaydonclose": {
-      "description": "needs translation"
-    },
-    "sirfrederickmesser": {
-      "description": "needs translation"
-    },
-    "tamarway": {
-      "description": "needs translation"
-    },
-    "noelpark": {
-      "description": "needs translation"
     }
   },
   "organisations": {

@@ -28,19 +28,19 @@
       "description": "Los residentes de Broadwater Farm pueden encontrar fácilmente organizaciones benéficas y entidades locales que ofrecen servicios gratuitos de recogida y entrega de ropa, muebles, electrodomésticos y más. Simplemente explora las secciones a continuación, elige una organización, mira cómo funciona y haz tu donación. La implementación del proyecto Waste Not en Broadwater Farm ha sido financiada por el Haringey Community Carbon Fund."
     },
     "northumberlandgrove": {
-      "description": "needs translation"
+      "description": "Donar es más fácil que desechar. Los residentes de Northumberland Grove pueden explorar una lista completa de organizaciones benéficas que ofrecen recogidas y puntos de entrega gratuitos para ropa, muebles, electrodomésticos y más. Simplemente haga clic en una sección, elija una organización, vea cómo funciona y done."
     },
     "blaydonclose": {
-      "description": "needs translation"
+      "description": "Donar es más fácil que desechar. Los residentes de Blaydon Close pueden explorar una lista completa de organizaciones benéficas que ofrecen recogidas y puntos de entrega gratuitos para ropa, muebles, electrodomésticos y más. Simplemente haga clic en una sección, elija una organización, vea cómo funciona y done."
     },
     "sirfrederickmesser": {
-      "description": "needs translation"
+      "description": "Donar es más fácil que desechar. Los residentes de Sir Frederick Messer pueden explorar una lista completa de organizaciones benéficas que ofrecen recogidas y puntos de entrega gratuitos para ropa, muebles, electrodomésticos y más. Simplemente haga clic en una sección, elija una organización, vea cómo funciona y done."
     },
     "tamarway": {
-      "description": "needs translation"
+      "description": "Donar es más fácil que desechar. Los residentes de Tamar Way pueden explorar una lista completa de organizaciones benéficas que ofrecen recogidas y puntos de entrega gratuitos para ropa, muebles, electrodomésticos y más. Simplemente haga clic en una sección, elija una organización, vea cómo funciona y done."
     },
     "noelpark": {
-      "description": "needs translation"
+      "description": "Donar es más fácil que desechar. Los residentes de Noel Park pueden explorar una lista completa de organizaciones benéficas que ofrecen recogidas y puntos de entrega gratuitos para ropa, muebles, electrodomésticos y más. Simplemente haga clic en una sección, elija una organización, vea cómo funciona y done."
     }
   },
   "categories": {
@@ -75,6 +75,9 @@
     }
   },
   "neighbourhoods": {
+    "generic": {
+      "description": "Compartir con los vecinos es una excelente manera de ayudar y mantenerse conectados. Puedes donar objetos pequeños, muebles o incluso comida. Los vecinos pueden recogerlos fácilmente. Puedes publicar en tu grupo local de WhatsApp o Facebook. Si quieres compartir tu grupo aquí, ¡contáctanos!"
+    },
     "ferrylane": {
       "description": "Comparte lo que ya no necesitas con tus vecinos de Ferry Lane: están cerca y pueden recoger los artículos fácilmente. Desde objetos pequeños por los que nadie viajaría hasta artículos grandes que requerirían transporte costoso, todo es más fácil cuando tus vecinos están cerca. Incluso puedes donar comida que a tu gato no le guste, los excedentes del frigorífico antes de irte de vacaciones o artículos extra de la despensa.<br /><br /><span class=\"bold\">Haz clic o escanea el código QR a continuación para unirte a la comunidad de WhatsApp de FLAG y publicar tus artículos allí.</span>",
       "whatsApp": {
@@ -86,21 +89,6 @@
     },
     "broadwaterfarm": {
       "description": "Compartir con los vecinos es una excelente manera de que las cosas buenas sigan usándose y de crear conexiones. Como viven cerca, los vecinos pueden recoger las cosas fácilmente — ya sea un objeto pequeño que no merece la pena un viaje o uno más grande cuyo transporte costaría dinero. Incluso puedes compartir comida para mascotas que tu gato no quiera, sobras del frigorífico antes de unas vacaciones o artículos extra de la despensa. Simplemente publícalo en tu grupo local de WhatsApp o Facebook, o coméntaselo a alguien cercano — ¡podrías alegrarle el día a un vecino!"
-    },
-    "northumberlandgrove": {
-      "description": "needs translation"
-    },
-    "blaydonclose": {
-      "description": "needs translation"
-    },
-    "sirfrederickmesser": {
-      "description": "needs translation"
-    },
-    "tamarway": {
-      "description": "needs translation"
-    },
-    "noelpark": {
-      "description": "needs translation"
     }
   },
   "organisations": {

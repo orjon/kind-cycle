@@ -34,23 +34,23 @@
     },
     "northumberlandgrove": {
       "name": "Northumberland Grove",
-      "description": "Needs text"
+      "description": "Donating is easier than discarding. Northumberland Grove residents can explore a comprehensive list of charities and organisations offering free collections and drop-offs for clothes, furniture, appliances, and more. Simply click on a section, choose an organisation, see how it works, and donate."
     },
     "blaydonclose": {
       "name": "Blaydon Close",
-      "description": "Needs text"
+      "description": "Donating is easier than discarding. Blaydon Close residents can explore a comprehensive list of charities and organisations offering free collections and drop-offs for clothes, furniture, appliances, and more. Simply click on a section, choose an organisation, see how it works, and donate."
     },
     "sirfrederickmesser": {
       "name": "Sir Frederick Messer",
-      "description": "Needs text"
+      "description": "Donating is easier than discarding. Sir Frederick Messer residents can explore a comprehensive list of charities and organisations offering free collections and drop-offs for clothes, furniture, appliances, and more. Simply click on a section, choose an organisation, see how it works, and donate."
     },
     "tamarway": {
       "name": "Tamar Way",
-      "description": "Needs text"
+      "description": "Donating is easier than discarding. Tamar Way residents can explore a comprehensive list of charities and organisations offering free collections and drop-offs for clothes, furniture, appliances, and more. Simply click on a section, choose an organisation, see how it works, and donate."
     },
     "noelpark": {
       "name": "Noel Park",
-      "description": "Needs text"
+      "description": "Donating is easier than discarding. Noel Park residents can explore a comprehensive list of charities and organisations offering free collections and drop-offs for clothes, furniture, appliances, and more. Simply click on a section, choose an organisation, see how it works, and donate."
     }
   },
   "categories": {
@@ -85,6 +85,9 @@
     }
   },
   "neighbourhoods": {
+    "generic": {
+      "description": "Sharing with neighbours is a great way to help and stay connected. You can give small items, furniture, or even food. Neighbours can pick them up easily. You can post in your local WhatsApp or Facebook group. If you want to share your group here, please get in touch!"
+    },
     "ferrylane": {
       "description": "Sharing what you no longer need with your Ferry Lane neighbours: they're local and can pick up items with ease. From small items no one would travel for to large items that would require costly transport, it's all easier when your neighbours are nearby. You can even donate food your cat doesn't like, fridge surplus before going on holiday, or extra pantry items.<br /><br /><span class=\"bold\">Click or scan the QR code below to join the FLAG WhatsApp community and post your items there.</span>",
       "whatsApp": {
@@ -96,21 +99,6 @@
     },
     "broadwaterfarm": {
       "description": "Sharing with neighbours is a great way to keep good things in use and build connections. Because they’re close by, neighbours can pick things up easily — whether it’s a small item that isn’t worth a trip or a larger one that would cost money to transport. You can even share pet food your cat won’t eat, fridge leftovers before a holiday, or extra pantry items. Just post in your local WhatsApp or Facebook group, or mention it to someone nearby — you might make a neighbour’s day!"
-    },
-    "northumberlandgrove": {
-      "description": "Needs text"
-    },
-    "blaydonclose": {
-      "description": "Needs text"
-    },
-    "sirfrederickmesser": {
-      "description": "Needs text"
-    },
-    "tamarway": {
-      "description": "Needs text"
-    },
-    "noelpark": {
-      "description": "Needs text"
     }
   },
   "organisations": {
@@ -133,18 +121,20 @@
     "freecycle": {
       "name": "Freecycle",
       "about": "Freecycle is a platform where people give away items they no longer need for free, promoting reuse and reducing waste.",
-      "howItWorks": "Sign up, create an account, and join your borough group and nearby ones. You can post listings of items you want to give away, such as furniture, electronics, or clothes, and arrange collection through direct messages. Freecycle promotes community-driven exchanges with no financial transactions. Users can also post wanted ads for specific items."
+      "howItWorks": "Sign up, create an account, and join your borough group and nearby ones. You can post listings of items you want to give away, such as furniture, electronics, or clothes, and arrange collection through direct messages. Freecycle promotes community-driven exchanges with no financial transactions. Users can also post wanted ads for specific items.",
+      "websiteLabel": "freecycle.org"
     },
     "facebookMarketplace": {
       "name": "Facebook Marketplace",
       "about": "Facebook Marketplace is an online platform where users can buy, sell, and give away items within their local community.",
-      "howItWorks": "To donate items on Facebook Marketplace, log into Facebook and go to the Marketplace sections. Click \"Create New Listing\", select \"Item for Sale\", and set the price to £0. Add photos, descriptions, location and item details. Local users can message you directly to arrange collection."
+      "howItWorks": "To donate items on Facebook Marketplace, log into Facebook and go to the Marketplace sections. Click \"Create New Listing\", select \"Item for Sale\", and set the price to £0. Add photos, descriptions, location and item details. Local users can message you directly to arrange collection.",
+      "websiteLabel": "facebook.com/marketplace"
     },
     "britishHeartFoundation": {
       "name": "British Heart Foundation",
       "about": "The British Heart Foundation is a charity dedicated to funding research into heart disease and supporting those affected by cardiovascular conditions.",
       "howItWorks": "The British Heart Foundation accepts donations of clothing, books, electrical goods, and furniture. They offer free collection for larger items, which you can arrange through an online form. Just provide the item details, preferred collection date, address, and contact info.",
-      "websiteLabel": "www.bhf.org.uk"
+      "websiteLabel": "bhf.org.uk"
     },
     "encouragingReuse": {
       "name": "Encouraging Reuse",
@@ -156,7 +146,7 @@
       "name": "TRAID",
       "about": "TRAID is a UK charity focused on reducing textile waste by turning unwanted clothes into resources for global development projects.",
       "howItWorks": "Donated clothing are collect and resold to fund their initiatives. You can donate clean, wearable clothes by dropping them off at TRAID donation banks or their charity shops. For larger donations, TRAID offers a free home collection service, which can be arranged through their website.",
-      "websiteLabel": "www.traid.org.uk"
+      "websiteLabel": "traid.org.uk"
     },
     "weCollectWeDonate": {
       "name": "WeCollectWeDonate",
@@ -172,7 +162,7 @@
       "name": "North London Waste Authority",
       "about": "The North London Waste Authority (NLWA) manages waste disposal and recycling services for seven north London boroughs, and delivers multiple projects aiming to reduce waste and improve sustainability.",
       "howItWorks": "NLWA promotes repair initiatives to reduce waste, offering a repair directory on their website. This directory includes resources like repair services, DIY repair tips, and guides to extend the life of household items.",
-      "websiteLabel": "www.nlwa.gov.uk"
+      "websiteLabel": "nlwa.gov.uk"
     },
     "clothesBanks": {
       "name": "Clothes Banks",
@@ -184,13 +174,13 @@
       "name": "Footprint for Good",
       "about": "Footprint for Good supports at-risk young people: through the Repair Restore Respect program, participants learn upcycling and restoration by repairing donated furniture — building confidence, practical skills, and promoting sustainability.",
       "howItWorks": "You can request a free furniture collection using our online form. The team will contact you within 5 working days to confirm the date. This service is currently for furniture items only. They accept sofas, wardrobes, bed frames, tables, chairs, shelving and storage solutions.",
-      "websiteLabel": "www.footprintforgood.org"
+      "websiteLabel": "footprintforgood.org"
     },
     "prayHaringey": {
       "name": "Children's Storehouse from Pray Haringey",
       "about": "Pray Haringey is a faith-based, community-focused network in Haringey. One of their initiatives, Children’s Storehouse, collects good-quality donations for children aged 0–7 and distributes them to local families in need.",
       "howItWorks": "Donations can be dropped off, or collections can be arranged. They accept cots and cot bedding, high chairs, prams or buggies, safety gates, clothes, toys, and books suitable for children aged 0–7.",
-      "websiteLabel": "www.prayharingey.org.uk"
+      "websiteLabel": "prayharingey.org.uk"
     },
     "communityClothingCollection": {
       "name": "Community Clothing Collection",
@@ -226,13 +216,13 @@
       "name": "iCollectClothes",
       "about": "iCollectClothes is a UK-based service that facilitates free doorstep collections of unwanted clothing, supporting various charities through the resale of donated items.",
       "howItWorks": "To donate, simply visit the iCollectClothes website, choose your preferred charity, then schedule a convenient free doorstep collection. You can include items such as clothes, shoes, and accessories.",
-      "websiteLabel": "www.icollectclothes.co.uk"
+      "websiteLabel": "icollectclothes.co.uk"
     },
     "sueRyder": {
       "name": "Sue Ryder",
       "about": "Sue Ryder is a UK charity that provides expert palliative care and bereavement support, helping people at the end of life and those coping with loss. Funds raised through their charity shops support hospice and neurological care across the country",
       "howItWorks": "They offer a free furniture collection service, which can be booked online or by calling their National Furniture Line (0333 003 1883). They collect good-quality sofas, tables, wardrobes, beds, and small electrical items with fire safety labels where required.",
-      "websiteLabel": "www.sueryder.org"
+      "websiteLabel": "sueryder.org"
     },
     "jacksSofaDrops": {
       "name": "Jacks Sofa Drops",
@@ -244,13 +234,13 @@
       "name": "Freegle",
       "about": "Freegle is a UK-based community platform that enables people to give away and receive items for free, promoting reuse and reducing waste.",
       "howItWorks": "To donate, join your local Freegle group online, post a description of the item you want to give away, and arrange collection with an interested member.",
-      "websiteLabel": "www.ilovefreegle.org"
+      "websiteLabel": "ilovefreegle.org"
     },
     "loveJunk": {
       "name": "LoveJunk",
       "about": "LoveJunk is a marketplace that connects users with licensed waste collectors and junk reusers for secure, cost-effective, and eco-friendly rubbish and bulky item removal.",
       "howItWorks": "Users can post a job on LoveJunk for free by uploading photos and a brief description of their items. Nearby licensed waste collectors and reuse organisations can then view the listing, submit quotes, or offer to collect reusable items at no charge.",
-      "websiteLabel": "www.lovejunk.com"
+      "websiteLabel": "lovejunk.com"
     }
   }
 }
