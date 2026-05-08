@@ -91,11 +91,6 @@
       background-color: $colorGreen;
       color: $colorSoftWhite;
     }
-
-    &.active {
-      background-color: $colorRed;
-      color: $colorSoftWhite;
-    }
   }
 
   @media (min-width: $break1024) {
