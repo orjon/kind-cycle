@@ -42,7 +42,7 @@ const Nav = () => {
         />
       )
     })
-  // Insert desktop LocationSelector after the first item
+
   navMenuItems.splice(1, 0, <LocationSelector key='location-selector' />)
 
   const navBurgerMenuItems: ReactElement[] = burgerMenuItems
