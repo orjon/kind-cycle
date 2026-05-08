@@ -38,6 +38,7 @@ const AppWrapper = () => {
       return
     }
 
+    document.documentElement.lang = langToUse
     i18n.changeLanguage(langToUse) // synchronous with preloaded translations
   }, [lang, i18n, navigate, location])
 

@@ -18,13 +18,13 @@ export enum NavLocations {
 
 export type NavMenuItem = {
   id: string
-  active?: boolean
   type: NavType
   path?: string
 }
 
 export type Organisation = {
   id: string
+  disabled?: boolean
   address?: string | null
   website?: { url: string; label?: string }
 }

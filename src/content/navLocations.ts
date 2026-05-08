@@ -1,12 +1,4 @@
 import { NavMenuItem, NavType, NavLocations } from '../types'
-// import { locations } from './locations'
-
-// const geographicLocations = locations.map((location) => ({
-//   id: location.id,
-//   active: location.active,
-//   type: NavType.location,
-//   path: `/wastenot/${location.id}`
-// }))
 
 const locationMenuItem = {
   id: NavLocations.locations,

@@ -63,6 +63,7 @@ export const organisations: OrganisationsDirectory = {
     }
   },
   communityClothingCollection: {
+    disabled: true,
     id: 'communityClothingCollection',
     website: { url: 'https://communityclothescollection.co.uk/' }
   },

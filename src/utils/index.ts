@@ -1,4 +1,4 @@
-import { locations } from '../content'
+import { locations, organisations } from '../content'
 import { supportedLangs } from '../constants'
 import { Location, LocationCategory } from '../types'
 
@@ -15,7 +15,9 @@ export const getLocationCategoryOrganisations = (
   const category = location.categories.find(
     (cat: LocationCategory) => cat.id === categoryId
   )
-  return category?.organisations
+  return category?.organisations?.filter(
+    (id: string) => !organisations[id]?.disabled
+  )
 }
 
 // Utility to get current language prefix from URL
