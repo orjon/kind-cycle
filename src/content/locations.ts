@@ -5,7 +5,7 @@ const allLocations: Location[] = [
   {
     id: 'ferrylane',
     label: 'Ferry Lane',
-    active: true,
+    disabled: false,
     postcode: 'N17',
     whatsApp: {
       name: 'Ferrylane WhatsApp group',
@@ -84,7 +84,7 @@ const allLocations: Location[] = [
   {
     id: 'haringey',
     label: 'Haringey',
-    active: true,
+    disabled: false,
     postcode: '',
     categories: [
       {
@@ -154,7 +154,7 @@ const allLocations: Location[] = [
   {
     id: 'northumberlandgrove',
     label: 'Northumberland Grove',
-    active: true,
+    disabled: false,
     postcode: '',
     categories: [
       {
@@ -224,7 +224,7 @@ const allLocations: Location[] = [
   {
     id: 'blaydonclose',
     label: 'Blaydon Close',
-    active: true,
+    disabled: false,
     postcode: '',
     categories: [
       {
@@ -294,7 +294,7 @@ const allLocations: Location[] = [
   {
     id: 'sirfrederickmesser',
     label: 'Sir Frederick Messer',
-    active: true,
+    disabled: false,
     postcode: '',
     categories: [
       {
@@ -364,7 +364,7 @@ const allLocations: Location[] = [
   {
     id: 'tamarway',
     label: 'Tamar Way',
-    active: true,
+    disabled: false,
     postcode: '',
     categories: [
       {
@@ -434,7 +434,7 @@ const allLocations: Location[] = [
   {
     id: 'noelpark',
     label: 'Noel Park',
-    active: false,
+    disabled: false,
     postcode: '',
     categories: [
       {
@@ -504,7 +504,7 @@ const allLocations: Location[] = [
   {
     id: 'broadwaterfarm',
     label: 'Broadwater Farm',
-    active: true,
+    disabled: false,
     postcode: '',
     categories: [
       {
@@ -573,4 +573,6 @@ const allLocations: Location[] = [
   }
 ]
 
-export const locations = allLocations.filter((location) => location.active)
+export const locations = allLocations
+  .filter((location) => !location.disabled)
+  .sort((a, b) => a.label.localeCompare(b.label))

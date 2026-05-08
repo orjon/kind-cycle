@@ -76,7 +76,6 @@
     align-items: flex-start;
     will-change: opacity;
     transition: opacity 0.25s ease-in-out;
-    box-shadow: 0px 5px $navShadowBlur $colorNavDropdownShadow;
     overflow-y: auto;
 
     &.open {
@@ -108,7 +107,9 @@
     font-weight: 300;
     color: var(--color-text);
     will-change: height, background-color, color;
-    transition: height 0.25s ease-in-out, background-color 0.25s ease-in,
+    transition:
+      height 0.25s ease-in-out,
+      background-color 0.25s ease-in,
       color 0.3s ease-in;
 
     .LanguageSelector__name {
@@ -119,7 +120,7 @@
 
     &:hover,
     &:focus {
-      background-color: $colorRed;
+      background-color: $colorGreen;
       color: $colorSoftWhite;
     }
 

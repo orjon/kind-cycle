@@ -20,7 +20,7 @@ export type NavMenuItem = {
   id: string
   active?: boolean
   type: NavType
-  path: string
+  path?: string
 }
 
 export type Organisation = {
@@ -41,7 +41,7 @@ export type LocationCategory = {
 export type Location = {
   id: string
   label: string
-  active: boolean
+  disabled?: boolean
   postcode: string
   image?: string
   website?: string

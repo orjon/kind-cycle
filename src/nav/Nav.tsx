@@ -1,5 +1,5 @@
 import { useState, type ReactElement } from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
 import { NavType, NavLocations } from '../types'
@@ -36,8 +36,8 @@ const Nav = () => {
           key={id}
           nav_item={id}
           type={type}
-          label={type === NavType.page ? t(`navLocations.${id}`) : t(`locations.${id}.name`)}
-          path={path}
+          label={t(`navLocations.${id}`)}
+          path={path!}
           setIsMenuOpen={handleSetIsMenuOpen}
         />
       )
@@ -59,16 +59,19 @@ const Nav = () => {
               <div className='text'>{t(`navLocations.${id}`)}</div>
             </div>
             <div className={`LocationSubItems ${isLocationsOpen ? 'open' : ''}`}>
-              {locations.map((loc) => (
-                <NavItem
-                  key={loc.id}
-                  nav_item={loc.id}
-                  type={NavType.location}
-                  label={t(`locations.${loc.id}.name`)}
-                  path={`/wastenot/${loc.id}`}
-                  setIsMenuOpen={handleSetIsMenuOpen}
-                />
-              ))}
+              {locations.map((location) => {
+                const { id } = location
+                return (
+                  <NavItem
+                    key={id}
+                    nav_item={id}
+                    type={NavType.location}
+                    label={t(`locations.${id}.name`)}
+                    path={`/wastenot/${id}`}
+                    setIsMenuOpen={handleSetIsMenuOpen}
+                  />
+                )
+              })}
             </div>
           </div>
         )
@@ -80,7 +83,7 @@ const Nav = () => {
           nav_item={id}
           type={type}
           label={t(`navLocations.${id}`)}
-          path={path}
+          path={path!}
           setIsMenuOpen={handleSetIsMenuOpen}
         />
       )
@@ -106,7 +109,7 @@ const Nav = () => {
         </div>
       </NavLink>
       <div className='NavMenu'>{navMenuItems}</div>
-      <LanguageSelector />
+      <LanguageSelector onOpen={() => handleSetIsMenuOpen(false)} />
     </div>
   )
 }

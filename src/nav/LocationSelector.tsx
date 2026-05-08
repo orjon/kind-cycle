@@ -15,7 +15,7 @@ interface LocationOption {
 }
 
 const locationOptions: LocationOption[] = locations
-  .filter((location) => location.active)
+  .filter((location) => !location.disabled)
   .map((location) => ({
     id: location.id,
     name: location.label,

@@ -10,7 +10,11 @@ import { ClickEvent } from '../types'
 
 import '../styles/nav/LanguageSelector.scss'
 
-const LanguageSelector = () => {
+type LanguageSelectorProps = {
+  onOpen?: () => void
+}
+
+const LanguageSelector = ({ onOpen }: LanguageSelectorProps) => {
   const { i18n } = useTranslation()
   const location = useLocation()
   const [isLanguageListOpen, setisLanguageListOpen] = useState(false)
@@ -66,7 +70,10 @@ const LanguageSelector = () => {
     <div className='LanguageSelector' ref={dropdownRef}>
       <div
         className='LanguageSelector__button'
-        onClick={() => setisLanguageListOpen(!isLanguageListOpen)}
+        onClick={() => {
+          if (!isLanguageListOpen) onOpen?.()
+          setisLanguageListOpen(!isLanguageListOpen)
+        }}
         aria-haspopup='listbox'
         aria-expanded={isLanguageListOpen}
       >

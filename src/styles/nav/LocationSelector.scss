@@ -44,7 +44,7 @@
     align-items: flex-start;
     will-change: opacity;
     transition: opacity 0.25s ease-in-out;
-    box-shadow: 0px 5px $navShadowBlur $colorNavDropdownShadow;
+    // box-shadow: 0px 5px $navShadowBlur $colorNavDropdownShadow;
     overflow-y: auto;
 
     &.open {
@@ -88,7 +88,7 @@
 
     &:hover,
     &:focus {
-      background-color: $colorRed;
+      background-color: $colorGreen;
       color: $colorSoftWhite;
     }
 

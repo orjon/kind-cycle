@@ -10,8 +10,7 @@ import { NavMenuItem, NavType, NavLocations } from '../types'
 
 const locationMenuItem = {
   id: NavLocations.locations,
-  type: NavType.page,
-  path: '/location'
+  type: NavType.location
 }
 
 const menuItems: NavMenuItem[] = [
