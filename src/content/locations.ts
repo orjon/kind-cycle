@@ -154,7 +154,7 @@ const allLocations: Location[] = [
   {
     id: 'northumberlandgrove',
     label: 'Northumberland Grove',
-    disabled: false,
+    disabled: true,
     postcode: '',
     categories: [
       {
@@ -224,7 +224,7 @@ const allLocations: Location[] = [
   {
     id: 'blaydonclose',
     label: 'Blaydon Close',
-    disabled: false,
+    disabled: true,
     postcode: '',
     categories: [
       {
@@ -294,7 +294,7 @@ const allLocations: Location[] = [
   {
     id: 'sirfrederickmesser',
     label: 'Sir Frederick Messer',
-    disabled: false,
+    disabled: true,
     postcode: '',
     categories: [
       {
@@ -364,7 +364,7 @@ const allLocations: Location[] = [
   {
     id: 'tamarway',
     label: 'Tamar Way',
-    disabled: false,
+    disabled: true,
     postcode: '',
     categories: [
       {
@@ -434,7 +434,7 @@ const allLocations: Location[] = [
   {
     id: 'noelpark',
     label: 'Noel Park',
-    disabled: false,
+    disabled: true,
     postcode: '',
     categories: [
       {
