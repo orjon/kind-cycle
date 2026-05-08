@@ -7,16 +7,16 @@ import {
   useLocation,
   Navigate
 } from 'react-router-dom'
-import { useEffect } from 'react'
+import { useEffect, lazy, Suspense } from 'react'
 import { useTranslation } from 'react-i18next'
-import Home from './pages/WasteNot'
-import About from './pages/About'
-import Contact from './pages/Contact'
-import Location from './pages/Location'
-import RedirectToLocation from './pages/RedirectToLocation'
-import LocationCategory from './pages/LocationCategory'
-import Category from './pages/Category'
-import Neighbours from './pages/Neighbours'
+const Home = lazy(() => import('./pages/WasteNot'))
+const About = lazy(() => import('./pages/About'))
+const Contact = lazy(() => import('./pages/Contact'))
+const Location = lazy(() => import('./pages/Location'))
+const RedirectToLocation = lazy(() => import('./pages/RedirectToLocation'))
+const LocationCategory = lazy(() => import('./pages/LocationCategory'))
+const Category = lazy(() => import('./pages/Category'))
+const Neighbours = lazy(() => import('./pages/Neighbours'))
 import { supportedLangs } from './constants'
 import { locations } from './content'
 
@@ -51,6 +51,7 @@ const locationShortcutRedirects = locations.map((location) => (
 const AppRoutes = () => {
 
   return (
+    <Suspense fallback={null}>
     <Routes>
       <Route
         path='/leaflet'
@@ -93,6 +94,7 @@ const AppRoutes = () => {
         <Route path='contact' element={<Contact />} />
       </Route>
     </Routes>
+    </Suspense>
   )
 }
 
