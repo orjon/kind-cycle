@@ -1,0 +1,38 @@
+name: Deploy to Production
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H ${{ secrets.DROPLET_IP }} >> ~/.ssh/known_hosts
+
+      - name: Backup current deployment
+        run: ssh ${{ secrets.DROPLET_USER }}@${{ secrets.DROPLET_IP }} "cp -r /var/www/kindcycle /var/www/kindcycle-backup"
+
+      - name: Deploy
+        run: rsync -avz --delete dist/ ${{ secrets.DROPLET_USER }}@${{ secrets.DROPLET_IP }}:/var/www/kindcycle/

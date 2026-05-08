@@ -44,12 +44,17 @@ const AppWrapper = () => {
   return <Outlet />
 }
 
+// Redirects: /:locationId -> /en/wastenot/:locationId
 const locationShortcutRedirects = locations.map((location) => (
   <Route key={location.id} path={location.id} element={<Navigate to={`/en/wastenot/${location.id}`} replace />} />
 ))
 
+// QR code URL corrections:
+// /wastenot/frederickmesser/panel -> /en/wastenot/sirfrederickmesser/panel
+// /wastenot/northumberland -> /en/wastenot/northumberlandgrove
 const qrcodeCorrections = [
-  <Route key='frederickmesser-panel' path='/wastenot/frederickmesser/panel' element={<Navigate to='/en/wastenot/sirfrederickmesser/panel' replace />} />
+  <Route key='frederickmesser-panel' path='/wastenot/frederickmesser/panel' element={<Navigate to='/en/wastenot/sirfrederickmesser/panel' replace />} />,
+  <Route key='northumberland' path='/northumberland' element={<Navigate to='/en/wastenot/northumberlandgrove' replace />} />
 ]
 
 const AppRoutes = () => {
