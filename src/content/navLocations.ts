@@ -19,8 +19,6 @@ const menuItems: NavMenuItem[] = [
   { id: NavLocations.about, type: NavType.page, path: '/about' },
   { id: NavLocations.contact, type: NavType.page, path: '/contact' }
 ]
-const burgerMenuItems: NavMenuItem[] = [...menuItems]
-
-burgerMenuItems.splice(1, 0, locationMenuItem)
+const burgerMenuItems: NavMenuItem[] = [...menuItems, locationMenuItem]
 
 export { menuItems, burgerMenuItems }

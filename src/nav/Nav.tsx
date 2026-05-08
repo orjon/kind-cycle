@@ -2,7 +2,7 @@ import { useState, type ReactElement } from 'react'
 import { NavLink } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
-import { NavType } from '../types'
+import { NavType, NavLocations } from '../types'
 
 import NavItem from './NavItem'
 import LocationSelector from './LocationSelector'
@@ -12,6 +12,7 @@ import { addLanguagePrefix } from '../utils'
 import { getSettings } from '../settings'
 
 import { menuItems, burgerMenuItems } from '../content/navLocations'
+import { locations } from '../content/locations'
 
 import '../styles/nav/Nav.scss'
 import '../styles/nav/NavBurger.scss'
@@ -19,6 +20,12 @@ import '../styles/nav/NavBurger.scss'
 const Nav = () => {
   const { t } = useTranslation()
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [isLocationsOpen, setIsLocationsOpen] = useState(false)
+
+  const handleSetIsMenuOpen = (open: boolean) => {
+    setIsMenuOpen(open)
+    if (!open) setIsLocationsOpen(false)
+  }
 
   const navMenuItems: ReactElement[] = menuItems
     .filter((location) => location.type === NavType.page)
@@ -31,7 +38,7 @@ const Nav = () => {
           type={type}
           label={type === NavType.page ? t(`navLocations.${id}`) : t(`locations.${id}.name`)}
           path={path}
-          setIsMenuOpen={setIsMenuOpen}
+          setIsMenuOpen={handleSetIsMenuOpen}
         />
       )
     })
@@ -39,28 +46,51 @@ const Nav = () => {
   navMenuItems.splice(1, 0, <LocationSelector key='location-selector' />)
 
   const navBurgerMenuItems: ReactElement[] = burgerMenuItems
-    .map((location) => {
-      const { id, path, type } = location
+    .map((item) => {
+      const { id, path, type } = item
+
+      if (id === NavLocations.locations) {
+        return (
+          <div key='locations-expander' className='LocationsExpander'>
+            <div
+              className={`NavItem LocationsToggle ${isLocationsOpen ? 'open' : ''}`}
+              onClick={() => setIsLocationsOpen(!isLocationsOpen)}
+            >
+              <div className='text'>{t(`navLocations.${id}`)}</div>
+            </div>
+            <div className={`LocationSubItems ${isLocationsOpen ? 'open' : ''}`}>
+              {locations.map((loc) => (
+                <NavItem
+                  key={loc.id}
+                  nav_item={loc.id}
+                  type={NavType.location}
+                  label={t(`locations.${loc.id}.name`)}
+                  path={`/wastenot/${loc.id}`}
+                  setIsMenuOpen={handleSetIsMenuOpen}
+                />
+              ))}
+            </div>
+          </div>
+        )
+      }
+
       return (
         <NavItem
           key={id}
           nav_item={id}
           type={type}
-          label={type === NavType.page ? t(`navLocations.${id}`) : t(`locations.${id}.name`)}
+          label={t(`navLocations.${id}`)}
           path={path}
-          setIsMenuOpen={setIsMenuOpen}
+          setIsMenuOpen={handleSetIsMenuOpen}
         />
       )
     })
-
-  console.log(navBurgerMenuItems)
-  console.log(burgerMenuItems)
 
   return (
     <div className={`Nav ${getSettings()}`}>
       <div
         className={`NavBurger ${isMenuOpen ? 'open' : ''}`}
-        onClick={() => setIsMenuOpen(!isMenuOpen)}
+        onClick={() => handleSetIsMenuOpen(!isMenuOpen)}
       >
         <span></span>
         <span></span>

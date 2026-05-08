@@ -45,6 +45,7 @@
     .NavItem {
       height: 0px;
       width: 100%;
+      overflow: hidden;
 
       display: flex;
       flex-direction: column;
@@ -69,10 +70,63 @@
       }
     }
 
+    .LocationsExpander {
+      width: 100%;
+
+      .LocationsToggle {
+        cursor: pointer;
+        user-select: none;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 20px;
+        &::after {
+          content: '▾';
+          display: inline-block;
+          font-size: $fontNavLarge;
+          transition: transform 0.25s ease-in-out;
+        }
+        &.open {
+          background-color: $colorRed;
+          color: $colorSoftWhite;
+          &::after {
+            transform: rotate(180deg);
+          }
+        }
+      }
+
+      .LocationSubItems {
+        width: 100%;
+        .NavItem {
+          padding-left: 40px;
+          .text {
+            font-size: $fontNavSmall;
+          }
+          &:hover {
+            background-color: $colorGreen;
+          }
+        }
+      }
+    }
+
     &.open {
       opacity: 1;
 
       .NavItem {
+        height: $navBurgerItemHeight;
+        .text {
+          transform: scale(1, 1);
+        }
+      }
+
+      .LocationSubItems .NavItem {
+        height: 0;
+        .text {
+          transform: scale(1, 0);
+        }
+      }
+
+      .LocationSubItems.open .NavItem {
         height: $navBurgerItemHeight;
         .text {
           transform: scale(1, 1);

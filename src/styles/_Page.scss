@@ -34,11 +34,14 @@
     }
 
     .title {
+      width: 100%;
       text-align: center;
       line-height: 0.9;
-      font-size: 50px;
+      font-size: clamp(24px, 11vw, 50px);
       font-weight: 600;
       margin-bottom: 30px;
+      text-wrap: balance;
+      overflow-wrap: break-word;
       // color: $colorGreen;
       @media (min-width: $break460) {
         font-size: 70px;
