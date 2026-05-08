@@ -45,55 +45,61 @@ const AppWrapper = () => {
 }
 
 const locationShortcutRedirects = locations.map((location) => (
-  <Route key={location.id} path={location.id} element={<Navigate to={`/wastenot/${location.id}`} replace />} />
+  <Route key={location.id} path={location.id} element={<Navigate to={`/en/wastenot/${location.id}`} replace />} />
 ))
+
+const qrcodeCorrections = [
+  <Route key='frederickmesser-panel' path='/wastenot/frederickmesser/panel' element={<Navigate to='/en/wastenot/sirfrederickmesser/panel' replace />} />
+]
 
 const AppRoutes = () => {
 
   return (
     <Suspense fallback={null}>
-    <Routes>
-      <Route
-        path='/leaflet'
-        element={<Navigate to='/en/wastenot/broadwaterfarm' replace />}
-      />
-      <Route path='/tag' element={<Navigate to='/en/wastenot' replace />} />
-
-      {locationShortcutRedirects}
-
-      <Route path='/:lang?' element={<AppWrapper />}>
-        <Route index element={<Home />} />
-        <Route path='wastenot' element={<Home />} />
-        <Route path='wastenot/:locationId' element={<Location />} />
+      <Routes>
         <Route
-          path='wastenot/:locationId/leaflet'
-          element={<RedirectToLocation />}
-        />
-        <Route
-          path='wastenot/:locationId/poster'
-          element={<RedirectToLocation />}
-        />
-        <Route
-          path='wastenot/:locationId/panel'
-          element={<RedirectToLocation />}
-        />
-        <Route
-          path='wastenot/:locationId/neighbours'
-          element={<Neighbours />}
-        />
-        <Route
-          path='wastenot/:locationId/:categoryId'
-          element={<LocationCategory />}
+          path='/leaflet'
+          element={<Navigate to='/en/wastenot/broadwaterfarm' replace />}
         />
 
-        <Route
-          path='wastenot/category/:categoryId'
-          element={<Category />}
-        />
-        <Route path='about' element={<About />} />
-        <Route path='contact' element={<Contact />} />
-      </Route>
-    </Routes>
+        <Route path='/tag' element={<Navigate to='/en/wastenot' replace />} />
+
+        {qrcodeCorrections}
+        {locationShortcutRedirects}
+
+        <Route path='/:lang?' element={<AppWrapper />}>
+          <Route index element={<Home />} />
+          <Route path='wastenot' element={<Home />} />
+          <Route path='wastenot/:locationId' element={<Location />} />
+          <Route
+            path='wastenot/:locationId/leaflet'
+            element={<RedirectToLocation />}
+          />
+          <Route
+            path='wastenot/:locationId/poster'
+            element={<RedirectToLocation />}
+          />
+          <Route
+            path='wastenot/:locationId/panel'
+            element={<RedirectToLocation />}
+          />
+          <Route
+            path='wastenot/:locationId/neighbours'
+            element={<Neighbours />}
+          />
+          <Route
+            path='wastenot/:locationId/:categoryId'
+            element={<LocationCategory />}
+          />
+
+          <Route
+            path='wastenot/category/:categoryId'
+            element={<Category />}
+          />
+          <Route path='about' element={<About />} />
+          <Route path='contact' element={<Contact />} />
+        </Route>
+      </Routes>
     </Suspense>
   )
 }
