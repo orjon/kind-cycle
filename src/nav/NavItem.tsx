@@ -25,7 +25,7 @@ const NavItem = ({ nav_item, label, type, path, setIsMenuOpen }: NavItemProps) =
 
   return (
     <NavLink
-      className={({ isActive }) => `NavItem NavLink ${locationClass}${isActive ? ' active' : ''}`}
+      className={`NavItem NavLink ${locationClass}`}
       to={addLanguagePrefix(path)}
       onClick={handleNavClick}
     >
