@@ -45,6 +45,10 @@ const AppWrapper = () => {
   return <Outlet />
 }
 
+const genericRedirects = ['/leaflet', '/tag'].map((path) => (
+  <Route key={path} path={path} element={<Navigate to='/en/wastenot' replace />} />
+))
+
 // Redirects: /:locationId -> /en/wastenot/:locationId
 const locationShortcutRedirects = locations.map((location) => (
   <Route key={location.id} path={location.id} element={<Navigate to={`/en/wastenot/${location.id}`} replace />} />
@@ -58,20 +62,16 @@ const qrcodeCorrections = [
   <Route key='northumberland' path='/northumberland' element={<Navigate to='/en/wastenot/northumberlandgrove' replace />} />
 ]
 
+
 const AppRoutes = () => {
 
   return (
     <Suspense fallback={null}>
       <Routes>
-        <Route
-          path='/leaflet'
-          element={<Navigate to='/en/wastenot/broadwaterfarm' replace />}
-        />
-
-        <Route path='/tag' element={<Navigate to='/en/wastenot' replace />} />
-
-        {qrcodeCorrections}
+        {genericRedirects}
         {locationShortcutRedirects}
+        {qrcodeCorrections}
+
 
         <Route path='/:lang?' element={<AppWrapper />}>
           <Route index element={<Home />} />
