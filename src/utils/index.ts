@@ -1,4 +1,12 @@
 import { locations, organisations } from '../content'
+
+export const isProdDomain = () =>
+  typeof window !== 'undefined' &&
+  (window.location.hostname === 'kindcycle.uk' || window.location.hostname === 'www.kindcycle.uk')
+
+// Captured before React Router processes any redirects — preserves QR code entry URLs
+export const initialEntryUrl = window.location.pathname + window.location.search
+
 import { supportedLangs } from '../constants'
 import { Location, LocationCategory } from '../types'
 

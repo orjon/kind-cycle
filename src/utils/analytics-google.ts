@@ -1,9 +1,5 @@
 import ReactGA from 'react-ga4'
-
-// Only track analytics on the production domain
-const isProdDomain = () =>
-  typeof window !== 'undefined' &&
-  (window.location.hostname === 'kindcycle.uk' || window.location.hostname === 'www.kindcycle.uk')
+import { isProdDomain } from '.'
 
 // Initialize GA4 with your measurement ID
 export const initGA = (measurementId: string) => {
@@ -12,7 +8,7 @@ export const initGA = (measurementId: string) => {
 }
 
 // Track page views - GA4 syntax
-export const trackPageView = (path: string) => {
+export const trackPageViewGoogle = (path: string) => {
   if (!isProdDomain()) return
   ReactGA.send({
     hitType: 'pageview',
@@ -22,7 +18,7 @@ export const trackPageView = (path: string) => {
 }
 
 // Track custom events
-export const trackEvent = (
+export const trackEventGoogle = (
   eventName: string,
   params?: { [key: string]: any }
 ) => {
