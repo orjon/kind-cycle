@@ -1,4 +1,4 @@
-import { trackEvent } from '../utils/analytics'
+import { trackEventGoogle } from '../utils/analytics-google'
 import { ClickEvent } from '../types'
 import '../styles/components/QRCode.scss'
 
@@ -11,7 +11,7 @@ type QRCodeProps = {
 
 const QRCode = ({ filename, path, link, altText }: QRCodeProps) => {
   const trackClick = () => {
-    trackEvent(ClickEvent.qrCode, {
+    trackEventGoogle(ClickEvent.qrCode, {
       qr_code: filename,
       on_page: window.location.href
     })

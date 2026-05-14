@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next'
 
 import '../styles/nav/LocationSelector.scss'
 import { addLanguagePrefix } from '../utils'
-import { trackEvent } from '../utils/analytics'
+import { trackEventGoogle } from '../utils/analytics-google'
 import { ClickEvent } from '../types'
 import { locations } from '../content/locations'
 
@@ -45,7 +45,7 @@ const LocationSelector = () => {
   }, [])
 
   const handleLocationChange = (nav_item: string) => {
-    trackEvent(ClickEvent.navigation, {
+    trackEventGoogle(ClickEvent.navigation, {
       nav_item,
       on_page: window.location.href
     })

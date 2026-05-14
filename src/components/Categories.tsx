@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { trackEvent } from '../utils/analytics'
+import { trackEventGoogle } from '../utils/analytics-google'
 import { addLanguagePrefix } from '../utils'
 import { ClickEvent } from '../types'
 
@@ -20,7 +20,7 @@ const Categories = ({ categoryIds, link }: CategoriesProps) => {
     const color = iconColors[index % iconColors.length]
 
     const trackClick = () => {
-      trackEvent(ClickEvent.category, {
+      trackEventGoogle(ClickEvent.category, {
         category: t(`categories.${categoryId}.name`),
         on_page: window.location.href
       })

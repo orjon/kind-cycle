@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import { trackEvent } from '../utils/analytics'
+import { trackEventGoogle } from '../utils/analytics-google'
 import { addLanguagePrefix } from '../utils'
 import { ClickEvent, NavType } from '../types'
 
@@ -14,7 +14,7 @@ type NavItemProps = {
 const NavItem = ({ nav_item, label, type, path, setIsMenuOpen }: NavItemProps) => {
 
   const handleNavClick = () => {
-    trackEvent(ClickEvent.navigation, {
+    trackEventGoogle(ClickEvent.navigation, {
       nav_item,
       on_page: window.location.href
     })

@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import { organisations } from '../content'
-import { trackEvent } from '../utils/analytics'
+import { trackEventGoogle } from '../utils/analytics-google'
 import { ClickEvent } from '../types'
 
 import '../styles/components/LocationOrganisation.scss'
@@ -32,7 +32,7 @@ const LocationOrganisation = ({
   const websiteLabel = getWebsiteLabel()
 
   const trackClick = () => {
-    trackEvent(ClickEvent.organisation, {
+    trackEventGoogle(ClickEvent.organisation, {
       organisation: t(`organisations.${organisationId}.name`),
       on_page: window.location.href
     })
