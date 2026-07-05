@@ -3,16 +3,18 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "packageManager": "pnpm@11.5.2",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "export:locale:en": "node scripts/export-locale-csv.mjs src/locales/en.json src/locales/en.csv",
-    "export:locales": "node -e \"const { execSync } = require('child_process'); execSync('npm run export:locale:en', { stdio: 'inherit' });\"",
+    "export:locales": "node -e \"const { execSync } = require('child_process'); execSync('pnpm run export:locale:en', { stdio: 'inherit' });\"",
     "export:all-locales": "node scripts/export-all-locales-csv.mjs src/locales src/locales/translations.csv"
   },
   "dependencies": {
+    "i18next": "^25.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-ga4": "^2.1.0",
