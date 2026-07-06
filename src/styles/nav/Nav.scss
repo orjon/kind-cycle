@@ -1,8 +1,9 @@
-@use '../Global' as *;
+@use "../Global" as *;
 
 .Nav {
-  font-family: 'Kanit', Arial, sans-serif;
+  font-family: "Kanit", Arial, sans-serif;
   position: fixed;
+  z-index: 100;
   top: 0;
   width: 100%;
   background-color: $colorYellow;
@@ -81,7 +82,7 @@
         align-items: center;
         padding-right: 20px;
         &::after {
-          content: '▾';
+          content: "▾";
           display: inline-block;
           font-size: $fontNavLarge;
           transition: transform 0.25s ease-in-out;
