@@ -52,7 +52,8 @@ pnpm run preview   # preview production build locally
 
 ## Tech stack
 
-- React 19 + TypeScript
-- Vite
-- SCSS
-- i18next (EN, ES, FR, PL, SO, BG, PT, TR, BN, AK)
+- **Core**: React 19, TypeScript, Vite 6
+- **Styling**: SCSS
+- **Internationalization**: i18next + react-i18next (EN, ES, FR, PL, SO, BG, PT, TR, BN, AK)
+- **Analytics**: Google Analytics (`react-ga4`) and self-hosted Umami
+- **CI/CD**: GitHub Actions
