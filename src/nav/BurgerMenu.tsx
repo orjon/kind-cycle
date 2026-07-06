@@ -1,0 +1,94 @@
+import { type ReactElement, useEffect, useRef } from "react"
+import { useTranslation } from "react-i18next"
+
+import { NavType, NavLocations } from "../types"
+
+import NavItem from "./NavItem"
+import { useNavState } from "./NavStateContext"
+
+import { burgerMenuItems } from "../content/navLocations"
+import { locations } from "../content/locations"
+
+import "../styles/nav/Nav.scss"
+import "../styles/nav/NavBurger.scss"
+
+const BurgerMenu = () => {
+  const burgerMenuRef = useRef<HTMLDivElement>(null)
+  const { t } = useTranslation()
+  const {
+    isMenuOpen,
+    handleSetIsMenuOpen,
+    isLocationsOpen,
+    setIsLocationsOpen,
+  } = useNavState()
+
+  const navBurgerMenuItems: ReactElement[] = burgerMenuItems.map((item) => {
+    const { id, path, type } = item
+
+    if (id === NavLocations.locations) {
+      return (
+        <div key="locations-expander" className="LocationsExpander">
+          <div
+            className={`NavItem LocationsToggle ${isLocationsOpen ? "open" : ""}`}
+            onClick={() => setIsLocationsOpen(!isLocationsOpen)}
+          >
+            <div className="text">{t(`navLocations.${id}`)}</div>
+          </div>
+          <div className={`LocationSubItems ${isLocationsOpen ? "open" : ""}`}>
+            {locations.map((location) => {
+              const { id } = location
+              return (
+                <NavItem
+                  key={id}
+                  nav_item={id}
+                  type={NavType.location}
+                  label={t(`locations.${id}.name`)}
+                  path={`/wastenot/${id}`}
+                  setIsMenuOpen={handleSetIsMenuOpen}
+                />
+              )
+            })}
+          </div>
+        </div>
+      )
+    }
+
+    return (
+      <NavItem
+        key={id}
+        nav_item={id}
+        type={type}
+        label={t(`navLocations.${id}`)}
+        path={path!}
+        setIsMenuOpen={handleSetIsMenuOpen}
+      />
+    )
+  })
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        burgerMenuRef.current &&
+        !burgerMenuRef.current.contains(event.target as Node)
+      ) {
+        handleSetIsMenuOpen(false)
+      }
+    }
+
+    document.addEventListener("mousedown", handleClickOutside)
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside)
+    }
+  }, [handleSetIsMenuOpen])
+
+  return (
+    <div
+      ref={burgerMenuRef}
+      className={`BurgerMenu ${isMenuOpen ? "open" : ""}`}
+    >
+      {navBurgerMenuItems}
+    </div>
+  )
+}
+
+export default BurgerMenu

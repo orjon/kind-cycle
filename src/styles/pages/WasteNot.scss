@@ -1,9 +1,12 @@
-@use '../Global' as *;
-@use '../Page' as *;
+@use "../Global" as *;
+@use "../Page" as *;
 
 .WasteNot {
   padding-top: 40px;
   .title {
     color: $colorGreen;
+  }
+  .disabled .openLocations {
+    pointer-events: none;
   }
 }
