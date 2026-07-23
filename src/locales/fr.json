@@ -10,7 +10,11 @@
     },
     "about": {
       "title": "À propos",
-      "description": "Au Royaume-Uni, 640 000 tonnes d’objets réutilisables sont jetées chaque année. Kind Cycle est un groupe de résidents engagés dans la durabilité qui aborde ce problème en promouvant la réutilisation plutôt que le recyclage, réduisant ainsi les déchets et reliant les communautés. Avec leur expertise en architecture, design et événementiel, ils créent des initiatives éducatives qui renforcent les communautés."
+      "description": "Kind Cycle est un collectif axé sur le design et la durabilité qui conçoit des projets environnementaux alliant création, marketing expérientiel et engagement communautaire. Nous relevons les défis environnementaux en encourageant la réduction des déchets et la réutilisation plutôt que le recyclage, tout en transformant des messages complexes liés au développement durable en expériences publiques captivantes. Nos projets visent à éduquer, à susciter l'action et à renforcer les communautés ; nous avons notamment mené des collaborations fructueuses avec Veolia, l'East London Waste Authority, la North London Waste Authority et le conseil municipal de Haringey."
+    },
+    "recycleYourElectricals": {
+      "title": "Recycle Your Electricals Campaign",
+      "description": ""
     },
     "contact": {
       "title": "Contactez-nous",

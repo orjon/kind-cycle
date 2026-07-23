@@ -5,15 +5,16 @@ export type LanguageOption = {
 }
 
 export enum NavType {
-  location = 'location',
-  page = 'page'
+  location = "location",
+  page = "page",
 }
 
 export enum NavLocations {
-  wastenot = 'wastenot',
-  locations = 'locations',
-  about = 'about',
-  contact = 'contact'
+  // wastenot = 'wastenot',
+  electricals = "electricals",
+  locations = "locations",
+  about = "about",
+  contact = "contact",
 }
 
 export type NavMenuItem = {
@@ -71,8 +72,8 @@ export type CategoriesDirectory = {
 }
 
 export enum ClickEvent {
-  navigation = 'click-navigation',
-  category = 'click-category',
-  organisation = 'click-organisation-link',
-  qrCode = 'click-qr'
+  navigation = "click-navigation",
+  category = "click-category",
+  organisation = "click-organisation-link",
+  qrCode = "click-qr",
 }

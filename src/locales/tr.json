@@ -10,7 +10,11 @@
     },
     "about": {
       "title": "Hakkımızda",
-      "description": "İngiltere her yıl 640.000 ton yeniden kullanılabilir eşyayı atıyor. Sürdürülebilirliğe odaklanmış bir grup sakin olan Kind Cycle, geri dönüşüm yerine yeniden kullanımı teşvik ederek atıkları azaltan ve toplulukları birbirine bağlayan projelerle bu sorunu ele alıyor. Mimarlık, tasarım ve etkinlik alanlarında uzmanlıklarıyla, eğiten ve daha güçlü topluluklar oluşturan girişimler yaratıyorlar."
+      "description": "Kind Cycle; yaratıcı tasarım, deneyimsel pazarlama ve topluluk katılımını bir araya getiren çevresel projeler üreten, tasarım odaklı bir sürdürülebilirlik kolektifidir. Atık azaltımını ve geri dönüşüm yerine yeniden kullanımı teşvik ederek; ayrıca karmaşık sürdürülebilirlik mesajlarını ilgi çekici kamusal deneyimlere dönüştürerek çevresel zorluklarla mücadele ediyoruz. Veolia, East London Waste Authority, North London Waste Authority ve Haringey Council gibi kurumlarla gerçekleştirilen başarılı iş birlikleriyle hayata geçirdiğimiz projelerimiz; eğitmeyi, harekete geçmeyi teşvik etmeyi ve toplulukları güçlendirmeyi amaçlamaktadır."
+    },
+    "recycleYourElectricals": {
+      "title": "Recycle Your Electricals Campaign",
+      "description": ""
     },
     "contact": {
       "title": "Bize Ulaşın",

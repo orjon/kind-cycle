@@ -10,7 +10,11 @@
     },
     "about": {
       "title": "Ku saabsan",
-      "description": "Boqortooyada Midowday (UK) waxay sannad kasta tuurtaa 640,000 tan oo ah alaabo dib loo isticmaali karo. Kind Cycle, oo ah koox ka kooban dad deegaanka ah oo diiradda saaraya waaraanta (sustainability), ayaa la tacaalaysa arrintan iyagoo hirgelinaya mashaariic yaraynaysa qashinka isla markaana isku xira bulshooyinka iyagoo dhiirrigelinaya dib-u-isticmaalka halkii laga doorbidi lahaa dib-u-warshadaynta. Iyada oo leh khibrad dhanka naqshadeynta dhismayaasha, naqshadda guud, iyo abaabulka dhacdooyinka, waxay abuuraan hindisayaal wax bara bulshada isla markaana xoojiya xiriirka bulshada."
+      "description": "Kind Cycle waa mashruuc wadajir ah oo waara oo naqshadeysan oo abuuraya mashaariic deegaan oo isku keena naqshad hal-abuur leh, suuqgeyn khibrad leh, iyo ka-qaybgalka bulshada. Waxaan wax ka qabannaa caqabadaha deegaanka annagoo kor u qaadayna yaraynta qashinka, dib u isticmaalka dib-u-warshadaynta, iyo u beddelista farriimaha waara ee adag khibradaha dadweynaha ee xiisaha leh. Mashruucyadeennu waxay higsanayaan inay wax baraan, dhiirrigeliyaan ficillada, iyo xoojinta bulshooyinka, iyadoo la kaashanayo iskaashiyo guuleysta oo ay ku jiraan Veolia, Maamulka Qashinka ee Bariga London, Maamulka Qashinka ee Waqooyiga London iyo Golaha Haringey."
+    },
+    "recycleYourElectricals": {
+      "title": "Recycle Your Electricals Campaign",
+      "description": ""
     },
     "contact": {
       "title": "Nala soo xiriir",

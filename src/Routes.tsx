@@ -5,22 +5,25 @@ import {
   Outlet,
   useNavigate,
   useLocation,
-  Navigate
-} from 'react-router-dom'
-import { useEffect, lazy, Suspense } from 'react'
-import { useTranslation } from 'react-i18next'
-const Home = lazy(() => import('./pages/WasteNot'))
-const About = lazy(() => import('./pages/About'))
-const Contact = lazy(() => import('./pages/Contact'))
-const Location = lazy(() => import('./pages/Location'))
-const RedirectToLocation = lazy(() => import('./pages/RedirectToLocation'))
-const LocationCategory = lazy(() => import('./pages/LocationCategory'))
-const Category = lazy(() => import('./pages/Category'))
-const Neighbours = lazy(() => import('./pages/Neighbours'))
-import { supportedLangs } from './constants'
-import { locations } from './content'
+  Navigate,
+} from "react-router-dom"
+import { useEffect, lazy, Suspense } from "react"
+import { useTranslation } from "react-i18next"
+const Home = lazy(() => import("./pages/WasteNot"))
+const RecycleYourElectricals = lazy(
+  () => import("./pages/RecycleYourElectricals"),
+)
+const About = lazy(() => import("./pages/About"))
+const Contact = lazy(() => import("./pages/Contact"))
+const Location = lazy(() => import("./pages/Location"))
+const RedirectToLocation = lazy(() => import("./pages/RedirectToLocation"))
+const LocationCategory = lazy(() => import("./pages/LocationCategory"))
+const Category = lazy(() => import("./pages/Category"))
+const Neighbours = lazy(() => import("./pages/Neighbours"))
+import { supportedLangs } from "./constants"
+import { locations } from "./content"
 
-import './styles/App.scss'
+import "./styles/App.scss"
 
 const AppWrapper = () => {
   const { lang } = useParams()
@@ -29,11 +32,11 @@ const AppWrapper = () => {
   const location = useLocation()
 
   useEffect(() => {
-    const langToUse = lang ?? 'en'
+    const langToUse = lang ?? "en"
 
     if (!supportedLangs.includes(langToUse)) {
       // redirect to default language without changing URL structure
-      const strippedPath = location.pathname.replace(/^\/[^/]+/, '')
+      const strippedPath = location.pathname.replace(/^\/[^/]+/, "")
       navigate(`/en${strippedPath}`, { replace: true })
       return
     }
@@ -45,26 +48,40 @@ const AppWrapper = () => {
   return <Outlet />
 }
 
-const genericRedirects = ['/leaflet', '/tag'].map((path) => (
-  <Route key={path} path={path} element={<Navigate to='/en/wastenot' replace />} />
+const genericRedirects = ["/leaflet", "/tag"].map((path) => (
+  <Route
+    key={path}
+    path={path}
+    element={<Navigate to="/en/wastenot" replace />}
+  />
 ))
 
 // Redirects: /:locationId -> /en/wastenot/:locationId
 const locationShortcutRedirects = locations.map((location) => (
-  <Route key={location.id} path={location.id} element={<Navigate to={`/en/wastenot/${location.id}`} replace />} />
+  <Route
+    key={location.id}
+    path={location.id}
+    element={<Navigate to={`/en/wastenot/${location.id}`} replace />}
+  />
 ))
 
 // QR code URL corrections:
 // /wastenot/frederickmesser/panel -> /en/wastenot/sirfrederickmesser/panel
 // /wastenot/northumberland -> /en/wastenot/northumberlandgrove
 const qrcodeCorrections = [
-  <Route key='frederickmesser-panel' path='/wastenot/frederickmesser/panel' element={<Navigate to='/en/wastenot/sirfrederickmesser/panel' replace />} />,
-  <Route key='northumberland' path='/northumberland' element={<Navigate to='/en/wastenot/northumberlandgrove' replace />} />
+  <Route
+    key="frederickmesser-panel"
+    path="/wastenot/frederickmesser/panel"
+    element={<Navigate to="/en/wastenot/sirfrederickmesser/panel" replace />}
+  />,
+  <Route
+    key="northumberland"
+    path="/northumberland"
+    element={<Navigate to="/en/wastenot/northumberlandgrove" replace />}
+  />,
 ]
 
-
 const AppRoutes = () => {
-
   return (
     <Suspense fallback={null}>
       <Routes>
@@ -72,38 +89,41 @@ const AppRoutes = () => {
         {locationShortcutRedirects}
         {qrcodeCorrections}
 
-
-        <Route path='/:lang?' element={<AppWrapper />}>
-          <Route index element={<Home />} />
-          <Route path='wastenot' element={<Home />} />
-          <Route path='wastenot/:locationId' element={<Location />} />
+        <Route path="/:lang?" element={<AppWrapper />}>
           <Route
-            path='wastenot/:locationId/leaflet'
+            index
+            element={<Navigate to="recycle-your-electricals" replace />}
+          />
+          <Route path="wastenot" element={<Home />} />
+          <Route path="wastenot/:locationId" element={<Location />} />
+          <Route
+            path="wastenot/:locationId/leaflet"
             element={<RedirectToLocation />}
           />
           <Route
-            path='wastenot/:locationId/poster'
+            path="wastenot/:locationId/poster"
             element={<RedirectToLocation />}
           />
           <Route
-            path='wastenot/:locationId/panel'
+            path="wastenot/:locationId/panel"
             element={<RedirectToLocation />}
           />
           <Route
-            path='wastenot/:locationId/neighbours'
+            path="wastenot/:locationId/neighbours"
             element={<Neighbours />}
           />
           <Route
-            path='wastenot/:locationId/:categoryId'
+            path="wastenot/:locationId/:categoryId"
             element={<LocationCategory />}
           />
 
+          <Route path="wastenot/category/:categoryId" element={<Category />} />
+          <Route path="about" element={<About />} />
+          <Route path="contact" element={<Contact />} />
           <Route
-            path='wastenot/category/:categoryId'
-            element={<Category />}
+            path="recycle-your-electricals"
+            element={<RecycleYourElectricals />}
           />
-          <Route path='about' element={<About />} />
-          <Route path='contact' element={<Contact />} />
         </Route>
       </Routes>
     </Suspense>

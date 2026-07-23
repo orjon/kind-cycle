@@ -1,7 +1,7 @@
 {
   "navLocations": {
-    "wastenot": "Waste Not",
-    "locations": "Locations",
+    "electricals": "Electricals",
+    "locations": "Waste Not",
     "about": "About",
     "contact": "Contact"
   },
@@ -12,7 +12,11 @@
     },
     "about": {
       "title": "About",
-      "description": "The UK discards 640,000 tonnes of reusable items each year. Kind Cycle, a group of residents focused on sustainability, is tackling this issue with projects that reduce waste and connect communities by promoting reuse over recycling. With expertise in architecture, design, and events, they create initiatives that educate and build stronger communities."
+      "description": "Kind Cycle is a design-led sustainability collective creating environmental projects that bring together creative design, experiential marketing, and community engagement. We tackle environmental challenges by promoting waste reduction, reuse over recycling, and transforming complex sustainability messages into engaging public experiences. Our projects aim to educate, inspire action, and strengthen communities, with successful collaborations including Veolia, East London Waste Authority,  North London Waste Authority and Haringey Council."
+    },
+    "recycleYourElectricals": {
+      "title": "Recycle Your Electricals Campaign",
+      "description": "Earlier this year, Kind Cycle won a competitive design brief set by <a href='https://eastlondonwaste.gov.uk/'><span class=\"bold\">East London Waste Authority (ELWA)</span></a> and <a href='https://recycleyourelectricals.org.uk/'><span class=\"bold\">Recycle Your Electricals</a> to tackle one of London's most overlooked fire risks: hidden batteries in everyday electricals. The result is the HypnoCube.<br /><br />At Kind Cycle, we believe the experiences people remember are the ones that inspire lasting change. That's why we created the HypnoCube, an interactive experience that sparks curiosity, starts conversations and helps people discover the hidden batteries in everyday items. By creating memorable moments, we encourage simple actions that become lasting habits, helping to protect our environment.<br /><br />We're proud to have helped bring the HypnoCube to communities across East London this summer, inspiring people of all ages to recycle more hidden batteries and make a positive difference together."
     },
     "contact": {
       "title": "Contact Us",

@@ -10,7 +10,11 @@
     },
     "about": {
       "title": "Sobre",
-      "description": "O Reino Unido descarta 640.000 toneladas de itens reutilizáveis por ano. Kind Cycle, um grupo de residentes focado na sustentabilidade, está enfrentando esse problema com projetos que reduzem o desperdício e conectam comunidades promovendo a reutilização em vez da reciclagem. Com expertise em arquitetura, design e eventos, eles criam iniciativas que educam e constroem comunidades mais fortes."
+      "description": "A Kind Cycle é um coletivo de sustentabilidade orientado pelo design que cria projetos ambientais, unindo design criativo, marketing de experiência e engajamento comunitário. Enfrentamos desafios ambientais promovendo a redução de resíduos e a priorização do reúso em relação à reciclagem, além de transformar mensagens complexas sobre sustentabilidade em experiências públicas envolventes. Nossos projetos visam educar, inspirar ações e fortalecer comunidades, contando com colaborações de sucesso com organizações como Veolia, East London Waste Authority, North London Waste Authority e Haringey Council."
+    },
+    "recycleYourElectricals": {
+      "title": "Recycle Your Electricals Campaign",
+      "description": ""
     },
     "contact": {
       "title": "Entre em Contato",

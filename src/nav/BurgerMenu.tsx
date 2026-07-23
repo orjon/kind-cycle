@@ -1,10 +1,12 @@
 import { type ReactElement, useEffect, useRef } from "react"
 import { useTranslation } from "react-i18next"
+import { useNavigate } from "react-router-dom"
 
 import { NavType, NavLocations } from "../types"
 
 import NavItem from "./NavItem"
 import { useNavState } from "./NavStateContext"
+import { addLanguagePrefix } from "../utils"
 
 import { burgerMenuItems } from "../content/navLocations"
 import { locations } from "../content/locations"
@@ -15,12 +17,21 @@ import "../styles/nav/NavBurger.scss"
 const BurgerMenu = () => {
   const burgerMenuRef = useRef<HTMLDivElement>(null)
   const { t } = useTranslation()
+  const navigate = useNavigate()
   const {
     isMenuOpen,
     handleSetIsMenuOpen,
     isLocationsOpen,
     setIsLocationsOpen,
   } = useNavState()
+
+  const handleToggleLocations = () => {
+    const nextOpen = !isLocationsOpen
+    setIsLocationsOpen(nextOpen)
+    if (nextOpen) {
+      navigate(addLanguagePrefix("/wastenot"))
+    }
+  }
 
   const navBurgerMenuItems: ReactElement[] = burgerMenuItems.map((item) => {
     const { id, path, type } = item
@@ -30,7 +41,7 @@ const BurgerMenu = () => {
         <div key="locations-expander" className="LocationsExpander">
           <div
             className={`NavItem LocationsToggle ${isLocationsOpen ? "open" : ""}`}
-            onClick={() => setIsLocationsOpen(!isLocationsOpen)}
+            onClick={handleToggleLocations}
           >
             <div className="text">{t(`navLocations.${id}`)}</div>
           </div>
