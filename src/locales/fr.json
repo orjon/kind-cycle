@@ -1,5 +1,6 @@
 {
   "navLocations": {
+    "electricals": "Électrique",
     "locations": "Lieux",
     "about": "À propos",
     "contact": "Contact"
@@ -13,8 +14,8 @@
       "description": "Kind Cycle est un collectif axé sur le design et la durabilité qui conçoit des projets environnementaux alliant création, marketing expérientiel et engagement communautaire. Nous relevons les défis environnementaux en encourageant la réduction des déchets et la réutilisation plutôt que le recyclage, tout en transformant des messages complexes liés au développement durable en expériences publiques captivantes. Nos projets visent à éduquer, à susciter l'action et à renforcer les communautés ; nous avons notamment mené des collaborations fructueuses avec Veolia, l'East London Waste Authority, la North London Waste Authority et le conseil municipal de Haringey."
     },
     "recycleYourElectricals": {
-      "title": "Recycle Your Electricals Campaign",
-      "description": ""
+      "title": "Recycle Your Electricals Campagne",
+      "description": "Plus tôt cette année, Kind Cycle a remporté un appel à projets lancé par <a href='https://eastlondonwaste.gov.uk/'><span class=\"bold\">East London Waste Authority (ELWA)</span></a> et <a href='https://recycleyourelectricals.org.uk/'><span class=\"bold\">Recycle Your Electricals</span></a> pour s'attaquer à l'un des risques d'incendie les plus méconnus à Londres : les batteries dissimulées dans les appareils électriques du quotidien. Le résultat ? L'HypnoCube.<br /><br />Chez Kind Cycle, nous sommes convaincus que les expériences marquantes sont celles qui suscitent un changement durable. C'est pourquoi nous avons créé l'HypnoCube, une expérience interactive qui éveille la curiosité, favorise les échanges et aide chacun à repérer les batteries cachées dans les objets du quotidien. En créant des moments mémorables, nous encourageons des gestes simples qui se transforment en habitudes durables, contribuant ainsi à protéger notre environnement.<br /><br />Nous sommes fiers d'avoir pu présenter l'HypnoCube aux habitants de l'est de Londres cet été, incitant des personnes de tous âges à recycler davantage ces batteries cachées et à agir ensemble pour un impact positif."
     },
     "contact": {
       "title": "Contactez-nous",

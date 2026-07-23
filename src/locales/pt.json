@@ -1,5 +1,6 @@
 {
   "navLocations": {
+    "electricals": "Elétricos",
     "locations": "Locais",
     "about": "Sobre",
     "contact": "Contato"
@@ -13,8 +14,8 @@
       "description": "A Kind Cycle é um coletivo de sustentabilidade orientado pelo design que cria projetos ambientais, unindo design criativo, marketing de experiência e engajamento comunitário. Enfrentamos desafios ambientais promovendo a redução de resíduos e a priorização do reúso em relação à reciclagem, além de transformar mensagens complexas sobre sustentabilidade em experiências públicas envolventes. Nossos projetos visam educar, inspirar ações e fortalecer comunidades, contando com colaborações de sucesso com organizações como Veolia, East London Waste Authority, North London Waste Authority e Haringey Council."
     },
     "recycleYourElectricals": {
-      "title": "Recycle Your Electricals Campaign",
-      "description": ""
+      "title": "Recycle Your Electricals Campanha",
+      "description": "No início deste ano, a Kind Cycle venceu uma concorrência de design promovida pela <a href='https://eastlondonwaste.gov.uk/'><span class=\"bold\">East London Waste Authority (ELWA)</span></a> e pela <a href='https://recycleyourelectricals.org.uk/'><span class=\"bold\">Recycle Your Electricals</span></a> para enfrentar um dos riscos de incêndio mais negligenciados de Londres: as baterias ocultas em aparelhos eletrônicos do dia a dia. O resultado é o HypnoCube.<br /><br />Na Kind Cycle, acreditamos que as experiências memoráveis ​​são aquelas que inspiram mudanças duradouras. Por isso, criamos o HypnoCube, uma experiência interativa que desperta a curiosidade, estimula conversas e ajuda as pessoas a descobrirem as baterias ocultas em itens cotidianos. Ao criar momentos marcantes, incentivamos ações simples que se transformam em hábitos duradouros, ajudando a proteger o meio ambiente.<br /><br />Temos orgulho de ter levado o HypnoCube a comunidades de toda a região de East London neste verão, inspirando pessoas de todas as idades a reciclar mais baterias ocultas e a fazerem, juntas, uma diferença positiva."
     },
     "contact": {
       "title": "Entre em Contato",

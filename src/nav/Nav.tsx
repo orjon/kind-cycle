@@ -1,4 +1,4 @@
-import { type ReactElement } from "react"
+import { type ReactElement, useRef } from "react"
 import { NavLink } from "react-router-dom"
 import { useTranslation } from "react-i18next"
 
@@ -22,6 +22,7 @@ import "../styles/nav/NavBurger.scss"
 const Nav = () => {
   const { t } = useTranslation()
   const { isMenuOpen, handleSetIsMenuOpen } = useNavState()
+  const burgerToggleRef = useRef<HTMLDivElement>(null)
 
   const navMenuItems: ReactElement[] = menuItems
     .filter((location) => location.type === NavType.page)
@@ -44,6 +45,7 @@ const Nav = () => {
   return (
     <div className={`Nav ${getSettings()}`}>
       <div
+        ref={burgerToggleRef}
         className={`NavBurger ${isMenuOpen ? "open" : ""}`}
         onClick={() => handleSetIsMenuOpen(!isMenuOpen)}
       >
@@ -52,7 +54,7 @@ const Nav = () => {
         <span></span>
         <span></span>
       </div>
-      <BurgerMenu />
+      <BurgerMenu toggleRef={burgerToggleRef} />
       <NavLink to={addLanguagePrefix("/")}>
         <div className="Logo">
           <div className="LogoText">Kind Cycle</div>

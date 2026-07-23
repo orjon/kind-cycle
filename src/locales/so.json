@@ -1,5 +1,6 @@
 {
   "navLocations": {
+    "electricals": "Elektrikli",
     "locations": "Goobaha",
     "about": "Ku saabsan",
     "contact": "Nala soo xiriir"
@@ -13,8 +14,8 @@
       "description": "Kind Cycle waa mashruuc wadajir ah oo waara oo naqshadeysan oo abuuraya mashaariic deegaan oo isku keena naqshad hal-abuur leh, suuqgeyn khibrad leh, iyo ka-qaybgalka bulshada. Waxaan wax ka qabannaa caqabadaha deegaanka annagoo kor u qaadayna yaraynta qashinka, dib u isticmaalka dib-u-warshadaynta, iyo u beddelista farriimaha waara ee adag khibradaha dadweynaha ee xiisaha leh. Mashruucyadeennu waxay higsanayaan inay wax baraan, dhiirrigeliyaan ficillada, iyo xoojinta bulshooyinka, iyadoo la kaashanayo iskaashiyo guuleysta oo ay ku jiraan Veolia, Maamulka Qashinka ee Bariga London, Maamulka Qashinka ee Waqooyiga London iyo Golaha Haringey."
     },
     "recycleYourElectricals": {
-      "title": "Recycle Your Electricals Campaign",
-      "description": ""
+      "title": "Recycle Your Electricals Ololaha",
+      "description": "Horraantii sanadkan, Kind Cycle wuxuu ku guuleystay koob kooban oo naqshadeyn tartan ah oo ay sameeyeen <a href='https://eastlondonwaste.gov.uk/'><span class=\"bold\">Hay'adda Qashinka ee Bariga London (ELWA)</span></a> iyo <a href='https://recycleyourelectricals.org.uk/'><span class=\"bold\">Recycle Your Electricals</a> si wax looga qabto mid ka mid ah khataraha dabka ee ugu badan ee London laga indha tiray: baytariyada qarsoon ee korontada maalinlaha ah. Natiijadu waa HypnoCube.<br /><br />Kind Cycle, waxaan aaminsanahay in khibradaha dadku xasuusan yihiin ay yihiin kuwa dhiirigeliya isbeddel waara. Taasi waa sababta aan u abuurnay HypnoCube, oo ah waayo-aragnimo is-dhexgal ah oo kicisa xiisaha, bilaaba wadahadallada oo ka caawisa dadka inay ogaadaan baytariyada qarsoon ee alaabta maalinlaha ah. Annagoo abuureyna daqiiqado xusuus mudan, waxaan dhiirigelineynaa ficillo fudud oo noqda caadooyin waara, oo gacan ka geysanaya ilaalinta deegaankeenna.<br /><br />Waxaan ku faaneynaa inaan gacan ka geysanay keenista HypnoCube bulshooyinka ku baahsan Bariga London xagaagan, annagoo dhiirigelinayna dadka da' kasta leh inay dib u warshadeeyaan baytariyada qarsoon oo ay si wadajir ah u sameeyaan farqi wanaagsan."
     },
     "contact": {
       "title": "Nala soo xiriir",

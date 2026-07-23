@@ -13,8 +13,11 @@ const menuItems: NavMenuItem[] = [
     path: "/recycle-your-electricals",
   },
   { id: NavLocations.about, type: NavType.page, path: "/about" },
-  { id: NavLocations.contact, type: NavType.page, path: "/contact" },
+  // { id: NavLocations.contact, type: NavType.page, path: "/contact" },
 ]
-const burgerMenuItems: NavMenuItem[] = [...menuItems, locationMenuItem]
+const burgerMenuItems: NavMenuItem[] = [
+  ...[...menuItems].reverse(),
+  locationMenuItem,
+]
 
 export { menuItems, burgerMenuItems }

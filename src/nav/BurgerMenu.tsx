@@ -1,4 +1,4 @@
-import { type ReactElement, useEffect, useRef } from "react"
+import { type ReactElement, type RefObject, useEffect, useRef } from "react"
 import { useTranslation } from "react-i18next"
 import { useNavigate } from "react-router-dom"
 
@@ -14,7 +14,11 @@ import { locations } from "../content/locations"
 import "../styles/nav/Nav.scss"
 import "../styles/nav/NavBurger.scss"
 
-const BurgerMenu = () => {
+interface BurgerMenuProps {
+  toggleRef: RefObject<HTMLDivElement | null>
+}
+
+const BurgerMenu = ({ toggleRef }: BurgerMenuProps) => {
   const burgerMenuRef = useRef<HTMLDivElement>(null)
   const { t } = useTranslation()
   const navigate = useNavigate()
@@ -78,10 +82,13 @@ const BurgerMenu = () => {
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
-      if (
-        burgerMenuRef.current &&
-        !burgerMenuRef.current.contains(event.target as Node)
-      ) {
+      const target = event.target as Node
+      const isOutsideMenu =
+        burgerMenuRef.current && !burgerMenuRef.current.contains(target)
+      const isOutsideToggle =
+        !toggleRef.current || !toggleRef.current.contains(target)
+
+      if (isOutsideMenu && isOutsideToggle) {
         handleSetIsMenuOpen(false)
       }
     }
@@ -90,7 +97,7 @@ const BurgerMenu = () => {
     return () => {
       document.removeEventListener("mousedown", handleClickOutside)
     }
-  }, [handleSetIsMenuOpen])
+  }, [handleSetIsMenuOpen, toggleRef])
 
   return (
     <div

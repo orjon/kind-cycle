@@ -1,5 +1,6 @@
 {
   "navLocations": {
+    "electricals": "Elektryczny",
     "locations": "Lokalizacje",
     "about": "O nas",
     "contact": "Kontakt"
@@ -13,8 +14,8 @@
       "description": "Kind Cycle to kolektyw stawiający na zrównoważony rozwój i innowacyjne projektowanie, realizujący inicjatywy proekologiczne łączące kreatywny design, marketing doświadczeń oraz angażowanie społeczności. Podejmujemy wyzwania związane z ochroną środowiska, promując ograniczanie ilości odpadów i ich ponowne wykorzystanie (przedkładane nad recykling) oraz przekładając złożone zagadnienia zrównoważonego rozwoju na angażujące wydarzenia i doświadczenia dla odbiorców. Nasze projekty mają na celu edukację, inspirowanie do działania i wzmacnianie więzi społecznych; współpracowaliśmy m.in. z firmą Veolia, organami East London Waste Authority i North London Waste Authority oraz władzami dzielnicy Haringey."
     },
     "recycleYourElectricals": {
-      "title": "Recycle Your Electricals Campaign",
-      "description": ""
+      "title": "Recycle Your Electricals Kampania",
+      "description": "Na początku tego roku firma Kind Cycle wygrała konkurs na projekt, zorganizowany przez <a href='https://eastlondonwaste.gov.uk/'><span class=\"bold\">East London Waste Authority (ELWA)</span></a> oraz <a href='https://recycleyourelectricals.org.uk/'><span class=\"bold\">Recycle Your Electricals</span></a>. Celem inicjatywy było zwrócenie uwagi na jedno z często pomijanych w Londynie zagrożeń pożarowych: baterie ukryte w powszechnie używanych urządzeniach elektrycznych. Tak powstał HypnoCube.<br /><br />W Kind Cycle wierzymy, że to właśnie zapadające w pamięć doświadczenia inspirują do trwałych zmian. Dlatego stworzyliśmy HypnoCube – interaktywną instalację, która budzi ciekawość, zachęca do rozmów i pomaga odkrywać baterie ukryte w przedmiotach codziennego użytku. Tworząc wyjątkowe chwile, zachęcamy do podejmowania prostych działań, które z czasem stają się trwałymi nawykami, pomagając chronić środowisko.<br /><br />Jesteśmy dumni, że tego lata mogliśmy zaprezentować HypnoCube społecznościom we wschodnim Londynie, inspirując osoby w każdym wieku do oddawania do recyklingu większej liczby ukrytych baterii i wspólnego wywierania pozytywnego wpływu na otoczenie."
     },
     "contact": {
       "title": "Skontaktuj się z nami",

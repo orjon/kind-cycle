@@ -1,5 +1,6 @@
 {
   "navLocations": {
+    "electricals": "Ɛlektrik",
     "locations": "Mmeae",
     "about": "Fa Ho Asɛm",
     "contact": "Fa Nkyerɛ"
@@ -13,8 +14,8 @@
       "description": "Kind Cycle yɛ adwini-di anim sustainability collective a wɔbɔ nneɛma a atwa yɛn ho ahyia ho nnwuma a ɛka adebɔ design, osuahu mu aguadi, ne mpɔtam hɔfo a wɔde wɔn ho hyɛ mu bom. Yɛdi nneɛma a atwa yɛn ho ahyia ho nsɛnnennen ho dwuma denam nwura a yɛbɛtew so, a yɛbɛsan de adi dwuma sen nea wɔde di dwuma bio, ne nkrasɛm a ɛyɛ den a yɛde bɛkɔ so atra hɔ daa a yɛdan no ɔmanfo osuahu ahorow a ɛyɛ anigye so. Yɛn nnwuma no botaeɛ ne sɛ yɛbɛkyerɛkyerɛ, akanyan adeyɛ, na ahyɛ mpɔtam hɔfoɔ den, denam adwumayɛkuo a ɛdi mu a Veolia, East London Waste Authority, North London Waste Authority ne Haringey Council ka ho."
     },
     "recycleYourElectricals": {
-      "title": "Recycle Your Electricals Campaign",
-      "description": ""
+      "title": "Recycle Your Electricals Ntoabɔ",
+      "description": "Afe yi mfiase no, Kind Cycle dii nkonim wɔ akansi nhyehyɛe tiawa bi a <a href='https://eastlondonwaste.gov.uk/'><span class=\"bold\">East London Waste Authority (ELWA)</span></a> ne <a href='https://recycleyourelectricals.org.uk/'><span class=\"bold\">Recycle Your Electricals</a> de sii hɔ sɛ wɔmfa nni emu biako ho dwuma Ogya ho asiane ahorow a wobu ani gu so kɛse wɔ London: batere a wɔde asie wɔ anyinam ahoɔden mfiri a wɔde di dwuma da biara da mu. Nea afi mu aba ne HypnoCube.<br /><br />Wɔ Kind Cycle no, yegye di sɛ osuahu ahorow a nkurɔfo kae no ne nea ɛkanyan nsakrae a ɛtra hɔ daa. Ɛno nti na yɛyɛɛ HypnoCube, nkitahodiɛ osuahu a ɛkanyan anigyeɛ, ɛhyɛ nkɔmmɔdie ase na ɛboa nkurɔfoɔ ma wɔhunu batere a ahintaw wɔ nneɛma a wɔde di dwuma da biara da mu. Ɛdenam mmere a yɛbɛkae a yɛbɔ so no, yɛhyɛ nneyɛe a ɛnyɛ den a ɛbɛyɛ suban a ɛtra hɔ daa ho nkuran, a ɛboa ma yɛbɔ yɛn nneɛma a atwa yɛn ho ahyia ho ban.<br /><br />Ɛyɛ yɛn ahomaso sɛ yɛaboa ma wɔde HypnoCube no aba mpɔtam a ɛwɔ East London nyinaa mu wɔ awɔw bere yi mu, akanyan nnipa a wɔadi mfe ahorow nyinaa ma wɔasan de batere pii a ahintaw adi dwuma na wɔabom ayɛ nsakrae pa."
     },
     "contact": {
       "title": "Fa Yɛn Nkyerɛ",
