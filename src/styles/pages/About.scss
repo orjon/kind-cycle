@@ -1,5 +1,5 @@
-@use '../Global' as *;
-@use '../Page' as *;
+@use "../Global" as *;
+@use "../Page" as *;
 
 .About {
   .HeaderImage {
@@ -15,5 +15,10 @@
   }
   .title {
     color: $colorGreen;
+  }
+  .center {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
   }
 }

@@ -1,5 +1,6 @@
 {
   "navLocations": {
+    "electricals": "Eléctricos",
     "locations": "Lugares",
     "about": "Acerca de",
     "contact": "Contacto"
@@ -10,7 +11,11 @@
     },
     "about": {
       "title": "Acerca de",
-      "description": "El Reino Unido descarta 640.000 toneladas de artículos reutilizables cada año. Kind Cycle, un grupo de residentes enfocado en la sostenibilidad, está abordando este problema con proyectos que reducen el desperdicio y conectan comunidades promoviendo la reutilización sobre el reciclaje. Con experiencia en arquitectura, diseño y eventos, crean iniciativas que educan y construyen comunidades más fuertes."
+      "description": "Kind Cycle es un colectivo de sostenibilidad impulsado por el diseño que desarrolla proyectos medioambientales, combinando diseño creativo, marketing experiencial y participación comunitaria. Abordamos los desafíos medioambientales fomentando la reducción de residuos y priorizando la reutilización sobre el reciclaje, además de transformar mensajes complejos sobre sostenibilidad en experiencias públicas atractivas. Nuestros proyectos buscan educar, inspirar a la acción y fortalecer a las comunidades, contando con colaboraciones exitosas con entidades como Veolia, East London Waste Authority, North London Waste Authority y el Ayuntamiento de Haringey."
+    },
+    "recycleYourElectricals": {
+      "title": "Recycle Your Electricals Campaña",
+      "description": "A principios de este año, Kind Cycle ganó un concurso de diseño organizado por <a href='https://eastlondonwaste.gov.uk/'><span class=\"bold\">East London Waste Authority (ELWA)</span></a> y <a href='https://recycleyourelectricals.org.uk/'><span class=\"bold\">Recycle Your Electricals</span></a> para abordar uno de los riesgos de incendio más ignorados en Londres: las baterías ocultas en aparatos eléctricos cotidianos. El resultado es el HypnoCube.<br /><br />En Kind Cycle, creemos que las experiencias que la gente recuerda son las que inspiran un cambio duradero. Por eso creamos el HypnoCube, una experiencia interactiva que despierta la curiosidad, fomenta el diálogo y ayuda a las personas a descubrir las baterías ocultas en objetos cotidianos. Al crear momentos memorables, promovemos acciones sencillas que se convierten en hábitos duraderos, contribuyendo así a proteger el medio ambiente.<br /><br />Nos enorgullece haber llevado el HypnoCube a comunidades de todo el este de Londres este verano, inspirando a personas de todas las edades a reciclar más baterías ocultas y a marcar una diferencia positiva juntos."
     },
     "contact": {
       "title": "Contáctanos",

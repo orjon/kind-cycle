@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react"
-import { NavLink } from "react-router-dom"
+import { NavLink, useNavigate } from "react-router-dom"
 import { useTranslation } from "react-i18next"
 
 import "../styles/nav/LocationSelector.scss"
@@ -25,8 +25,17 @@ const locationOptions: LocationOption[] = locations
 
 const LocationSelector = () => {
   const { t } = useTranslation()
+  const navigate = useNavigate()
   const { isLocationSelectorOpen, setIsLocationSelectorOpen } = useNavState()
   const dropdownRef = useRef<HTMLDivElement>(null)
+
+  const handleToggle = () => {
+    const nextOpen = !isLocationSelectorOpen
+    setIsLocationSelectorOpen(nextOpen)
+    if (nextOpen) {
+      navigate(addLanguagePrefix("/wastenot"))
+    }
+  }
 
   // Handle click outside to close dropdown
   useEffect(() => {
@@ -68,7 +77,7 @@ const LocationSelector = () => {
     <div className="LocationSelector NavItem" ref={dropdownRef}>
       <div
         className="LocationSelector__button"
-        onClick={() => setIsLocationSelectorOpen(!isLocationSelectorOpen)}
+        onClick={handleToggle}
         aria-haspopup="listbox"
         aria-expanded={isLocationSelectorOpen}
       >

@@ -1,10 +1,12 @@
-import { type ReactElement, useEffect, useRef } from "react"
+import { type ReactElement, type RefObject, useEffect, useRef } from "react"
 import { useTranslation } from "react-i18next"
+import { useNavigate } from "react-router-dom"
 
 import { NavType, NavLocations } from "../types"
 
 import NavItem from "./NavItem"
 import { useNavState } from "./NavStateContext"
+import { addLanguagePrefix } from "../utils"
 
 import { burgerMenuItems } from "../content/navLocations"
 import { locations } from "../content/locations"
@@ -12,15 +14,28 @@ import { locations } from "../content/locations"
 import "../styles/nav/Nav.scss"
 import "../styles/nav/NavBurger.scss"
 
-const BurgerMenu = () => {
+interface BurgerMenuProps {
+  toggleRef: RefObject<HTMLDivElement | null>
+}
+
+const BurgerMenu = ({ toggleRef }: BurgerMenuProps) => {
   const burgerMenuRef = useRef<HTMLDivElement>(null)
   const { t } = useTranslation()
+  const navigate = useNavigate()
   const {
     isMenuOpen,
     handleSetIsMenuOpen,
     isLocationsOpen,
     setIsLocationsOpen,
   } = useNavState()
+
+  const handleToggleLocations = () => {
+    const nextOpen = !isLocationsOpen
+    setIsLocationsOpen(nextOpen)
+    if (nextOpen) {
+      navigate(addLanguagePrefix("/wastenot"))
+    }
+  }
 
   const navBurgerMenuItems: ReactElement[] = burgerMenuItems.map((item) => {
     const { id, path, type } = item
@@ -30,7 +45,7 @@ const BurgerMenu = () => {
         <div key="locations-expander" className="LocationsExpander">
           <div
             className={`NavItem LocationsToggle ${isLocationsOpen ? "open" : ""}`}
-            onClick={() => setIsLocationsOpen(!isLocationsOpen)}
+            onClick={handleToggleLocations}
           >
             <div className="text">{t(`navLocations.${id}`)}</div>
           </div>
@@ -67,10 +82,13 @@ const BurgerMenu = () => {
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
-      if (
-        burgerMenuRef.current &&
-        !burgerMenuRef.current.contains(event.target as Node)
-      ) {
+      const target = event.target as Node
+      const isOutsideMenu =
+        burgerMenuRef.current && !burgerMenuRef.current.contains(target)
+      const isOutsideToggle =
+        !toggleRef.current || !toggleRef.current.contains(target)
+
+      if (isOutsideMenu && isOutsideToggle) {
         handleSetIsMenuOpen(false)
       }
     }
@@ -79,7 +97,7 @@ const BurgerMenu = () => {
     return () => {
       document.removeEventListener("mousedown", handleClickOutside)
     }
-  }, [handleSetIsMenuOpen])
+  }, [handleSetIsMenuOpen, toggleRef])
 
   return (
     <div
